@@ -1,0 +1,3 @@
+to embed the web build zip the file then place on the web
+for the rom folder gb filetype is for all variations of gameboy. gbc filetype is for gameboy color or later versions of the gameboy. this gives extra ram and vram(video ram) to increase framerate and prevent visual glitches.
+for the pocket folder this is for the analog pocket emulation device.

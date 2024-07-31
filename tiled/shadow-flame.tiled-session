@@ -1,0 +1,400 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "venus-evidence room.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Earth Distortion Mountain.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 415.75
+            }
+        },
+        "Earth burnclaw forest canopy.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 400,
+                "y": 192.25
+            }
+        },
+        "Earth burnclaw forest crime scene.tmx": {
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 200,
+                "y": 112.125
+            }
+        },
+        "Earth burnclaw forest.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 400,
+                "y": 407.75
+            }
+        },
+        "Earth level 1 intro.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 130,
+                "y": 72.125
+            }
+        },
+        "Earth shuttle bay upper.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 400,
+                "y": 407.66666666666663
+            }
+        },
+        "Earth shuttle bay.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 117.16666666666666
+            }
+        },
+        "Earth shuttle bay_secret.tmx": {
+            "scale": 5.686805555555555,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.83392355598977,
+                "y": 79.9218463792893
+            }
+        },
+        "Earth shuttle bay_water.tmx": {
+            "scale": 2.5590625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.8241543534009,
+                "y": 160.01953840517766
+            }
+        },
+        "blight's memory p1.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 240,
+                "y": 72.125
+            }
+        },
+        "luna serenity cave lower.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 480,
+                "y": 112.16666666666664
+            }
+        },
+        "luna serenity cave upper.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 160.25
+            }
+        },
+        "luna serenity outskirts.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 480,
+                "y": 159.875
+            }
+        },
+        "luna serenity waterfront.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.9090909090909
+            }
+        },
+        "luna-boss room.tmx": {
+            "scale": 5.118125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.91207717670045,
+                "y": 80.00976920258883
+            }
+        },
+        "luna-peryil's house.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 319.8333333333333
+            }
+        },
+        "luna-serenity forest.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 160.25
+            }
+        },
+        "luna-sewer system.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 160.33333333333334
+            }
+        },
+        "luna-water heater.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.8333333333333
+            }
+        },
+        "mercury-landing site.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.8333333333333
+            }
+        },
+        "mercury-overflow-passage.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.9090909090909
+            }
+        },
+        "mercury-poison processing.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.8333333333333
+            }
+        },
+        "mercury-poison storage.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 911,
+                "y": 261.75
+            }
+        },
+        "mercury-projectile platform.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 480,
+                "y": 320.5
+            }
+        },
+        "mercury-secret area.tmx": {
+            "scale": 2.5590625,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 144.19343021125903,
+                "y": 187.76407375747957
+            }
+        },
+        "mercury-throne room.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 320,
+                "y": 159.83333333333334
+            }
+        },
+        "mercury-viewing area.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 319.875
+            }
+        },
+        "tilesets/kenny modified/Diamond dust ship side view.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "tilesets/kenny modified/full image.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "tilesets/temporal light/Diamond dust ship side view.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3
+        },
+        "tilesets/temporal light/Diamond dust ship top view.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "tilesets/temporal light/temporal_light_tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "venus-ac ventilation.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 178.5,
+                "y": 243.25
+            }
+        },
+        "venus-ac ventilation2.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 279,
+                "y": 281.25
+            }
+        },
+        "venus-defence tunnel.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 963,
+                "y": 76.83333333333334
+            }
+        },
+        "venus-dropshaft 0.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 62.333333333333314,
+                "y": 911.1666666666665
+            }
+        },
+        "venus-dropshaft 1.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 91.5,
+                "y": 863.875
+            }
+        },
+        "venus-evidence room.tmx": {
+            "scale": 2.5590625,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 143.41189400415192,
+                "y": 189.32714617169376
+            }
+        },
+        "venus-landing site.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 141.99999999999997,
+                "y": 860.8333333333333
+            }
+        },
+        "venus-office access.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 853.3333333333333,
+                "y": 194.5
+            }
+        },
+        "venus-office.tmx": {
+            "scale": 5.686805555555555,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 74.38270851141776,
+                "y": 70.6020271095372
+            }
+        },
+        "venus-police department enterance.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 758,
+                "y": 227.75
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light",
+    "last.imagePath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light/lf_normal",
+    "map.height": 20,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+        "tilesets/kenny modified/full image.tsx",
+        "tilesets/temporal light/temporal_light_tileset.tsx",
+        "Earth shuttle bay.tmx",
+        "Earth shuttle bay upper.tmx",
+        "Earth shuttle bay_secret.tmx",
+        "Earth Distortion Mountain.tmx",
+        "Earth burnclaw forest.tmx",
+        "Earth burnclaw forest canopy.tmx",
+        "Earth burnclaw forest crime scene.tmx",
+        "Earth level 1 intro.tmx",
+        "tilesets/temporal light/Diamond dust ship top view.tsx",
+        "luna-peryil's house.tmx",
+        "Earth shuttle bay_water.tmx",
+        "luna serenity outskirts.tmx",
+        "luna-serenity forest.tmx",
+        "luna-water heater.tmx",
+        "luna serenity waterfront.tmx",
+        "luna serenity cave upper.tmx",
+        "luna-sewer system.tmx",
+        "luna-boss room.tmx",
+        "luna serenity cave lower.tmx",
+        "mercury-landing site.tmx",
+        "mercury-poison processing.tmx",
+        "mercury-projectile platform.tmx",
+        "mercury-overflow-passage.tmx",
+        "mercury-viewing area.tmx",
+        "mercury-throne room.tmx",
+        "blight's memory p1.tmx",
+        "mercury-secret area.tmx",
+        "mercury-poison storage.tmx",
+        "venus-landing site.tmx",
+        "venus-police department enterance.tmx",
+        "venus-ac ventilation.tmx",
+        "venus-ac ventilation2.tmx",
+        "venus-office access.tmx",
+        "venus-defence tunnel.tmx",
+        "venus-office.tmx",
+        "venus-dropshaft 0.tmx",
+        "venus-dropshaft 1.tmx",
+        "venus-evidence room.tmx"
+    ],
+    "project": "shadow-flame.tiled-project",
+    "recentFiles": [
+        "tilesets/kenny modified/full image.tsx",
+        "tilesets/temporal light/temporal_light_tileset.tsx",
+        "Earth shuttle bay.tmx",
+        "Earth shuttle bay upper.tmx",
+        "Earth shuttle bay_secret.tmx",
+        "Earth Distortion Mountain.tmx",
+        "Earth burnclaw forest.tmx",
+        "Earth burnclaw forest canopy.tmx",
+        "Earth burnclaw forest crime scene.tmx",
+        "Earth level 1 intro.tmx",
+        "tilesets/temporal light/Diamond dust ship top view.tsx",
+        "luna-peryil's house.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
