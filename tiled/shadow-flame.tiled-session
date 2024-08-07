@@ -79,6 +79,17 @@
                 "y": 160.01953840517766
             }
         },
+        "H:/kenney-game-assets/2D assets/Sketch Town Expansion/Map/map_sample.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 7178.787878787878,
+                "y": 3077.2727272727275
+            }
+        },
+        "H:/kenney-game-assets/2D assets/Sketch Town Expansion/Map/map_tiles.tsx": {
+            "scaleInDock": 1
+        },
         "blight's memory p1.tmx": {
             "scale": 4,
             "selectedLayer": 2,
@@ -187,8 +198,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 911,
-                "y": 261.75
+                "x": 480,
+                "y": 319.75
             }
         },
         "mercury-projectile platform.tmx": {
@@ -203,8 +214,8 @@
             "scale": 2.5590625,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 144.19343021125903,
-                "y": 187.76407375747957
+                "x": 159.8241543534009,
+                "y": 160.01953840517766
             }
         },
         "mercury-throne room.tmx": {
@@ -250,80 +261,80 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 178.5,
-                "y": 243.25
+                "x": 480,
+                "y": 160.25
             }
         },
         "venus-ac ventilation2.tmx": {
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 279,
-                "y": 281.25
+                "x": 480,
+                "y": 160.25
             }
         },
         "venus-defence tunnel.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 963,
-                "y": 76.83333333333334
+                "x": 480,
+                "y": 80.16666666666667
             }
         },
         "venus-dropshaft 0.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 62.333333333333314,
-                "y": 911.1666666666665
+                "x": 80,
+                "y": 479.83333333333326
             }
         },
         "venus-dropshaft 1.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 91.5,
-                "y": 863.875
+                "x": 80,
+                "y": 479.875
             }
         },
         "venus-evidence room.tmx": {
             "scale": 2.5590625,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 143.41189400415192,
-                "y": 189.32714617169376
+                "x": 143.02112590059835,
+                "y": 188.9363780681402
             }
         },
         "venus-landing site.tmx": {
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 141.99999999999997,
-                "y": 860.8333333333333
+                "x": 480,
+                "y": 479.83333333333326
             }
         },
         "venus-office access.tmx": {
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 853.3333333333333,
-                "y": 194.5
+                "x": 480,
+                "y": 159.83333333333334
             }
         },
         "venus-office.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 74.38270851141776,
-                "y": 70.6020271095372
+                "x": 79.83392355598976,
+                "y": 72.00879228232998
             }
         },
         "venus-police department enterance.tmx": {
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 758,
-                "y": 227.75
+                "x": 480,
+                "y": 160.25
             }
         }
     },
