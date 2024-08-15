@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="tilesets/kenny modified/full image.tsx"/>
+ <tileset firstgid="4097" source="tilesets/temporal light/temporal_light_tileset.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+4753,4753,4753,4753,4753,4753,4753,4753,4753,4753,
+1745,1742,1743,1744,1745,1745,1742,1743,1744,1745,
+1553,1135,1135,1275,1135,1135,1275,1135,1135,1553,
+1528,1135,1135,1339,1135,1135,1339,1135,1135,1617,
+1617,1135,1135,1135,1135,1135,1135,1135,1135,1617,
+1617,1135,1135,1135,1135,1135,1135,1135,1135,1681,
+1681,1135,1135,1135,1135,1135,1135,1135,1135,1529,
+1745,1742,1743,1743,1743,1743,1743,1743,1744,1745,
+4749,4750,4751,4752,4753,4753,4753,4753,4753,4753
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,4245,4247,0,0,4245,4247,0,0,
+0,353,4309,4311,353,353,4309,4311,353,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
