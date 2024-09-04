@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "340f37de-b178-4591-be9c-0481c7b803a7",
+  "name": "luna-boss room",
+  "symbol": "bg_luna_boss_room",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "luna-boss room.png",
+  "tileColors": "00168+066+002+066+046+066+002+066+046+",
+  "autoColor": false
+}

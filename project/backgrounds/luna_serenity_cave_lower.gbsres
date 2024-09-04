@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "badd43c2-e655-4ced-b715-89d8d2bcb84e",
+  "name": "luna serenity cave lower",
+  "symbol": "bg_luna_serenity_cave_lower",
+  "width": 120,
+  "height": 28,
+  "imageWidth": 960,
+  "imageHeight": 224,
+  "filename": "luna serenity cave lower.png",
+  "tileColors": "0066+048+03a+0066+048+03a+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+0476+032+042f+034+042+034+042+034+042+034+042+034+042b+032+042e+031e+042a+032+042c+0322+0428+032+042c+0322+0428+03f2+066+032+0676+032+0670+",
+  "autoColor": false
+}

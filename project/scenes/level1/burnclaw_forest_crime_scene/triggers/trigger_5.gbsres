@@ -1,0 +1,154 @@
+{
+  "_resourceType": "trigger",
+  "id": "a5db286b-80a9-4e9a-95c2-45e9fc2ea5cb",
+  "_index": 4,
+  "symbol": "trigger_29",
+  "prefabId": "",
+  "name": "",
+  "x": 31,
+  "y": 15,
+  "width": 4,
+  "height": 4,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "64c5f384-43c3-4917-9041-f69f339a1b6c"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "35b09e05-7aac-4a19-8fa5-3a30ff5d88bc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil:fireball\nimpact very \nweird for a \nexplosion "
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "745cff0a-62c7-49d4-95b9-d7784e63c64f"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "8964a492-406f-4480-b135-ff16b3169c7b"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+                  },
+                  "id": "a5abbed3-7db9-4776-bfb9-78ad786225ea"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "72910fd9-4b9b-42ea-80d5-07187c058182"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 26
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "8d095f9c-a4b1-42b8-999b-c7da2383b78d"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 26
+                          }
+                        },
+                        "id": "6c464012-5153-48e0-9c58-97af03d2ef22"
+                      }
+                    ]
+                  },
+                  "id": "e19d3a89-b203-4453-be83-55d77a70bc80"
+                }
+              ]
+            },
+            "id": "69ee3c6a-02b9-4051-a0af-6b699d5821ef"
+          }
+        ]
+      },
+      "id": "285ff0f2-5719-4504-8241-93279c5d1bf7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "3750c235-ccac-453e-8263-e1aa830d74ec"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "956acd20-d041-4a80-8f55-8dfcc69e7cc1"
+    }
+  ]
+}

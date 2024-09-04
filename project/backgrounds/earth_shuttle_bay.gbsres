@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "dae08bb6-16d8-438b-b643-f1978ca8dfcb",
+  "name": "Earth shuttle bay",
+  "symbol": "bg_earth_shuttle_bay",
+  "width": 100,
+  "height": 42,
+  "imageWidth": 800,
+  "imageHeight": 336,
+  "filename": "Earth shuttle bay.png",
+  "tileColors": "03a7c+0010+032e+05!0361+05!0361+05!03!05!035f+05!03!05!035f+05!03!05!031f+04c+0334+05!03!05!0321+04c+0332+05!03!05!0323+04c+0330+05!03!05!0325+04c+032e+05!03!05!0327+04c+032c+05!03!05!0329+054+044+054+032a+05!03!05!032b+04c+0312+0517+03!05!032d+04c+0312+0517+032f+04c+0310+066+002+0662+002+065c+",
+  "autoColor": false
+}

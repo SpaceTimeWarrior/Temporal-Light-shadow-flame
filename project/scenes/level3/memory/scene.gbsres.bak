@@ -1,0 +1,1149 @@
+{
+  "_resourceType": "scene",
+  "id": "9148a4c0-2679-4453-ba94-9d45f55429fd",
+  "_index": 39,
+  "type": "TOPDOWN",
+  "name": "Level3/memory",
+  "symbol": "scene_40",
+  "x": 4992,
+  "y": 6384,
+  "width": 60,
+  "height": 18,
+  "backgroundId": "9439a566-b864-49ab-b5e9-1139c9c5f616",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "73cbbeb0-b173-4870-bb18-7779fc5d3760",
+    "",
+    "f98a2cfa-f6da-4e1f-bcc0-a4655d60a6d0",
+    "default-bg-5",
+    "52872e74-e336-4d18-a32a-d8f1ab302472",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf",
+    "6e03ea10-5b2d-4e75-950f-f914722f76c6"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "21acc218-c3cd-4028-ad07-acfa2f79ae7c",
+  "script": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "1375ecf0-5781-457e-9702-fe6cf57c6e31"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "eb92025a-8873-4b45-9f2a-060a1fddda6e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "c35e5f07-da5d-4e95-b994-c4c19bf8946b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "873d4478-b1d2-45cd-93bc-6ef3bd90baea"
+          }
+        ]
+      },
+      "id": "dc842c29-9ab7-418a-a38e-e9f3fd32635a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: here is\na memory from my\npast. back then",
+          "I was crystal \nlight \nlightbringer",
+          "this is when I\nwas a toddler.\nthis is the",
+          "events \nsurrounding the\ndestruction of",
+          "wolf city which\nsparked my life\nof crime.",
+          "it all started \nwith a magic \ntraining session",
+          "with my mom....\njem lightbringer.\nsorry in ",
+          "advance for the \nbad grammer"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "15a9206a-3284-47d3-a8de-c9f7a953f289"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "5408e2eb-d4f0-4469-bcb1-22619e5b5bd8",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "0ffb2bdb-7c1b-4250-a32f-0e878758a314"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jem: when using\nmagic you have\nto use restraint",
+          "I know you want\nto use your full\nmagic power but",
+          "if you can't \nrestrain your\nmagic you will",
+          "do something you\nwill regret."
+        ],
+        "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323"
+      },
+      "id": "78863150-6ce8-482c-bed6-c8f185abf550"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "d4669ed6-a320-4b0a-bc4d-13dfefdd9255"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "7145b4cc-33d9-4002-95e3-e4a61f0294f8"
+      },
+      "id": "b4358f61-7fd2-40b6-ab3e-20d48f3082c4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "crystal: I dnt\ncar I wil do \nwhat I wan",
+          "u hav had me\nuse mgic for \nhours I just",
+          "want to play \nvidegames with\nmy onlne",
+          "frends. you \nhave been a pain\nto deal wit"
+        ],
+        "avatarId": "f89fe2d0-c4ee-4599-9fef-4dcfbca6ea86"
+      },
+      "id": "404cc38f-6892-4d1e-ac13-4f60a323912c"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "5408e2eb-d4f0-4469-bcb1-22619e5b5bd8",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "5e589997-482d-4941-8777-21993651eb82"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "5f43fc9d-a550-4e47-8f65-06ed972ef6de"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jem:Crys please \ncalm down. your\nemotions fuel",
+          "your magic. I\nknow you want to\nplay with your",
+          "friends but if \nyou don't learn\nto control your",
+          "magic you can \naccidentally\nkill them"
+        ],
+        "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323"
+      },
+      "id": "72cb7a6d-3ad5-489f-a8dd-b97fd397c600"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "0b805314-b123-4124-be8f-24df8d9f537e"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "7145b4cc-33d9-4002-95e3-e4a61f0294f8"
+      },
+      "id": "1f3b89a7-75c8-45a4-8e27-434aa51ad617"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "crystal: NO I\nWONT"
+        ],
+        "avatarId": "f89fe2d0-c4ee-4599-9fef-4dcfbca6ea86"
+      },
+      "id": "aaa2c146-19a1-400b-ab0d-236f6c878517"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "6c59bb7f-6fee-4e97-8b4b-c79fdfd2e8a9"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "30cde568-2bab-44b5-8065-61f3b5d6a62a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "b47279cb-7ff1-44c9-acaa-b46ea51c07eb"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 33
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "6fd732cb-24e2-4974-86f5-5c934326f611"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "2ff46f25-dea2-4f8f-9448-2d67a4a15adf"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 10
+              }
+            },
+            "id": "8d8881ee-826b-43b3-836a-ca71f74388cd"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "81aba7b5-e1b1-45c7-b4b7-67c5abab4fcd"
+          }
+        ]
+      },
+      "id": "e316829c-3723-493e-b3c0-516c88849e72"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "57abc20c-bef2-4f3c-8a72-78721bc22364"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 29
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "e4b54d6a-7079-4152-9cd0-355294c61e10"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "7145b4cc-33d9-4002-95e3-e4a61f0294f8"
+      },
+      "id": "083d2f45-bdc5-463e-92ac-fdb95bbb5f84"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "crystal:mommy...\nNOOOOOOOOOO"
+        ],
+        "avatarId": "f89fe2d0-c4ee-4599-9fef-4dcfbca6ea86"
+      },
+      "id": "956112f1-4698-49f4-b609-2a26e80cd4b9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "crystal:mabe my\nmgic ca hel\nths",
+          "no...I canot\nalow this"
+        ],
+        "avatarId": "f89fe2d0-c4ee-4599-9fef-4dcfbca6ea86"
+      },
+      "id": "e685b6f8-d604-4817-8ac3-2e59da09d077"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "fccd93c0-ac80-4731-a4ac-2a7dd65f9693"
+      },
+      "id": "4620e522-c83f-4d80-9ddb-02d8fdbe981a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "fccd93c0-ac80-4731-a4ac-2a7dd65f9693",
+        "x": {
+          "type": "number",
+          "value": 31
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "a2404acc-7029-42d1-9987-e63d23adb623"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "fade_style",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "100d2ef6-70ae-4ba9-a9af-adf8c93fad91"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "c1b3dfc2-c8f6-4c51-a1f8-dfc2a011e054"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 42
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "9612b10b-b344-4175-a652-c20c7f73acdb"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "e9f2cb0d-9f81-4157-9c81-ea87bd29542c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 47
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "4b44a020-8249-4182-b002-77468f06290b"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "1cd343f1-752b-4ddb-8b46-c082699de9e0"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "fade_style"
+      },
+      "id": "d6640278-c12c-4c72-8980-1f0317973bdc"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 6
+              }
+            },
+            "id": "d8e3a823-45d0-46ca-befa-1781c41571c5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "9bcb2906-ecf9-4d3d-b421-b3969a7e715a"
+          }
+        ]
+      },
+      "id": "726efccb-b9fb-4033-a426-ff827bbadb8c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "3fb05804-1289-494f-a8af-a055c662bf86"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "spriteSheetId": "bf687730-7476-4a6e-b699-b3e6687fd927",
+        "spriteStateId": "",
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": 0,
+        "y": 0,
+        "directionType": "target",
+        "otherActorId": "$self$",
+        "direction": "left",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 1,
+        "lifeTime": 0.25,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player"
+        ]
+      },
+      "id": "90209b65-7395-41f1-ac9d-0b92183a1c38"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "f655a8f8-2b01-4718-afb4-e9abc512b986"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "db1401d3-c380-4343-82da-557eab4ffcec",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "9b187804-3471-41b7-89c2-6dba95819db6"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "f28a3dee-269c-42cf-8516-0cbb2d716c1c"
+      },
+      "id": "b31ac417-a628-4f17-b50e-fa52163e57b1"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "32a16881-5ca4-4adf-a154-bd366cdf315a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: that was\nmy father cumulo\nlightbringer",
+          "but most called \nhim flare. he\nhad a similar ",
+          "past I did with\nyour father"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "d7da7990-f448-44cc-b790-2c277f4ca30f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "c0d36d1e-8254-472b-ae3b-9466730bfd7e"
+      },
+      "id": "970da2ee-4a21-4978-9514-7a65f95cb58e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Flare: GET YOUR\nHANDS OFF MY \nDAUGHTER"
+        ],
+        "avatarId": "b5e19ec1-7d79-4559-bd7d-25b716e4baf9"
+      },
+      "id": "61364211-ef28-4fc9-9f1b-3e0383b622cc"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "d01e7164-6c84-4e60-b899-bc4777321555"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "f28a3dee-269c-42cf-8516-0cbb2d716c1c",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "17666e2e-d3b7-4586-ab51-839322fee706"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1.5,
+        "frames": 30
+      },
+      "id": "64b2be46-8829-431d-ba02-a74ebb7a472f"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "spriteSheetId": "db818611-4e65-409e-94b1-f76663c589f1",
+        "spriteStateId": "",
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "down",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "f28a3dee-269c-42cf-8516-0cbb2d716c1c",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 0.3,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "2"
+        ]
+      },
+      "id": "69401576-d005-4bbd-a5c1-726a657b8767"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.3,
+        "frames": 30
+      },
+      "id": "0afa3a5c-7f0b-4f40-83f4-abfab5e4eae2"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "f28a3dee-269c-42cf-8516-0cbb2d716c1c",
+        "spriteStateId": "injured",
+        "loopAnim": false
+      },
+      "id": "35d3d361-2f8b-4560-a7fa-77d093ef6351"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "c0d36d1e-8254-472b-ae3b-9466730bfd7e"
+      },
+      "id": "6a918804-ac88-4879-b583-6e08bf1052cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Flare:Crys RUN."
+        ],
+        "avatarId": "b5e19ec1-7d79-4559-bd7d-25b716e4baf9"
+      },
+      "id": "bee11d38-bfab-4fd5-bc46-8fa65346cd61"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+      },
+      "id": "b6769c71-d4f1-4505-83db-e5b523de9b36"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Cedric: HA HA \nShe can't here\nyou. mentally",
+          "she is basically\nasleep. but wide\nawake."
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "5506c0a1-c181-4e34-adea-ccdaf5450e3d"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c"
+      },
+      "id": "bc77d18a-abb2-484c-a6b6-4ee59d3eac94"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 9
+              }
+            },
+            "id": "75228a6e-e4b1-4743-b4a4-ef249525d845"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "5da9ec67-59b8-4c2e-80b0-52ec70f41e3c"
+          }
+        ]
+      },
+      "id": "29dc75c6-30ee-44e2-a9bc-5873db489eaf"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "16d2a114-c6ff-42d1-a995-4ace0c8ad5fa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: is that\n... mom.no that\nisn't possible"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "215ed01b-63e0-497e-810b-828e7ee2842f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "c3e635cb-83ca-4a2b-a26e-601c4a491ee1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: cedric \nincluded those\nhe killed as",
+          "my own kills. \nyour mother \nember was a",
+          "family friend\nto my mom."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "67d28c5a-68e4-4e6b-a51c-913099cea0ae"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "4c5beaf3-6ce9-4fd1-9012-6d9bd3e1e602"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ember:what have\nyou done. did\nyou kill him."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "8ec0e410-fe1e-46bb-a0c7-5bc709fac5b0"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+      },
+      "id": "e3646232-ca1f-4da7-993e-7fd1cb5a1431"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cedric: he gave \nme no choice. it\nwas self defense"
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "05694795-5807-459a-9c6e-ceb590dbccfd"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "5377da09-18de-4057-ac7a-6cf21cf6734f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ember: what are\nthe whip marks\non her back. you",
+          "tortured her and\nwhen her parent\ntried to stop",
+          "you;you killed\nhim",
+          "sell defense my\na#$"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "7c73c50c-6195-425f-9a4c-17df51f25bdc"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+      },
+      "id": "024bd7a3-a4ca-42bc-a87e-aa57beb3f786"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cedric:you don't\nknow what you\nare talking",
+          "about.she killed\njem I am just\ndoing payback"
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "d5314e90-14af-4dfd-ba88-d0527bf178a0"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "61408b7b-ed78-42d5-af2f-b90c3d6650d7"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+      },
+      "id": "f8db08b0-2272-48ef-b6b6-60d57e07314e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ember: even so \nthat should not\nbe up to you",
+          "not to mention\nshe is a child\nnot a full adult"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "be7b89a9-bea4-4507-af28-78932e83e0b6"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "spriteSheetId": "d0eeb540-9e8f-4025-846d-ef211e1109f7",
+        "spriteStateId": "",
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c",
+        "x": 0,
+        "y": 0,
+        "directionType": "target",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "1"
+        ]
+      },
+      "id": "39db4799-7066-4fc3-bde0-50244ff61ada"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        }
+      },
+      "id": "f9f20145-642a-4305-a999-97ba3b7889d8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "75807587-727d-4bdb-848f-92d3f1efe97a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "f125f236-38db-43ed-b8ee-54eeee47b722"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c",
+        "x": {
+          "type": "number",
+          "value": 49
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "vertical",
+        "useCollisions": true
+      },
+      "id": "f10449e1-6fbf-4232-b1bf-b796d126bd90"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "d998f3b1-b174-413c-9f4f-6ae8b7cc4bf6"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "db4cd721-266b-426c-a8f3-f6ec796742fc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ember: crys wake\nup. if you can\nhear me go to",
+          "the barnhouse"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "881c56f6-c384-4647-8660-7ef59d3b462a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "5c31fab3-a60b-4afa-9a95-3f9ef56aabd1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: that was\na codeword for\npyre deathripper",
+          "who raised me...\nyou aren't going\nto like what",
+          "happens next"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "b071575e-dc2f-4298-aa9a-3e74922e8713"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "80afc98a-0b5b-481c-a9a0-872775aadd13"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+      },
+      "id": "2af0c7d6-a08a-4ec7-bc63-9342dde242cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cedric:I am \nsorry I have to\ndo this to you",
+          "but you know too\nmuch"
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "23cd68bd-79fe-4da0-a48c-24e514ff1623"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "spriteSheetId": "db818611-4e65-409e-94b1-f76663c589f1",
+        "spriteStateId": "",
+        "actorId": "33bb8f94-2725-4d6a-b3f3-5a63e8cf66fb",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "down",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "2"
+        ]
+      },
+      "id": "d682393f-462a-4fe6-821e-a6a6156a7892"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "fb3a4382-4082-4eec-b330-da3ea58362e6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "c65a9e65-91c8-47c0-9c90-6fd88e07633c",
+        "spriteSheetId": "d59dc785-9ec9-4153-be69-8043b7a99531"
+      },
+      "id": "66163a68-6c0c-4b69-b284-63c048582cbe"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.4,
+        "frames": 30
+      },
+      "id": "6bfe30cc-1812-4aef-b342-e3fd496d2560"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "0d71f08b-2ef1-4115-bd42-8b637996791f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:no this\ncan't be I was\ntold you killed",
+          "her not dad."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4052b434-29e9-4fb3-8872-85fc32692890"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "452f966d-2c41-4de6-b3b2-d2f417343487"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight:he likely\nlied to you. \nmemory magic",
+          "can't be \nmanipulated so\nthis is how it",
+          "happened. soon\nafter this he\nwent on a",
+          "killing spree.\nkilling all \nthose of power",
+          "who opposed the\nsolar council.\nand placed",
+          "people who are \ncompletely \nsubservient to",
+          "him. while I did\nwish him harm. I\nnever wanted to ",
+          "kill him as that\nwas mercy and\nthese actions",
+          "I do not give\nmercy. I will \ntorture them",
+          "until they are\nbegging to die\nthen heal them",
+          "and repeat."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "26732594-2fbb-4ae9-bd61-806f9ef7a383"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e02d29f8-80f6-46e2-9838-cb2eb03508cd",
+        "x": {
+          "type": "number",
+          "value": 57
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "79a97002-0424-4d65-8b03-717128d4ccbc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00438+"
+}

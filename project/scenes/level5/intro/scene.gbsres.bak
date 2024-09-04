@@ -1,0 +1,92 @@
+{
+  "_resourceType": "scene",
+  "id": "4d94cfc1-5c67-4eb2-840d-09334636f1a7",
+  "_index": 60,
+  "type": "TOPDOWN",
+  "name": "Level5/intro",
+  "symbol": "scene_61",
+  "x": 432,
+  "y": 11688,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "dc0c8489-c071-48dc-85cb-5d4757bef916"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: did you \nfind something"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "13f9248a-185c-4c8d-b92c-4c155b30733d"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "577b774c-45fc-44ec-8dd0-6e6877bfd806"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: yes. I \nknow where the \nnext location is\ngoing to be. ",
+          "it is the \nremnants of wolf\ncity"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "3e8d71a4-5376-44f7-a50f-bf6aca44c9d6"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 25
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "5e6c0a30-d4f4-4248-b1e5-5432b534ccf7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e2e70baf-da61-421f-92c6-8a4e1f7086d2",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "dd2fc3b1-952c-4d49-9148-91eaaaf3c371"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

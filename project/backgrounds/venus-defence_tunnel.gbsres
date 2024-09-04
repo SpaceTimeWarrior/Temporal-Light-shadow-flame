@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d4adac28-fbf9-4726-82af-95984c7bc27c",
+  "name": "venus-defence tunnel",
+  "symbol": "bg_venus_defence_tunnel",
+  "width": 120,
+  "height": 20,
+  "imageWidth": 960,
+  "imageHeight": 160,
+  "filename": "venus-defence tunnel.png",
+  "tileColors": "00870+066+002+0676+002+0670+",
+  "autoColor": false
+}

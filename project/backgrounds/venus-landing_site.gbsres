@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "47587904-da64-44cd-8968-ad5c61d35846",
+  "name": "venus-landing site",
+  "symbol": "bg_venus_landing_site",
+  "width": 120,
+  "height": 120,
+  "imageWidth": 960,
+  "imageHeight": 960,
+  "filename": "venus-landing site.png",
+  "tileColors": "003750+066+002+0676+002+0670+",
+  "autoColor": false
+}

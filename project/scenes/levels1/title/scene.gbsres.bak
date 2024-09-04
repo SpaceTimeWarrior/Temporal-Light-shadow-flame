@@ -1,0 +1,129 @@
+{
+  "_resourceType": "scene",
+  "id": "2defcf4d-bc4d-4a85-b96c-1e6082067356",
+  "_index": 59,
+  "type": "TOPDOWN",
+  "name": "levelS1/title",
+  "symbol": "scene_60",
+  "x": 7104,
+  "y": 5992,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "94436338-8a0f-412d-a0f2-0ece99550316",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "21acc218-c3cd-4028-ad07-acfa2f79ae7c",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 13
+              }
+            },
+            "id": "92bc490b-6bad-4223-bd1a-4ccf64e8c529"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              },
+              "__collapse": true
+            },
+            "id": "22932102-557e-46ca-94ef-6b9a1702afb4"
+          }
+        ]
+      },
+      "id": "c529f559-e4c5-4d24-9654-57fee363bc3e"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "bfcb4a6c-0b99-4d5b-b9dc-dc0c60afe992"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "this is a special\nlevel.",
+          "this takes place\nbefore the events\nof this game",
+          "this level you will\nplay as crystal \nlightbringer.",
+          "infinite jump and\ntransformations \nwill be unavailable",
+          "this takes place\nroughly 1 month\nbefore wolf city",
+          "is destroyed.flare\ntook crystal with\nhim to buy a",
+          "starship \nproduction factory\n2 days prior",
+          "crystal seriously\ninjured jem with \na basic fire spell"
+        ],
+        "avatarId": ""
+      },
+      "id": "056e7303-ed66-4356-8cb4-2ab6ab360145"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "6d8c733f-a6c8-4cb5-bcc9-b2e68d3f7095"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 40
+        }
+      },
+      "id": "ec66568b-c97b-4ee3-a0b2-709121f8c4e7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c0d38101-4526-4fae-97ef-560a6ea60da7",
+        "__comment": true
+      },
+      "id": "c54b8ad4-512e-45a7-ae06-ed1331320127"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "fff1f97b-9809-486e-b572-2a2577dc6723",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ea14c234-cef2-47f9-b62f-1d45627410af"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

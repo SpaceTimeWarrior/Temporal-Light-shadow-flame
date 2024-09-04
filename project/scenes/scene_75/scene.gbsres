@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "f8bb108a-179f-4cc7-9bef-d5c3d0527053",
+  "_index": 74,
+  "type": "TOPDOWN",
+  "name": "Scene 75",
+  "symbol": "scene_75",
+  "x": 1548.8500061035156,
+  "y": 12540,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

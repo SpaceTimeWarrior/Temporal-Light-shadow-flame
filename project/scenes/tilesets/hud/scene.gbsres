@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fba6ad62-b51b-4050-b167-96d29d121d22",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "tilesets/Hud",
+  "symbol": "scene_7",
+  "x": 192,
+  "y": 216,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b1735596-1bda-4376-af59-f96f07b4480d",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00aa+40!0011+40!60!0010+40!60!0098+"
+}

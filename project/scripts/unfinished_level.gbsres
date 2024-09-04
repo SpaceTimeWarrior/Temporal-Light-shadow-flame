@@ -1,0 +1,72 @@
+{
+  "_resourceType": "script",
+  "id": "c0d38101-4526-4fae-97ef-560a6ea60da7",
+  "name": "unfinished level",
+  "symbol": "script_15",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This level is \ncurrently \nunfinished"
+              ],
+              "avatarId": ""
+            },
+            "id": "aa3b082e-1425-454f-bd4d-0554c465d432"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "3",
+              "trueText": "go back and save",
+              "falseText": "continue"
+            },
+            "id": "f712d72a-160a-4db2-a82c-10347b9bf14c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "3"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+                    "x": {
+                      "type": "number",
+                      "value": 71
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "5f848cd9-1916-41f4-b733-a2216419dcea"
+                }
+              ],
+              "false": []
+            },
+            "id": "99346e19-8fbf-47ef-a052-a718532a1abd"
+          }
+        ]
+      },
+      "id": "e85c7119-e619-4a13-a5bc-d8e912fdb22c"
+    }
+  ]
+}

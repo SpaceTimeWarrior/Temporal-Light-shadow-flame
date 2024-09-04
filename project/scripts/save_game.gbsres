@@ -1,0 +1,617 @@
+{
+  "_resourceType": "script",
+  "id": "ac09fe2f-7937-4d94-87fd-61858bc00492",
+  "name": "save game",
+  "symbol": "script_7",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "operator": "==",
+        "comparator": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "16"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Save file not \npreset. select a\nsave file. to save"
+              ],
+              "avatarId": ""
+            },
+            "id": "f1ae24eb-0eb5-4a14-939d-e996475838be"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "16",
+              "items": 4,
+              "option1": "Save file 1",
+              "option2": "Save file 2",
+              "option3": "Save file 3",
+              "option4": "Stop saving game",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "a78e6c25-e531-4695-bbe6-ebb4f1e09c45"
+          }
+        ],
+        "false": []
+      },
+      "id": "17af3244-31dd-4acc-a3b4-302e181ea822"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "operator": "==",
+        "comparator": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "16"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No save file \nselected. "
+              ],
+              "avatarId": ""
+            },
+            "id": "000a988b-437c-4380-9d1d-dd23891f7571"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "fd017f72-f9bf-4525-98b4-7ac0ab96a4ca"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you want to \nsave the game"
+              ],
+              "avatarId": ""
+            },
+            "id": "517865cd-6f3c-41b9-bbfd-6944f195ff6f"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "3",
+              "items": 2,
+              "option1": "Yes Save",
+              "option2": "NO don't save",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "7d432278-890a-4ad8-b86f-644dd24e28bf"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "0",
+              "__collapseElse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "38",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "f2486867-a19e-405a-b53c-29a0944a91fe"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "16",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 0,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "9de73976-4290-45a8-bbd6-a3090e60e377"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "3",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "341a2feb-9e19-47a6-a799-56703587993a"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "3"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 0,
+                                      "__scriptTabs": "save"
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "0860e8cc-c606-4310-8346-237c7cdb0d4f"
+                                        },
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "38",
+                                            "value": {
+                                              "type": "true"
+                                            }
+                                          },
+                                          "id": "7e0429fa-17be-41cb-8238-2dbbb98e90ea"
+                                        }
+                                      ]
+                                    },
+                                    "id": "748491d9-6beb-47f9-a05a-5b700befba8f"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "a7b8bb00-6a9b-4f93-bb5c-900020dcc39b"
+                                  }
+                                ]
+                              },
+                              "id": "9d4c9dbc-5d5b-4df3-a411-41ec2d714634"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 0,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "9f64c343-97d2-4322-8b68-000b88f4d992"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "cc42eca6-a2dc-4e0e-91e9-c7487f8f275b"
+                                  }
+                                ]
+                              },
+                              "id": "596e4f8b-8691-4e58-8cda-1800c6a824fd"
+                            }
+                          ]
+                        },
+                        "id": "d0e5cea0-74c4-4239-9157-8f8893a843b2"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 1,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "27876d54-2d72-4278-85f3-0e71354ce5e0"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "3",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "3a147719-873b-4f92-a52f-2d292f805472"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "3"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 1,
+                                      "__scriptTabs": "save"
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "661d9e6d-ed4d-4082-8dc2-9fc58979084f"
+                                        },
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "38",
+                                            "value": {
+                                              "type": "true"
+                                            }
+                                          },
+                                          "id": "284140b9-b9f4-469a-b86b-1d7f28e304f3"
+                                        }
+                                      ]
+                                    },
+                                    "id": "77652250-443d-48f2-abef-a2088af7a1bd"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "0f498d2a-0387-453b-85fb-4011eba109b9"
+                                  }
+                                ]
+                              },
+                              "id": "32e9d04d-6b86-4d06-8777-24741228a108"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 1,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "1058400c-e0fe-4c85-a17b-f1a6faa86ef4"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "ee1c4851-0ca7-43b4-a140-90b73b917a5a"
+                                  }
+                                ]
+                              },
+                              "id": "228aa96b-dd43-43f0-84e4-1ce47ff09584"
+                            }
+                          ]
+                        },
+                        "id": "89098bbf-efc9-4559-93b5-2acb2e3d537b"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 2,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "dd111f9a-cacd-4229-b207-80f3d3be0708"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "3",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "7590f397-be57-4f86-9b90-d2ba27bd604d"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "3"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 2,
+                                      "__scriptTabs": "save"
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "5328a89c-13a6-4407-bef7-28c9240ae67b"
+                                        },
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "38",
+                                            "value": {
+                                              "type": "true"
+                                            }
+                                          },
+                                          "id": "af4c0d3e-1617-4981-b3f6-50c37646e4a2"
+                                        }
+                                      ]
+                                    },
+                                    "id": "e389bcb2-db81-4272-b17c-96f07d0a8925"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "62d00a17-195f-4513-a37c-954925f50344"
+                                  }
+                                ]
+                              },
+                              "id": "80ab1167-5265-4b3d-a12c-5c601f9276de"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 2,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "7ed1a807-5700-4fcd-8a71-db68e188cf59"
+                                  },
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "38",
+                                      "value": {
+                                        "type": "true"
+                                      }
+                                    },
+                                    "id": "cbadc6fb-8268-4916-8fce-e6b2a260cc5a"
+                                  }
+                                ]
+                              },
+                              "id": "524f1c18-212e-44e4-bca9-00114ab93a3b"
+                            }
+                          ]
+                        },
+                        "id": "ff921270-af9d-40e6-9615-bf848ed64208"
+                      }
+                    ]
+                  },
+                  "id": "cdcac5d4-aceb-4133-b4f1-0ae694078257"
+                }
+              ]
+            },
+            "id": "e88a630e-d036-44e3-9e48-49f86bffec0a"
+          }
+        ]
+      },
+      "id": "7e626319-92dc-4bf9-9e72-5495af61cfd2"
+    }
+  ]
+}

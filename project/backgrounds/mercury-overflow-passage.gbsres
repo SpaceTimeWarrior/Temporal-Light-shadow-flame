@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f93a811b-5a53-4c89-a17d-c62426867d45",
+  "name": "mercury-overflow-passage",
+  "symbol": "bg_mercury_overflow_passage",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "mercury-overflow-passage.png",
+  "tileColors": "02196e+061e+025a+061e+025a+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+0238+061e+0216+03c+026c+03c+026c+03c+022ec+00!02ed+066+002+0676+002+0670+",
+  "autoColor": false
+}

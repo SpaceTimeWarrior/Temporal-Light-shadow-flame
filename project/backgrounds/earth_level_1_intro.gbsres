@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd6d4943-0cf7-48d2-b39b-4d56d051fc5b",
+  "name": "Earth level 1 intro",
+  "symbol": "bg_earth_level_1_intro",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "Earth level 1 intro.png",
+  "tileColors": "0314+0514+0314+0514+0314+0514+0314+0514+0314+0514+0314+0514+0314+0514+0314+0514+0314+0514+0314+055+00c+053+0314+055+00c+053+0314+055+00c+053+0314+0514+0314+0514+0314+0514+0314+0014+0314+0014+0314+0014+",
+  "autoColor": false
+}

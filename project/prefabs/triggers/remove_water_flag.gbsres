@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "5d98b923-f6ac-421c-b042-a632c2584e2e",
+  "name": "remove water flag",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "dfb3b87d-26a3-46ad-a5ca-7c944d54cae5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0fa38925-46e8-40de-93bf-526ad1d5280b"
+      },
+      "id": "aa3013a8-526e-4a81-ae51-13cb5b02ee9e"
+    }
+  ],
+  "leaveScript": []
+}

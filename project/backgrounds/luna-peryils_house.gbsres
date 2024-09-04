@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "name": "luna-peryil's house",
+  "symbol": "bg_luna_peryil_s_house",
+  "width": 80,
+  "height": 80,
+  "imageWidth": 640,
+  "imageHeight": 640,
+  "filename": "luna-peryil's house.png",
+  "tileColors": "031900+",
+  "autoColor": false
+}

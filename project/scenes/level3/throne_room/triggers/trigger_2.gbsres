@@ -1,0 +1,323 @@
+{
+  "_resourceType": "trigger",
+  "id": "bd26ad4b-9762-4d1d-a6bf-da8fd5775381",
+  "_index": 1,
+  "symbol": "trigger_120",
+  "prefabId": "",
+  "name": "",
+  "x": 40,
+  "y": 13,
+  "width": 1,
+  "height": 21,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right",
+          "down",
+          "up",
+          "left",
+          "select",
+          "a",
+          "b",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "0a953805-0f86-4223-b0c3-0b9a419182a2"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "a5dd3a00-f8d5-49f4-9752-23769c921f4c"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "e01ecf2a-713f-4a29-926a-db3b4c14489c"
+          }
+        ]
+      },
+      "id": "6ce3cba3-6577-4630-ba66-2afdb4e388b0"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "180ff893-c3dc-4fc6-8077-d52bb9c5c892",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 39
+              },
+              "y": {
+                "type": "number",
+                "value": 33
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "7902b3ac-b1ee-4b84-b8a6-7e763335d6e2"
+          }
+        ],
+        "false": []
+      },
+      "id": "1d54b972-b7be-4471-b682-83671bea3036"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "735443cd-f881-425b-9236-b326d63a4959"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "speed": 0.5
+      },
+      "id": "61180b53-67eb-4bd0-b68a-e790f6a00bc6"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "a918a828-1e55-485b-ad4a-20f83ceebf23"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "329686c7-82e8-481b-a282-331ae35e53f7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???: I know why\nyou come here.\nsad to say you",
+          "might be \nDisappointed. as\nmuch as I want",
+          "to hurt him. I\nnever wanted him\ndead."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "aa5c8c27-6fa7-44c2-9d6e-722512a610c5"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "8fa644f9-578b-4451-bc08-1576c3a22fbe"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "af95cf27-e794-4696-949e-c0784258fc9b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:... how\ndid you. wait\nare you blight.",
+          "do you know who\ndid. because I\nwant to put the",
+          "killer for \njustice."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4a7dd780-76c4-4440-8639-3f455fbdd3c7"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "fe4ac0f8-f942-4a34-b869-90b9e8c7bc8b"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "438b6ccb-2589-4ae7-8224-1a116a0deeaa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: I am \nblight \ndeathripper.",
+          "while I do know\nsome potential\nleads but you",
+          "might be careful\nwhat you wish\nfor. your father",
+          "wasn't the best\nperson and\nteamed up with",
+          "people whom\nwhere just as \nbad."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "22e6c004-2157-43ca-ae46-d1d518b1cd2d"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "9574abf9-bccc-4b79-8ab3-3a08141471ea"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "378ec06f-9849-4f06-a5d9-ce7be769510c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:you don't\nknow what you\nare talking",
+          "about. you\nhaven't had\nyour parents",
+          "be murdered.I\nthink you did\nit"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "49b73a06-703b-432c-b46f-f139acefa284"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "c6a677df-1be2-4a0c-804d-d5505c7f258f"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "1209360c-d668-4647-96bd-74a72389a064"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: I tried\nbeing nice. I\nguess I will ",
+          "teach you a \nhistory lesson.\none not told in",
+          "your council's\njournals. your \nfather scrubbed",
+          "from the record\ncompletely."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "a8f833df-4bed-4c71-865a-e1704fb9deb7"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "9",
+        "vectorY": "10"
+      },
+      "id": "1bdb113a-7d5d-4989-821e-2e1e757a9e22"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "180ff893-c3dc-4fc6-8077-d52bb9c5c892",
+        "x": {
+          "type": "variable",
+          "value": "9"
+        },
+        "y": {
+          "type": "variable",
+          "value": "10"
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "11714ff2-1b02-442e-a0d0-e63ffb014255"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9148a4c0-2679-4453-ba94-9d45f55429fd",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "left",
+        "fadeSpeed": 4
+      },
+      "id": "86e2999a-fe4d-4ea4-a8cb-2eb885e0e2cf"
+    }
+  ],
+  "leaveScript": []
+}

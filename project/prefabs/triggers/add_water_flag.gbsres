@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "14cbc4cc-598b-4140-a96f-14bc79141c9f",
+  "name": "add water flag",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "5f25a1ca-6c84-4636-b16e-a675fdb0e9cf"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0fa38925-46e8-40de-93bf-526ad1d5280b"
+      },
+      "id": "11f6edd4-bb46-4298-916c-f300e87afd30"
+    }
+  ],
+  "leaveScript": []
+}

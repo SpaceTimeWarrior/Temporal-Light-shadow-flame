@@ -1,0 +1,585 @@
+{
+  "_resourceType": "actor",
+  "id": "c520638d-be19-41ea-9969-f4181f2d8219",
+  "_index": 0,
+  "symbol": "actor_37",
+  "prefabId": "",
+  "name": "",
+  "x": 13,
+  "y": 14,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "74b1792b-0f9a-417a-9fe7-44fe9be507f8",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "08a3653f-dbd9-4745-ac18-6e3d655afad5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "86e589b1-4463-44ee-b373-21fa696b0d3b"
+          }
+        ]
+      },
+      "id": "ce83df3a-c3aa-4b5a-9ad0-8c000093cead"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "9e91c250-5e15-4aaa-b694-7e9e8f9b0801"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+            },
+            "id": "56fdd7a1-7601-4a8f-b0ba-d52482488660"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "3c867db6-2fa2-44be-acba-d25e31436624"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d98d1610-0da0-4f55-8e8a-528e710ca830",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "96bd75e8-ebbf-4c9c-875f-62e5e9c2855b"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "6a0b96ca-7bfb-4ac9-9022-c60e97bcee0b"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d98d1610-0da0-4f55-8e8a-528e710ca830",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "e2af7a06-5f3c-4cb0-8e64-e975aed09b15"
+                }
+              ]
+            },
+            "id": "4fdafc33-ba53-415a-b057-feb17c22a51e"
+          }
+        ]
+      },
+      "id": "56104cf3-5b54-4053-8c5d-bd5a7143e9a5"
+    },
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 3
+      },
+      "id": "28b007f4-8ece-44e8-b866-e96795571a1d"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "ede2c063-de5f-4ea5-8f9b-fc626a273f51"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "b71a26bd-e148-437a-92e0-105ed0d4e7ed"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "651968f8-fa93-461c-8494-d8d5dcfe40a5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:don't hurt \nme. I was just \nacting like a",
+          "pirate to make \nyou go away. "
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "14e68600-03f5-4dea-8f23-3354085f1ca3"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "f5dc3fdf-a9a6-4d10-8a5c-b32b2158823e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3b350790-572b-42c5-a678-68cf378925b2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil I am not\nintending to \nhurt you but I\nneed some water ",
+          "dragon hair.wait\nwhy did you tell\nme to stay back?\nis it racial?"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "d5e50e41-5ba8-4c4d-a0a1-4298e8f2af9a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "82cbed77-e278-440e-9f8e-0b2005716d0d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3a18f3d6-88e2-44af-ab18-8b3ec029e6a7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: my name \nis Steam \nWingglider. ",
+          "the reason why I\nam alone is my\nlifelong crush",
+          " just dumped me.\nand you just\ncame in. I have ",
+          "a dislike for \nphoenixes as one\ncame and... ...",
+          "killed my \nparents. then \ntried putting me",
+          "on trial.my only\nsaving grace was\nthe space pirate",
+          "blight \ndeathripper."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "8e7f169a-c638-410c-84a0-0c05fcf2f140"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "c6ecb84f-96e4-489b-88ff-513463536774"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "b01d7617-5004-411a-a0ca-d1a3bf0280f6"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "b71bac28-021b-4491-936e-f3da1f42d46a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:oh I am\nsorry about that",
+          "by chance did\nyou catch the \nname of the \nphoenix?"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "8bec445c-e6f2-4861-b5cb-235a99d7e22b"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "29e2ac53-d9db-4b12-9021-e4a7135ac80b"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "8177c51b-788d-4757-80d8-9474445740bc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: I didn't \nget their name\nbut they had a",
+          "high ranking in\nthe solar \ncouncil"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "e649b96a-c71e-4cf0-be1c-55af3f7c7f56"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "7a1124c7-667e-49e2-986f-4fe1e0b551c2"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "779c044c-0238-48e8-85f3-4df9250a52a3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "e2dca6ef-5c5a-4366-8f59-f2e1b362a46a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: sadly \nthat sounds like\nmy father?...if",
+          "you want if you \nhaven't found\nsomeone by the",
+          "end of the month\nI wouldn't mind\ntaking your",
+          "crush's place. I\nwish I could \nrevive the dead",
+          "but I can't"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "16c697e8-1eb8-4f68-ad77-4955581e82ca"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "f1fd1828-0a8e-468a-a064-747d77cab638"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "302f7e7f-16a5-4410-8cd7-b7451cc791f9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam:how did \nyou know it was\nyour father? and\nwhy do you --"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "971346d2-b01e-4bd3-976c-a22006d6898b"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "6b31d560-2663-439b-a173-96bfeff31e97"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "f3fa026b-3078-49a6-b83f-743c018219e6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: are you \nmaking a \ntransformation\npotion?"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "70cd64fc-cbcd-4557-9f0c-4415e00d50d5"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "05d6db76-e43b-4776-bd91-f3cdfde506b7"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "22f9b988-b61c-42d8-ad22-510804f628f6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Peryil:My father\nwas the only\nsolar council",
+          "member that is\na phoenix in 450\nyears. the",
+          "reason why I am\nmaking a potion\nis a formula was",
+          "found at the \ncrime scene? I \ndidn't think he",
+          "had that bad of\na history...wait\nhow did you know",
+          "it was a potion\nrecipe"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "49199229-161b-4577-a687-2c7f600181c1"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "317a88fd-a08e-4597-85b7-150fdf3b5d45"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d9f93626-e528-4545-8fe0-7b35b546168a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam:I guess I\nshould formally\nintroduce myself",
+          "I am steam \nWingglider. \nexpert alchemist",
+          "sadly lately\nthis form of \nmagic has run",
+          "out of \npopularity for\nAI. that is why"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "9394f343-634c-4fcc-97a6-afd95964889d"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "7d026382-c3a7-4faf-bca4-58c0d17d5332"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I was dumped."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "97cb5e2a-7356-44f4-9e3e-abffc7d89207"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "5f577985-710c-4261-858d-dbf9d904bb8a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: if you\nwant you can\nwork at my house",
+          "I design \nstarships for a\nliving and I am",
+          "having issues \nmaking special\nfuel for the",
+          "ships"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "0edb54c2-28b6-419c-9a39-575998ccf2aa"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "cb48976f-6f0e-4aa9-a35b-72ab8a615c82"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "b34d33f8-871d-485c-9ecf-39bba7fc6832"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: well feel\nfree to take \nsome elemental",
+          "crystals. and I\nwould love the\nidea"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "3255f92c-4f4a-4ed7-bab4-fa2933d9a883"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "18363632-43ef-457d-9903-3c7fed90240e",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 45
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "088fcd14-1fb8-467b-a4a1-deaf8cbe16ee"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

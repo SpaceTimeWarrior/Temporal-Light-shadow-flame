@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "ba1f9913-4a42-479b-80eb-93630a5e73c9",
+  "_index": 5,
+  "type": "POINTNCLICK",
+  "name": "menus/peryil status",
+  "symbol": "scene_6",
+  "x": 904,
+  "y": 32,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "97fc6c6e-76de-41f4-bc23-8571648ab85f",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf",
+    "6e03ea10-5b2d-4e75-950f-f914722f76c6",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
+  ],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "default-bg-3"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "245a1f0c-7699-4a7f-95dd-4ff8e137af9b"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ]
+            },
+            "id": "f77f388f-0504-4a04-9dbb-a45ca5798e14"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "2272c911-6f53-42cc-a86c-a30c63cb8742"
+          }
+        ]
+      },
+      "id": "9b7831c4-15fa-46ed-99cb-ec3b1dce471c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,0 +1,254 @@
+{
+  "_resourceType": "scene",
+  "id": "3156c289-0fc4-4568-8029-3ca7f5f6f96c",
+  "_index": 51,
+  "type": "TOPDOWN",
+  "name": "Level4/intro",
+  "symbol": "scene_52",
+  "x": 1544,
+  "y": 8488,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "42",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "5be334af-4ab2-47b1-83ff-f35e8750d5f4"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "60adabb9-88b9-4e25-89d4-691eb656bb0f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "b5b08916-cc7e-4c70-988f-1c453390be8d"
+          }
+        ]
+      },
+      "id": "67bbd5ed-025a-4aa2-b160-e68de2b8c372"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "4b7a5a74-2189-497a-b41f-758f0dd3d75d"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "34",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": true,
+        "flag15": true,
+        "flag16": true
+      },
+      "id": "49b6f97b-3a6d-489d-be32-147df9ecb694"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 20
+        }
+      },
+      "id": "70739c96-816a-40ec-8754-4216d7e437a3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c8d88b8c-51cc-48b9-a305-9d564c5f5b0d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I am \ngoing to go \ninvestigate"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "03aba021-5333-489d-96ab-42f66cb05c9a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "2b52f125-d51f-4d48-9959-b25947bfe629"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9d558fba-b67b-4809-9e98-7208814b984c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: shouldn't\nwe wait for the\ngovernment to \ndo this"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "0a15947d-520c-41f9-af1e-6ed9e7eeedc2"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "68f41cef-23f2-42cd-a396-5e584b64a8a5"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "ce7c50be-8352-481c-b6f0-eed3c5131c02"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I have\na felling this\nmight be covered",
+          "up if the \ngovernment \nintervenes"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "074a5e6a-f360-4b8b-a73f-3c9b86f68305"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "0ea12c12-f0c0-4c9b-b368-c92cc50ad3c1"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "93112975-5157-4285-8c20-b2d0ca15def8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: oh then\nbe careful. stay\nin contact."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "2ec08031-3b44-4208-80aa-f3192c793b39"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "number",
+          "value": 463
+        }
+      },
+      "id": "ddf14b89-a694-46d6-8af8-ff503d7d4e66"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "number",
+          "value": 1621
+        }
+      },
+      "id": "6d3c3e33-c9e4-44fa-b1cf-c3511633173c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "046eb264-0bb6-4946-ac2c-60f25da9869b",
+        "x": {
+          "type": "number",
+          "value": 46
+        },
+        "y": {
+          "type": "number",
+          "value": 93
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0716756b-cd12-4166-a870-7e62401b0c1d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

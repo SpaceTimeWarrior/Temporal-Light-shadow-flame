@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "72eca9bd-b2e2-4f94-b39f-20a0fc42b794",
+  "_index": 14,
+  "type": "PLATFORM",
+  "name": "Level1/BurnclawForestCanopy",
+  "symbol": "scene_15",
+  "x": 2768,
+  "y": 1816,
+  "width": 100,
+  "height": 48,
+  "backgroundId": "430d902a-84b0-4d63-8c10-a91c0360d0de",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "d09bdf85-16f3-4d1a-8996-ed779a651f63"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 46"
+            },
+            "id": "152ead6a-1c6b-4ab4-849c-977814b0835a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "2a401f01-eb3e-4766-b73e-e273b4d9b4db"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 46
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "78f93ada-1b61-4287-8d48-fcd52644aadb"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 46
+                    }
+                  },
+                  "id": "7d74c99b-6543-4016-8c08-1d7aba66cb9a"
+                }
+              ]
+            },
+            "id": "927585ad-c4c5-48a2-a515-1a5228b27a0d"
+          }
+        ]
+      },
+      "id": "f8fee190-e019-425a-b300-bcbc0e2e85f4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2+00c+0f3+004+0f!0010+0f6+0032+0f3+003+0f2+00c+0f3+004+0f!0010+0f!004+0f!0032+0f3+0013+0f!004+0f!0010+0f!004+0f!0022+0f4+00c+0f3+0013+0f!004+0f!0010+0f!004+0f!0022+0f4+00c+0f3+0013+0f!004+0f!00e+0f3+004+0f7+002c+0f3+0013+0f!004+0f!00e+0f!006+0f7+002c+0f3+0013+0f!004+0f3+00c+0f!006+0f!002e+0f7+0013+0f!006+0f!00c+0f3+004+0f!002e+0f7+005+0f6+008+0f!006+0f!00e+0f!004+0f!0032+0f3+005+0f6+008+0f!006+0f!00e+0f!004+0f!0032+0f3+0013+0f!006+0f!00e+0f!004+0f!002c+0f4+002+0f3+0013+0f!004+0f3+00e+0f!004+0f!002c+0f4+002+0f3+007+0f6+006+0f!004+0f!0010+0f!004+0f3+0030+0f3+007+0f6+006+0f!004+0f!0010+0f!004+0f3+0030+0f3+00d+0f7+004+0f!0010+0f!004+0f!0032+0f3+00d+0f7+004+0f!0010+0f6+0032+0f3+0013+0f!004+0f!0038+0f4+00c+0f3+0013+0f6+0038+0f4+00c+0f3+0061+0f3+0061+0f3+0033+011e+0010+0f3+0061+0f3+0061+0f2+0062+0f2+005c+0f4+002+0f2+005c+0f4+002+0f2+0010+0f4+004a+0f7+00f+0f4+004a+0f7+0051+0f4+00c+0f2+0052+0f4+00c+0f2+0062+0f2+0062+0f2+004+01e+0050+0f2+0062+0f2+0062+0f2+0062+0f2+005c+0f4+002+0f2+005c+0f4+002+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+004+0fc8+00c8+"
+}

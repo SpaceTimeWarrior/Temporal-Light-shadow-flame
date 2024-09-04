@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8491cde7-c1f3-49ce-bdcf-70aa269a5fee",
+  "name": "venus-office access",
+  "symbol": "bg_venus_office_access",
+  "width": 120,
+  "height": 40,
+  "imageWidth": 960,
+  "imageHeight": 320,
+  "filename": "venus-office access.png",
+  "tileColors": "0011d0+066+002+0676+002+0670+",
+  "autoColor": false
+}

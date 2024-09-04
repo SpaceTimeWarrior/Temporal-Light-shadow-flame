@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a01ff63c-c51c-42d0-bd78-60573fd665cc",
+  "name": "level 3",
+  "symbol": "bg_level_3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level 3.png",
+  "tileColors": "0323+002+0311+004+0310+004+0310+004+03d+06!03!05!038+052+037+06!03a+052+0317+05!032+05!0310+05!03!06!0313+06!0376+043+031d+",
+  "autoColor": false
+}

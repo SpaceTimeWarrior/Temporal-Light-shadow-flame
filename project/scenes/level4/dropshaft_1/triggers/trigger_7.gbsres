@@ -1,0 +1,114 @@
+{
+  "_resourceType": "trigger",
+  "id": "8437e8eb-69a0-4bca-b96a-3af8628cadfa",
+  "_index": 6,
+  "symbol": "trigger_215",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 104,
+  "width": 1,
+  "height": 10,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "34",
+        "flag": 15,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "33f0aae1-cd07-475b-acd2-664b605e1ac2"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "75a07657-1370-4c56-838d-ceb6916e59bc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil:there is\na lot of white \nstuff on the",
+                "ground. it also\nhas what looks\nlike clothing",
+                "strands"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "cfb99563-6cd9-48bc-ad05-e6fb00872176"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+            },
+            "id": "89f2392a-1932-4919-9223-ffefc343119d"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "34",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": true
+            },
+            "id": "f998a647-17a0-4bb6-b27b-c3bcdade1476"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "b81036fd-79ec-4db5-a903-ad25c03c5140"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "steam:that\nsounds like\nmonster remains",
+                "if they where\nrecently killed\nthey would be",
+                "very acidic and\nhazardous to\nyour health. be careful"
+              ],
+              "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+            },
+            "id": "d7ae6dbc-a344-4767-9aa3-2531d376c229"
+          }
+        ]
+      },
+      "id": "207bc33f-ba6f-42a0-86ef-0629cf2ff42b"
+    }
+  ],
+  "leaveScript": []
+}

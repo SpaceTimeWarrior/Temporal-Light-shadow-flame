@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9439a566-b864-49ab-b5e9-1139c9c5f616",
+  "name": "blight's memory p1",
+  "symbol": "bg_blight_s_memory_p1",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "blight's memory p1.png",
+  "tileColors": "0510+002c+0510+002c+0510+002c+0510+00b+032+001f+0510+002c+0510+002c+0510+0011+052+0019+0510+0010+054+0018+0510+0010+054+0018+0510+0011+052+0019+0510+002c+0510+002c+0510+002c+0510+002c+0510+002c+05f+00a5+",
+  "autoColor": false
+}

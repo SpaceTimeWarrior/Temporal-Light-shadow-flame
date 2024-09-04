@@ -1,0 +1,157 @@
+{
+  "_resourceType": "trigger",
+  "id": "5a2da1af-3c74-4e33-b1d6-8f82b856f6fb",
+  "_index": 10,
+  "symbol": "trigger_35",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 13,
+  "width": 4,
+  "height": 6,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "683abd48-deac-41ab-81f3-35ff8b5dae3e"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "55ce8497-f78b-4ec7-9d54-0cda9b21b723"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: if I am\nnot mistaken \nthis is a broken",
+                "crystal \nreservoir. this \nis used in",
+                "potion making...\nthis is too \ndamaged to",
+                "use very \neffectively"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "b839a459-a349-4676-b247-6f21635b252f"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "09364238-14c0-4ec7-8f87-e7888f63ba71"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+                  },
+                  "id": "abfdd3fc-bb84-40df-b655-400390ad3330"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "1a2077bc-f2ce-4e15-a811-0705a3deec74"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 26
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "401d110a-81c0-4fd9-bef1-96be5b9be1c4"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 26
+                          }
+                        },
+                        "id": "7aeaf465-656d-4604-9daf-ede824b80c5d"
+                      }
+                    ]
+                  },
+                  "id": "bab7c53e-baa6-47de-b4cb-d7f559c3d6f9"
+                }
+              ]
+            },
+            "id": "bb415971-2362-4707-ad25-6a69fcb4297d"
+          }
+        ]
+      },
+      "id": "b51e7b0e-f78d-40e8-a0a7-d788df0f0055"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "96057807-8dc9-4ee4-ab51-6dd062df4b83"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "51511e8a-15c9-4bad-b0cd-061f87d58d6d"
+    }
+  ]
+}

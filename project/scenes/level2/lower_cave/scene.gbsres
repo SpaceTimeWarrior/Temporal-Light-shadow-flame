@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "f953440d-d0b8-4175-a896-b9ee465d4d94",
+  "_index": 26,
+  "type": "PLATFORM",
+  "name": "Level2/lower cave",
+  "symbol": "scene_27",
+  "x": 4320,
+  "y": 4256,
+  "width": 120,
+  "height": 28,
+  "backgroundId": "badd43c2-e655-4ced-b715-89d8d2bcb84e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "default-ui",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "0976dfe8-567d-4054-bd8f-78027bc39d05"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+            },
+            "id": "125a48b1-5d1e-446f-98ba-aef27a0d730e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "66370fda-703a-45df-8ff3-7ed5c3af7010"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 26
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "4f2d54e2-5d6f-4ccf-ba48-9ad6e1c8e69a"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 26
+                    }
+                  },
+                  "id": "55d15f5d-aee5-45e5-935f-4c0cade8420e"
+                }
+              ]
+            },
+            "id": "6278de31-b01b-4578-bb5e-a6fe161b0196"
+          }
+        ]
+      },
+      "id": "ec61dbb7-3e27-4d1e-a382-1cd5328051df"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f66+008+0f70+008+0fa+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+0076+0f2+002f+20!0f2+30!002+20!0f2+70!50!40!60!0f2+70!50!40!60!0f2+70!50!40!60!0f2+70!50!002a+0f2+002e+20!0f4+30!20!0f4+002+0f4+002+0f4+002+0f5+002a+0f2+002c+40!60!0f1e+70!50!0028+0f2+002c+0f22+0028+0ff2+00f0+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "703150ac-5128-4d0a-9bb0-6af2741c4a21",
+  "name": "mercury-poison storage",
+  "symbol": "bg_mercury_poison_storage",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "mercury-poison storage.png",
+  "tileColors": "032490+066+002+0676+002+0670+",
+  "autoColor": false
+}

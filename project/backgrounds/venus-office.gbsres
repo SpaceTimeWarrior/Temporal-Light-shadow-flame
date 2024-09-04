@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "16231103-6db9-415b-aa96-7c5d86a46fc9",
+  "name": "venus-office",
+  "symbol": "bg_venus_office",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "venus-office.png",
+  "tileColors": "00140+066+002+0612+002+06c+",
+  "autoColor": false
+}

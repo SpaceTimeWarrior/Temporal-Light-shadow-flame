@@ -1,0 +1,273 @@
+{
+  "_resourceType": "scene",
+  "id": "958eb5ad-df45-4c92-a9ee-cd0134802856",
+  "_index": 29,
+  "type": "TOPDOWN",
+  "name": "Level3/intro",
+  "symbol": "scene_30",
+  "x": 64,
+  "y": 5912,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "42",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "40d61bf4-0303-4111-9220-b2ab7fcb8c79"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "57c0e823-bbbf-4b67-a8c1-e4cff6c8a255"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "d4b7e1cc-83a9-4446-80a5-a929fc34c948"
+          }
+        ]
+      },
+      "id": "74846d1f-28df-4c37-94b8-fd4509951b2e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 20
+        }
+      },
+      "id": "ec550552-abf1-403c-b17a-151e001bd46c"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "46ec82a8-7716-436e-9964-c5a091077aa6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:lets go\nover all the\npossible",
+          "culprits. the\nonly one I can\nthink of is ",
+          "Blight \ndeathripper."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4c180bb8-4eea-4099-a0c6-08ac7cace1c2"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "a978e49c-17fe-4801-a738-9b993040ac4e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: I would\nadvise not doing\nthat if there is",
+          "no other way.I\ndon't want you \nto get severely",
+          "hurt"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "d86cc406-7a66-4d17-9b49-700b6b96fef4"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "fcc3c86a-90cf-4309-82a8-6ba05298c2f7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: can you\nthink of any \nother culprit"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4fec9bcf-30c2-445a-b8ba-e459956b0f0b"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "88e932f7-6009-4bbd-a87e-de243c555f01"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam:... ...\nI can't think of\nanyone"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "cf6c002e-5723-4956-9b9c-29b67f5d3230"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "5fc6e75b-93ee-4d35-a2c3-51ba0fd12746"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I know\nshe is your idol\nbut is there any",
+          "other reason why\nyou are not \nwanting me to",
+          "go after her"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "0841ec4a-8da5-4705-b29c-7f54efde4ca6"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "c3693bed-1586-4200-910a-be1eb021ca5e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam:she is \nextremely strong\nin magic almost",
+          "godlike. as a \nexample she was\nable to use",
+          "gravity magic to\nrip mercury from\nits orbit and",
+          "make it a moon\nof Jupiter."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "a6906b57-780f-464d-a6b2-a5fba4e57771"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "e937416a-eee3-4dbf-9838-ae54d4799633"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:well I am\nout of leads on\nthis and I don't",
+          "want my father's\nmurder to go\nunpunished"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "fb0e286d-7466-4719-a698-5df4a49b005e"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "882e09c0-fc7f-4d16-9154-7db6e9d7d012"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: fine take\nthis \ncommunicator. I",
+          "am not coming\nand I think I\nmight get in the",
+          "way"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "8a28ceb3-e10a-407d-a5a3-6fb090892676"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "28",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": true,
+        "flag15": true,
+        "flag16": true
+      },
+      "id": "1661115d-eece-4b58-bb6b-235a11f1b352"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f0f4bcc6-99fd-4a32-9d6b-4d1a09739624",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 71
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "3248bcbd-65eb-4509-b2dc-f1f97d05e162"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

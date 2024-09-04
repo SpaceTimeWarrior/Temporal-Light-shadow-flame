@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ec79d2cd-3d4f-4d84-9aa7-c0b33e9de7a8",
+  "name": "cc_flamethrowers",
+  "symbol": "bg_cc_flamethrowers",
+  "width": 120,
+  "height": 18,
+  "imageWidth": 960,
+  "imageHeight": 144,
+  "filename": "cc_flamethrowers.png",
+  "tileColors": "00780+03f0+",
+  "autoColor": false
+}

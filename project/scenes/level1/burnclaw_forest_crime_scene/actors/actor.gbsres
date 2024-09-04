@@ -1,0 +1,201 @@
+{
+  "_resourceType": "actor",
+  "id": "7c247d84-555b-40fc-81ec-97e2a9d07b46",
+  "_index": 0,
+  "symbol": "actor_2",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 24,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "82462e37-2d52-45fa-884e-b1d98a30597d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "5641c9ed-a1e1-4965-b9c2-ad1fb4bdb23f"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "e8f25a74-3ec8-4713-aee3-7ebf31089f0d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cop: like I said\nearlier try not\nto touch",
+          "anything. the\nnotebook I gave\nyou has special",
+          "magic that can\nallow you to \nweakly grab",
+          "anything. this\ncannot hold your\nweight."
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "0a53bc0a-63e5-4b79-8735-30a3c2c37aca"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "11",
+        "flag": 1,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "606f11d4-2a81-46f0-9992-98579e73f2ea"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": ""
+            },
+            "id": "a1d1e4d4-390e-4df2-88c2-50651f849acc"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 400,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "70509cfe-3e46-45f8-b377-23b1faadb52a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "cop: hi peryil\nsad to say your\nfather has died",
+                "based on the \ninitial \ninvestigations",
+                "it looks like \nthis odd device\nexploded and",
+                "killed him"
+              ],
+              "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+            },
+            "id": "af42f66d-f696-46af-ba96-490fb819d83f"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "7d90169b-b29f-4957-b768-11770f569a7a"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "c4e2db12-530e-4644-b127-b79446bbc96e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: I doubt\nthat is the case\nif there was a",
+                "explosion from\nthe reservoir it\nwould be more",
+                "destroyed. but \nfrom what I can\nsee it looks",
+                "like there was a\nstruggle"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "d20bcaa1-126a-4c14-9c0e-45095c0a5177"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": ""
+            },
+            "id": "761cdebf-44d9-49a9-b30a-a1a519c2ed6a"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 400,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "98adce50-e499-488e-88fe-f4f7d4add715"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "cop: my partner\nthought the same\nwhich is why the",
+                "investigation\nhas not been\nofficially been",
+                "closed. you can\nlook around but\ntry not to touch",
+                "anything as that\nwill taint the\nevidence. the",
+                "only reason I am\nletting you do\nthis is because",
+                "you are family.\nand he told me a\nlot about you",
+                "before he died.\nhere is a \nnotebook to take\nnotes."
+              ],
+              "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+            },
+            "id": "1aeb848b-77b1-43b6-a154-a86a0fa58ad0"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "11",
+              "flag1": false,
+              "flag2": true,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "e9446a16-e088-40c7-aa2d-06c50d49a9ab"
+          }
+        ]
+      },
+      "id": "626c14c7-3a51-40f1-8ed5-800104dfc3b5"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

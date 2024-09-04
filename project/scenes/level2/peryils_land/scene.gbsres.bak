@@ -1,0 +1,238 @@
+{
+  "_resourceType": "scene",
+  "id": "01b44bfb-8f8f-4712-a948-95c13edffc9c",
+  "_index": 20,
+  "type": "PLATFORM",
+  "name": "Level2/Peryil's land",
+  "symbol": "scene_21",
+  "x": 1408,
+  "y": 3840,
+  "width": 120,
+  "height": 40,
+  "backgroundId": "2361f3bb-3314-47b0-b453-b5891255e46b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "c6fcc792-0822-4ef2-af3f-1daa76dd0ee8"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+            },
+            "id": "e815ede0-5930-4538-bfb6-d56c8ba7bdd3"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "3d220b3e-8ba2-4a4e-980e-9d780cc01019"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "ab849ef4-cdd8-4d59-9d6e-d0d662c49f29"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "6a6c8db5-a8b6-4808-9fe4-fa384a748297"
+                }
+              ]
+            },
+            "id": "41cdd18f-0641-4034-9409-bc1ec2e4249f"
+          },
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "17",
+              "flag": 15,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+                  },
+                  "id": "6225b240-27c6-40b8-b68e-0351c7a74ee1"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Peryil:if I \nremember \ncorrectly ",
+                      "the serenity >\nislands in the\nsea of serenity",
+                      "are a known \nbreeding ground\nfor water ",
+                      "dragons I just \ngot to get close\nbut just in case",
+                      "I know a good \nfireball spell\n",
+                      "(# button \nx if browser)"
+                    ],
+                    "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+                  },
+                  "id": "a5ea3054-02fe-4c0d-801d-1aa0fae94074"
+                },
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "17",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": true
+                  },
+                  "id": "8fe18ff8-99d4-4282-814b-34d1f53bec65"
+                }
+              ]
+            },
+            "id": "853821c7-be8e-4e86-ace2-88a490d62b54"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "000484e8-6bba-407b-a29c-68aff7ec9032"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+                  },
+                  "id": "7adcc5f2-7feb-4b44-b63a-1e23314f4431"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "219c7903-66cb-4c78-a5b3-0ab14a5a1d0e"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "f77c4e97-5e6b-46dc-ad31-496e6dd53d1c"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 38
+                          }
+                        },
+                        "id": "a669e971-1348-45e5-a9e8-4ae29ac7ba5e"
+                      }
+                    ]
+                  },
+                  "id": "171a59d0-0a56-4dee-bdf3-4918758ae43c"
+                }
+              ]
+            },
+            "id": "714c7896-f9a3-4069-ae9f-30071d7b2486"
+          }
+        ]
+      },
+      "id": "fd3c9a3c-be0d-4c51-be63-a34122625b70"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "009+0f!0077+0f!0077+0f!0077+0f!0077+0f!0047+014+0023+0fa+00a3+014+0038+014+002a0+014+00a7+0fa+001d+014+004d+0fa+006e+0fa+004a+40!60!0f12+70!50!00e+0fa+0048+40!60!0f16+70!50!00c+0fa+0046+40!60!0f1a+70!50!00a+0fa+0044+40!60!0f1e+70!50!008+0fa+0042+40!60!0f22+70!50!006+0fa+0040+40!60!0f26+70!50!004+0fa+003e+40!60!0f2a+70!50!002+0fa+003c+40!60!0f2e+70!50!0fa+003a+40!60!0f3c+0038+40!60!0f3e+0019+40!0fc+006+0f4c+0017+40!60!0fd+006+0f4c+0015+40!60!0ff+006+0f4c+0013+40!60!0f11+006+0f4c+0011+40!60!0f13+006+0f4c+00f+40!60!0f15+006+0f4c+00d+40!60!0f9+0014+0f4c+00b+40!60!0fb+0014+0f64+0014+0f64+0014+0f72+006+0f72+006+0f72+006+0fba+"
+}

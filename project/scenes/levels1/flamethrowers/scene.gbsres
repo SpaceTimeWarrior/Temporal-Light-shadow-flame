@@ -1,0 +1,194 @@
+{
+  "_resourceType": "scene",
+  "id": "0f2fa53f-d037-4f43-af52-4345d44e6f89",
+  "_index": 67,
+  "type": "PLATFORM",
+  "name": "levelS1/flamethrowers",
+  "symbol": "scene_68",
+  "x": 8400,
+  "y": 6248,
+  "width": 120,
+  "height": 18,
+  "backgroundId": "ec79d2cd-3d4f-4d84-9aa7-c0b33e9de7a8",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c"
+  ],
+  "spritePaletteIds": [
+    "73cbbeb0-b173-4870-bb18-7779fc5d3760",
+    "",
+    "f98a2cfa-f6da-4e1f-bcc0-a4655d60a6d0",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "2d6daebc-25b4-4d57-8aae-1d4183bd8511",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "7f9df813-b958-4143-a60c-a97ef92e6db3"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 16"
+            },
+            "id": "26adc05b-a889-4f5a-a2f5-094738c740b2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e2e285d7-fb8d-4d81-b2ed-688ae95be1db"
+            },
+            "id": "60092558-950a-49ba-9516-f035a2e36583"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "068860ad-4217-4e9e-88aa-6544e46c3e95"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "b7b8b10e-821f-4a15-b078-6521bdda5d92"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "44"
+                  },
+                  "id": "96ef9343-e212-45e9-ba7a-7f93404ed3e0"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "ne",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "45"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "45"
+                        },
+                        "id": "14a263e0-67e2-4be6-a993-af46bd73d9d0"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "759c2658-d484-45ad-9eec-6708b6edfc41"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "44"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 28
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "44",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "41f1e8df-b591-45de-be1b-8eb007584055"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "2d444350-c946-4e31-9773-9c3a817e57b9"
+                }
+              ]
+            },
+            "id": "786f6065-9071-4fda-ab56-d67b881f8113"
+          }
+        ]
+      },
+      "id": "621dbe84-6be2-4262-99da-5cb79d88c719"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "a96d5232-8cb9-4f39-93a8-b75a01242697"
+    }
+  ],
+  "collisions": "0017+0f!001c+0f!00!0f!0058+0f!001c+0f!00!0f!0058+0f!001c+0f!00!0f!0058+0f!001c+0f3+0058+0f!004+0f16+004+0f!0058+0f!004+0f3+0010+0f3+004+0f!0058+0f!004+0f3+0010+0f!00!0f!004+0f!0041+0f18+004+0f3+0010+0f3+004+0f42+00e+0f2+006+0f2+006+0f!0010+0f!0056+0f2+006+0f2+006+0f!0010+0f!0066+0f!0010+0f!0066+0f!0010+0f!0064+0f3+0010+0f3+0062+0f3+0010+0f!00!0f!0046+0f1f+0010+0f49+00168+"
+}

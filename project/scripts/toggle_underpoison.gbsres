@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "8d59733e-8e95-4518-9fb4-47dc0c270c65",
+  "name": "toggle underpoison",
+  "symbol": "script_12",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "21"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "9ab20e50-8b12-421b-a516-ae22e3a0d104"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "22",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "cc62690a-2039-4818-9f24-402298b214c4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "34789f26-b175-4273-addb-23567aa30947"
+          }
+        ]
+      },
+      "id": "35c7ec41-9a1e-43e6-acb2-ef4e2c75fcb0"
+    }
+  ]
+}

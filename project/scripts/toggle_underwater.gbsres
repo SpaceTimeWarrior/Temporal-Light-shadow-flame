@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "0fa38925-46e8-40de-93bf-526ad1d5280b",
+  "name": "toggle underwater",
+  "symbol": "script_5",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "12d3dad8-1d16-485d-a9a4-062da7c3036e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "65f490bb-4547-4133-ad5c-c44efc9379d5"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "bb2e09cf-dd77-4eaf-a072-c756473c1655"
+          }
+        ]
+      },
+      "id": "b1acecf9-105c-4651-ae0d-b6d5d529c159"
+    }
+  ]
+}

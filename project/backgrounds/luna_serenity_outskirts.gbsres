@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2361f3bb-3314-47b0-b453-b5891255e46b",
+  "name": "luna serenity outskirts",
+  "symbol": "bg_luna_serenity_outskirts",
+  "width": 120,
+  "height": 40,
+  "imageWidth": 960,
+  "imageHeight": 320,
+  "filename": "luna serenity outskirts.png",
+  "tileColors": "03c60+046+0372+046+0372+046+0372+046+0372+046+0372+046+0364+046+806+85!80!046+0364+046+803+85!804+046+0364+046+808+046+0364+046+80!85!804+85!80!046+0372+046+0372+046+0342+066+032+0676+032+0670+",
+  "autoColor": false
+}

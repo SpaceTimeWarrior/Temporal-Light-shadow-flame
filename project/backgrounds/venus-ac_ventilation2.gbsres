@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3b80425a-fadd-4172-967c-c5e314b2831e",
+  "name": "venus-ac ventilation2",
+  "symbol": "bg_venus_ac_ventilation2",
+  "width": 120,
+  "height": 40,
+  "imageWidth": 960,
+  "imageHeight": 320,
+  "filename": "venus-ac ventilation2.png",
+  "tileColors": "0011d0+066+002+0676+002+0670+",
+  "autoColor": false
+}

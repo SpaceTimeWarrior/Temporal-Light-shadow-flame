@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "1b2a080c-e0ad-44d6-a1f8-8e455692a298",
+  "_index": 9,
+  "symbol": "trigger_132",
+  "prefabId": "",
+  "name": "",
+  "x": 95,
+  "y": 21,
+  "width": 3,
+  "height": 20,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "8bfa0def-35b2-4e69-8b09-5fa9c2f55a51"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8d59733e-8e95-4518-9fb4-47dc0c270c65"
+      },
+      "id": "efb6751b-8ff3-409c-b676-e9305643550e"
+    }
+  ],
+  "leaveScript": []
+}

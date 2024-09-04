@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "feeb4760-9c11-48ce-8710-652fac01de03",
+  "name": "mercury-landing site",
+  "symbol": "bg_mercury_landing_site",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "mercury-landing site.png",
+  "tileColors": "021aa2+0316+0262+0316+0264+0314+0264+0314+0266+0312+0266+0312+026e+03a+026e+03a+02690+066+002+0676+002+0670+",
+  "autoColor": false
+}

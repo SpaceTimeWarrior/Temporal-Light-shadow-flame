@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "2b7fef3a-fe80-4c63-9926-efd2a5245c3b",
+  "name": "add lava flag",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "380cd02c-28f6-411c-9445-d39772c93969"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6182ef5b-330f-48ce-bb27-e95ce09bb795"
+      },
+      "id": "0d40542a-4a63-4069-a24e-1867721d2e6c"
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,164 @@
+{
+  "_resourceType": "trigger",
+  "id": "12f5d17d-8669-492e-9495-92a1ea022770",
+  "_index": 0,
+  "symbol": "trigger_104",
+  "prefabId": "",
+  "name": "",
+  "x": 43,
+  "y": 2,
+  "width": 1,
+  "height": 22,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "17",
+        "flag": 14,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "d5d46b70-bd4b-4de9-8c01-c11c1ef4931f"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "a1c3a86d-34e6-4165-a4e9-f368bc85eac7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: wow is a\nlot of gold. why",
+                "is it in water"
+              ],
+              "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323"
+            },
+            "id": "8b27fc10-fa7b-4b1f-a5d9-bce7864243a2"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "17",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": true,
+              "flag16": false
+            },
+            "id": "cf5d15c6-528b-4eb7-a571-1cf843450fca"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+            },
+            "id": "e5ff566f-f88c-42d6-86b6-c2cb2bb4a4d5"
+          }
+        ]
+      },
+      "id": "cacd6001-9730-4a03-afd1-8adde51eba63"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "edae2354-88f4-460a-a999-07d79f7a965b"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+            },
+            "id": "a0272b1a-ca64-4e89-882f-3cfb4a459225"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "662dbe65-ade9-4bff-9406-12286b389796"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 26
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "e37d6ec2-b4e0-4457-82e7-79ffdee8c433"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 26
+                    }
+                  },
+                  "id": "7427995d-a754-4382-a4d2-70f751e8dbed"
+                }
+              ]
+            },
+            "id": "1d73cd4c-f273-4c8a-ba7e-7c7a162697c3"
+          }
+        ]
+      },
+      "id": "4b784781-b368-4448-8124-cb6ade5ef5fc"
+    }
+  ],
+  "leaveScript": []
+}

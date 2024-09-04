@@ -1,0 +1,106 @@
+{
+  "_resourceType": "scene",
+  "id": "4a93822c-1de0-4640-a28c-8624e7bff2a8",
+  "_index": 31,
+  "type": "PLATFORM",
+  "name": "Level3/broken toxic waste pipe",
+  "symbol": "scene_32",
+  "x": 408,
+  "y": 6688,
+  "width": 40,
+  "height": 40,
+  "backgroundId": "5da9038c-b75b-439c-b06b-691385dde646",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "0e80b468-af0f-4179-80f6-54c1ccccfba0",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "74f374db-8c03-43d9-ad44-861a9c1d835e"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+            },
+            "id": "d85dcd07-477c-4cb0-9144-ce50123abf83"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "307cc72a-6a4f-4111-ab1a-30760aec0e6c"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5bc97a2c-5863-49b3-a46d-d2a1013c66cf"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "9035afa4-1485-4fe0-96b0-9064b51f8be1"
+                }
+              ]
+            },
+            "id": "cbc2e1a9-b80b-468d-91dc-5306a638a9fc"
+          }
+        ]
+      },
+      "id": "3f0ef588-eb5e-488e-9504-660c7239084c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00f1+0f22+006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f6+00!0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0028+0f26+00118+"
+}

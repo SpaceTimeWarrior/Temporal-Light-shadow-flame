@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "3c16f5fd-5aff-4b16-a39d-87680e797b23",
+  "name": "add poison flag",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "21",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "036d89a1-82a2-4fc1-8841-c129d878ab70"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8d59733e-8e95-4518-9fb4-47dc0c270c65"
+      },
+      "id": "f50bf056-4e3b-4339-bcd9-0bf30779f5dc"
+    }
+  ],
+  "leaveScript": []
+}

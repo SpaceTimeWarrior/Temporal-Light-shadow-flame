@@ -1,0 +1,275 @@
+{
+  "_resourceType": "actor",
+  "id": "210edb0c-cefd-4877-8b43-2a2648100ec9",
+  "_index": 1,
+  "symbol": "actor_71",
+  "prefabId": "",
+  "name": "",
+  "x": 7,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "52fc82fa-bcf0-4bd3-a081-e022f3abe4fb",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "80f23f10-b401-4b6a-9f3a-5b84f61b35be"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 16"
+            },
+            "id": "13683ccc-b30c-449a-8e1c-132bc7c093ea"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e2e285d7-fb8d-4d81-b2ed-688ae95be1db"
+            },
+            "id": "ce065cad-e046-491e-9c83-5e2de85b3368"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "2ac21338-94da-4baa-85b0-af97544620d0"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "85cad782-9a62-4ec2-a66a-83cddbab0d9a"
+                }
+              ]
+            },
+            "id": "99fca949-2f51-4709-8d5b-facbe33632f1"
+          }
+        ]
+      },
+      "id": "19f70473-a5b5-4965-b35e-0ade56135b3a"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "210edb0c-cefd-4877-8b43-2a2648100ec9"
+      },
+      "id": "e2e53742-1dd0-4432-b4f9-444a9fc5a4c6"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "cb36b975-6bfb-43ea-9ef3-a637a6e454ca"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "daycare robot: you\nare a good girl \nhave a cookie"
+        ],
+        "avatarId": ""
+      },
+      "id": "a47832f0-4c9f-4e63-891e-f2f904ddd9d6"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "00ab222a-a5e9-4a4a-9167-093a84623e44"
+      },
+      "id": "3e7467e8-b595-4fc7-a0ba-156714678768"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "00ab222a-a5e9-4a4a-9167-093a84623e44",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "cf2edf42-9829-4b7d-93e6-d641cd3afa07"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "31b8fd9e-5386-41d7-a7b1-58bed5ad7ef4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "9d7f116a-b98d-437d-a83d-2a2c35d321fa"
+      },
+      "id": "4e89fc5a-329e-4392-b255-428f9f0bf304"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "00ab222a-a5e9-4a4a-9167-093a84623e44",
+        "spriteSheetId": "91753c3f-999e-48c9-b2c3-4ecf8690297b"
+      },
+      "id": "2a268264-8ed6-4b12-b47f-5f2377a6d21e"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "00ab222a-a5e9-4a4a-9167-093a84623e44",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "vertical",
+        "useCollisions": false
+      },
+      "id": "fc6970f4-8735-4531-845a-d94c68fd56d9"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 420,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c87d2bbc-f4c2-4801-9e88-c8600c78c7f5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "crystal:MY cooki.\nmy cooki \nu tok my cooki"
+        ],
+        "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323"
+      },
+      "id": "b5aa15a5-6d9b-47d0-86d9-18919678cdd3"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "debe9501-95ff-421c-85d5-c3b5c7edd168"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "0e5708d8-9e28-4ae2-befe-8142f76c7a5f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "daycare robot: \nduke firehead is \ngoing to kill me"
+        ],
+        "avatarId": ""
+      },
+      "id": "3a73cd3f-5a6b-41de-ab44-1600fdb1ca60"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3f189554-af5f-4f25-aeec-b1ff218bed2a",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "5652039f-7cff-40d0-95e7-6883f0f9b47a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

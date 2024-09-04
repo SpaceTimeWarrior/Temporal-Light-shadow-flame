@@ -1,0 +1,25 @@
+{
+  "_resourceType": "engineFieldValues",
+  "engineFieldValues": [
+    {
+      "id": "fade_style",
+      "value": 0
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 22397
+    },
+    {
+      "id": "plat_max_fall_vel",
+      "value": 10647
+    },
+    {
+      "id": "plat_min_vel",
+      "value": 2113
+    },
+    {
+      "id": "INPUT_PLATFORM_JUMP",
+      "value": "INPUT_UP"
+    }
+  ]
+}

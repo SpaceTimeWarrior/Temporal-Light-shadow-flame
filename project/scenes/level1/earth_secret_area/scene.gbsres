@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "37664ff7-276e-47ce-a6d9-b26ffb14e10d",
+  "_index": 9,
+  "type": "PLATFORM",
+  "name": "Level1/Earth secret area",
+  "symbol": "scene_10",
+  "x": 176,
+  "y": 1800,
+  "width": 20,
+  "height": 20,
+  "backgroundId": "29ab5f5a-f386-4b46-a2b4-88f22da624b8",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "923e8797-1323-4e60-ad07-b051b87ec14e"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+            },
+            "id": "23df7e4f-d24f-452d-9fff-95db3e54d8cb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "10f8846b-d095-457a-bf84-1d2bb3cef83f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "41c34e6d-c7b5-4a58-ac5e-1b86cfa3a94a"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    }
+                  },
+                  "id": "b49e2fa0-e442-4f12-bcfc-88863b04b932"
+                }
+              ]
+            },
+            "id": "32fffecd-a4b1-47be-a324-d14a7b8d09e2"
+          }
+        ]
+      },
+      "id": "d9f8005a-5fd0-4a15-8926-034a1576fcbd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+002+0f2+00e+0f50+"
+}

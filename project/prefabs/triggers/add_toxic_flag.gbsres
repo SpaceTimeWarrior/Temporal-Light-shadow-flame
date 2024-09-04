@@ -1,0 +1,25 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "e8d9c0ce-18d8-4c1d-b6e4-05f446544c44",
+  "name": "add toxic flag",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "26",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e41e26d3-583d-4ad6-bc4a-a12661e3d84d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a3b909ab-ace9-4320-b679-be5ae77162a1"
+      },
+      "id": "5b8bddf5-c497-440a-ae74-9b1ddd7063b9"
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,38 @@
+(list of general voice rules)
+0-290 male
+290-350 uncertain
+350-475 female (male high pitched race)
+475+ exception/high pitched race(mostly females)
+below is a list of characters this is the neutral sound
+
+character voices
+narator(not peryil) no sound
+peryil tone 500hz
+generic female tone 400hz
+generic male tone 250hz
+steam tone 300hz
+blight(young) 420hz
+blight tone 380hz
+jem tone 390hz
+cedric tone 210hz (very low for phoenix race)
+flare tone 275hz
+ember tone 490hz
+sly(level 4 boss) tone 255hz
+??? transformed tone 350hz
+
+jem of twilight characters
+brier wolfsbane tone 375hz
+garnet wolfsbane tone 180hz
+pearlite wolfsbane tone 450hz
+bright signet tone 200hz
+cay neigh tone 325hz
+feryil tone 320hz
+dark lightsbane tone 210hz
+berry sagefairy-generic male
+pyre deathripper tone 430hz
+rain lightbringer tone 410hz
+rose sagefairy-generic female
+sire the resigned tone 80hz
+thunder lightbringer tone 230hz
+sune foxend tone 50hz
+blair foxend tone 520

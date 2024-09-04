@@ -1,0 +1,584 @@
+{
+  "_resourceType": "scene",
+  "id": "e02d29f8-80f6-46e2-9838-cb2eb03508cd",
+  "_index": 38,
+  "type": "TOPDOWN",
+  "name": "Level3/outro",
+  "symbol": "scene_39",
+  "x": 4496,
+  "y": 6728,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "8eaea16a-2e4f-43e7-bb6d-a08ee831b207"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "dd5b0c2c-b952-4287-b8a6-a4cb9ede5896"
+          }
+        ]
+      },
+      "id": "d7b02846-75af-4616-9eb8-811c5a1e1489"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "604dc43e-ce0e-48b2-b4c7-31b2264672a9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I don't \nknow if I should\ncontinue. after",
+          "blight showed me\none of her \nmemories. she ",
+          "allowed me to \ninterview others\nof her crew. and",
+          "I feel ashamed\nto even be \nrelated to him"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "537ba374-ca46-43d1-bb93-aec880c5390d"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "54c2adc8-ae56-4b68-b775-0af98e3f6880"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: could \nthere of been a\nulterior motive",
+          "or was a victim\nof a mind \ncontrol chain."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "c423d2db-c521-438e-bf0e-e969ccd23372"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "72558018-e2ea-4090-8394-b76020949d8b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I know \nyou are trying\nto cheer me up",
+          "but you did not\nsee the same \nthing I did",
+          "and not to \nmention he did \nkill your ",
+          "parents."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "c74e95a9-5527-41d1-86cb-f8290bbbef87"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "46d80010-ea43-4d10-812b-b29f0b3d04c8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: fine \ninvestigate this\nfor me. and all",
+          "those who was\nnegatively \nimpacted by him.",
+          "I know it will\nbe hard."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "50948e47-484f-46ba-b2e5-c6c24b36c457"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "cf82d49a-4bfc-417b-84fa-8ab484f4ef46"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight \ntelepathically: \nI will give you",
+          "a recipe my mom\nperfected when \nshe was pregnant",
+          "with me. but I\njust remembered\nhe works with a",
+          "slime who can \nshapeshift can\nyou call the",
+          "cops and see if\nhis remains are\nstill there."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "dda73199-4e54-40d9-87dc-d7bc3e651e14"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "321384cd-3767-4817-af7e-509e1e329f18"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil's \nthoughts:\nhow did she"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4257d46e-a637-42b1-a586-1e0181df6507"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "e2232b34-ccaa-4842-a40e-1eeb32871d72"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: I have\na magic range of\nbasically the",
+          "whole solar \nsystem the only\nrequirement is",
+          "I had to talk to\nthem in person"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "6c85301b-7a41-4dc0-ad32-90153771b7c7"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "670411ed-8fd2-44bb-8739-4bd3a8e4ced4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil's\nthoughts: fine I\nwill check"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "4b5cd694-549f-4b4a-a853-fe48df543222"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I will\nwrite down a \nrecipe can you",
+          "make it for me.\nblight messaged\nme. and I am",
+          "a little bit\nworried about it"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "9e1029dc-128b-42d1-871b-8a3b958309ad"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "f5b69d70-0c3e-4b2f-9c2c-33d163524f0c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: that will\nbe fine please\nbe careful."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "70df9c4c-5e83-431f-a875-1b1a5be0b653"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "af40d7e5-96c7-43ef-88ef-507700729936",
+        "x": {
+          "type": "number",
+          "value": 75
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "a456e663-41bd-4746-9f47-ed8203dffcf9"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "dc575e48-5143-4ab2-ae0d-9a48d30553a0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I guess\nI will call the\npolice ",
+          "department there."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "a4f9f4a7-f628-4e24-aeae-1ee08c0d5595"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "",
+        "__collapse": true
+      },
+      "id": "edc57554-a006-4941-ae0b-0b990166741e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ring...ring...ring\nring...ring...ring"
+        ],
+        "avatarId": ""
+      },
+      "id": "d6530768-fe65-4e26-a916-c519b91b828d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "hello."
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "edf4428d-9630-42eb-9e11-664f74aecfda"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "844e9f5c-0056-4086-a0f9-df0736570e10"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I know\nit sounds like\nI am being",
+          "paranoid but is\nmy father's\nremains still",
+          "there"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "5e429b6c-d6c6-4fd9-a3c6-efed990dd2dc"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": ""
+      },
+      "id": "871450fb-f6a7-4bbe-a284-a7a087ca1d05"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cop: don't know\nwhy you are \nasking this but",
+          "sure what is\nyour father's\nlast name"
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "16eac245-a9e1-450d-94da-f5a279b008fc"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "0cfe4788-ef1b-4c6b-8b33-48291468538b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:\nburnfeather"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "d8dc5c49-3863-4229-b578-77bf311ce19b"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": ""
+      },
+      "id": "b7fd9bb3-0078-42f5-abc0-6956f72c67f7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cop: allright\ngive me a minute\nwait that ",
+          "shouldn't be \nthere.get out of\nthat. AHHHHH....."
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "58fc7c56-31f9-438d-9f1c-fe832eb24ab6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "the phone just\ndied"
+        ],
+        "avatarId": ""
+      },
+      "id": "77c30f7c-ed10-470b-b3f5-dff37dfe4fea"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "a06f66d9-b891-4fae-b098-3874a4a2d75c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:well \nthat settles it\nI have to check",
+          "it out"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "09c5f7fd-2185-48dd-9daa-da8c8a0a46aa"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "af40d7e5-96c7-43ef-88ef-507700729936",
+        "x": {
+          "type": "number",
+          "value": 61
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "df48e500-85f4-45a5-9dee-c8fc317f4a68"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "af40d7e5-96c7-43ef-88ef-507700729936",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "7ab6fe09-ec3e-4e0f-ac03-18c2e9a65b9f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "b771e65d-5a15-481d-bdcb-274f817ab96e"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "8e4ea2af-e792-49fc-bd8d-fb63312cdffa"
+      },
+      "id": "f3eb48d5-ac1f-4856-8fb3-7ba323776cff"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "d4caebc5-acda-486a-aa14-730cc3875c26"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: I \nfinished the \nfoxberry potion",
+          "you asked. I do\nremember it\nnormally gives",
+          "the consumer\nhigh poison\nresistance",
+          "but is still \nnot immune to\ntoxic waste",
+          "your current\nform will be\nmerged with a",
+          "normal fox.",
+          "unlike the last\none this does\nnot directly",
+          "alter the DNA\npermanently. but\ncan increase",
+          "compatibility to\ncanine or \nvulpine monsters",
+          "the only \ndownside is you\nlose the ability",
+          "to speak but \ngain the ability\nto enter small",
+          "areas.as well as\nmove small\nblocks around."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "c342786f-cb5e-49ec-b9c4-cb74e43298cc"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "92930c7c-c53f-49f0-aa50-fc8754aebb57"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "8e4ea2af-e792-49fc-bd8d-fb63312cdffa",
+        "spriteSheetId": "197df66e-6783-461d-974d-4e7f31e9e04e"
+      },
+      "id": "a46a41ba-1841-41f2-a033-f839318fefe4"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "default-bg-4",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "de0905a3-f293-41af-8e6d-17fb9f0d03bd"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
+      },
+      "id": "43687d83-037d-44c2-b0d1-d26f29791945"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "here is a example \nof poison"
+        ],
+        "avatarId": ""
+      },
+      "id": "a8f18c92-2373-494a-aad3-ca82393f34f4"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "15",
+        "flag1": false,
+        "flag2": false,
+        "flag3": true,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "7bc2987a-3538-443f-ae67-4c79e296b545"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "14",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": true,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "a557a8c1-e324-4005-9aaa-a491fd337bf5"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+        "x": {
+          "type": "number",
+          "value": 71
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "92fbb05d-d0b9-4e03-92a0-4de302fae75b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

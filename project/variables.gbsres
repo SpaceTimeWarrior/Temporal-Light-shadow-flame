@@ -1,0 +1,380 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "available forms",
+      "symbol": "var_available_forms"
+    },
+    {
+      "id": "1",
+      "name": "form counter",
+      "symbol": "var_form_counter"
+    },
+    {
+      "id": "2",
+      "name": "max forms",
+      "symbol": "var_max_forms"
+    },
+    {
+      "id": "3",
+      "name": "initialize variable",
+      "symbol": "var_initialize_variable"
+    },
+    {
+      "id": "4",
+      "name": "temp_10s",
+      "symbol": "var_temp_10s"
+    },
+    {
+      "id": "5",
+      "name": "Temp_1s",
+      "symbol": "var_temp_1s"
+    },
+    {
+      "id": "6",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "7",
+      "name": "underwater flag",
+      "symbol": "var_underwater_flag"
+    },
+    {
+      "id": "8",
+      "name": "underwater counter",
+      "symbol": "var_underwater_counter"
+    },
+    {
+      "id": "9",
+      "name": "player x",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "10",
+      "name": "player y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "11",
+      "name": "level 1 flags",
+      "symbol": "var_level_1_flags"
+    },
+    {
+      "id": "12",
+      "name": "key flags 1",
+      "symbol": "var_key_flags_1"
+    },
+    {
+      "id": "13",
+      "name": "key counter",
+      "symbol": "var_key_counter"
+    },
+    {
+      "id": "14",
+      "name": "levels available",
+      "symbol": "var_levels_available"
+    },
+    {
+      "id": "15",
+      "name": "levels completed",
+      "symbol": "var_levels_completed"
+    },
+    {
+      "id": "16",
+      "name": "save slot",
+      "symbol": "var_save_slot"
+    },
+    {
+      "id": "17",
+      "name": "level 2 flags",
+      "symbol": "var_level_2_flags"
+    },
+    {
+      "id": "18",
+      "name": "key flags 2",
+      "symbol": "var_key_flags_2"
+    },
+    {
+      "id": "19",
+      "name": "underlava flag",
+      "symbol": "var_underlava_flag"
+    },
+    {
+      "id": "20",
+      "name": "underlava counter",
+      "symbol": "var_underlava_counter"
+    },
+    {
+      "id": "21",
+      "name": "underpoison flag",
+      "symbol": "var_underpoison_flag"
+    },
+    {
+      "id": "22",
+      "name": "underpoison counter",
+      "symbol": "var_underpoison_counter"
+    },
+    {
+      "id": "23",
+      "name": "EHP",
+      "symbol": "var_ehp"
+    },
+    {
+      "id": "24",
+      "name": "launchback cooldown",
+      "symbol": "var_launchback_cooldown"
+    },
+    {
+      "id": "25",
+      "name": "menu pos",
+      "symbol": "var_menu_pos"
+    },
+    {
+      "id": "26",
+      "name": "undertoxic flag",
+      "symbol": "var_undertoxic_flag"
+    },
+    {
+      "id": "27",
+      "name": "undertoxic counter",
+      "symbol": "var_undertoxic_counter"
+    },
+    {
+      "id": "28",
+      "name": "level 3 flags",
+      "symbol": "var_level_flags_0"
+    },
+    {
+      "id": "29",
+      "name": "key flags 3",
+      "symbol": "var_key_flags_3"
+    },
+    {
+      "id": "30",
+      "name": "follow player",
+      "symbol": "var_follow_player"
+    },
+    {
+      "id": "31",
+      "name": "boss mode",
+      "symbol": "var_boss_mode"
+    },
+    {
+      "id": "32",
+      "name": "projectile counter",
+      "symbol": "var_projectile_counter"
+    },
+    {
+      "id": "33",
+      "name": "boss start",
+      "symbol": "var_boss_start"
+    },
+    {
+      "id": "34",
+      "name": "level 4 flags",
+      "symbol": "var_level_4_flags"
+    },
+    {
+      "id": "35",
+      "name": "key flags 4",
+      "symbol": "var_key_flags_4"
+    },
+    {
+      "id": "36",
+      "name": "game_volume",
+      "symbol": "var_game_volume"
+    },
+    {
+      "id": "37",
+      "name": "music number",
+      "symbol": "var_music_number"
+    },
+    {
+      "id": "38",
+      "name": "save var",
+      "symbol": "var_save_var"
+    },
+    {
+      "id": "39",
+      "name": "game_vol2",
+      "symbol": "var_game_vol2"
+    },
+    {
+      "id": "40",
+      "name": "music_type",
+      "symbol": "var_music_type"
+    },
+    {
+      "id": "41",
+      "name": "text_speed",
+      "symbol": "var_text_speed"
+    },
+    {
+      "id": "42",
+      "name": "level var",
+      "symbol": "var_level_var"
+    },
+    {
+      "id": "43",
+      "name": "cc_flag",
+      "symbol": "var_cc_flag"
+    },
+    {
+      "id": "44",
+      "name": "cc_counter",
+      "symbol": "var_cc_counter"
+    },
+    {
+      "id": "45",
+      "name": "cc_damage_cooldown",
+      "symbol": "var_cc_damage_cooldown"
+    },
+    {
+      "id": "46",
+      "name": "special_unlock",
+      "symbol": "var_special_unlock"
+    },
+    {
+      "id": "47",
+      "name": "cc_flame",
+      "symbol": "var_cc_flame"
+    },
+    {
+      "id": "48",
+      "name": "level sp1-key flag",
+      "symbol": "var_level_sp1_key_flag"
+    },
+    {
+      "id": "49",
+      "name": "room id",
+      "symbol": "var_room_id"
+    },
+    {
+      "id": "884bac5c-1840-41a9-9756-32579bd614e4__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "c9af391d-3766-41b3-b6c1-a745ef0c7797__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "d6af444a-af1c-463a-8223-5488c14a904d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "24834f69-a8d4-48b9-b904-d2fd8f763dbb__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "aaadaf22-1a29-44ca-b3ca-3e026b1a66ff__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "38e9ac60-86a0-4861-8cb8-3ec3d19a26b2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "958daf0a-016f-41b3-bb0d-7a6c9cedeb72__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "f6fc3ed4-2d27-46d2-9cc9-348f2567e5ac__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "7b5f1980-dd1e-4cf0-9ece-83bbddac0cce__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "fe63381b-51fb-4871-9abe-5cad159fe9d2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "b59548d2-0b13-43e9-b6c0-019f18b29150__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    },
+    {
+      "id": "6c4fc252-77b4-42dd-a1be-23b42718470c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "e8507366-edcb-4e26-95ee-03f00be809fe__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "0b5e44dd-cd6d-41b1-9949-2d4ac74808ba__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "32d86232-7929-426e-b4c0-db8a1831ab4f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "0d724a22-5954-462d-b809-87070cc701d2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "32b38195-88e8-4ae1-9ffa-1f1ddf78aacf__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "e02d29f8-80f6-46e2-9838-cb2eb03508cd__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
+    },
+    {
+      "id": "cf581540-7fd1-44bf-a7ea-4ad92921d98d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
+    },
+    {
+      "id": "ac4c25f2-a282-4d09-bcae-93bcdea27d52__L0",
+      "name": "pl",
+      "symbol": "var_pl"
+    },
+    {
+      "id": "adb765de-8112-4a94-bfff-70aa9c144c11__L0",
+      "name": "Local 0",
+      "symbol": "var_local_19"
+    },
+    {
+      "id": "e490af5b-4b59-4cc7-8ec6-b51ea1ca2513__L0",
+      "name": "Local 0",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "a96864a1-de9c-4476-a317-db229bdb223e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "d9d929db-8e11-4c7b-914e-4e5ad56d0018__L0",
+      "name": "Local 0",
+      "symbol": "var_local_22"
+    },
+    {
+      "id": "02e02534-d38a-4bf5-aaff-87f115f6e7b8__L0",
+      "name": "Local 0",
+      "symbol": "var_local_23"
+    }
+  ]
+}

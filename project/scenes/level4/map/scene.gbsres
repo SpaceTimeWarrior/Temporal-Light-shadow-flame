@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "b2922963-71d0-4c14-84f3-6cc05c112864",
+  "_index": 63,
+  "type": "TOPDOWN",
+  "name": "Level4/map",
+  "symbol": "scene_64",
+  "x": 2264,
+  "y": 8448,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "67fcc154-ce71-4ee1-951f-901441b4e05c",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "cca40891-3caa-4991-a39d-e03210af0790"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "466fab73-804f-4d46-bcfe-bf0d0e3ba70e"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "286b5887-127c-4f91-884e-2a1a31a1e304"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

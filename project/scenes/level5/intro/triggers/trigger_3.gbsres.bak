@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "93a73b84-8256-493e-929e-8f966bcb3bb2",
+  "_index": 2,
+  "symbol": "trigger_247",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 12,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "3b12e07d-9c4d-4568-ab96-ee927b03ab58"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight:STOP!!"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "80524ef5-8385-42c3-b8a5-369a701a12e1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        }
+      },
+      "id": "4eb427a5-c874-4c92-8761-5f7a2878ee92"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "34099898-b462-4074-9bc3-33ea6a2f02a2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: I don't \nwant you to go.\nthat isn't safe."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "4c6ee8b8-4620-48e9-a673-472bea7a07d3"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "6af8f3ea-3cda-4843-a139-bdadb3887912"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I have \ndone several \ndangerous things\nin the past."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "8e6d1cd0-3d38-4e7b-9a81-c85535d58086"
+    }
+  ],
+  "leaveScript": []
+}

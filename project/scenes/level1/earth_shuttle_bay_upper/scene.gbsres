@@ -1,0 +1,112 @@
+{
+  "_resourceType": "scene",
+  "id": "09462e76-23c9-474b-91dd-36f9dfa38335",
+  "_index": 10,
+  "type": "PLATFORM",
+  "name": "Level1/Earth shuttle bay upper",
+  "symbol": "scene_11",
+  "x": 344,
+  "y": 992,
+  "width": 100,
+  "height": 102,
+  "backgroundId": "7eaae153-8826-407d-b441-30cc0a746235",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
+      },
+      "id": "5a85dfc4-6fcb-4ce1-87cc-5397548a9852"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "575a01a7-7e58-4136-9ee7-e445007e99f2"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 100"
+            },
+            "id": "a984d41e-f6e5-47c2-bde3-0b2c86097d20"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "0768d8cc-a542-4699-81c0-4516e2e35461"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 100
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "da787efb-4f1f-4ffc-82ce-2847d368aee1"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 100
+                    }
+                  },
+                  "id": "07b176fe-b29f-4b17-b94f-addfcea210a5"
+                }
+              ]
+            },
+            "id": "4314138f-5b31-419d-9ff1-113bef2fdd96"
+          }
+        ]
+      },
+      "id": "70f3b299-35c8-4b7c-bff8-be9f49e3acb8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!006+0f!005c+0f!007+0f6+0050+0f6+008+0f6+0050+0f6+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+008+0f4+0054+0f4+007+0f5+0054+0f4+006+0f4+4f!6f!0054+7f!5f!0f3+003+0f4+4f!6f!0f58+7f!5f!0f6+4f!60!0f5c+7f!5f!0f66+"
+}

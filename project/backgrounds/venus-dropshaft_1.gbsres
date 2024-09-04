@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "009f46fa-e022-4dae-ab07-d8cb82da3910",
+  "name": "venus-dropshaft 1",
+  "symbol": "bg_venus_dropshaft_1",
+  "width": 20,
+  "height": 120,
+  "imageWidth": 160,
+  "imageHeight": 960,
+  "filename": "venus-dropshaft 1.png",
+  "tileColors": "00938+066+002+0612+002+06c+",
+  "autoColor": false
+}

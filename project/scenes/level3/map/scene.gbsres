@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "2eb09105-df3e-493f-a490-9e895855c344",
+  "_index": 62,
+  "type": "POINTNCLICK",
+  "name": "Level3/map",
+  "symbol": "scene_63",
+  "x": 2024,
+  "y": 5744,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a01ff63c-c51c-42d0-bd78-60573fd665cc",
+  "tilesetId": "",
+  "paletteIds": [
+    "52872e74-e336-4d18-a32a-d8f1ab302472",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "0e80b468-af0f-4179-80f6-54c1ccccfba0",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "23c3edb0-3c0c-4cea-94e9-2f72964f7da7"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "b111e35a-7300-445c-b5ad-a3027879ebb5"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "d121e124-1da4-4f0b-bc5e-a1eddd4b5b43"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

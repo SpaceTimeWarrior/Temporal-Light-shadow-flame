@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "6182ef5b-330f-48ce-bb27-e95ce09bb795",
+  "name": "toggle underlava",
+  "symbol": "script_10",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "bad5d9ba-9f9c-4cd5-b4b2-071db7aa7463"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "fe5a5f91-3661-4fe2-8d4d-aa4f97f57c40"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "f519f445-ddad-430a-9885-07d2c1a81524"
+          }
+        ]
+      },
+      "id": "ad38196f-e449-49ad-82e7-6f8536c3cd6b"
+    }
+  ]
+}

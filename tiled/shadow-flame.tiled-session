@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "cc_computer.tmx",
+    "activeFile": "cc_outro.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -100,18 +100,34 @@
         },
         "cc_computer.tmx": {
             "scale": 5.686805555555555,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 68.4039565270485,
-                "y": 70.4261814629381
+                "x": 84.75760166076446,
+                "y": 66.20588594455978
+            }
+        },
+        "cc_final_trial.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 981.5,
+                "y": 127.75
+            }
+        },
+        "cc_flamethrowers.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 72.25
             }
         },
         "cc_hammers.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 987.25,
-                "y": 93.125
+                "x": 480,
+                "y": 72.125
             }
         },
         "cc_intro_cutscene.tmx": {
@@ -120,6 +136,14 @@
             "viewCenter": {
                 "x": 79.83392355598976,
                 "y": 72.00879228232998
+            }
+        },
+        "cc_outro.tmx": {
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 383.66666666666663,
+                "y": 116.83333333333334
             }
         },
         "cc_title_frame.tmx": {
@@ -272,7 +296,7 @@
             "scaleInEditor": 1
         },
         "tilesets/kenny modified/full image.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/Diamond dust ship side view.tsx": {
@@ -286,7 +310,7 @@
         },
         "tilesets/temporal light/temporal_light_tileset.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 2,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1
         },
         "venus-ac ventilation.tmx": {
@@ -376,7 +400,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 10,
+    "map.width": 30,
     "openFiles": [
         "tilesets/kenny modified/full image.tsx",
         "tilesets/temporal light/temporal_light_tileset.tsx",
@@ -421,7 +445,10 @@
         "cc_title_frame.tmx",
         "cc_intro_cutscene.tmx",
         "cc_hammers.tmx",
-        "cc_computer.tmx"
+        "cc_computer.tmx",
+        "cc_flamethrowers.tmx",
+        "cc_final_trial.tmx",
+        "cc_outro.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

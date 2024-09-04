@@ -1,0 +1,139 @@
+{
+  "_resourceType": "scene",
+  "id": "6eb8e646-8b62-49e8-b418-2928f01c9c1d",
+  "_index": 24,
+  "type": "PLATFORM",
+  "name": "Level2/serenity waterfront",
+  "symbol": "scene_25",
+  "x": 3352,
+  "y": 3840,
+  "width": 120,
+  "height": 80,
+  "backgroundId": "c47568c0-c7d5-4b2d-b8f4-d9060f92ecbb",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "b07e49af-d718-441a-a346-94ef059d2235"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "c05a784a-9281-4624-bc5a-5ed66cfc5b8f"
+          }
+        ]
+      },
+      "id": "faaff7b0-7a63-4c29-8949-c0ea19778d32"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "29f6ead7-a653-4c16-bcaa-ba9451b9c57c"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 78"
+            },
+            "id": "796827ff-85fa-45df-992f-804e9eea8bb9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "bdb6dd4d-2e84-4db6-b5b9-82b3999da82f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 78
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "02e2b582-44b6-47ce-87f9-73b6e29708a3"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 78
+                    }
+                  },
+                  "id": "bab33755-5a6a-414c-9938-71c94615d025"
+                }
+              ]
+            },
+            "id": "2cbb929e-4070-4ca2-82f0-17e11ba278bc"
+          }
+        ]
+      },
+      "id": "3ca39835-0623-4833-933a-f2cbd9743b85"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0034+0fa+0014+0f6+00e+0f6+008+0f2+0036+0fa+0014+0f6+00e+0f6+008+0f2+0036+0f6+0018+0f6+00e+0f6+008+0f2+0036+0f6+0018+0f6+00e+0f6+008+0f2+0036+0f6+0016+0f8+00e+0f6+008+0f2+0036+0f6+0016+0f8+00e+0f6+008+0f2+0036+0f6+0018+0f6+00a+0fa+008+0f2+0036+0f6+0018+0f6+00a+0fa+008+0f2+0036+0fa+0014+0f8+00c+0f6+008+0f2+0036+0fa+0014+0f8+00c+0f6+008+0f2+0036+0f6+0018+0f6+00e+0f6+008+0f2+0036+0f6+0018+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0050+0fa+00e+0fa+004+0f2+0050+0fa+00e+0fa+004+0f2+0030+0f6+001e+0f6+00e+0f6+008+0f2+0030+0f6+001e+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0019+014+0037+0f6+00e+0f6+008+0f2+0054+0f6+00e+0f6+008+0f2+0068+0f6+008+0f2+0068+0f6+008+0f2+0068+0f6+008+0f4+0066+0f6+008+0f4+003a+0f6+0026+0f6+0046+0f6+0026+0f6+0019+014+001c+013+001d0+012+003+014+00c7+0f2+70!50!0074+0f4+70!50!0076+0f2+70!50!0016+012+0032+0fa+0022+0f2+70!50!0048+0fa+0024+0f2+70!50!0010+012+0064+0f2+70!50!0076+0f2+70!50!0064+0f4+00e+0f2+70!50!0062+0f4+0010+0f2+70!50!0020+0f6+002c+0f6+008+0f2+0014+0f2+70!50!001e+0f6+002c+0f6+008+0f2+0016+0fe+70!50!0050+0f2+0018+0fe+70!50!004e+0f2+0026+0f2+70!50!004c+0f2+0028+0f2+70!50!004a+0f2+002a+0f2+70!50!0048+0f2+002c+0f2+70!50!0046+0f2+002e+0f2+70!50!0044+0f4+002e+0f2+70!50!0042+0f4+0030+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0fe+70!50!006a+0fe+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f2+70!50!0076+0f10+006a+0fe+00f0+"
+}

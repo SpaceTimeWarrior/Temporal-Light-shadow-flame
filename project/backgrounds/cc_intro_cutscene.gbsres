@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d1f116c7-1753-4ee7-840a-5009aa1046d8",
+  "name": "cc_intro_cutscene",
+  "symbol": "bg_cc_intro_cutscene",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cc_intro_cutscene.png",
+  "tileColors": "0078+802+0012+802+00b2+0328+",
+  "autoColor": false
+}

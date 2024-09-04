@@ -1,0 +1,134 @@
+{
+  "_resourceType": "scene",
+  "id": "2110622b-bc82-47a6-887a-7824a14ce3ec",
+  "_index": 22,
+  "type": "PLATFORM",
+  "name": "Level2/sewer",
+  "symbol": "scene_23",
+  "x": 1728,
+  "y": 4192,
+  "width": 120,
+  "height": 40,
+  "backgroundId": "b985a26e-8668-4dc0-8f61-8b211c407d9e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "40eaeae9-5f3c-45ae-86a6-29d762323729"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+            },
+            "id": "8aa24e33-956b-4775-86ad-9182beace3fb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "1f1d5441-3d42-4742-9c05-7049ec52dcb9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "4162655a-94c4-4224-b422-780ee06f0d95"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "11ba139c-6ac8-47b2-a8a2-803b99163925"
+                }
+              ]
+            },
+            "id": "7725350a-a6c7-4e31-ba9b-726ceb79d834"
+          },
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "17",
+              "flag": 15,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Peryil:if I \nremember \ncorrectly ",
+                      "the serenity >\nislands in the\nsea of serenity",
+                      "are a known \nbreeding ground\nfor water ",
+                      "dragons I just \ngot to get close\nbut just in case",
+                      "I know a good \nfireball spell\n",
+                      "(# button \nx if browser)"
+                    ],
+                    "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+                  },
+                  "id": "32abbb82-fe57-4d95-8008-638284fd19e2"
+                }
+              ]
+            },
+            "id": "d02e005f-fd0a-468a-9163-cb55da96b1eb"
+          }
+        ]
+      },
+      "id": "581d85a6-5191-4dbb-bd50-4c0fe025c87c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "007+0f!006+0f!0070+0f!006+0f!0070+0f!006+0f!0070+0f!006+0f!0070+0f!006+0f!0070+0f!006+0f5f+0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f5f+006+0f!0012+0f5f+006+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!0064+0f!0012+0f!006+0f5f+0012+0f!006+0f53+001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f!0058+0f!001e+0f5a+0035f+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b1c7eb8f-92ac-4ee3-bfd0-40995b207211",
+  "name": "luna-serenity forest",
+  "symbol": "bg_luna_serenity_forest",
+  "width": 120,
+  "height": 40,
+  "imageWidth": 960,
+  "imageHeight": 320,
+  "filename": "luna-serenity forest.png",
+  "tileColors": "03f20+054+0374+054+0374+054+0338+054+034+058+032c+054+0338+054+034+058+032c+054+0312+054+0322+054+034+052+034+052+032c+054+0312+054+0322+054+034+052+034+052+03c+066+032+0676+032+0670+",
+  "autoColor": false
+}

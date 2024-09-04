@@ -1,0 +1,179 @@
+{
+  "_resourceType": "scene",
+  "id": "7ea2bf0d-8bc8-453b-8474-a8a8a312a013",
+  "_index": 19,
+  "type": "TOPDOWN",
+  "name": "Level2/Level 2 intro",
+  "symbol": "scene_20",
+  "x": 1440,
+  "y": 3160,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "42",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "32482a3f-f3c9-48fb-bafc-6c51d2690df8"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "f776fb96-bb71-4547-8373-8e98f10910b2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "39481dca-25b7-4928-9b41-dd95bc5ee6fa"
+          }
+        ]
+      },
+      "id": "28e85165-0736-4b22-bad7-ceb2e5335bcc"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "2b5404f8-e011-4b29-bd84-87128499ac12"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I am \ngoing to prepare\nwhat I can as I",
+          "have a strange\nfeeling I may \nneed it."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "b83e81a2-881b-4897-9794-7fb6b0583426"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "5 hours passed"
+        ],
+        "avatarId": ""
+      },
+      "id": "929b03d7-ee93-4e58-b2cc-0952c3795a6c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:all right\nnow to go to the\nsea of serenity."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "a1d41344-62a7-40e0-bfe7-9ba93ec12bac"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "number",
+          "value": 224
+        }
+      },
+      "id": "0f4cf5af-d387-413a-bf83-27aa52f1a870"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "number",
+          "value": 64
+        }
+      },
+      "id": "1c65acaa-324b-4928-b1eb-cb34b1b7c933"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "17",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": true,
+        "flag15": true,
+        "flag16": true
+      },
+      "id": "f9856882-b276-4bb7-8627-e08b768ec899"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 20
+        }
+      },
+      "id": "f20bc07f-1a4f-4ef5-b242-6f63c272d502"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 38
+        },
+        "y": {
+          "type": "number",
+          "value": 78
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "dc031d4f-fcce-4e9c-af22-6f3df6cce3ab"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

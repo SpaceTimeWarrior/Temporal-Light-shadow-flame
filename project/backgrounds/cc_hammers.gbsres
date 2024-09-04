@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fd1cf1c3-635f-4562-82e0-99cb26061b91",
+  "name": "cc_hammers",
+  "symbol": "bg_cc_hammers",
+  "width": 120,
+  "height": 18,
+  "imageWidth": 960,
+  "imageHeight": 144,
+  "filename": "cc_hammers.png",
+  "tileColors": "002+804+0074+804+0074+804+0074+804+00612+03f0+",
+  "autoColor": false
+}

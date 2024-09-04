@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "339acb75-6b63-4c8e-9895-33f0020af41b",
+  "name": "venus-evidence room",
+  "symbol": "bg_venus_evidence_room",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "venus-evidence room.png",
+  "tileColors": "005f0+066+002+066+006+061a+002+066+006+0614+",
+  "autoColor": false
+}

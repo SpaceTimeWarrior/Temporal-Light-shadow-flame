@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "81fb609e-5dbf-4f77-a1e4-38ceca811c2d",
+  "_index": 78,
+  "type": "TOPDOWN",
+  "name": "levelS1/outro_final",
+  "symbol": "scene_79",
+  "x": 11008,
+  "y": 6328,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "94436338-8a0f-412d-a0f2-0ece99550316",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "18f3a826-72d5-4676-91d4-aaafd0b91dd0"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "bdc93bed-d552-4dc9-8b32-43087d620c0d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "flare ended up \npaying nearly 7 \ntrillion nule the \nnext day. and ",
+          "crystal was given \na cookie on the \ncondition that she\ndoes not destroy",
+          "another factory.\nThe daycare robot\nwas not penalized\nas it put a ",
+          "incident report \nimmediately after \nc14y and crystal ",
+          "left and got it’s \nhand replaced."
+        ],
+        "avatarId": ""
+      },
+      "id": "9b24d926-3acc-42cf-870c-64619f9451b7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+        "x": {
+          "type": "number",
+          "value": 71
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "f0bc44a8-80ec-4879-8199-9aaacf59e526"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

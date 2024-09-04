@@ -1,0 +1,354 @@
+{
+  "_resourceType": "scene",
+  "id": "e5788098-77c3-4a68-ade6-f19b4e935f1e",
+  "_index": 17,
+  "type": "TOPDOWN",
+  "name": "Level1/level 1 intro",
+  "symbol": "scene_18",
+  "x": 1264,
+  "y": 1600,
+  "width": 40,
+  "height": 18,
+  "backgroundId": "bd6d4943-0cf7-48d2-b39b-4d56d051fc5b",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 14
+        }
+      },
+      "id": "b051bedb-f2d5-4517-bd55-1f9b8dd15429"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "37"
+        }
+      },
+      "id": "7125e6c2-ef51-44c5-974c-5d539dec3d10"
+    },
+    {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "11",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": true,
+        "flag15": true,
+        "flag16": true,
+        "__collapse": true
+      },
+      "id": "7b9aca6c-0550-46ba-a872-d05d692e605e"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-5"
+      },
+      "id": "3764bb32-2d5b-4c98-b547-71da1d056542"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "226614c2-0125-485c-8dfe-0205e2dff671"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "luna(Earth's moon)\n 6518AD\nperyil's house"
+        ],
+        "avatarId": "",
+        "__collapse": false,
+        "__section": "behavior",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key"
+      },
+      "id": "e6746d7d-1632-41a4-9fd9-26cd654f8a56"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "6c89eb97-59bd-44d8-9634-cdefdce81b95"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.02,
+        "effect": 0
+      },
+      "id": "9f3a8d60-f9a9-4d76-97d7-f2b12ced7c3d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I just \ngot done with\ntuning the ",
+          "engine to my \nstarship Diamond\ndust. maybe I",
+          "should watch tv"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "__collapse": false
+      },
+      "id": "db803933-9287-40b3-ab48-0d45b114916f"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "bf571951-9087-4136-96b4-d9a99061cdac"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "653bdc3a-58a5-4fb4-a8c9-3c5ada06e69c"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "f07dc4c0-1793-42c8-86dd-dcb7d6ae6caf"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "c6159f3e-76b8-4b33-a62e-e7a69ffdaaa0"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c2113c5f-9d11-4693-b7ae-062487bfdfe8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "cat:this is cat \nfireknuckle and \nI am here to",
+          "present breaking\nnews. solar \ncouncil member",
+          "cedric\nburnfeather has\nbeen found dead",
+          "after a series\nof explosions in\nhis house at ",
+          "burnclaw forest.\nand now for the\nwea-"
+        ],
+        "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323"
+      },
+      "id": "4ffa86f8-e8f2-4d45-8f2e-c484e6c0d8d7"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "151cb9e8-23fe-41ad-9ca8-7861fe65fc11"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "e0808120-b7e4-40f2-bb51-a28612c2903f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil shut off \nthe tv"
+        ],
+        "avatarId": "",
+        "__section": "behavior",
+        "speedIn": 0,
+        "speedOut": 0
+      },
+      "id": "d9ef07f0-ae40-4036-b2f6-553a84c743f4"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "2c60001b-acb5-4c23-b015-cbf9cb6910b3"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "f8d3df62-8b5e-4389-8db6-b5aeb70f309b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "0c75857f-98a8-4ae9-b1ce-95370b54079c"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c779948a-98be-4510-a3de-34b3c3e2ffa2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I got to\ncheck up on this\nto see if this",
+          "is real. I just \ngot to set the\ncoordinates to",
+          "Earth...looks\nlike the closest\nlanding place",
+          "is distortion \nmountain."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "__section": "behavior",
+        "speedIn": -1,
+        "speedOut": -1
+      },
+      "id": "3538105e-a8b4-41fe-bc47-b3ea5adaa2e9"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 0,
+        "axis": [
+          "x",
+          "y"
+        ]
+      },
+      "id": "9073faa9-af8e-4367-93ec-71a95f88d7a2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 20
+        }
+      },
+      "id": "0bb945b8-ae2f-4075-a7fc-a5f9f2d5f4f9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a96864a1-de9c-4476-a317-db229bdb223e",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 36
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "60145002-5e5f-4294-a11a-ee69050b6fb0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "002d0+"
+}

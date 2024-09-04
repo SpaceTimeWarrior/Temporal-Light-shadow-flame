@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ef89a989-a171-4a5d-bcb2-da8442a6762c",
+  "name": "game menuCC",
+  "symbol": "bg_game_menu_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game menuCC.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3225778c-30b8-4221-9ebe-4262feff9e67",
+  "name": "mercury-projectile platform",
+  "symbol": "bg_mercury_projectile_platf",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "mercury-projectile platform.png",
+  "tileColors": "031f+062+0376+062+03151b+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033a+043e+033b+043c+033d+043a+033f+0438+03799+066+002+0676+002+0670+",
+  "autoColor": false
+}

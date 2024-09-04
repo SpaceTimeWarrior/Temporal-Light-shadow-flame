@@ -1,0 +1,37 @@
+{
+  "_resourceType": "scene",
+  "id": "690623e9-f4b9-48ac-af0d-42e694aa1a01",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "title/load game",
+  "symbol": "scene_5",
+  "x": 726,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a24344aa-8b97-439e-9c0d-a71400963f8d",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "514e2b52-1015-47e7-98ab-d3ab2658b77e"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2189ed9d-6301-464e-bf80-18061ad25cb9"
+      },
+      "id": "38b7646d-932e-451b-bb37-509649c26e5f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

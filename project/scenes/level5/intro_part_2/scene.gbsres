@@ -1,0 +1,185 @@
+{
+  "_resourceType": "scene",
+  "id": "e2e70baf-da61-421f-92c6-8a4e1f7086d2",
+  "_index": 79,
+  "type": "TOPDOWN",
+  "name": "Level5/intro part 2",
+  "symbol": "scene_80",
+  "x": 1096,
+  "y": 11712,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
+      },
+      "id": "52894d69-0bcb-4813-b4e8-6d3029f9b69b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "a few minutes \nlater in space"
+        ],
+        "avatarId": ""
+      },
+      "id": "03a30da1-9adf-4691-a80b-d2d99cd120b6"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "5dd741d3-a362-4a49-9882-1f7db4929326"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: please \nstop."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "703a408e-60fe-4839-88aa-49328c16b256"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "82b41968-0017-4fc8-b9ef-a99655671370"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: why \nshould I is \nthere something \nyou are hiding?"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "7d9d2fc7-e176-468c-943a-c8017c5e42b9"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "a79414f5-a121-4fd3-b69c-6251c61cc878"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: to be \nhonest I never \nbeat the current\nruler in mind \nmagic"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "65d67488-b123-4016-b7c5-6b01a4ad2967"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "6c2c3be0-5966-46cc-90b4-8b07b2c361d1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I doubt \nthat but \ncontinue"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "0483d274-68b7-42cc-aa6c-570ef97a237e"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "674666b4-797c-49e4-ab34-ac0f12c887de"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: mind \nmagic isn't like\nmost. this form \nof magic once ",
+          "you get up to a \ncertain level of\nexpertise and \npower. ",
+          "the total magic \npower becomes a \nnon-element in ",
+          "magic battles of\nthat element"
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "04552ffa-4d41-48bf-903f-8e3e659b1711"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "f141d1ef-1cac-41af-8156-d39e346d08de"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:ok.but I \nam not planning \non fighting her"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "eeca24c9-fad7-4701-ba3a-96ce2d5b3294"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4",
+        "__collapse": false
+      },
+      "id": "190a3aec-b973-48e7-acfd-c473e05d0364"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: I have \nlost quite a few\npeople, with \nsuspiciously the",
+          "same sentiment. \nthe other thing \nthat scares me a\nbit is after ",
+          "those people \ndisappeared I \nwas able to \nsense them but ",
+          "when I tried \ncontacting them \ntheir responses \nwhere almost ",
+          "robotic like as \nif they where \nlobotomized."
+        ],
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+      },
+      "id": "2dd1e0b7-aa7a-45cc-af04-c96013fa4dea"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "eca0198d-7417-4d7c-ae90-8fa56e0bea64"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: they \nProbably where \nweak",
+          "and I still\nthink you are \nlying to me"
+        ],
+        "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
+      },
+      "id": "e146baa0-c4fd-4d92-ab7d-85685ba0dd7c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

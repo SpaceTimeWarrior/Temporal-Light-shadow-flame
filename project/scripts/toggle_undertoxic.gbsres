@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "a3b909ab-ace9-4320-b679-be5ae77162a1",
+  "name": "toggle undertoxic",
+  "symbol": "script_14",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "26"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "26",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e3a4bfee-8fa9-485d-8192-fcaa9aa3b38a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "80b01512-866b-481a-87db-f0b2fd7a3fd3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "26",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "68e3d862-ea5c-4982-af1d-5d2f458b0bcc"
+          }
+        ]
+      },
+      "id": "8206776a-db70-442c-9e0c-667cc4df1a7d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "6648feac-49ad-479a-bee7-0721bc7b6595",
+  "name": "Hud-UI",
+  "symbol": "tileset_hud_ui",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Hud-UI.png"
+}

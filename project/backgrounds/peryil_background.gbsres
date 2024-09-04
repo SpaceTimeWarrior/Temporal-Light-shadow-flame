@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "97fc6c6e-76de-41f4-bc23-8571648ab85f",
+  "name": "peryil_background",
+  "symbol": "bg_jems_background",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "peryil_background.png",
+  "tileColors": "056+00e+056+00e+052+01!02!052+00e+052+012+052+00e+052+042+052+00e+052+042+052+00fe+",
+  "autoColor": false
+}

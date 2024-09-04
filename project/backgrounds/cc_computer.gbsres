@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e845a755-ea44-4f98-b42c-56b019669aa8",
+  "name": "cc_computer",
+  "symbol": "bg_cc_computer",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cc_computer.png",
+  "tileColors": "00140+0328+",
+  "autoColor": false
+}

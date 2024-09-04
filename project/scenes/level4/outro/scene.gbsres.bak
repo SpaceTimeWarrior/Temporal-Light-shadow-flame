@@ -1,0 +1,229 @@
+{
+  "_resourceType": "scene",
+  "id": "ad108052-085f-469e-a511-0fed5513ed16",
+  "_index": 52,
+  "type": "TOPDOWN",
+  "name": "Level4/outro",
+  "symbol": "scene_53",
+  "x": 2824,
+  "y": 10048,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 14
+              }
+            },
+            "id": "bfd9351f-e69c-42e7-a334-c595bace5d35"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "05fbb027-4b9c-47c2-95d8-47fca30c72c4"
+          }
+        ]
+      },
+      "id": "cf859bb4-bee4-4560-98e3-315f42260d61"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Peryil spent two\nhours and found \nthe file she",
+          "copied the \ncontents into her\nnotebook. then",
+          "downloaded the \ndigital versions\njust in case"
+        ],
+        "avatarId": ""
+      },
+      "id": "e7d10682-8e20-4aca-a838-9d44428e2c65"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: why did \nyou copy the\ndigital version",
+          "of the file you\nknow it is \nillegal."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "27da731f-70fb-46ba-a241-cdc593a48fe1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I need\nevery lead I can\nand you know",
+          "most serial \nkillers don't\njust kill one",
+          "person and \ncompletely \nchange their",
+          "procedure all \nthat much. I am\nlooking for",
+          "a pattern."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "e9666d08-b9dd-41ff-8d11-b3bdf386533a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: what was\nin the file. If\nI go to jail I ",
+          "might as well \nknow what is in\nit."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "b46175d7-757b-4952-91ab-88bb90c4210c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:allright\n........."
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "292c98fc-3c33-4ea6-8355-4a29182fa9f5"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "abb1fa3c-d5cc-468e-b763-cd5db9bbd256"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "d0fb81b3-d361-4f49-b41e-3ead9c1f8c00"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "945a5f33-4593-4194-b874-b73bdfb28c24"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: did you\nfind something"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "d7c3f033-edec-4bdb-bca9-7ef3b830b2df"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: yes. I \nknow where the\nnext location is",
+          "going to be. it\nis the remnants\nof wolf city"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "10caa2bd-c6ce-4472-91c5-e6ad9fdc9801"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "15",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": true,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "3662676e-d43e-421f-a150-b585bbf4103a"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "14",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": true,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "af7e3faa-1075-4aba-b5fb-349c73d48095"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+        "x": {
+          "type": "number",
+          "value": 71
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9c662436-a8a7-4718-9cf8-3855b097cf88"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

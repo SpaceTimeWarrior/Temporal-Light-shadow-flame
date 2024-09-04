@@ -1,0 +1,1000 @@
+{
+  "_resourceType": "script",
+  "id": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+  "name": "add form",
+  "symbol": "script_3",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 16,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 0,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "96dbef84-dbb3-4e06-b794-450ec90db4cf"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": true,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "15f72bc4-cccd-4f97-8d78-7b10f274a69e"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "73e5c50a-6faf-419b-87ba-72d672dfd385"
+                }
+              ]
+            },
+            "id": "a316f9f2-5a8b-435f-a1c2-15ece225f582"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 1,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "dea69a00-1faa-49f1-9f45-22d7e277cb35"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": true,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "337fe998-1a31-4f4b-b16a-cf02ebce2b13"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "5110e8eb-66b9-4cec-98da-87388eb7937e"
+                }
+              ]
+            },
+            "id": "a9283ca4-88ef-4c41-94a7-d5271be08484"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 2,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "872ff167-7d91-4ecb-a287-11ba51e2ea3b"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": true,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "09bada5d-fc1d-4a49-ab62-1e3217c776ea"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "a09cb5f3-2933-49f6-a2dc-521ab3f38584"
+                }
+              ]
+            },
+            "id": "6b7887de-1da4-4c93-9053-3da01f8ee5b3"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 3,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "9bbfcdff-a491-4285-b41d-ebfaba3f6276"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": true,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "2685fd11-953b-4f69-9b6f-487a1a65006a"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "40803c77-2f84-44dd-9424-909054acb8a3"
+                }
+              ]
+            },
+            "id": "2c95c715-b066-40e0-9ba4-0fd994acaff5"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 4,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "3e5dc818-1e13-4c65-b6f5-6d9f71171fe0"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": true,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "234f38be-5406-415a-95e9-46f371949f96"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "e156bb21-98c6-49ef-80a7-32af647b0b8a"
+                }
+              ]
+            },
+            "id": "dbfa907a-ce29-46e0-bdd1-775ea65fc1fd"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 5,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "e87aa45e-2553-4b8c-b1f2-ef7f95fe716b"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": true,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "be061df6-bc9b-4a19-afcb-e79c9dd2ba62"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "2ca6d389-888c-436c-a202-74656516a09a"
+                }
+              ]
+            },
+            "id": "98202729-0b24-4a63-b01a-38f17b58d00b"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 6,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "02a98ebe-f19c-4245-b25e-292da1170a27"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": true,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "d7771ca3-5be0-41e5-b307-f74acc7df742"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "4a9dd325-79ec-4314-be1a-a35b770242eb"
+                }
+              ]
+            },
+            "id": "e481a987-ef75-4a32-b8d6-8b91db1d7f47"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 7,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "bd4ba952-f8e8-4c21-96b9-3f4407b7c8fb"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": true,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "08516917-164f-4113-bf07-cf7bcd2253ae"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "e2bbdc57-0d1e-4658-8411-1df870f6be2b"
+                }
+              ]
+            },
+            "id": "0f5d02d9-1175-4843-b37b-d90ed7b3a051"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 8,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "2aeefd49-d953-4c17-8af2-23138250c565"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": true,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "e2e88dc7-b350-4cc2-b690-67a4496f0a49"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "5619e118-e462-4b8b-b9d5-05aab3f9d6e1"
+                }
+              ]
+            },
+            "id": "fd05ed0d-f162-4169-a61e-7c0b7cbe41e8"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 9,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "6c73c1ab-8ad7-47bd-8706-522290d1b0c2"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": true,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "49b5896d-b866-47d0-83f3-a8923687b768"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "de9db726-7d73-435a-85f1-50013a117fbf"
+                }
+              ]
+            },
+            "id": "3a7a7bbd-2112-4a84-9983-1a01c5ebd971"
+          }
+        ],
+        "true10": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 10,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "e5bcf381-81c3-407c-b0ae-89825cac23b8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": true,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "ba1ad159-006d-487c-9844-a88de4168c03"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "06de2907-0845-4e1c-8367-a946ee0fdc50"
+                }
+              ]
+            },
+            "id": "5bc1d743-c043-4920-b9cf-a87ff5b5b958"
+          }
+        ],
+        "true11": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 11,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "16ba4815-a977-4360-a451-ca846edcb8e9"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": true,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "473d4507-09a2-416e-a457-82ca581e45ad"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "907cea48-c294-43f0-bdec-8b893daa96a1"
+                }
+              ]
+            },
+            "id": "8a95aafb-9eca-48a0-9490-b1bed3317180"
+          }
+        ],
+        "true12": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 12,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "d719b87c-276c-4279-9c00-af15b491ef3e"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": true,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "da38170c-7850-4b36-b47b-0c798c7cfd99"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "b2756e2d-2d33-43bc-b087-55790a1c4d7a"
+                }
+              ]
+            },
+            "id": "8820936a-4964-4f54-ae0b-ddca3c2dbc37"
+          }
+        ],
+        "true13": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 13,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "a1a2f9b6-b8d3-449f-82a6-9dc41b5d4c89"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": true,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "a127edb5-7222-466a-b3e6-693195862cf7"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "c4fe302a-8444-470f-977c-b4e1376d0303"
+                }
+              ]
+            },
+            "id": "0cc59e30-d309-4aed-ab52-5def700c036a"
+          }
+        ],
+        "true14": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 14,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "84c4b924-5488-4ed5-bb9b-e79a9a49a30d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": true,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "7f3e8296-8693-44a5-b201-236b2926987d"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "3fd1d571-b461-42f0-9b24-7359007b9138"
+                }
+              ]
+            },
+            "id": "2acf81d8-9072-453c-a556-2da6ec05e611"
+          }
+        ],
+        "true15": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "0",
+              "flag": 15,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "form already \nobtained"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "1b81a4f5-b535-406f-9037-10effd504a74"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "0",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": true
+                  },
+                  "id": "8ae0657c-3bb8-45ed-a0bb-324b1ab067e5"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "2"
+                  },
+                  "id": "37ac53f0-727f-4266-ba1c-e332c31a655b"
+                }
+              ]
+            },
+            "id": "89273c25-5f2e-4a04-8196-6eddc421d7ef"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "  invalid form \n     to add"
+              ],
+              "avatarId": ""
+            },
+            "id": "8d9f49d6-28f3-4915-a9c4-813ca1314883"
+          }
+        ]
+      },
+      "id": "e432847a-2979-48de-9c48-279fa188088e"
+    }
+  ]
+}

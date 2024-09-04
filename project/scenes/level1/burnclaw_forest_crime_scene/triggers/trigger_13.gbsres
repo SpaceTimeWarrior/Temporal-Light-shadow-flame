@@ -1,0 +1,101 @@
+{
+  "_resourceType": "trigger",
+  "id": "ba0aa553-5714-4df4-b083-5f6d9c559fd8",
+  "_index": 12,
+  "symbol": "trigger_37",
+  "prefabId": "",
+  "name": "",
+  "x": 35,
+  "y": 21,
+  "width": 4,
+  "height": 3,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "f7b630ec-4d9f-4234-95e2-9882c85aa83a"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "2f277ca3-ee59-4395-a293-768d11a597af"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: this \nlooks like a\nchemical recipe",
+                "for a \ntransformation\npotion. it looks",
+                "like the late \npearlite \nwolfsbane was",
+                "working on this\nbefore my dad\ngot this",
+                "I will copy this\ndown for future\nuse"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "3f9a9f0d-c27b-409a-8100-fe84810732d4"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "dcf32c1c-3efc-4b56-821d-82ef57705d31",
+              "x": {
+                "type": "number",
+                "value": 28
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "d7e27dd3-d05a-4d9e-85c9-bc8304f55b0e"
+          }
+        ]
+      },
+      "id": "ade8be3a-31f5-4aaf-bf44-05ef998ce742"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "6197838c-dd7e-4c62-8a13-b49d8aafe3e6"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "2bcfa5ef-206b-4924-95d8-61b9f0e06ba3"
+    }
+  ]
+}

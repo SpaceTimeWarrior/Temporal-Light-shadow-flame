@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b1735596-1bda-4376-af59-f96f07b4480d",
+  "name": "Hud-UI",
+  "symbol": "bg_hud_ui",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Hud-UI.png",
+  "tileColors": "",
+  "autoColor": false
+}

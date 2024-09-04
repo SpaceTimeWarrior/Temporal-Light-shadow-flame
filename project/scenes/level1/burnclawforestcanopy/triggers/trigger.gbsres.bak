@@ -1,0 +1,136 @@
+{
+  "_resourceType": "trigger",
+  "id": "dc8a0e9d-0d59-4888-8e4d-2f08fc19319e",
+  "_index": 0,
+  "symbol": "trigger_23",
+  "prefabId": "",
+  "name": "",
+  "x": 4,
+  "y": 39,
+  "width": 6,
+  "height": 5,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Locked. but it\nisn't my\nfather's house"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "0f57d14a-cb85-46ca-8c96-dcd8f16adaa7"
+          }
+        ]
+      },
+      "id": "adc508c2-b808-4488-a4a5-bbe489b171d8"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "de291aa9-957d-46bf-a3f9-c5e2dd5bf4db"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "4b74d422-b0ef-4e62-9c6a-68676e2dd086"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "200e18a1-c1e7-4582-93d0-e8ba1d43e07e"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 46"
+            },
+            "id": "29e8c02a-b1e2-405f-9415-90fa16adee65"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "c2b76c88-8cc8-4d16-9bf2-074ac4354c87"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 46
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "8892908b-e8a3-4d17-8f8f-ada2933bcb0c"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 46
+                    }
+                  },
+                  "id": "22ac90cf-fab6-48d5-b747-09bb1a02f147"
+                }
+              ]
+            },
+            "id": "5cf7ff1a-9c27-4710-a8a9-cebcd10e3cab"
+          }
+        ]
+      },
+      "id": "b0cfd03f-5a35-4d38-9147-fefc5e374a78"
+    }
+  ]
+}

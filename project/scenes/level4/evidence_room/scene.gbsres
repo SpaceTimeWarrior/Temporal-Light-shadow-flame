@@ -1,0 +1,38 @@
+{
+  "_resourceType": "scene",
+  "id": "8512bcf2-4734-4fd0-bac3-1f9ff40580da",
+  "_index": 50,
+  "type": "PLATFORM",
+  "name": "Level4/evidence room",
+  "symbol": "scene_51",
+  "x": 1360,
+  "y": 11296,
+  "width": 40,
+  "height": 40,
+  "backgroundId": "339acb75-6b63-4c8e-9895-33f0020af41b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "222a3f78-f0ed-47c0-add2-4e3ec5bf0a22"
+    }
+  ],
+  "collisions": "0f54+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f4+0024+0f4+0024+0f4+0024+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0fa2+"
+}

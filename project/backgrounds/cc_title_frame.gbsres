@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "94436338-8a0f-412d-a0f2-0ece99550316",
+  "name": "cc_title_frame",
+  "symbol": "bg_cc_title_frame",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cc_title_frame.png",
+  "tileColors": "",
+  "autoColor": false
+}

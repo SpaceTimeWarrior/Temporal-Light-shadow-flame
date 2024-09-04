@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fc3f374f-f292-4208-a5d0-b52876cc2738",
+  "name": "cc_final_trial",
+  "symbol": "bg_cc_final_trial",
+  "width": 120,
+  "height": 18,
+  "imageWidth": 960,
+  "imageHeight": 144,
+  "filename": "cc_final_trial.png",
+  "tileColors": "003de+802+0076+802+0076+802+0076+802+0076+802+0076+802+00148+03f0+",
+  "autoColor": false
+}

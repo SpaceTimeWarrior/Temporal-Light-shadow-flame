@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "6424d1d6-8842-43a1-a7bc-daf6f9ec3565",
+  "name": "footstep_sound.wav",
+  "symbol": "sound_footstep_sound_wav",
+  "filename": "footstep_sound.wav",
+  "type": "wav"
+}

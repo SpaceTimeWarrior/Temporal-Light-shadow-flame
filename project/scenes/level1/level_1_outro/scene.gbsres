@@ -1,0 +1,170 @@
+{
+  "_resourceType": "scene",
+  "id": "dcf32c1c-3efc-4b56-821d-82ef57705d31",
+  "_index": 16,
+  "type": "TOPDOWN",
+  "name": "Level1/level 1 outro",
+  "symbol": "scene_17",
+  "x": 3712,
+  "y": 2240,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 14
+        }
+      },
+      "id": "70726c72-0caf-4606-bef0-6b1fb16b6157"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "37"
+        }
+      },
+      "id": "7506f8c7-db33-4a53-a9a7-5710891bf483"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "cb2656b3-6e6e-40ef-b79f-a9a99fdbf91d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "back on Luna \nPeryil started\nexamining copies",
+          "of the evidence.\n"
+        ],
+        "avatarId": ""
+      },
+      "id": "2d840aec-ebd3-4da8-b2c5-570cb6e47856"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "f31ddf15-6280-4948-b1f6-6205222d8afb"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "55578438-7a83-4e69-be9d-52ad18162a5c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I wonder\nwhy was my\nfather making a",
+          "transformation\npotion. he hates\nall forms of ",
+          "alchemy...\nsomething is off\n",
+          "I guess I have\nno choice than\nto make it",
+          "... ... ... ...\n... ... ... ...",
+          "d%^$^ it \nrequires dragon\nhair.",
+          "thankfully I \nknow where to\nget some"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "3a973687-6150-45b1-a416-c5aa1af3ac72"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "14",
+        "flag1": true,
+        "flag2": true,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "fae18710-817d-4e5b-aed4-5a5abeb183d3"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "15",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "fd408fac-c7e8-46b7-803c-339dc7159e9b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+        "x": {
+          "type": "number",
+          "value": 71
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "8554b11f-c049-49b0-b134-6b5626173cab"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "001900+"
+}

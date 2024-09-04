@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ef8b57b9-1827-4cad-b85f-34ed273016b7",
+  "name": "cc_outro",
+  "symbol": "bg_cc_outro",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "cc_outro.png",
+  "tileColors": "00438+",
+  "autoColor": false
+}

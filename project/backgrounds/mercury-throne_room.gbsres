@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1ac3b79b-3ea6-46c1-8b8a-8f1bdd2f8e7f",
+  "name": "mercury-throne room",
+  "symbol": "bg_mercury_throne_room",
+  "width": 80,
+  "height": 40,
+  "imageWidth": 640,
+  "imageHeight": 320,
+  "filename": "mercury-throne room.png",
+  "tileColors": "02484+032+042+062+024a+032+042+062+024a+032+042+062+024a+032+042+062+024a+032+042+062+024a+032+042+062+02378+826+024a+826+021f8+066+002+064e+002+0648+",
+  "autoColor": false
+}

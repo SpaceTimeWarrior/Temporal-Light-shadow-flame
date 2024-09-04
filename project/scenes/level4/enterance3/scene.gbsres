@@ -1,0 +1,174 @@
+{
+  "_resourceType": "scene",
+  "id": "91ffe031-6b09-4fbe-8cee-43df12e8c4d2",
+  "_index": 54,
+  "type": "PLATFORM",
+  "name": "Level4/enterance3",
+  "symbol": "scene_55",
+  "x": 176,
+  "y": 10032,
+  "width": 120,
+  "height": 40,
+  "backgroundId": "02726256-9798-4639-b4a3-10674913cc24",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "34",
+        "flag": 0,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "e964dac3-e5c9-4fba-9956-c7d9760d76d8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil:The front\ndesk had the\nglass blown out",
+                "why do I get a\nfelling I landed\nin a horror",
+                "movie....\nI don't like \nthis"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "48b7a33a-1e5e-45db-9c90-071be5bbffe6"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+            },
+            "id": "c1e72aba-9163-4083-a1ad-3f4f48652177"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "34",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "3cd5b2af-379d-4b7f-b83d-8a088f4be5f0"
+          }
+        ]
+      },
+      "id": "57a939e6-0d80-45a4-a26c-e1ff39a3bc96"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "b08d6793-cc9e-49ca-bcf2-af9e3b76890f"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+            },
+            "id": "00ba0f95-8e15-4ac0-9cd4-3d434722e3d9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "d212601e-9936-4b87-871e-5dc7acf1752e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "7dee1fe1-f24e-4fc0-bc82-6a66669739de"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "9054d9eb-f4b9-4518-8c81-e68e94f41933"
+                }
+              ]
+            },
+            "id": "dc565472-f2f9-47e7-9779-fe86c0b5b779"
+          }
+        ]
+      },
+      "id": "8534b117-8fbd-4cdf-813a-2d76f872d672"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00169+0f76+002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f!002+0f!0074+0f2+00!0f!001c+102+00a+102+007+10!0026+102+001d+0f!001c+102+00a+102+006+102+0026+102+001d+0f1d+112+0fa+112+0f6+112+0f26+102+0f1c+00!0f1d+102+0fa+102+0f6+102+0f26+102+0f1b+002+0f!0018+0f2+002+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f!002+0f!0018+0f2+002+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f!002+0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f!002+0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f!002+0f!001c+102+006+0f2+002+102+002+0f2+002+102+0014+0f8+00a+102+001a+0f!002+0f!001c+102+006+0f2+002+102+002+0f2+002+102+0014+0f8+00a+102+001a+0f2+00!0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f2+00!0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001a+0f2+00!0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001d+0f!001c+102+006+0f2+002+102+002+0f2+002+102+001a+0f2+00a+102+001d+0f!0018+0f2+002+102+006+0f2+002+102+002+0f16+00a+0f2+00a+102+001d+0f!0018+0f2+002+102+006+0f2+002+102+002+0f16+00a+0f2+00a+102+001d+0f27+002+102+0018+0f2+008+0f2a+0027+0f!002+102+0018+0f2+008+0f!0051+0f1e+008+0f!006f+0f9+0029+"
+}

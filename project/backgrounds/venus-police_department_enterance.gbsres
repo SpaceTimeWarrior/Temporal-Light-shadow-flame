@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "02726256-9798-4639-b4a3-10674913cc24",
+  "name": "venus-police department enterance",
+  "symbol": "bg_venus_police_department_",
+  "width": 120,
+  "height": 40,
+  "imageWidth": 960,
+  "imageHeight": 320,
+  "filename": "venus-police department enterance.png",
+  "tileColors": "0011d0+066+002+0676+002+0670+",
+  "autoColor": false
+}

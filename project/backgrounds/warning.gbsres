@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7787e3c2-dce7-46bb-9104-c55ce81c87d6",
+  "name": "warning",
+  "symbol": "bg_warning",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "warning.png",
+  "tileColors": "",
+  "autoColor": false
+}

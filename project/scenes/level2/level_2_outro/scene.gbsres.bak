@@ -1,0 +1,456 @@
+{
+  "_resourceType": "scene",
+  "id": "18363632-43ef-457d-9903-3c7fed90240e",
+  "_index": 28,
+  "type": "TOPDOWN",
+  "name": "Level2/Level 2 outro",
+  "symbol": "scene_29",
+  "x": 5330,
+  "y": 4362,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "default-bg-4"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "d5a68be0-d9d5-4017-b555-31a271b51d52"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "7dafa10c-0da3-4463-a7cc-ea6c997f005b"
+          }
+        ]
+      },
+      "id": "40d8de98-1898-4d2f-874f-9133efeef00f"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "14",
+        "flag1": false,
+        "flag2": false,
+        "flag3": true,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "560b620d-2903-4821-a3ce-97410e6904cf"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "15",
+        "flag1": false,
+        "flag2": true,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "6e8eb3a4-2c4a-47c4-ac3a-e4e3e1d8a8e4"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "3247f8bd-9cae-4a87-b0a7-decb91667b1a"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3fc13c1c-3a08-4a03-a86a-82e7161e113e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: mind if\nI look over the\nrecipe."
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "035c02c8-49da-4301-befd-3bd62a2039db"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "3b51d333-8699-4617-8ad0-0a8fe567fd99"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "85e2aa07-a30d-44b1-aafd-8c586f203d7b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:here I \nhave done up to\nstep 45 on this"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "0517cc04-ff66-4a80-866a-e048ac860ed1"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "8bb20c57-ccfb-48fa-a6c5-ebcf8788c2fc"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "5420230b-3938-41e9-981a-f0bc05780c44"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: I think I\ncan do this give\nme a few minutes"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "a33f5e56-2209-46a3-9d99-376a42d3e532"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "9f29c259-c24a-44f1-ae94-7a6d0007423e"
+      },
+      "id": "a2c42901-cfae-4116-9f04-02ca365395a9"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "fa770b3b-ad49-4048-ab8a-83fc2dc3339c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "a few minutes pass\nand steam finishes\nthe last step"
+        ],
+        "avatarId": ""
+      },
+      "id": "5a16efd6-f5f0-41c5-9c5a-069a3fa9db3d"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "b74318cb-3068-46c8-9744-601977fff448"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam: done. \nnow before I \ngive it to you",
+          "you might want\nto have a idea\nof the effects",
+          "the recipe looks\nlike a water\ndragon",
+          "transformation\npotion in which\nyou technically",
+          "gain water\ndragon DNA. as\nmonsters have a",
+          "extra chromosome\nthat links their\nform together.",
+          "what this does\nis it adds onto\nyour DNA and",
+          "puts the new\naddition to the \nfront of the",
+          "chain. meaning \nyou won't be\npure-blodded",
+          "anymore.\nelemental\ncrystals can",
+          "change your\nphenotype which\nmatches the",
+          "element"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "24cb2332-91d9-43bd-aa1e-dc429037e353"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "6a1b8f7d-c44d-4ee1-9141-8077cc537721"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: will it\nbe painful"
+        ],
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+      },
+      "id": "6d3dae27-4d76-4c4d-82da-b21803ebf4b0"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+      },
+      "id": "31967b4f-adc8-4e6f-9dd1-59a88b5f9e54"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "steam:\nconsidering it\nwas designed by",
+          "pearlite \nwolfsbane I will\nsay little to no",
+          "pain. but I \ndon't know which\nvariant this was",
+          "so I could be\ncompletely wrong"
+        ],
+        "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
+      },
+      "id": "409b21b9-d030-4dac-808f-9629b413679d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "69f088db-0416-4d34-8b1f-d94ea90d9cc8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "8441c3de-d344-482c-9849-26b36fe9935e"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "2c11f695-24c2-435c-a842-1c101bb5cfb3",
+        "persist": true
+      },
+      "id": "040e7e83-37b4-4f14-99e0-9fa6fe5ec1f4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "9f29c259-c24a-44f1-ae94-7a6d0007423e",
+        "spriteSheetId": "4d2d6499-8c49-42c1-ab2e-33178c41a281"
+      },
+      "id": "7f0e92cd-6010-4f39-af30-698e95df0eb8"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "35880674-3695-4159-8708-18815acfc569"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "press select\n(browser shift)\nto change forms",
+          "here is a example\nof a pattern of\nwater"
+        ],
+        "avatarId": ""
+      },
+      "id": "012074aa-215d-45cc-86fb-1349af425830"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "9f29c259-c24a-44f1-ae94-7a6d0007423e",
+        "spriteSheetId": "81cfed60-9e22-413b-9958-4d2cbeb35e2f"
+      },
+      "id": "010b5245-22e9-464b-9396-f7b964663dd0"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "0e80b468-af0f-4179-80f6-54c1ccccfba0",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "9866410e-fe16-41ff-9b77-ee5f7e5f3d93"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "but be careful of \nthis. this is \ntoxic waste. no",
+          "forms can stand\nin this for long"
+        ],
+        "avatarId": ""
+      },
+      "id": "8e711493-19dd-4917-ad2a-79ee222a772c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "9f29c259-c24a-44f1-ae94-7a6d0007423e",
+        "spriteSheetId": "b4d5e23f-fbba-4c4a-bc9e-2433e8bd3148"
+      },
+      "id": "0aaabec2-87c2-4666-b902-38b912d6fcde"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "e159c5c8-6f19-4e10-b221-3f9677d7cacf",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "4668efdf-3e56-4990-bef5-e820c9c72527"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "the last hazard\nis lava it is a\nsolid color. the",
+          "default phoenix\nform is immune to\nthis.",
+          "for all immunities\nthere technically\nis no limit but",
+          "peryil only has 5\nminutes of air. in\nwhich she will ",
+          "take 1 hp of \ndamage to fully\nreplenish"
+        ],
+        "avatarId": ""
+      },
+      "id": "1cf33526-8c88-4803-8061-8f63b91af338"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9f29c259-c24a-44f1-ae94-7a6d0007423e"
+      },
+      "id": "5daa86f5-a286-45ac-9a73-b8524130c1c9"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav"
+      },
+      "id": "fd495c1b-dc3b-43d8-8ae7-e6fbc5c2b13d"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav"
+      },
+      "id": "3ef2b939-f749-4d3e-9cc7-e2e005d18f86"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "83da893d-fe08-44ea-bfb4-974d2473c2ae",
+        "x": {
+          "type": "number",
+          "value": 71
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "c4e4f024-6545-41c0-bc91-4c21c38be466"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00e6e+0f8+00a8a+"
+}
