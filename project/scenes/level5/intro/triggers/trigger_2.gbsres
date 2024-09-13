@@ -23,7 +23,7 @@
           "type": "number",
           "value": 12
         },
-        "moveType": "horizontal",
+        "moveType": "vertical",
         "useCollisions": false
       },
       "id": "64c818ca-cb77-40b7-9539-74226b61245d"

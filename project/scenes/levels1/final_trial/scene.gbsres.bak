@@ -1,0 +1,186 @@
+{
+  "_resourceType": "scene",
+  "id": "d2b35ad8-c964-437e-a7b6-0e5b527679eb",
+  "_index": 70,
+  "type": "PLATFORM",
+  "name": "levelS1/final trial",
+  "symbol": "scene_71",
+  "x": 9544,
+  "y": 6328,
+  "width": 120,
+  "height": 18,
+  "backgroundId": "fc3f374f-f292-4208-a5d0-b52876cc2738",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c"
+  ],
+  "spritePaletteIds": [
+    "73cbbeb0-b173-4870-bb18-7779fc5d3760",
+    "",
+    "f98a2cfa-f6da-4e1f-bcc0-a4655d60a6d0",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "2d6daebc-25b4-4d57-8aae-1d4183bd8511",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "c0cc95f6-5a49-46c5-b40a-a607cda41d12"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 16"
+            },
+            "id": "cf8ff7bd-226b-4268-8964-1381de0125e0"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e2e285d7-fb8d-4d81-b2ed-688ae95be1db"
+            },
+            "id": "ce8bff2b-ef05-43bf-af38-290b8826242e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "3b6380ce-e3ff-4381-9344-a6c3dbbb3cf7"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "e54bfa9f-2fd7-4f7c-ac11-7d389883d69e",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "313eda8e-0800-4149-b4b4-8977d5a70d60"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "44"
+                  },
+                  "id": "04dd3674-b6cc-413e-8382-a2c36bca1c5d"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "ne",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "45"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_DEC_VALUE",
+                        "args": {
+                          "variable": "45"
+                        },
+                        "id": "1450bcec-0380-4c2d-9bda-94a59c25d5f0"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f89a0e63-3780-4db6-8e77-1ca836266826"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "44"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 28
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "44",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "74ef5e2a-a756-4642-b98c-61301d1220f2"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "92ad3392-87d9-43d7-8e01-7d64edb80e09"
+                }
+              ]
+            },
+            "id": "3b8b6cd1-8ba2-4ecb-9124-343e6e3f6bec"
+          }
+        ]
+      },
+      "id": "94f945cd-4a58-4416-86aa-9c467722379f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "009+0f!001c+0f2+004+0f2+004+0f2+004d+0f!001c+0f2+004+0f2+004+0f2+004d+0f!001c+0f2+004+0f2+004+0f2+004d+0f!001c+0f2+004+0f2+004+0f2+004d+0f!006+0f10+006+0f2+004+0f2+004+0f2+001e+40!60!0f6+0027+0f!006+0f10+006+0f2+004+0f2+004+0f2+001c+40!60!0f2+005+0f!0027+0f!006+0f2+00c+0f2+002e+40!60!0f2+007+0f!001e+0fa+006+0f2+00c+0f2+002c+40!60!0f2+009+0f!002c+0f4+0038+40!60!0f2+00b+0f!002c+0f4+0036+40!60!0f2+00d+0f!002e+0f2+0034+40!60!0f2+00f+0f!00a+0f14+0010+0f2+0032+40!60!0f2+0011+0f!00a+0f!0023+0f2+0030+40!60!0f2+0013+0f!00a+0f!0023+0f2+002e+40!60!0f2+0015+0f!00a+0f!0013+0fe+002+0f10+002+0f20+0017+0f!00a+0f!0020+0f!002+0f!00d+0f2+002+0f!0036+0f!00a+0f!0021+0f2+0010+0f2+0037+0fc+008b+"
+}

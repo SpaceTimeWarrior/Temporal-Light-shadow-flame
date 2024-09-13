@@ -1,0 +1,156 @@
+{
+  "_resourceType": "trigger",
+  "id": "0b7f52d0-9d6c-4b4f-89ba-ada1243791d1",
+  "name": "",
+  "prefabId": "",
+  "_index": 6,
+  "symbol": "trigger_267",
+  "x": 6,
+  "y": 32,
+  "width": 8,
+  "height": 6,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "b1beb21e-3386-4c94-9171-1d99ea5cc158"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "4c2f9513-1414-465f-95c5-31626b3a73fe"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: I don't \nknow exactly \nwhere the \nthrone room is",
+                "but it is likely\n>",
+                "This level is \nunfinished \nthough."
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "ae8cdee3-0a4f-449b-9e80-db947f92c6e7"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "e0d475dd-db86-4b1a-a4e3-f0ed0cbbf80e"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 40"
+                  },
+                  "id": "f2a3aff5-a2f1-4ee0-ade6-a3a12047c34c"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "9e5a1132-e494-4131-a206-d7454845d1a4"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "83dbceb3-d1d6-4090-a29e-b9df7acc42b0"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 40
+                          }
+                        },
+                        "id": "e68f7f19-120c-4f8f-b5da-cc7f52b00798"
+                      }
+                    ]
+                  },
+                  "id": "6b6144d6-a5f4-42ee-bf23-e9b3f6c2e304"
+                }
+              ]
+            },
+            "id": "988fe181-ba0c-4b3a-b88b-5851c2994f87"
+          }
+        ]
+      },
+      "id": "f1633659-050b-4b56-81b3-f4c6958eb210"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "02f76fc1-af38-452b-a3ea-967c16955b61"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "1235920f-cdde-4f3b-8096-c88b0d652c73"
+    }
+  ]
+}

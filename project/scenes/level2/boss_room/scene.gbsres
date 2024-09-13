@@ -170,29 +170,29 @@
   ],
   "playerHit1Script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "8980b586-b11a-478f-8331-fc4996eec7d2"
+      "id": "2c2dadc5-4404-4ee8-94f5-2a4eed5e47e0"
     }
   ],
   "playerHit2Script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "7231ec80-9a9c-4093-91c5-670718290c2c"
+      "id": "f7fb2b43-2c4e-409d-865b-b95f5fe16814"
     }
   ],
   "playerHit3Script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "196aa0fe-1728-455d-9eeb-e4ecd8cf289c"
+      "id": "30c50a54-712f-427d-af48-650f26e805ee"
     }
   ],
   "collisions": "0014+0f11+0013+30!0f!0013+30!0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0012+20!0f!0011+20!0f!002+0f11+0053+"

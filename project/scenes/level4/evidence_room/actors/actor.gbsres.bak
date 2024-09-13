@@ -81,6 +81,17 @@
             "id": "73523995-7df9-4632-a5ca-921496490c2b"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 255,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "bf4e2d47-061f-4ef9-8a4b-227171ffcc1d"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -110,6 +121,17 @@
             "id": "bb52b2bf-87e1-4b7b-aab5-746b5105e2e8"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "1189f8c5-b62f-4981-ad9f-21170fab2c5c"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -126,6 +148,17 @@
               "palette": ""
             },
             "id": "bbf3f13a-a47b-4230-ad11-f167a7479576"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 255,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "55349081-fe59-4352-8c19-10896d41e3e0"
           },
           {
             "command": "EVENT_TEXT",
@@ -145,6 +178,17 @@
               "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
             },
             "id": "1ff32872-cdbd-4f47-b9e4-bebc02e342cc"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "b41a7891-7f73-4894-b172-d69def1a2b5e"
           },
           {
             "command": "EVENT_TEXT",
@@ -588,13 +632,23 @@
             "id": "7aa486c8-744d-442a-97b7-ab5137f931ec"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 380,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "e7c20245-93a7-4ed3-93a5-a2689a74c3ec"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "blight: I \nmanaged to read\nthat slime's ",
                 "mind before he \ndied. you might\nwant to check",
-                "the filing\ncabinets. P0103\nis the file to",
-                "look at."
+                "the filing\ncabinets. P0103\nis the file to\nlook at."
               ],
               "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
               "__collapse": false
@@ -607,6 +661,17 @@
               "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
             },
             "id": "8b77b54b-1047-42a5-99d6-348a616c9e03"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "1a31e670-f7be-43e0-8e1f-e22651b9a02d"
           },
           {
             "command": "EVENT_TEXT",
@@ -627,6 +692,17 @@
             "id": "b7512e02-3c4c-40da-84c5-5979cf550a72"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 380,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "2129d6b2-2737-4e28-b2b2-b0412c0c07ad"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -645,12 +721,22 @@
             "id": "fa3c8ffa-aeea-4ea5-8b22-bcb2ad792cde"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "23502a65-8a83-43eb-b661-5b3ab06a2fe1"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "peryil: wait you\ncould of done\nthis the WHOLE",
-                "TIME. you do \nrealize how \nsuspicious that",
-                "looks right."
+                "TIME. you do \nrealize how \nsuspicious that\nlooks right."
               ],
               "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
             },
@@ -664,13 +750,23 @@
             "id": "c2b7ec12-29f5-4776-9dbd-72a8bb1c1e6e"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 380,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "91ba022a-91cb-4711-9951-235b5e9c767c"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "blight: I \nrealize that a \nwhile ago. I",
                 "guess I'll tell\nyou. I can also\nshare and view",
-                "your sight.\npretty much all \nsenses can also",
-                "shared."
+                "your sight.\npretty much all \nsenses can also\nshared."
               ],
               "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
             },
@@ -682,6 +778,17 @@
               "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
             },
             "id": "b44ef76c-d07b-49c1-af72-acc55b5028dd"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 490,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "30de3cbf-6282-47b7-b7ea-76eea4be9f91"
           },
           {
             "command": "EVENT_TEXT",
@@ -699,6 +806,17 @@
               "palette": "default-bg-4"
             },
             "id": "22a73cc1-1fb7-4e4f-901f-14f0fa26b714"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 380,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "1fe682e2-8e36-4e92-850b-7ffe625cc54c"
           },
           {
             "command": "EVENT_TEXT",

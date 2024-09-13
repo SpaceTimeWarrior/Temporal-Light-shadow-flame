@@ -81,19 +81,32 @@
       "id": "dc842c29-9ab7-418a-a38e-e9f3fd32635a"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "101f2140-e2aa-404e-af65-79c2214724d3"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "Blight: here is\na memory from my\npast. back then",
           "I was crystal \nlight \nlightbringer",
-          "this is when I\nwas a toddler.\nthis is the",
-          "events \nsurrounding the\ndestruction of",
-          "wolf city which\nsparked my life\nof crime.",
-          "it all started \nwith a magic \ntraining session",
-          "with my mom....\njem lightbringer.\nsorry in ",
+          "this is when I\nwas a toddler.\nthis is the\nevents",
+          "surrounding the\ndestruction of\nwolf city which",
+          "sparked my life\nof crime.\nit all started \nwith a magic ",
+          "training session\nwith my mom....\njem lightbringer.\nsorry in ",
           "advance for the \nbad grammer"
         ],
-        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "__section": "text",
+        "position": "top",
+        "closeWhen": "key"
       },
       "id": "15a9206a-3284-47d3-a8de-c9f7a953f289"
     },
@@ -104,6 +117,17 @@
         "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
       },
       "id": "0ffb2bdb-7c1b-4250-a32f-0e878758a314"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 390,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "46a8e380-826e-4ae4-9d5e-3f672561df2b"
     },
     {
       "command": "EVENT_TEXT",
@@ -134,6 +158,17 @@
       "id": "b4358f61-7fd2-40b6-ab3e-20d48f3082c4"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 420,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "50e97743-10f6-4609-98da-8a6f73d672fa"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -162,6 +197,17 @@
       "id": "5f43fc9d-a550-4e47-8f65-06ed972ef6de"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 390,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "a1c1718d-6dbe-4bd4-9fae-2e3e0637dfb8"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -188,6 +234,17 @@
         "palette": "7145b4cc-33d9-4002-95e3-e4a61f0294f8"
       },
       "id": "1f3b89a7-75c8-45a4-8e27-434aa51ad617"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 450,
+        "duration": 0.02,
+        "effect": 0
+      },
+      "id": "0dba00fa-6fdf-4276-954c-73946d2650db"
     },
     {
       "command": "EVENT_TEXT",
@@ -318,6 +375,17 @@
       "id": "083d2f45-bdc5-463e-92ac-fdb95bbb5f84"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 450,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6c00e000-5a85-4ee3-a14e-e92bc9225a4a"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -326,6 +394,17 @@
         "avatarId": "f89fe2d0-c4ee-4599-9fef-4dcfbca6ea86"
       },
       "id": "956112f1-4698-49f4-b609-2a26e80cd4b9"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 420,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3550234d-183a-45c1-8563-01c25c9e2aad"
     },
     {
       "command": "EVENT_TEXT",
@@ -538,6 +617,17 @@
       "id": "32a16881-5ca4-4adf-a154-bd366cdf315a"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "04b52184-8963-41e3-9e6d-40ac6596e290"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -555,6 +645,17 @@
         "palette": "c0d36d1e-8254-472b-ae3b-9466730bfd7e"
       },
       "id": "970da2ee-4a21-4978-9514-7a65f95cb58e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 290,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "0f2c5ecb-5222-40ae-9929-361f42fd9cfb"
     },
     {
       "command": "EVENT_TEXT",
@@ -654,6 +755,17 @@
       "id": "6a918804-ac88-4879-b583-6e08bf1052cb"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 290,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "fee6f386-eec0-4b83-8508-28edc2015a16"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -671,10 +783,21 @@
       "id": "b6769c71-d4f1-4505-83db-e5b523de9b36"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 210,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "79721c4d-dfef-4331-bd8f-6a4bbb1b7c69"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Cedric: HA HA \nShe can't here\nyou. mentally",
+          "Cedric: HA HA \nShe can't hear\nyou. mentally",
           "she is basically\nasleep. but wide\nawake."
         ],
         "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
@@ -730,6 +853,17 @@
       "id": "16d2a114-c6ff-42d1-a995-4ace0c8ad5fa"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d2dbe00a-3997-4c89-ab4d-f48602e9473a"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -745,6 +879,17 @@
         "palette": "default-bg-4"
       },
       "id": "c3e635cb-83ca-4a2b-a26e-601c4a491ee1"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "5da6c8d4-bb45-47e9-96f1-60dae871e696"
     },
     {
       "command": "EVENT_TEXT",
@@ -766,6 +911,17 @@
       "id": "4c5beaf3-6ce9-4fd1-9012-6d9bd3e1e602"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 490,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "eccdbe10-c377-450e-afbd-5a4fcf0b250f"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -781,6 +937,17 @@
         "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
       },
       "id": "e3646232-ca1f-4da7-993e-7fd1cb5a1431"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 210,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d9303835-920a-4b51-8cf2-6a4ef22156ee"
     },
     {
       "command": "EVENT_TEXT",
@@ -800,13 +967,23 @@
       "id": "5377da09-18de-4057-ac7a-6cf21cf6734f"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 490,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3d66a02d-c599-44f3-b3fe-6aada8e3a80f"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "ember: what are\nthe whip marks\non her back. you",
           "tortured her and\nwhen her parent\ntried to stop",
-          "you;you killed\nhim",
-          "sell defense my\na#$"
+          "you;you killed\nhim self defense\nmy a#$"
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -818,6 +995,17 @@
         "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
       },
       "id": "024bd7a3-a4ca-42bc-a87e-aa57beb3f786"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 210,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "f3010734-5eab-4910-a37f-f042d19bd756"
     },
     {
       "command": "EVENT_TEXT",
@@ -844,6 +1032,17 @@
         "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
       },
       "id": "f8db08b0-2272-48ef-b6b6-60d57e07314e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 490,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9187eba9-9456-4140-a7a5-b308d747637b"
     },
     {
       "command": "EVENT_TEXT",
@@ -964,11 +1163,21 @@
       "id": "db4cd721-266b-426c-a8f3-f6ec796742fc"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 490,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c7271681-9f15-4969-8b7b-1427cd3effd0"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "ember: crys wake\nup. if you can\nhear me go to",
-          "the barnhouse"
+          "ember: crys wake\nup. if you can\nhear me go to\nthe barnhouse"
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -982,12 +1191,22 @@
       "id": "5c31fab3-a60b-4afa-9a95-3f9ef56aabd1"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "68dd6b89-8494-499c-ae70-fd88117cc5c0"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "blight: that was\na codeword for\npyre deathripper",
-          "who raised me...\nyou aren't going\nto like what",
-          "happens next"
+          "who raised me...\nyou aren't going\nto like what\nhappens next"
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },
@@ -1016,6 +1235,17 @@
         "palette": "1e4d692a-8be4-4b93-9c7c-8b9cd839b62a"
       },
       "id": "2af0c7d6-a08a-4ec7-bc63-9342dde242cb"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 210,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "91ea968d-1848-43f6-ad04-0095721378b5"
     },
     {
       "command": "EVENT_TEXT",
@@ -1087,11 +1317,21 @@
       "id": "0d71f08b-2ef1-4115-bd42-8b637996791f"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c22ac531-73d6-4c59-ba17-e63457fe3046"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil:no this\ncan't be I was\ntold you killed",
-          "her not dad."
+          "peryil:no this\ncan't be I was\ntold you killed\nher not dad."
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -1103,6 +1343,17 @@
         "palette": "default-bg-4"
       },
       "id": "452f966d-2c41-4de6-b3b2-d2f417343487"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "aa3cf986-3589-4f25-9819-9cebb14694f3"
     },
     {
       "command": "EVENT_TEXT",
@@ -1117,8 +1368,7 @@
           "him. while I did\nwish him harm. I\nnever wanted to ",
           "kill him as that\nwas mercy and\nthese actions",
           "I do not give\nmercy. I will \ntorture them",
-          "until they are\nbegging to die\nthen heal them",
-          "and repeat."
+          "until they are\nbegging to die\nthen heal them\nand repeat."
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },

@@ -1,0 +1,113 @@
+{
+  "_resourceType": "scene",
+  "id": "f9487d1e-cfd0-4ac2-a211-bdc0c8188677",
+  "_index": 34,
+  "type": "PLATFORM",
+  "name": "Level3/pitfall trap",
+  "symbol": "scene_35",
+  "x": 1688,
+  "y": 7560,
+  "width": 120,
+  "height": 80,
+  "backgroundId": "3225778c-30b8-4221-9ebe-4262feff9e67",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "default-bg-4",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "a8ada030-1176-4d4b-aa40-2a5f55c03a45"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 78"
+            },
+            "id": "ab86a73b-34a6-4749-9677-49376604faf5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "3a15253c-eefd-4046-86e4-bf72622b6d6a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 78
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "d72b3c98-d625-4fae-b89f-981be8fc441b"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 78
+                    }
+                  },
+                  "id": "b80ba348-33fc-4874-a12e-cfc8d4168834"
+                }
+              ]
+            },
+            "id": "54bd82b8-0f1a-4541-987a-443d3286853d"
+          }
+        ]
+      },
+      "id": "1405e6fa-6e47-4015-90d1-09d2fe46fb18"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "6"
+      },
+      "id": "f4c0d33c-3644-415b-8008-054f3330bbc3"
+    }
+  ],
+  "collisions": "0023+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0ff+0022+0f!006+0f!0038+0f!0015+0f2+0020+0f!006+0f!0038+0f!0016+0f!0020+0f!006+0f!0038+0f!0016+0f!0020+0f!006+0f!0038+0f!0016+0f!0020+0f!006+0f!0038+0f!006+0fc+004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+04!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+0f!00a+0f!004+0f!0020+0f!006+0f!0038+0f!006+0f!00a+0f!004+0f22+006+0f!0038+0f!006+0f!00a+0f!002c+0f!0038+0f!006+0f!00a+0f!002c+0f!0038+0f!006+0f!00a+0f!002c+0f!0038+0f!006+0f!00a+0f!002c+0f!0038+0f!006+0f!00a+0f!002c+0f!0038+0f!006+0f!00b+0f26+006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+04!0030+0f!006+0f!0038+0f!006+04!0030+0f!006+0f!0038+0f!006+04!0030+0f!006+0f!0038+0f!006+04!0030+0f!006+0f!0038+0f!006+04!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f!0030+0f!006+0f!0038+0f!006+0f32+006+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0038+0f!003e+0f!0039+0f!003c+0f!003b+0f!003a+0f!003d+0f!0038+0f!003f+0f38+00811+"
+}

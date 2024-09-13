@@ -5,22 +5,164 @@
   "type": "TOPDOWN",
   "name": "Level5/intro part 2",
   "symbol": "scene_80",
-  "x": 1096,
-  "y": 11712,
+  "x": 1688,
+  "y": 11928,
   "width": 20,
   "height": 18,
-  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "backgroundId": "dcfe69ff-7392-4e4a-aacb-73183843aadb",
   "tilesetId": "",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "707b95d7-5b8a-433e-ae55-272937348bce"
+  ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "20367738-91bf-4aad-9877-a074b85f90f8"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "L1",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tilesetId": "c60ae159-27c6-4eee-ac9d-d833d1b38b8d",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "4b40217c-8b9a-4c2e-967c-f7426c6cff39"
+                },
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tilesetId": "c60ae159-27c6-4eee-ac9d-d833d1b38b8d",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "25f59857-14af-4eb4-a2e3-ce5a5045b137"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tilesetId": "c60ae159-27c6-4eee-ac9d-d833d1b38b8d",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "6394b448-a939-47be-9337-6b0a72779e25"
+                },
+                {
+                  "command": "EVENT_REPLACE_TILE_XY",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "tilesetId": "c60ae159-27c6-4eee-ac9d-d833d1b38b8d",
+                    "tileIndex": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "195ce447-9f7e-4e2c-b578-dde4907c3a58"
+                }
+              ]
+            },
+            "id": "870dbfda-d882-4448-94b7-3cb82480078b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "L0"
+                }
+              }
+            },
+            "id": "087769c0-2766-4571-bd20-794ffdcd1123"
+          }
+        ]
+      },
+      "id": "d72f4cd8-9459-44df-a669-58925c2e6339"
+    },
     {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
       },
       "id": "52894d69-0bcb-4813-b4e8-6d3029f9b69b"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "47e287b4-9f86-4c43-99f4-d30decb87db5"
     },
     {
       "command": "EVENT_TEXT",
@@ -40,12 +182,24 @@
       "id": "5dd741d3-a362-4a49-9882-1f7db4929326"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.04,
+        "effect": 0
+      },
+      "id": "d7225884-49f9-459c-a320-66219dbcc0a7"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "Blight: please \nstop."
         ],
-        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "__collapse": false
       },
       "id": "703a408e-60fe-4839-88aa-49328c16b256"
     },
@@ -55,6 +209,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "82b41968-0017-4fc8-b9ef-a99655671370"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "60be55a4-b11f-4d7f-9fd0-eac41081db03"
     },
     {
       "command": "EVENT_TEXT",
@@ -74,6 +239,17 @@
       "id": "a79414f5-a121-4fd3-b69c-6251c61cc878"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "71a7a63d-e697-472d-b487-1408308c9c2c"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -89,6 +265,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "6c2c3be0-5966-46cc-90b4-8b07b2c361d1"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "ff4f02a1-37f9-4f92-b6c1-310dba385240"
     },
     {
       "command": "EVENT_TEXT",
@@ -108,13 +295,23 @@
       "id": "674666b4-797c-49e4-ab34-ac0f12c887de"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "5309e944-f607-4d10-b4a3-eeaac6cad292"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "Blight: mind \nmagic isn't like\nmost. this form \nof magic once ",
           "you get up to a \ncertain level of\nexpertise and \npower. ",
-          "the total magic \npower becomes a \nnon-element in ",
-          "magic battles of\nthat element"
+          "the total magic \npower becomes a \nnon-element in \nmagic battles of\nthat element"
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },
@@ -126,6 +323,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "f141d1ef-1cac-41af-8156-d39e346d08de"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "3dfe5344-bbd2-46e0-be1f-bd52f962af8d"
     },
     {
       "command": "EVENT_TEXT",
@@ -144,6 +352,17 @@
         "__collapse": false
       },
       "id": "190a3aec-b973-48e7-acfd-c473e05d0364"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "241c85d5-2c80-4a76-82f5-1a24c55a36b5"
     },
     {
       "command": "EVENT_TEXT",
@@ -167,6 +386,17 @@
       "id": "eca0198d-7417-4d7c-ae90-8fa56e0bea64"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "80722900-713f-430b-ae22-26e4ec40c533"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -176,6 +406,1003 @@
         "avatarId": "97cd288a-95d1-450b-987d-025a896d4a33"
       },
       "id": "e146baa0-c4fd-4d92-ab7d-85685ba0dd7c"
+    },
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "L1"
+      },
+      "id": "16d1c69d-b5c1-49ee-902a-fe74e7f1f6cf"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "c6e7a272-4e34-417a-824d-064ff1921d95"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6d0e9f8d-4103-44b7-8a71-218c20b76016"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: If \nanything mind \nmagic wise they \ntaught me how to",
+          "use that type of\nmagic and they \nknew spells that\nI didn't. I know",
+          "it looks like I\nam trying to \nstop you from ",
+          "uncovering the \ntruth but I am \nnot."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "80e22349-d9fd-4f84-9f6b-e87cacc9fab5"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "11bbe224-4a7e-4d48-a4b8-f7763b8a33a9"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "1c829bc6-72c5-4205-86f2-dfff912b8501"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I am \nstill going \nnothing you say \nwill sway me on \nthis."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b684fc7a-c7ab-4406-9aae-e50a344703e4"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "e057f310-42bf-427f-b7fe-87691e420f53"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "b42b36bb-a80c-4650-9cbf-88029249abe8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Blight: fine but\nlet me teach you\nthe basics of \nmind magic. I ",
+          "doubt it will \nstop her from \ntaking control \nof your mind but",
+          "maybe allow you \nto keep your \npersonality \nintact. I still ",
+          "have a bad \nfeeling about \nyou going there \nbut with how ",
+          "determined you \nare even if I \nmind controlled ",
+          "you it will only\ndelay you."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5f236661-22f7-43b3-a157-a97ef58cf7f1"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "b19e2169-d02e-4275-a6d3-639b12ad49c4"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "a745ecf1-c2a8-4fe8-b1c9-5626c068d140"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: is that \na weakness of \nmind magic."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0de71ad7-5ebe-4112-a04a-84ce67b53eab"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "7dd3d9c3-94d9-4fa3-b1fc-4453442f65ef"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "e31816bd-b5f7-4e06-8e36-e6dad1853500"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: yes, \nbeing determined\nin your actions\nis a good start",
+          "as it makes you\nresistant to \nmind magic",
+          "But it does not \nmake you immune.\nsince I am \ntalking to you"
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6a8aff8d-560d-44a4-a148-03a5a20f18eb"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
+      },
+      "id": "7f299264-201b-4f3a-aa01-42cb566d1547"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "0decedfa-3df0-4d88-a496-177cece4770f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil and blight \ntalk for about \nseveral hours \ndiscussing methods\nof mind magic."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "720b6332-eebb-49fb-be86-5e23f1e19b7a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "d38e5529-35bd-40a2-b8e9-8653040a6da0"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6a1aab05-f70e-4482-a0c1-5fae956848c3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I am \nwondering why \ndidn't you try \nto attack the ",
+          "solar council \nafter your \nfailed attempt \nat age 7?"
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6d83454d-aeab-41b6-a459-e4efe22bf40f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "9e0a3f31-7afa-4a77-9651-4a025655b9bb"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "b22fbaf3-98fd-411c-9f3c-c563e1e654dc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: I \nrealized that \njust randomly \nattacking the ",
+          "solar council \nwon't further my\ncause. It just \nputs more people",
+          "against me. If I\nwanted to take \nthem down I \nwould have to do",
+          "more than just \noutpower them. \nI would need\nto get proof of \ntheir crimes. ",
+          "the reason why I\neven want to \nknow who killed\nyou father is so",
+          "I can punish \nthem as when a \nsolar council \nmember dies ",
+          "their secret\nfiles are \nreleased but \nbefore they do ",
+          "so they destroy \nparts of the \nfiles to wipe \nany evidence of \nwrongdoing."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "760a5996-2d4c-4710-8c0c-59e420ca0859"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "c5bbbc80-c167-4a51-ab14-6dd2a208355c"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c479cc78-fd6c-49b0-a1d1-66c66d495267"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I do have\na question of \nyour mind magic \nrange when we ",
+          "where talking \nyou stated all \nmind magic users\ncan affect any ",
+          "being in their \nrange."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ef471de6-64ff-4d09-b97c-e9e2d0b61da8"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "ee65c72d-3415-4c64-9838-dcba3697f6a3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "b5268e2b-b0cf-4e95-9c03-b62e25391f5e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: I didn't\nwant to scare \nyou but yes I \ncan, to be ",
+          "honest I can \nhear the \nthoughts of \neveryone in the ",
+          "range not just \nthose whom I \ntalked to. I \nhave learned to ",
+          "filter out the \nvoices to those \nI have talked to\nby putting a ",
+          "magic tracer on \nthem. the reason\nI filter the \nlist out is ",
+          "having 2 \ntrillion voices \nin your head \nisn't healthy \nfor anyone.",
+          "I didn't think \nyou where \nlistening to me"
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d82d0455-69c7-4802-bccc-7e10929e3ced"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "9b21ed68-743d-4261-a4b0-d7440b7ddb25"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "7cf58149-8d38-405e-ad02-aad54d375264"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: that \nsounds fair? \nbefore we \nstarted looking ",
+          "at the evidence \nsteam told me \nwhat that slime \nsaid. they said ",
+          "something about \na litch that was\ntrying to kill me"
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "841a8272-aee0-4e3f-b4d9-b6c4821bbd71"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "44d1c867-cbca-4d2a-84cd-8365c76366d4"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "eab987ba-489d-425e-b4a7-f9f0aa47b3f4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: that \nsounds like my \naunt. ",
+          "somehow she \nsurvived the \ndestruction of \nwolf city",
+          "and the solar \ncouncil \nappointed her \nqueen of Eather.",
+          "she isn't \nactually a litch\nbut she behaves \nsimilar to one.",
+          "she is the \ncurrent ruler of\nwhere you are \ngoing so be ",
+          "careful of how \nyou talk \nespecially \naround her and ",
+          "unlike me she \ndoes not care of\nhow her magic \naffects their \nmind.",
+          "if I where to \nguess she hired \nthe slime to try\nto tie up all \nloose ends. ",
+          "I will ask one \nlast time to \nplease stop this"
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0df93d81-c094-4512-a4f0-21930c9fc2ee"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "d6523bcf-7790-4a7d-8eb3-6b7e7cba69b0"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9d447f38-0393-455e-b6d6-419a2495fd07"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I got \nthis. I can \neasily overpower\nher.",
+          "although I do \nwonder why steam\ndidn't want to \ncome this time \naround."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "84ae0d13-0ca6-471d-a465-8535cbdf62ec"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "7c60c4a8-7cda-40f3-8e42-176bd7c9ff14"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9e35267c-74be-4ad8-8684-ac2742919601"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: brier my\naunt is a \nextreme \nfeminist",
+          "to the point she\nbasically made \nit illegal for \nmen to enter the\nplanet.",
+          "and the only \npotion that \ngrants a \ntemporary ",
+          "transformation \nis especially \npain full to \ndragons of any ",
+          "type but water \ndragons have a \nchance of \ngetting stuck in\nthe variant. ",
+          "if you get in \ntrouble I will \nalert him but if\nhe does come it",
+          "is entirely his \ndecision as he \nknows the risks \ninvolved."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "50865eb7-2b29-42f1-814c-f1fac4dd8fbc"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "14e4d687-bb92-40a0-8ae5-c83c8bbb62ec"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "56470239-8e17-44a6-ad61-3d9522324554"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: I \nunderstand that\nif I f$%$ up it\nis on me.",
+          "I will continue \non this path \nthough."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d8d8b439-89fb-4a89-8a08-71bb6544eaf6"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "47ef9a79-594a-4b77-b349-3814ba2afb6a"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "4e256d4f-4f9e-427f-ae12-f31d6cebaeb5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: i wish \nyou the best of \nluck as once you\nenter the \natmosphere",
+          "I can only \nmonitor what is \nhappening and \nany electronic ",
+          "Transmissions \nwill be \nneutralized.",
+          "I hope you find \nwhat you are \nlooking for."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6aeee17d-2228-4e7b-b6dc-f6c81ece64b7"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "keep",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "52872e74-e336-4d18-a32a-d8f1ab302472",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "7d8ac917-6a20-4056-8469-ed8dfe084fde"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blight: p.ea.e \nt.ke ca.e o. \ny.ur.el."
+        ],
+        "__section": "text",
+        "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3f69c005-ae40-4eb3-b782-b8bfaf71003a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "540559f5-5b56-4688-843c-b6a8981e6655"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "aafb012a-2d17-4a07-9806-aed603156759"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:well she won't\nhelp you now \nthankfully for you",
+          "I couldn't hear \nany plans in that\nlittle discussion.",
+          "I am going to love\ntaking your mind \napart"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ed973e1d-d9f3-4b9c-a6aa-282b5371b241"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "a9147c53-e0e7-401a-85a8-abe5c2ff336f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
+      },
+      "id": "81063713-adde-4135-a213-c23a10075909"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "??? tries to use\nmind control to \ncause peryil to \nlose control",
+          "peryil resisted"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "49b893c8-80d2-4c62-b666-52c2a88a1ee2"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "dbbe6692-cc6f-4046-b719-fc8fcaa72856"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6b4552a8-7561-44c9-8a53-3de702e2f0c5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: that \nwon't work on me\nblight taught me\nhow to resist \nyour advances."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3d2af9b6-d844-42a9-beb2-111057462ade"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "f00b3987-912f-41bd-94a8-80acf95a37be"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6d6892e9-afb4-4d3f-a51c-3a03aa711636"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:for now but \nyour mind will \neventually be \nmine.",
+          "unlike you I have \nall day and just \nto let you know I \nonly need your ",
+          "mind so the \ncondition of your \nbody is \nmeaningless to me."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cced3523-bc62-4bca-9d0b-fa5310b9baf4"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "number",
+          "value": 1111
+        }
+      },
+      "id": "13718822-80fd-4145-9295-40611ff497e0"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "number",
+          "value": 318
+        }
+      },
+      "id": "556d7b02-bbfa-4055-b047-31ea4768ba06"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "5b6bbeb9-4f4c-4e34-a4ed-499aea9de92e",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 37
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "8324b96c-c0de-4f71-acac-de4b670e0a59"
     }
   ],
   "playerHit1Script": [],

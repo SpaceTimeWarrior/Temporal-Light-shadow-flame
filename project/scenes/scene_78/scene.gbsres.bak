@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "353397a2-f0ac-4772-9b3e-4ec8a7272329",
+  "_index": 77,
+  "type": "PLATFORM",
+  "name": "Scene 78",
+  "symbol": "scene_78",
+  "x": 3210.050018310547,
+  "y": 12668,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

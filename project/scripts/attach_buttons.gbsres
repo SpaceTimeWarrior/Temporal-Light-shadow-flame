@@ -368,6 +368,19 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "edb55eb3-53ff-4bfd-b8e1-a4f5015165d3",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "bbb89b84-1b59-4e79-9031-9588b9e03be5"
+          },
+          {
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "1",
@@ -463,10 +476,23 @@
         ],
         "override": false,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "7a45e9ba-d691-418a-a522-c7963d42c272",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "56e3aaee-f499-45b0-be53-828dc552343d"
+          },
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {

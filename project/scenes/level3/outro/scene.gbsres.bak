@@ -57,6 +57,17 @@
       "id": "604dc43e-ce0e-48b2-b4c7-31b2264672a9"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "8fbfe3a1-2e4e-4477-b253-78d6ab82f606"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -77,6 +88,17 @@
       "id": "54c2adc8-ae56-4b68-b775-0af98e3f6880"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9c332c8c-6c28-42f5-bca2-907f86baadce"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -95,13 +117,23 @@
       "id": "72558018-e2ea-4090-8394-b76020949d8b"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d0d223f4-d5f0-48e3-b6d7-a872945d6b98"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "peryil: I know \nyou are trying\nto cheer me up",
           "but you did not\nsee the same \nthing I did",
-          "and not to \nmention he did \nkill your ",
-          "parents."
+          "and not to \nmention he did \nkill your \nparents."
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -115,12 +147,22 @@
       "id": "46d80010-ea43-4d10-812b-b29f0b3d04c8"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "cb35036e-10a4-4b7d-925c-a523ddd05eb6"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "steam: fine \ninvestigate this\nfor me. and all",
-          "those who was\nnegatively \nimpacted by him.",
-          "I know it will\nbe hard."
+          "steam: fine \ninvestigate this\nfor me. and all\nthose who was",
+          "negatively \nimpacted by him.\nI know it will\nbe hard."
         ],
         "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
       },
@@ -132,6 +174,17 @@
         "palette": "default-bg-4"
       },
       "id": "cf82d49a-4bfc-417b-84fa-8ab484f4ef46"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "f21ee335-2f7e-4049-bbc2-37a8c9118fd3"
     },
     {
       "command": "EVENT_TEXT",
@@ -155,6 +208,17 @@
       "id": "321384cd-3767-4817-af7e-509e1e329f18"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "4a8a4c4d-2a9c-4b6b-929b-cf279ccbb10c"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -170,6 +234,17 @@
         "palette": "default-bg-4"
       },
       "id": "e2232b34-ccaa-4842-a40e-1eeb32871d72"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 380,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "181afbf2-4212-4ef1-91cc-7d20c29d98e2"
     },
     {
       "command": "EVENT_TEXT",
@@ -191,6 +266,17 @@
       "id": "670411ed-8fd2-44bb-8739-4bd3a8e4ced4"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "b5a87229-c78c-4844-a2d0-ef547e3b9c6e"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -204,9 +290,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: I will\nwrite down a \nrecipe can you",
-          "make it for me.\nblight messaged\nme. and I am",
-          "a little bit\nworried about it"
+          "peryil: I will\nwrite down a \nrecipe can you\nmake it for me.",
+          "blight messaged\nme. and I am\na little bit\nworried about it"
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -218,6 +303,17 @@
         "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
       },
       "id": "f5b69d70-0c3e-4b2f-9c2c-33d163524f0c"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "f5837e70-b0e2-4617-9767-f1612d6ad41a"
     },
     {
       "command": "EVENT_TEXT",
@@ -254,11 +350,21 @@
       "id": "dc575e48-5143-4ab2-ae0d-9a48d30553a0"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9cc64215-fc6f-46f6-9c58-085da77ba954"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: I guess\nI will call the\npolice ",
-          "department there."
+          "peryil: I guess\nI will call the\npolice \ndepartment there."
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -273,6 +379,17 @@
       "id": "edc57554-a006-4941-ae0b-0b990166741e"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "beep",
+        "pitch": 8,
+        "frequency": 300,
+        "duration": 0.01,
+        "effect": 0
+      },
+      "id": "b7a7bb4f-90cb-4abb-a9f8-06a59710d87a"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -281,6 +398,17 @@
         "avatarId": ""
       },
       "id": "d6530768-fe65-4e26-a916-c519b91b828d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "4ce03cd7-fded-4e0d-b694-588e27680dea"
     },
     {
       "command": "EVENT_TEXT",
@@ -298,6 +426,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "844e9f5c-0056-4086-a0f9-df0736570e10"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "2ec67355-a2b0-4cdd-898d-fff8f536dc08"
     },
     {
       "command": "EVENT_TEXT",
@@ -319,6 +458,17 @@
       "id": "871450fb-f6a7-4bbe-a284-a7a087ca1d05"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "26a21a59-ed9f-4e1a-b289-d23ac4c4f7c5"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -335,6 +485,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "0cfe4788-ef1b-4c6b-8b33-48291468538b"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9308cf52-7669-4ca7-b3e8-e00a52b2f6a7"
     },
     {
       "command": "EVENT_TEXT",
@@ -354,6 +515,17 @@
       "id": "b7fd9bb3-0078-42f5-abc0-6956f72c67f7"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "f25281d3-caeb-4baf-9125-5cde33e6c351"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -365,12 +537,26 @@
       "id": "58fc7c56-31f9-438d-9f1c-fe832eb24ab6"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "55cab439-4eac-4cef-a0d6-7510847531ee"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "the phone just\ndied"
         ],
-        "avatarId": ""
+        "avatarId": "",
+        "__section": "behavior",
+        "speedIn": 0,
+        "speedOut": 0
       },
       "id": "77c30f7c-ed10-470b-b3f5-dff37dfe4fea"
     },
@@ -382,11 +568,21 @@
       "id": "a06f66d9-b891-4fae-b098-3874a4a2d75c"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "90338ef5-8b78-495a-aaad-c37a0b969a94"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil:well \nthat settles it\nI have to check",
-          "it out"
+          "peryil:well \nthat settles it\nI have to check\nit out"
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -443,6 +639,17 @@
       "id": "d4caebc5-acda-486a-aa14-730cc3875c26"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "dbb89969-ed9f-4d30-85a9-1193c935cbdf"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -450,8 +657,7 @@
           "you asked. I do\nremember it\nnormally gives",
           "the consumer\nhigh poison\nresistance",
           "but is still \nnot immune to\ntoxic waste",
-          "your current\nform will be\nmerged with a",
-          "normal fox.",
+          "your current\nform will be\nmerged with a\nnormal fox.",
           "unlike the last\none this does\nnot directly",
           "alter the DNA\npermanently. but\ncan increase",
           "compatibility to\ncanine or \nvulpine monsters",
@@ -502,6 +708,17 @@
         "palette": "6e03ea10-5b2d-4e75-950f-f914722f76c6"
       },
       "id": "43687d83-037d-44c2-b0d1-d26f29791945"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "none",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "c38872f5-4702-4a8b-884c-f59b9eba346d"
     },
     {
       "command": "EVENT_TEXT",

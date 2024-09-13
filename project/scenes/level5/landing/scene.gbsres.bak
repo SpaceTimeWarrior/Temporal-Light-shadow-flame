@@ -1,0 +1,305 @@
+{
+  "_resourceType": "scene",
+  "id": "5b6bbeb9-4f4c-4e34-a4ed-499aea9de92e",
+  "_index": 73,
+  "type": "PLATFORM",
+  "name": "Level5/landing",
+  "symbol": "scene_74",
+  "x": 784,
+  "y": 12840,
+  "width": 100,
+  "height": 42,
+  "backgroundId": "dae08bb6-16d8-438b-b643-f1978ca8dfcb",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "707b95d7-5b8a-433e-ae55-272937348bce",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 17
+              }
+            },
+            "id": "54fc04fe-8ccc-40f1-ad60-03bdff6c58da"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "8befee5e-1ed0-4df7-bd15-52d2864d296b"
+          }
+        ]
+      },
+      "id": "c7e65107-4670-4f7f-840c-70f868e9d5ac"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "bb49def5-d926-4f23-8d0d-a4f2fafc1ea8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:if you can \nmake it to the \nthrone room I will",
+          "consider you \nworthy of keeping\nyour mind intact"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b0d47b99-8553-4788-8c5b-5dd37fc1715d"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "35b6f11b-8180-4281-bcfb-da6bb386fc63"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:I will \nsay what I want\nyou can't force \nme"
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "57743905-1007-4747-8f5f-62a1dfb2045f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "78c03966-bd54-4ae2-99dd-97b988a2365e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:you better \nwatch your tounge\nor you may lose it"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dd56831b-b2a4-4544-b26a-2acab897ab67"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "25913202-f122-4596-9d38-e87063842691"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: show me \nyour best shot.\nI think you are \nall talk."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4f1e6159-22dc-4e11-91d6-224a81a59478"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "42927c4f-e60a-44fd-9eb7-6b6d3bdcfd8d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:if you say so\nbut a word of \nadvice",
+          "don't say\nthat to someone \nwho can read your\nmind."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "29b36d33-f74f-456a-bca3-d8aa920504b4"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "1e14d316-33f0-4b83-a9b6-9f4d1020af72"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 40"
+            },
+            "id": "43e0bd43-23fe-44f7-8039-8514db756c2f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "5ece355f-ff58-4941-b899-9c060b52cda5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 40
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "6ef0c9a8-714a-4bbd-b735-5958cbf9e300"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "75e37690-b62f-4f03-af8e-801e2886be51"
+                }
+              ]
+            },
+            "id": "514072fe-4000-4ad2-8767-703c61ee0144"
+          }
+        ]
+      },
+      "id": "442e6d2f-f3cf-4aeb-bc56-6cd893b3bd5b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f6+4f!0f!0054+7f!5f!0fa+4f!60!0058+70!5f!0f6+4f!6f!005c+70!5f!0f2+4f!6f!0060+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f4+014+005c+0f4+0060+0f4+0048+0112+006+0f4+0060+0f4+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+002c+40!60!0f18+00c+0f12+002a+40!60!00!0f19+00c+0f12+0028+40!60!00!0f1b+00c+0f12+0026+40!60!00!0f1d+00c+0f12+0024+40!60!00!0f1f+00c+0f12+006+012+001a+40!60!00!0f21+00c+0f12+0020+40!60!00!0f23+00c+0f12+001e+40!60!00!0f25+00c+0f12+001c+40!60!00!0f27+00c+0f12+001a+40!60!00!0f29+00c+0f12+0018+40!60!00!0f2b+014+004+014+0f12+0016+40!60!00!0f2d+00c+0f28+00!0f2f+00c+0f58+00c+0f58+00c+0f58+00c+0f10+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "dcfe69ff-7392-4e4a-aacb-73183843aadb",
+  "name": "Level 5-intro",
+  "symbol": "bg_level_5_intro",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Level 5-intro.png",
+  "tileColors": "03168+",
+  "autoColor": false
+}

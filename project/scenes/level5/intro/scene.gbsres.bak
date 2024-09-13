@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Level5/intro",
   "symbol": "scene_61",
-  "x": 432,
-  "y": 11688,
+  "x": 1896,
+  "y": 11624,
   "width": 80,
   "height": 80,
   "backgroundId": "e95ec639-e861-4dae-8397-e6ea49a3821f",
@@ -21,6 +21,17 @@
         "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
       },
       "id": "dc0c8489-c071-48dc-85cb-5d4757bef916"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d4640ba2-a046-4b6a-b0f2-cc67dd7fa68a"
     },
     {
       "command": "EVENT_TEXT",
@@ -38,6 +49,17 @@
         "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
       },
       "id": "577b774c-45fc-44ec-8dd0-6e6877bfd806"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "671b5c9d-cad4-4efe-b649-83bd3f2d8ad6"
     },
     {
       "command": "EVENT_TEXT",
@@ -66,23 +88,6 @@
         "useCollisions": false
       },
       "id": "5e6c0a30-d4f4-4248-b1e5-5432b534ccf7"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "e2e70baf-da61-421f-92c6-8a4e1f7086d2",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "dd2fc3b1-952c-4d49-9148-91eaaaf3c371"
     }
   ],
   "playerHit1Script": [],

@@ -1,0 +1,159 @@
+{
+  "_resourceType": "scene",
+  "id": "2231b286-3589-47dc-b9f7-94cd87cb9eda",
+  "_index": 15,
+  "type": "PLATFORM",
+  "name": "Level1/Burnclaw Forest crime scene",
+  "symbol": "scene_16",
+  "x": 3112,
+  "y": 2240,
+  "width": 50,
+  "height": 28,
+  "backgroundId": "f608f83b-7548-40d7-9c2d-7e448dbf5b20",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "b3271a89-71e8-43e5-a9f0-ccf47dfb34f1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "37"
+        }
+      },
+      "id": "fb14476c-f447-42c5-b69c-980fc607d482"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": true,
+        "__label": "crystal's cookie test unlock",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "4de0bff8-cfb2-43b8-a158-dd5dd5f9f2e4"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4eb8b98f-8311-43be-a58d-21cf3889ae6b",
+              "__collapse": true
+            },
+            "id": "14fe823b-ea66-4733-9412-38eaa9591546"
+          }
+        ]
+      },
+      "id": "e020ef96-bcaa-4264-82d4-a0c0789fcd17"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "7fb8330d-222d-45e7-8b52-b91ec7d65e24"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 26"
+            },
+            "id": "b42d4f47-da46-4b50-b991-5e20326083e6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "3180cc8e-6d57-49f7-91cb-ca05a8583073"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 26
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "a7434b09-47a4-436c-8f95-0cb43b9a16f2"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 26
+                    }
+                  },
+                  "id": "da27e8a2-3736-43d9-a9ff-b36cc3dbfadc"
+                }
+              ]
+            },
+            "id": "7e3e84e4-1631-4dfb-9b6e-d699e94b9652"
+          }
+        ]
+      },
+      "id": "c5b0d7a1-3624-46ce-8a1b-d290cbb3fd0d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f32+00!0f31+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!009+0f2+0023+0f2+00!0f!002e+0f2+00!0f!002e+0f2+00!0f!008+0f2+0024+0f2+00!0f!008+0f2+0024+0f2+00!0f!004+014+0f2+0024+0f2+00!0f!008+0f2+0024+0f2+00!0f!008+0f2+0024+0f4+008+0f2+0024+0f2+0030+0f2+0030+0f2+0030+0f2+0030+0f2+0030+0f66+0064+"
+}

@@ -3344,17 +3344,31 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 0
+            },
+            "id": "c8ee75e4-98e5-40af-b479-24e976988624"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "peryil died\nreturning to title"
               ],
-              "avatarId": ""
+              "avatarId": "",
+              "__section": "behavior",
+              "speedIn": 0,
+              "speedOut": 0
             },
             "id": "096b015e-c034-4da9-9d65-c36c7ed2f47e"
           },

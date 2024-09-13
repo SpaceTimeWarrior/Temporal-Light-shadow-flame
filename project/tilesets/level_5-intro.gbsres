@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c60ae159-27c6-4eee-ac9d-d833d1b38b8d",
+  "name": "Level 5-intro",
+  "symbol": "tileset_level_5_intro",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "Level 5-intro.png"
+}

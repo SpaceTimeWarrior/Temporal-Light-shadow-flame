@@ -252,6 +252,16 @@
       "symbol": "var_room_id"
     },
     {
+      "id": "50",
+      "name": "level5 flags1",
+      "symbol": "var_level5_flags1"
+    },
+    {
+      "id": "51",
+      "name": "key flags 5",
+      "symbol": "var_key_flags_5"
+    },
+    {
       "id": "884bac5c-1840-41a9-9756-32579bd614e4__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -375,6 +385,11 @@
       "id": "02e02534-d38a-4bf5-aaff-87f115f6e7b8__L0",
       "name": "Local 0",
       "symbol": "var_local_23"
+    },
+    {
+      "id": "e4e35497-92f5-4790-9ed4-39edeb6d80cc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_24"
     }
   ]
 }

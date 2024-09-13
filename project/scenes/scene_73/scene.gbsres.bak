@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "08ad3677-ef8f-4d14-ab43-88804ec4bc6f",
+  "_index": 72,
+  "type": "PLATFORM",
+  "name": "Scene 73",
+  "symbol": "scene_73",
+  "x": 2688,
+  "y": 13176,
+  "width": 120,
+  "height": 36,
+  "backgroundId": "390b7087-acd1-4c68-82ab-af739f1a26cd",
+  "tilesetId": "",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    null,
+    null,
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00a1+0f4f+0028+0f!20!0075+0f!20!0075+0f!20!0075+0f!20!0075+0f!20!0075+0f!20!0075+0f!20!0054+0f22+20!00171+0f4c+002c+0f4c+002d0+0f24+30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f49+00168+"
+}

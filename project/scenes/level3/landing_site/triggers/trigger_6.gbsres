@@ -1,0 +1,155 @@
+{
+  "_resourceType": "trigger",
+  "id": "e66892a0-80f2-4282-b481-e7e30e4a3307",
+  "name": "",
+  "prefabId": "",
+  "_index": 5,
+  "symbol": "trigger_264",
+  "x": 14,
+  "y": 66,
+  "width": 7,
+  "height": 6,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "992919c8-732e-40f3-b86f-83f2033bead7"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "6183c904-fa12-4844-9854-cd03e3eca2ec"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: it was \nunclear what \nsteam said but\nit sounded like",
+                "he wanted me to\ngo to > then ^"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "8761d336-2a83-4f54-ab59-f1968c2da277"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "7874dd84-bba2-450e-99d1-7647e13083d6"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 40"
+                  },
+                  "id": "cfad5ca2-0d73-4d77-b71f-96edff08303e"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "f6774b58-ad03-4aa9-97b0-7c6e1bcf87d0"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "331857d5-7ce3-4e8d-bfe3-718e4d7192f7"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 40
+                          }
+                        },
+                        "id": "82348c4e-5abe-4fbc-bd39-928b52ebeecd"
+                      }
+                    ]
+                  },
+                  "id": "ba655b75-8fb3-4947-8659-2fbf9f952605"
+                }
+              ]
+            },
+            "id": "1f726654-71ee-48d9-9ac2-20022d7c680b"
+          }
+        ]
+      },
+      "id": "a0e409a0-00a0-4d28-bde0-f1657999f86f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "07f67725-9908-44fd-8b91-7214e15849fd"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "56c26435-bd57-44a9-b6e4-acf1409a9209"
+    }
+  ]
+}

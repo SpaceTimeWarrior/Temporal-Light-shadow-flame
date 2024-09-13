@@ -86,6 +86,17 @@
       "id": "e8127e6c-9da8-4ab6-9eea-4cb02802f0e7"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d56980ff-5213-4f01-a5f9-38a72da57acb"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -164,6 +175,17 @@
       "id": "8ddc6362-7948-4422-b4e3-f5015eed8b0a"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "df6279d0-59fe-4651-bcd6-6d127f60e889"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -209,6 +231,17 @@
       "id": "fdb75cd9-57c7-489e-92ea-02af8e3a1bfc"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 420,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "ec7bb4e4-9fb5-4875-a09e-a4f005ceb4f7"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -224,6 +257,17 @@
         "palette": "9fd3cabb-6131-4ce3-8faa-6072f32867f5"
       },
       "id": "d74b8257-6fc7-42e1-8fb1-33b3ce3f48f6"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6a51f5e4-fc6f-44e2-974b-97c2db2e0e8d"
     },
     {
       "command": "EVENT_TEXT",

@@ -19,6 +19,17 @@
       "id": "3b12e07d-9c4d-4568-ab96-ee927b03ab58"
     },
     {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "6700740f-e388-401a-8b9a-7c4226b14d2e"
+    },
+    {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
@@ -116,13 +127,13 @@
         "sceneId": "e2e70baf-da61-421f-92c6-8a4e1f7086d2",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 11
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "e4cd500a-0b51-4615-962d-63aba55b7312"

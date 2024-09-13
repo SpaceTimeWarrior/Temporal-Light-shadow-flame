@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "390b7087-acd1-4c68-82ab-af739f1a26cd",
+  "name": "eather endgame access",
+  "symbol": "bg_eather_endgame_access",
+  "width": 120,
+  "height": 36,
+  "imageWidth": 960,
+  "imageHeight": 288,
+  "filename": "eather endgame access.png",
+  "tileColors": "03ff0+066+002+0676+002+0670+",
+  "autoColor": false
+}

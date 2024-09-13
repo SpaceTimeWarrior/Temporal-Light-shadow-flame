@@ -102,11 +102,11 @@
   "playerHit2Script": [],
   "playerHit3Script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "be82aae2-28ec-4902-941d-0744715f367b"
+      "id": "8494293f-28d8-438b-82c5-caed80dd8b73"
     }
   ],
   "collisions": "00!0f3+0072+0f!00!0f4+0072+0f!004+0f!0072+0f!005+0272+0f2+003c0+0f2+0078+0f!0078+0f2+0171+0f2+003+0f!0072+0f!004+0f!0072+0f!004+0f!00164+"

@@ -27,11 +27,11 @@
   "playerHit2Script": [],
   "playerHit3Script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "222a3f78-f0ed-47c0-add2-4e3ec5bf0a22"
+      "id": "f07f5f74-4c1b-41e7-9fba-394c4b28999b"
     }
   ],
   "collisions": "0f54+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f6+0022+0f4+0024+0f4+0024+0f4+0024+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0f4+008+0f2+00c+0f2+00c+0fa2+"

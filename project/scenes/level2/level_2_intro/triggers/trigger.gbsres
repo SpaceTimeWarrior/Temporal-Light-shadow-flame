@@ -12,6 +12,29 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_CLEAR_FLAGS",
+      "args": {
+        "variable": "47",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": true,
+        "flag7": true,
+        "flag8": true,
+        "flag9": true,
+        "flag10": true,
+        "flag11": true,
+        "flag12": true,
+        "flag13": true,
+        "flag14": true,
+        "flag15": true,
+        "flag16": true
+      },
+      "id": "af278fd5-feea-4744-90e9-59a1a21a2b27"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "01b44bfb-8f8f-4712-a948-95c13edffc9c",

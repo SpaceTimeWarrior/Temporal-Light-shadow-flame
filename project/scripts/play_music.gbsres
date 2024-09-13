@@ -3,7 +3,7 @@
   "id": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
   "name": "play_music",
   "symbol": "script_17",
-  "description": "volume level \n0=mute\n1-7 play volume\nmusic tracks\n1.alchemist energy battle\n2.alchemist energy\n3.blight of light\n4.darkness inbound\n5.featherfire-title\n6.featherfire-cedric\n7.featherfire-depressed\n8.featherfire-depressed2\n9.featherfire-ember\n10.lunabound\n11.taking flight\n12.uncertain wilds battle\n13.uncertain wilds\n14.unknown wilds\n15.wolf city/distortion mountain\n16.wolfsbane castle",
+  "description": "volume level \n0=mute\n1-7 play volume\nmusic tracks\n1.alchemist energy battle\n2.alchemist energy\n3.blight of light\n4.darkness inbound\n5.featherfire-title\n6.featherfire-cedric\n7.featherfire-depressed\n8.featherfire-depressed2\n9.featherfire-ember\n10.lunabound\n11.taking flight\n12.uncertain wilds battle\n13.uncertain wilds\n14.unknown wilds\n15.wolf city/distortion mountain\n16.wolfsbane castle\n17.darkness inbound",
   "variables": {
     "V0": {
       "id": "V0",
@@ -364,7 +364,76 @@
                         "id": "01aab8f5-85e3-488a-a84b-7c3acd48a9c8"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "V0",
+                          "choices": 2,
+                          "__collapseCase0": false,
+                          "value0": 17,
+                          "__collapseCase1": false,
+                          "value1": 18,
+                          "__collapseCase2": false,
+                          "value2": 3,
+                          "__collapseCase3": false,
+                          "value3": 4,
+                          "__collapseCase4": false,
+                          "value4": 5,
+                          "__collapseCase5": false,
+                          "value5": 6,
+                          "__collapseCase6": false,
+                          "value6": 7,
+                          "__collapseCase7": false,
+                          "value7": 8,
+                          "__collapseCase8": false,
+                          "value8": 9,
+                          "__collapseCase9": false,
+                          "value9": 10,
+                          "__collapseCase10": false,
+                          "value10": 11,
+                          "__collapseCase11": false,
+                          "value11": 12,
+                          "__collapseCase12": false,
+                          "value12": 13,
+                          "__collapseCase13": false,
+                          "value13": 14,
+                          "__collapseCase14": false,
+                          "value14": 15,
+                          "__collapseCase15": false,
+                          "value15": 16,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_MUSIC_PLAY",
+                              "args": {
+                                "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                              },
+                              "id": "9a5c8cd9-ab4f-4cf4-8928-2da3214e9114"
+                            }
+                          ],
+                          "true1": [],
+                          "true2": [],
+                          "true3": [],
+                          "true4": [],
+                          "true5": [],
+                          "true6": [],
+                          "true7": [],
+                          "true8": [],
+                          "true9": [],
+                          "true10": [],
+                          "true11": [],
+                          "true12": [],
+                          "true13": [],
+                          "true14": [],
+                          "true15": [],
+                          "false": []
+                        },
+                        "id": "ec350e03-e8c7-4e9e-b344-dc53fd1d1585"
+                      }
+                    ]
                   },
                   "id": "807a4a5b-6089-460e-b42f-ebf27807ba02"
                 }
@@ -555,7 +624,76 @@
                         "id": "66f265be-3e6f-4f3d-8d43-f7bc34ab362a"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "V0",
+                          "choices": 2,
+                          "__collapseCase0": false,
+                          "value0": 17,
+                          "__collapseCase1": false,
+                          "value1": 18,
+                          "__collapseCase2": false,
+                          "value2": 3,
+                          "__collapseCase3": false,
+                          "value3": 4,
+                          "__collapseCase4": false,
+                          "value4": 5,
+                          "__collapseCase5": false,
+                          "value5": 6,
+                          "__collapseCase6": false,
+                          "value6": 7,
+                          "__collapseCase7": false,
+                          "value7": 8,
+                          "__collapseCase8": false,
+                          "value8": 9,
+                          "__collapseCase9": false,
+                          "value9": 10,
+                          "__collapseCase10": false,
+                          "value10": 11,
+                          "__collapseCase11": false,
+                          "value11": 12,
+                          "__collapseCase12": false,
+                          "value12": 13,
+                          "__collapseCase13": false,
+                          "value13": 14,
+                          "__collapseCase14": false,
+                          "value14": 15,
+                          "__collapseCase15": false,
+                          "value15": 16,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_MUSIC_PLAY",
+                              "args": {
+                                "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                              },
+                              "id": "13dcbd07-a85d-4f53-8dc8-01464aa582d9"
+                            }
+                          ],
+                          "true1": [],
+                          "true2": [],
+                          "true3": [],
+                          "true4": [],
+                          "true5": [],
+                          "true6": [],
+                          "true7": [],
+                          "true8": [],
+                          "true9": [],
+                          "true10": [],
+                          "true11": [],
+                          "true12": [],
+                          "true13": [],
+                          "true14": [],
+                          "true15": [],
+                          "false": []
+                        },
+                        "id": "abc10956-e739-4945-ae02-19d2953f237f"
+                      }
+                    ]
                   },
                   "id": "851836cb-2630-4c9c-96fc-0551c9bfabd7"
                 }
@@ -605,7 +743,8 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
       "children": {
         "true0": [],

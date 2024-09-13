@@ -498,16 +498,16 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_DEC_VALUE",
+            "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "variable": "6"
+              "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
             },
-            "id": "350add01-71ad-4d1f-be5a-1fbedafc3f83"
+            "id": "dd8cdca5-db0c-4f02-929b-d2a47d8e207f"
           },
           {
             "command": "EVENT_SET_VALUE",

@@ -154,11 +154,21 @@
             "id": "592f26d2-948a-4db7-84b6-37075d3190a0"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "406b6278-13a7-498a-bb9d-226f8a9c6717"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "steam: w.y di.\ny.u e.t.r a \nt.ro.gh th.",
-                "s.wer .ntra.ce"
+                "steam: w.y di.\ny.u e.t.r \nt.ro.gh th. a\ns.wer .ntra.ce"
               ],
               "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
             },
@@ -170,6 +180,17 @@
               "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
             },
             "id": "0510a0f6-0148-4449-9e18-8575b3225b2f"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "95ae8ed7-afc5-4eae-8731-36926eb97873"
           },
           {
             "command": "EVENT_TEXT",
@@ -193,12 +214,22 @@
             "id": "cd982c9c-ef65-4b6f-bdfb-b958d925d616"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "3fcdfbbf-ee54-49a1-b79e-9a21eb02fd0f"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "steam: w.l. tha.\ngi.es m. s.me\nre.ief. i. m.",
-                "mem.ry s.rve. m.\nco.re.tly it i.\nab.ve^ a.d to ",
-                "the ea.t > of \n..u."
+                "steam: w.l. tha.\ngi.es m. s.me\nre.ief. i. m.\nmem.ry s.rve. m.",
+                "co.re.tly it i.\nab.ve^ a.d to \nthe ea.t > of \n..u."
               ],
               "avatarId": "0a30862a-5c51-4489-aad5-0fe80d429a2f"
             },
@@ -210,6 +241,17 @@
               "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
             },
             "id": "82d8863b-809a-4def-91d5-62c70306c291"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "e34e0f1e-16ba-406a-bf1d-3788742cc660"
           },
           {
             "command": "EVENT_TEXT",

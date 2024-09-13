@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1461ac17-6dc0-4052-b85d-0c66c19550ed",
+  "name": "eather endgame access_locked",
+  "symbol": "bg_eather_endgame_access_lo",
+  "width": 120,
+  "height": 36,
+  "imageWidth": 960,
+  "imageHeight": 288,
+  "filename": "eather endgame access_locked.png",
+  "tileColors": "03ff0+066+002+0676+002+0670+"
+}

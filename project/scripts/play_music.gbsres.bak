@@ -1,0 +1,1413 @@
+{
+  "_resourceType": "script",
+  "id": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+  "name": "play_music",
+  "symbol": "script_17",
+  "description": "volume level \n0=mute\n1-7 play volume\nmusic tracks\n1.alchemist energy battle\n2.alchemist energy\n3.blight of light\n4.darkness inbound\n5.featherfire-title\n6.featherfire-cedric\n7.featherfire-depressed\n8.featherfire-depressed2\n9.featherfire-ember\n10.lunabound\n11.taking flight\n12.uncertain wilds battle\n13.uncertain wilds\n14.unknown wilds\n15.wolf city/distortion mountain\n16.wolfsbane castle",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "36"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "a16d03d3-93f3-4d22-9ea0-86c6cda384d8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "36",
+              "choices": 6,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 1,
+                    "r": 1
+                  },
+                  "id": "338d54b4-17a2-4aaf-9621-2adfecdaa324"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 2,
+                    "r": 2
+                  },
+                  "id": "67a2ea3f-ffe1-4ab6-b6a8-974893646f26"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 3,
+                    "r": 3
+                  },
+                  "id": "97867716-8859-4df6-bbd1-1987c501a9bb"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 4,
+                    "r": 4
+                  },
+                  "id": "1c56eb94-f821-4391-848e-6757a1c13e3b"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 5,
+                    "r": 5
+                  },
+                  "id": "7969331a-53d0-4b9a-b9bf-19e806aec169"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 6,
+                    "r": 6
+                  },
+                  "id": "126980b5-6f88-4a70-9706-59224511c232"
+                }
+              ],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 7,
+                    "r": 7
+                  },
+                  "id": "e7fc6e88-5068-4b22-8fc9-efcd561a4d68"
+                }
+              ]
+            },
+            "id": "639988b7-c4a6-4440-8451-51140a6678ee"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "40"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "V0",
+                    "choices": 16,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
+                        },
+                        "id": "badb0521-82fc-405c-9a7d-4f55d3c8cb26"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
+                        },
+                        "id": "aa12795b-3a57-4cad-91f6-29ebb9963e72"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
+                        },
+                        "id": "3a903be3-59bd-4bd5-a3b1-861078d05f4c"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                        },
+                        "id": "a5309133-cb2a-4743-b4f5-137100ca587a"
+                      }
+                    ],
+                    "true4": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
+                        },
+                        "id": "f95acac8-2159-49da-a553-2642ae32b18f"
+                      }
+                    ],
+                    "true5": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
+                        },
+                        "id": "e88cf050-dcb4-457f-ac38-74ee8e903aa3"
+                      }
+                    ],
+                    "true6": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
+                        },
+                        "id": "f478af07-f351-4d86-965d-cbf134f1cc32"
+                      }
+                    ],
+                    "true7": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
+                        },
+                        "id": "d17e1879-0a2b-46a6-8ca7-74f27db85656"
+                      }
+                    ],
+                    "true8": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
+                        },
+                        "id": "92686309-268f-4a7d-a66f-dde4d98cc83b"
+                      }
+                    ],
+                    "true9": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
+                        },
+                        "id": "9954383f-8ae5-4e61-a8dc-3e99082bf13d"
+                      }
+                    ],
+                    "true10": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
+                        },
+                        "id": "fd7a0d1e-8ba7-4d76-9cda-83fa71594666"
+                      }
+                    ],
+                    "true11": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
+                        },
+                        "id": "658aef22-ff2a-45de-ab33-92eee3c54231"
+                      }
+                    ],
+                    "true12": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "631f9382-124c-49fd-a762-811547a70a23"
+                        },
+                        "id": "1729482b-2569-470b-93ea-39b1e922d08e"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
+                        },
+                        "id": "bde264b4-5b95-4191-8d9d-0bbcebc9024d"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
+                        },
+                        "id": "5e3753a4-be72-4d56-99f7-5e36ad075195"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
+                        },
+                        "id": "01aab8f5-85e3-488a-a84b-7c3acd48a9c8"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "807a4a5b-6089-460e-b42f-ebf27807ba02"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "V0",
+                    "choices": 16,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "94c5b010-2c3e-4bff-a60e-810704f646a9"
+                        },
+                        "id": "7dc33505-d04a-4d7f-971f-37ae54decc39"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "6b5fbe7a-8c5d-42c3-a7b1-150a5624dede"
+                        },
+                        "id": "ec73dd52-00a0-4892-b197-ab2c2d96c8f6"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "0fc09a46-96b5-450b-ab3b-465b8709db0c"
+                        },
+                        "id": "328ae625-d63c-4b59-9120-74a9ad23bea5"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "6075e3ed-c947-445b-8c56-9b8c0994de31"
+                        },
+                        "id": "e332f846-6a6e-4442-9b74-5aae594a91a2"
+                      }
+                    ],
+                    "true4": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "3f9cb089-8a2c-44d2-b09f-edf03b03b41e"
+                        },
+                        "id": "9cd051f5-3010-4159-ba62-ec04d1da5fe8"
+                      }
+                    ],
+                    "true5": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "79904618-50d0-4be0-86ba-881a5695b40e"
+                        },
+                        "id": "4481fb9d-da0a-4168-a213-8407e0332db8"
+                      }
+                    ],
+                    "true6": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "c3f9f916-22f8-4e41-a721-500348bf7002"
+                        },
+                        "id": "57a2c4d0-6998-45fa-9ad7-cadfa9be550d"
+                      }
+                    ],
+                    "true7": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "18090131-71fd-4629-83a1-e440ceaf117a"
+                        },
+                        "id": "1a13f4b0-b5ee-4597-b1dc-313cad48c3b8"
+                      }
+                    ],
+                    "true8": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "cc01941f-53ef-4d89-a260-8efc2fc0fa29"
+                        },
+                        "id": "96c536ec-c804-4e11-ab24-b73290843753"
+                      }
+                    ],
+                    "true9": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "640a3e4d-6031-45d2-8f9f-41d998a9c20d"
+                        },
+                        "id": "bb710aae-f20f-431d-96d2-9e1b05df5911"
+                      }
+                    ],
+                    "true10": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "6c249f65-1aa5-4626-b962-366301ad52da"
+                        },
+                        "id": "dbf41265-b2da-4ff1-9c9f-0affd18d2d2d"
+                      }
+                    ],
+                    "true11": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "698af50d-51c4-4cd3-b6da-99c3b56f2ff7"
+                        },
+                        "id": "b6ff49f3-cccc-44ea-85eb-bd4d74b17800"
+                      }
+                    ],
+                    "true12": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "70324402-bbec-42a8-9098-1e808f95587c"
+                        },
+                        "id": "6e900afa-d7aa-437e-81ef-ea44cd2a6e20"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "c6b18a1d-d848-4dd3-a621-9851f5f3bd37"
+                        },
+                        "id": "bdb3e379-18e4-40a8-8c23-cb042fea691d"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "9f9f9814-f55a-42ae-afe3-40a70bea7230"
+                        },
+                        "id": "48831baa-e477-4f03-9bba-158da436dc5a"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "e98049fc-f596-4ffc-8d97-228188dc0de0"
+                        },
+                        "id": "66f265be-3e6f-4f3d-8d43-f7bc34ab362a"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "851836cb-2630-4c9c-96fc-0551c9bfabd7"
+                }
+              ]
+            },
+            "id": "91056656-b1b4-4bb3-81bc-82b76f4d355f"
+          }
+        ]
+      },
+      "id": "e2af9dfd-5b61-4c3c-9fa4-f21aed02b0b0"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "36",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 2,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__comment": true
+      },
+      "children": {
+        "true0": [],
+        "true1": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 16,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": false,
+              "__comment": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0a160d17-8521-4ceb-80ee-32d82151e04e"
+                  },
+                  "id": "c98519b3-48e1-49a1-9f40-a67e156214c9"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "7a23a16e-4081-4b72-be85-134be46cddbb"
+                  },
+                  "id": "7396fd8f-e262-459b-9041-cdbd8eff4b51"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "3c67af96-f462-49aa-8527-47abe67ff1de"
+                  },
+                  "id": "f53ec60f-fe65-436e-89be-b7dae0f790d4"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b4e930c0-4345-4f07-b1e2-c9a64ef9193c"
+                  },
+                  "id": "6a536cc5-4c92-497d-b0c5-a251f90bdad1"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "71c68ca9-8238-439a-91ca-6f4dbf5d33e2"
+                  },
+                  "id": "117afda9-7583-497d-8000-bc069d75c494"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "6cc16580-ad3c-4fe2-8698-f5f8f9dfceb7"
+                  },
+                  "id": "ea3e57d0-e84e-4000-a5f0-3d910c07a9f6"
+                }
+              ],
+              "true6": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b8527689-a061-4d6c-b686-783e6dce7dfb"
+                  },
+                  "id": "f3a29045-a3c7-42cd-b69c-2b02ae11112d"
+                }
+              ],
+              "true7": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "80ebb0c0-73df-4638-9c3b-59045d6109f8"
+                  },
+                  "id": "b262806b-784f-4834-9f25-2e5a3846cc71"
+                }
+              ],
+              "true8": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "cc4bebc1-45e8-4bde-affb-3214d7ac94dd"
+                  },
+                  "id": "5b79e1d0-46e0-4362-90d8-a4941f6f5d8d"
+                }
+              ],
+              "true9": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "796b8129-30c6-46f7-b2ec-20c468308c5b"
+                  },
+                  "id": "fd7c3e27-f4f3-4b47-b9e2-c85013c36cd7"
+                }
+              ],
+              "true10": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "c6cc47b7-ddb5-4946-97a7-1db8e0d86e00"
+                  },
+                  "id": "2680b638-8d34-465f-aa70-b9c1b4f3d265"
+                }
+              ],
+              "true11": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "4c6a8bbd-f660-4c8a-b8e5-9e023445a155"
+                  },
+                  "id": "631c24b5-efa2-44a9-b394-1a0d66cf5209"
+                }
+              ],
+              "true12": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "bb4c36e0-9591-4e53-bbe5-5918770808ef"
+                  },
+                  "id": "bbb4f875-ca4b-4379-af5b-aabec8db8644"
+                }
+              ],
+              "true13": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "27820cc3-52e8-4789-8c25-88b08c09674d"
+                  },
+                  "id": "89a874ab-673f-4f31-bbc4-15bae4e05094"
+                }
+              ],
+              "true14": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "ed8e0be0-fc26-4471-8544-b3e208723000"
+                  },
+                  "id": "b8b98165-f3f6-4595-92c1-d92c15946c96"
+                }
+              ],
+              "true15": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "a8ce2533-8a2c-41cd-8777-82fcbb40a8b8"
+                  },
+                  "id": "0d330919-8e8a-4524-bf02-99e9133f5429"
+                }
+              ],
+              "false": []
+            },
+            "id": "3ac6b9fe-b62d-462a-9f5c-fe29d2cd1f3e"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_SOUND_MASTERVOL 02"
+            },
+            "id": "b3eaf748-d0f0-42e2-b5fe-893a5eefe123"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 16,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
+                  },
+                  "id": "9e2eea75-993b-4551-be92-02a0ce6604f8"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
+                  },
+                  "id": "1dccec1e-24ed-4f49-aebf-62d6ae794cbe"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
+                  },
+                  "id": "adf50443-0f35-4bb1-a1a7-c72737849cfb"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                  },
+                  "id": "c0cd6eed-2109-4b75-b517-fca75afa8140"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
+                  },
+                  "id": "ef78e821-09e0-479e-976c-c785e8de6d94"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
+                  },
+                  "id": "94cd43ab-054b-4eb1-8084-5547ca68b97e"
+                }
+              ],
+              "true6": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
+                  },
+                  "id": "1bbfb2d7-8823-492a-bc78-f745e58a3efd"
+                }
+              ],
+              "true7": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
+                  },
+                  "id": "24c3e0a4-4b69-4d78-b9a0-277fd43e5fc8"
+                }
+              ],
+              "true8": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
+                  },
+                  "id": "f8fe2e41-eab0-4fcc-b78e-6dab07b65108"
+                }
+              ],
+              "true9": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
+                  },
+                  "id": "e56dfd23-750b-42c5-b190-0730f11b3998"
+                }
+              ],
+              "true10": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
+                  },
+                  "id": "d708ce92-f0e5-46e1-9ac9-18fc85b658d9"
+                }
+              ],
+              "true11": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
+                  },
+                  "id": "426cde64-fb38-40c0-917c-6f2ce5645de9"
+                }
+              ],
+              "true12": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "631f9382-124c-49fd-a762-811547a70a23"
+                  },
+                  "id": "b1e53f87-b51f-411d-824a-3be5b13bb672"
+                }
+              ],
+              "true13": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
+                  },
+                  "id": "49e11302-bca4-4a2a-99fc-42ac3e173554"
+                }
+              ],
+              "true14": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
+                  },
+                  "id": "5af528ee-dd18-4a96-808f-34172bf13a15"
+                }
+              ],
+              "true15": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
+                  },
+                  "id": "58715c15-06e6-46a7-89bd-1dd19f4bcfd1"
+                }
+              ],
+              "false": []
+            },
+            "id": "9e65c10a-a1f6-4512-ae95-40dcda2fde89"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_SOUND_MASTERVOL 07"
+            },
+            "id": "32ee335a-e533-4ccc-afe6-0f61f0f88fc5"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 16,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
+                  },
+                  "id": "e7d6fbbe-6ad5-440c-93c5-6e739811d712"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
+                  },
+                  "id": "60ba7704-07b2-45bc-af5e-fc132ab1bf09"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
+                  },
+                  "id": "c2357f38-3597-405d-b531-7745dfb6d37d"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                  },
+                  "id": "e0fb57ad-d1b6-4b80-9149-f687a9ac6076"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
+                  },
+                  "id": "57a59bc6-1278-46dc-bcf6-729eb4c1ce63"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
+                  },
+                  "id": "828d7f86-afb1-47ca-8bb1-be6fce933949"
+                }
+              ],
+              "true6": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
+                  },
+                  "id": "eb7076fb-1ab5-4ffe-9ada-476aa2371c14"
+                }
+              ],
+              "true7": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
+                  },
+                  "id": "cd662130-8f63-43c9-bd90-44d77ce12b8f"
+                }
+              ],
+              "true8": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
+                  },
+                  "id": "2b419358-d3f1-4cf9-98ba-96cfcc3c9d74"
+                }
+              ],
+              "true9": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
+                  },
+                  "id": "23fede00-62c3-48b2-ac59-57e8e9d68ab1"
+                }
+              ],
+              "true10": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
+                  },
+                  "id": "5ed704a7-b7b5-4543-a37a-0b7b9173737b"
+                }
+              ],
+              "true11": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
+                  },
+                  "id": "79b9f5a2-e8d4-4db8-a972-26693d19cc3e"
+                }
+              ],
+              "true12": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "631f9382-124c-49fd-a762-811547a70a23"
+                  },
+                  "id": "aa232a49-95db-4c8a-93db-601c87500ac6"
+                }
+              ],
+              "true13": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
+                  },
+                  "id": "d36dd98f-73e0-4879-8722-2b69d6d01fab"
+                }
+              ],
+              "true14": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
+                  },
+                  "id": "8312a05f-844d-4d2c-a0c9-7b6307414097"
+                }
+              ],
+              "true15": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
+                  },
+                  "id": "e3c743af-e931-45d2-95b0-5755b0ffc0d7"
+                }
+              ],
+              "false": []
+            },
+            "id": "c627fe31-620f-47ad-b200-9f8c664cb9ca"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_SOUND_MASTERVOL 16"
+            },
+            "id": "cda49ce0-e018-43fe-a376-42a09db56a79"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 16,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
+                  },
+                  "id": "21e75275-ba1d-450c-a5ee-2acda63c4f1e"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
+                  },
+                  "id": "d2537fa0-94d8-467f-9c6c-92e23a53a337"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
+                  },
+                  "id": "5498d515-ad6c-4dd3-b0f0-8ee1e2726234"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
+                  },
+                  "id": "1e6c56a6-5312-490d-81a1-cf13034a4ede"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
+                  },
+                  "id": "ec67a253-86b6-41a6-8f15-ee3e9ee9145d"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
+                  },
+                  "id": "97f7560a-e2e9-4c6b-b34c-55fd432668b2"
+                }
+              ],
+              "true6": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
+                  },
+                  "id": "8a86ee5d-c0bd-40ca-8277-5436f3839eb6"
+                }
+              ],
+              "true7": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
+                  },
+                  "id": "e19dced3-f7d8-43b1-909a-1799fbf94b76"
+                }
+              ],
+              "true8": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
+                  },
+                  "id": "d8600928-5f07-46c5-85ff-3df24334c95b"
+                }
+              ],
+              "true9": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
+                  },
+                  "id": "6bb2af8a-e2a6-4e35-8842-0ed2d3311d78"
+                }
+              ],
+              "true10": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
+                  },
+                  "id": "de367928-f0fd-422e-b4d3-da4efce328c0"
+                }
+              ],
+              "true11": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
+                  },
+                  "id": "6dbac199-bee9-4958-82ef-58f4a0d8386f"
+                }
+              ],
+              "true12": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "631f9382-124c-49fd-a762-811547a70a23"
+                  },
+                  "id": "a6c64c63-b547-454e-8c61-9f6a2bae7d40"
+                }
+              ],
+              "true13": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
+                  },
+                  "id": "b915433d-f0f9-4dd1-8b1d-0a49e2440d92"
+                }
+              ],
+              "true14": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
+                  },
+                  "id": "bc9d1bfd-3b48-4069-849d-b0e7d3bacc12"
+                }
+              ],
+              "true15": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
+                  },
+                  "id": "75d84e50-c13f-4205-a678-7c16b4103dbf"
+                }
+              ],
+              "false": []
+            },
+            "id": "8a9b90f8-fa74-4c64-b4f7-4f07cd1d86f1"
+          }
+        ]
+      },
+      "id": "8d1e1212-5ceb-4657-b493-e1050d697328"
+    }
+  ]
+}

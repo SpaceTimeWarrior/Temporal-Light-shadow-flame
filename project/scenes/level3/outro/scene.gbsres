@@ -62,7 +62,7 @@
         "type": "tone",
         "pitch": 4,
         "frequency": 500,
-        "duration": 0.05,
+        "duration": 0.03,
         "effect": 0
       },
       "id": "8fbfe3a1-2e4e-4477-b253-78d6ab82f606"

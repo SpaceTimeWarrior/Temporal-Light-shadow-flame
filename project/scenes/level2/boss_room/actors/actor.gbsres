@@ -1687,14 +1687,14 @@
                               "args": {
                                 "variable": "6"
                               },
-                              "id": "2c27a698-63b3-495a-972f-5b0ed861decf"
+                              "id": "bfef7fc2-9442-4652-a991-935903b2e10e"
                             },
                             {
-                              "command": "EVENT_DEC_VALUE",
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
                               "args": {
-                                "variable": "6"
+                                "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
                               },
-                              "id": "bfef7fc2-9442-4652-a991-935903b2e10e"
+                              "id": "7bd1a6d4-2b05-465b-b86a-72f9f07637e2"
                             },
                             {
                               "command": "EVENT_PALETTE_SET_BACKGROUND",

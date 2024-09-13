@@ -1,0 +1,110 @@
+{
+  "_resourceType": "script",
+  "id": "4eb8b98f-8311-43be-a58d-21cf3889ae6b",
+  "name": "add key",
+  "symbol": "script_6",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "13"
+      },
+      "id": "d0ff816f-db8d-4211-bd13-be03d4844706"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "13"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 17
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "fe377dd6-87c3-4f0a-94ca-0b4c9a933eb7"
+          },
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "46",
+              "flag": 0,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "currently no more\nspecials available"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "6a6eff44-d6c9-4d9e-b1fe-7844ac071c81"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "46",
+                    "flag1": true,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "2acb963c-8008-4b44-98b1-ec57652dcf76"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "special level\nunlocked:crystal's\ncookie"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "eac853d5-a6f2-49d8-a10f-17e9bd77e771"
+                }
+              ]
+            },
+            "id": "c5591118-d18b-4775-8b98-8c628868d4ff"
+          }
+        ],
+        "false": []
+      },
+      "id": "90454dd6-0311-4929-83e2-248a199bf5dc"
+    }
+  ]
+}

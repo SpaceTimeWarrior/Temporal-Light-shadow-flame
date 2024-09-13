@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "cc_outro.tmx",
+    "activeFile": "luna serenity cave upper.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -90,6 +90,14 @@
         "H:/kenney-game-assets/2D assets/Sketch Town Expansion/Map/map_tiles.tsx": {
             "scaleInDock": 1
         },
+        "Level 5-intro.tmx": {
+            "scale": 5.686805555555555,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 85.98852118695814,
+                "y": 74.82232262791551
+            }
+        },
         "blight's memory p1.tmx": {
             "scale": 4,
             "selectedLayer": 2,
@@ -102,16 +110,16 @@
             "scale": 5.686805555555555,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 84.75760166076446,
-                "y": 66.20588594455978
+                "x": 79.83392355598976,
+                "y": 72.00879228232998
             }
         },
         "cc_final_trial.tmx": {
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 981.5,
-                "y": 127.75
+                "x": 480,
+                "y": 72.25
             }
         },
         "cc_flamethrowers.tmx": {
@@ -142,8 +150,8 @@
             "scale": 3,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 383.66666666666663,
-                "y": 116.83333333333334
+                "x": 240,
+                "y": 72.16666666666667
             }
         },
         "cc_title_frame.tmx": {
@@ -152,6 +160,14 @@
             "viewCenter": {
                 "x": 79.83392355598976,
                 "y": 72.00879228232998
+            }
+        },
+        "eather endgame access.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 424.25,
+                "y": 118.375
             }
         },
         "luna serenity cave lower.tmx": {
@@ -164,66 +180,66 @@
         },
         "luna serenity cave upper.tmx": {
             "scale": 2,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 480,
-                "y": 160.25
+                "x": 413,
+                "y": 152.75
             }
         },
         "luna serenity outskirts.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 480,
-                "y": 159.875
+                "x": 23.5,
+                "y": 146.125
             }
         },
         "luna serenity waterfront.tmx": {
-            "scale": 5.5,
+            "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 480,
-                "y": 319.9090909090909
+                "x": 1001.6666666666666,
+                "y": 266.8333333333333
             }
         },
         "luna-boss room.tmx": {
             "scale": 5.118125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.91207717670045,
-                "y": 80.00976920258883
+                "x": 79.71669312492368,
+                "y": 79.81438515081207
             }
         },
         "luna-peryil's house.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 320,
-                "y": 319.8333333333333
+                "x": 319.66666666666663,
+                "y": 319.5
             }
         },
         "luna-serenity forest.tmx": {
-            "scale": 2,
-            "selectedLayer": 0,
+            "scale": 4,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 480,
-                "y": 160.25
+                "x": 155.25,
+                "y": 220.875
             }
         },
         "luna-sewer system.tmx": {
             "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 480,
-                "y": 160.33333333333334
+                "x": 312.66666666666663,
+                "y": 319
             }
         },
         "luna-water heater.tmx": {
             "scale": 3,
-            "selectedLayer": 0,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 480,
-                "y": 319.8333333333333
+                "x": 737.3333333333333,
+                "y": 278.5
             }
         },
         "mercury-landing site.tmx": {
@@ -296,7 +312,7 @@
             "scaleInEditor": 1
         },
         "tilesets/kenny modified/full image.tsx": {
-            "scaleInDock": 1.5,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/Diamond dust ship side view.tsx": {
@@ -305,12 +321,12 @@
         },
         "tilesets/temporal light/Diamond dust ship top view.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 2,
+            "scaleInDock": 3,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/temporal_light_tileset.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "venus-ac ventilation.tmx": {
@@ -396,11 +412,11 @@
     },
     "last.externalTilesetPath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light",
     "last.imagePath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light/lf_normal",
-    "map.height": 9,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 30,
+    "map.width": 60,
     "openFiles": [
         "tilesets/kenny modified/full image.tsx",
         "tilesets/temporal light/temporal_light_tileset.tsx",
@@ -448,7 +464,9 @@
         "cc_computer.tmx",
         "cc_flamethrowers.tmx",
         "cc_final_trial.tmx",
-        "cc_outro.tmx"
+        "cc_outro.tmx",
+        "Level 5-intro.tmx",
+        "eather endgame access.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

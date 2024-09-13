@@ -17,10 +17,17 @@
         "variable": "6",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         }
       },
       "id": "1be6ad95-5f29-4a09-a23f-eb564e0fa719"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
+      },
+      "id": "2c586e9f-5365-461b-8270-c105ca33dfb6"
     }
   ],
   "leaveScript": []

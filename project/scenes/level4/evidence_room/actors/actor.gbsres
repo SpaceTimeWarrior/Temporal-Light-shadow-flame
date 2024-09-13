@@ -34,11 +34,11 @@
       "id": "09551cfa-9183-4dae-a9d8-a0362450d1be"
     },
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "4edeb108-88ce-4358-86bc-a68123af0e4b"
+      "id": "f34b0345-8467-4428-90fc-426de553ebbf"
     }
   ],
   "startScript": [

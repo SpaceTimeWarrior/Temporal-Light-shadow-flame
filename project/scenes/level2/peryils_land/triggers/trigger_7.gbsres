@@ -1,0 +1,154 @@
+{
+  "_resourceType": "trigger",
+  "id": "8f0eb1ae-f16c-42e5-b25f-7b0736070ef9",
+  "name": "",
+  "prefabId": "",
+  "_index": 6,
+  "symbol": "trigger_266",
+  "x": 8,
+  "y": 28,
+  "width": 3,
+  "height": 6,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "7b94577e-278e-423e-8835-3e3bb6462513"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "62aab64f-712d-4c9e-8248-9aad024ae3ad"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "peryil: the \nserenity islands\nare >"
+              ],
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
+            },
+            "id": "943ee938-9820-409d-8aff-ab056dbd1206"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "cfa0859c-c2df-4321-93ef-b92721e040cc"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+                  },
+                  "id": "36b959c9-19f1-4076-9d72-527c7dd36133"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "a727b94f-0632-4a07-882d-afee0e19bb50"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "ae61d0c2-baaa-473c-9104-881d9dca1617"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 38
+                          }
+                        },
+                        "id": "884c56e0-b448-4799-89f6-6713ed8f225d"
+                      }
+                    ]
+                  },
+                  "id": "50587419-79c6-4bb8-b604-da4c88d1e7d6"
+                }
+              ]
+            },
+            "id": "6374321f-5192-423b-8860-8ad8791923fd"
+          }
+        ]
+      },
+      "id": "6bdf453a-0d68-4d7b-b4cb-4b0fb3ebf96b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ]
+      },
+      "id": "31cd53f6-30f0-485d-8efe-769601b4b042"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "cbad1587-1e12-4832-901f-1c775d934236"
+    }
+  ]
+}

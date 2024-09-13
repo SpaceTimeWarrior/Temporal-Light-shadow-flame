@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ee080c30-897b-4975-8691-1a1aac4c23b8",
+  "_index": 87,
+  "name": "Scene 88",
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_88",
+  "x": 976,
+  "y": 13560,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

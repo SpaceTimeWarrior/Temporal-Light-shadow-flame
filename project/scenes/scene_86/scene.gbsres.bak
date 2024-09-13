@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a816d925-cd03-431e-a79d-27d7cb26de62",
+  "_index": 85,
+  "name": "Scene 86",
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_86",
+  "x": 2376,
+  "y": 12864,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

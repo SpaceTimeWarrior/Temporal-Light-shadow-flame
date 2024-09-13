@@ -78,6 +78,29 @@
       "id": "e020ef96-bcaa-4264-82d4-a0c0789fcd17"
     },
     {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "14",
+        "flag1": true,
+        "flag2": true,
+        "flag3": true,
+        "flag4": true,
+        "flag5": true,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false
+      },
+      "id": "77148ad3-7e71-4aa7-b689-511c565126e6"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false

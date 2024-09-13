@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2e63d9d0-d4e1-4711-8c1b-393d16cf8805",
+  "_index": 80,
+  "name": "Level 5/secret 1",
+  "backgroundId": "29ab5f5a-f386-4b46-a2b4-88f22da624b8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+002+0f2+00e+0f50+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_81",
+  "x": 608,
+  "y": 12808,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -104,8 +104,8 @@
           "advance for the \nbad grammer"
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
-        "__section": "text",
-        "position": "top",
+        "__section": "layout",
+        "position": "bottom",
         "closeWhen": "key"
       },
       "id": "15a9206a-3284-47d3-a8de-c9f7a953f289"

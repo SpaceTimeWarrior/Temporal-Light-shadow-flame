@@ -12,11 +12,11 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_DEC_VALUE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "variable": "6"
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
       },
-      "id": "97c80d31-6027-4f0f-8a56-07d61c3566ec"
+      "id": "8fc58275-a524-4c14-bf73-eef475ff08f1"
     },
     {
       "command": "EVENT_PLAYER_BOUNCE",
