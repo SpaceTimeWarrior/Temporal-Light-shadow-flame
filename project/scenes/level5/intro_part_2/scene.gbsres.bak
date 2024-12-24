@@ -705,7 +705,7 @@
       "args": {
         "text": [
           "peryil: I am \nwondering why \ndidn't you try \nto attack the ",
-          "solar council \nafter your \nfailed attempt at \nage 7?"
+          "solar council \nafter your \nfailed attempt \nat age 7?"
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -989,7 +989,7 @@
       "args": {
         "text": [
           "peryil:I got \nthis. I can \neasily overpower\nher.",
-          "although I do \nwonder why steam \ndidn't want to \ncome this time \naround."
+          "although I do \nwonder why steam\ndidn't want to \ncome this time \naround."
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -1127,7 +1127,7 @@
         "text": [
           "blight: i wish \nyou the best of \nluck as once you\nenter the \natmosphere",
           "I can only \nmonitor what is \nhappening and \nany electronic ",
-          "will be \nTransmissions \nneutralized. ",
+          "Transmissions \nwill be \nneutralized.",
           "I hope you find \nwhat you are \nlooking for."
         ],
         "__section": "text",
@@ -1155,7 +1155,7 @@
         "palette0": "keep",
         "palette1": "keep",
         "palette2": "keep",
-        "palette3": "f98a2cfa-f6da-4e1f-bcc0-a4655d60a6d0",
+        "palette3": "52872e74-e336-4d18-a32a-d8f1ab302472",
         "palette4": "keep",
         "palette5": "keep",
         "palette6": "keep",

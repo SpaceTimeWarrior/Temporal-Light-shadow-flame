@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2c8170b9-cb50-44eb-9b56-abe7e165f360",
+  "name": "Eather wolf city sewer 2",
+  "symbol": "bg_eather_wolf_city_sewer_2",
+  "width": 60,
+  "height": 20,
+  "imageWidth": 480,
+  "imageHeight": 160,
+  "filename": "Eather wolf city sewer 2.png",
+  "tileColors": "03f8+0434+038+0434+036+042a+032+04a+036+042a+032+04a+036+042a+034+048+036+042a+034+048+036+042a+0312+042a+0314+0428+0314+0428+03fc+066+022+063a+022+0634+",
+  "autoColor": false
+}

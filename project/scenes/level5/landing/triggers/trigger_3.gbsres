@@ -31,7 +31,7 @@
               "variable": "9",
               "value": {
                 "type": "expression",
-                "value": "$09$-48"
+                "value": "$09$+18"
               }
             },
             "id": "5580f18d-1e65-47a3-9799-9334942301ad"
@@ -50,7 +50,7 @@
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 4
         },
         "direction": "",
         "fadeSpeed": "2"

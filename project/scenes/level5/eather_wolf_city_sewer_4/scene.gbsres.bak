@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "f4448be5-6bbd-4dfd-ab4d-2786ad3efba7",
+  "_index": 89,
+  "name": "Level5/Eather Wolf City sewer 4",
+  "backgroundId": "0ac49431-0349-47ce-8446-1ae88eb2d759",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    null,
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_90",
+  "x": 2552,
+  "y": 13640,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,160 @@
+{
+  "_resourceType": "scene",
+  "id": "10a657b6-0856-4cc8-a784-85770a24fcc7",
+  "_index": 84,
+  "type": "PLATFORM",
+  "name": "Level5/Eather Wolf City Ruins 2",
+  "symbol": "scene_85",
+  "x": 1592,
+  "y": 13200,
+  "width": 120,
+  "height": 120,
+  "backgroundId": "4ab4b6f4-5f42-481c-84d7-a8fbb20e5926",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-4",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "music group"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "37",
+                    "value": {
+                      "type": "number",
+                      "value": 17
+                    }
+                  },
+                  "id": "986144cc-8590-4770-8ed4-e08587995e71"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "37"
+                    }
+                  },
+                  "id": "5a9f0645-d502-4e02-bc99-9b7ab4b1bed7"
+                }
+              ]
+            },
+            "id": "ecd30f0a-2196-4f96-a5a7-824f27f51905"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": []
+            },
+            "id": "16b81c09-c5da-4e1e-952a-387584fd63ab"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "9395f2dd-c277-4a53-bb41-c51753952e3f"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 118"
+                  },
+                  "id": "efaebe73-7a3f-45ae-afb8-d8853293b818"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "53456860-cae1-457a-818f-695bc021aaec"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 118
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "2d9243d1-9839-4969-904c-5c42d2fec290"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 118
+                          },
+                          "$variable[V1]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "df6e9ec6-99bf-4b33-8ad4-574efe05f88e"
+                      }
+                    ]
+                  },
+                  "id": "42926a37-f1ef-43b2-a721-10faca1fb303"
+                }
+              ]
+            },
+            "id": "4e335405-eae6-406d-9fa4-f0b0e89e48e0"
+          }
+        ]
+      },
+      "id": "79fea997-642b-47dc-8cc9-a2a77fe08ba8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f18+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f3e+0010+0f6+0010+0f6+00e+0f26+0028+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+0010+0f6+005c+0f6+00f+20!0f6+30!005b+0f6+00e+20!0f!006+0f!30!005a+0f6+00d+20!0f!008+0f!30!00e+20!0f22+0028+0f6+00c+20!0f!00a+0f!30!00c+20!0f!004a+0f6+005+20!0f7+00c+0fe+004b+0f6+004+20!0f!0044+0f6+30!0021+0f6+003+20!0f!004b+0f!30!0020+0f6+002+20!0f!004d+0f!30!001f+0f6+00!20!0f!004f+0f!30!001e+0f6+20!0f!0051+0f26+004f9+0f11+0067+0f11+0076+0f3+0076+0f3+0076+0f3+0076+0f3+0076+0f3+005e+0f4+0014+0f3+005c+0f5+0015+0f60+0019+0f5e+007c+0fe+30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0077+0f!30!0060+20!0f2+0014+0f!30!005e+20!0f3+0014+0f63+0015+0f62+0014a2+"
+}

@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "aa305849-e4c6-499a-9d77-716e7d6817ec",
+  "_index": 86,
+  "type": "PLATFORM",
+  "name": "Level5/Eather Wolf City sewer 2",
+  "symbol": "scene_87",
+  "x": 144,
+  "y": 13744,
+  "width": 60,
+  "height": 20,
+  "backgroundId": "2c8170b9-cb50-44eb-9b56-abe7e165f360",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00bc+0f34+007+0f!003a+0f2+0039+0f!002a+0f2+00f+0f!002a+0f2+00f+0f!002a+0f4+00d+0f!002a+0f!002+0f!00d+0f!002a+0f!003+0f8+005+0f!002a+0f!0011+0f2+0028+0f!0012+0f!0028+0f!0013+0f29+00137+"
+}

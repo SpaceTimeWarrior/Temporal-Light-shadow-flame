@@ -74,7 +74,14 @@
     {
       "id": "14",
       "name": "levels available",
-      "symbol": "var_levels_available"
+      "symbol": "var_levels_available",
+      "flags": {
+        "flag1": "level 1",
+        "flag2": "level 2",
+        "flag3": "level 3",
+        "flag4": "level 4",
+        "flag5": "level 5"
+      }
     },
     {
       "id": "15",
@@ -252,6 +259,16 @@
       "symbol": "var_room_id"
     },
     {
+      "id": "50",
+      "name": "level5 flags1",
+      "symbol": "var_level5_flags1"
+    },
+    {
+      "id": "51",
+      "name": "key flags 5",
+      "symbol": "var_key_flags_5"
+    },
+    {
       "id": "884bac5c-1840-41a9-9756-32579bd614e4__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -382,14 +399,64 @@
       "symbol": "var_local_24"
     },
     {
-      "id": "50",
-      "name": "level5 flags1",
-      "symbol": "var_level5_flags1"
+      "id": "2f2c2972-9fd8-4a22-82b7-ecb095b41c68__L5",
+      "name": "Local 5",
+      "symbol": "var_local_25"
     },
     {
-      "id": "51",
-      "name": "key flags 5",
-      "symbol": "var_key_flags_5"
+      "id": "2f2c2972-9fd8-4a22-82b7-ecb095b41c68__L4",
+      "name": "Local 4",
+      "symbol": "var_local_26"
+    },
+    {
+      "id": "52",
+      "name": "sewer counter 1",
+      "symbol": "var_sewer_counter_1"
+    },
+    {
+      "id": "53",
+      "name": "sewer counter 2",
+      "symbol": "var_sewer_counter_2"
+    },
+    {
+      "id": "54",
+      "name": "sewer counter 3",
+      "symbol": "var_sewer_counter_3"
+    },
+    {
+      "id": "55",
+      "name": "sewer counter 4",
+      "symbol": "var_sewer_counter_4"
+    },
+    {
+      "id": "56",
+      "name": "sewer counter 5",
+      "symbol": "var_sewer_counter_5"
+    },
+    {
+      "id": "57",
+      "name": "sewer boolean 1",
+      "symbol": "var_sewer_boolean_1"
+    },
+    {
+      "id": "58",
+      "name": "sewer boolean 2",
+      "symbol": "var_sewer_boolean_2"
+    },
+    {
+      "id": "59",
+      "name": "sewer boolean 3",
+      "symbol": "var_sewer_boolean_3"
+    },
+    {
+      "id": "60",
+      "name": "sewer boolean 4",
+      "symbol": "var_sewer_boolean_4"
+    },
+    {
+      "id": "61",
+      "name": "sewer boolean 5",
+      "symbol": "var_sewer_boolean_5"
     }
   ]
 }

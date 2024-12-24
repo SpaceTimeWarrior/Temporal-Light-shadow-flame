@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "bd66a921-880c-4286-8598-09a026cbe30c",
+  "_index": 90,
+  "name": "Level5/Eather Wolf City pipeworks 1",
+  "backgroundId": "6557973f-f2d8-42f5-99b6-1750ad3e9663",
+  "tilesetId": "",
+  "width": 120,
+  "height": 80,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "002580+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_91",
+  "x": 2576,
+  "y": 13864,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

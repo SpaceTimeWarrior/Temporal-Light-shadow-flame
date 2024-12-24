@@ -16,8 +16,8 @@
     "",
     "",
     "707b95d7-5b8a-433e-ae55-272937348bce",
-    "",
-    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "ff01d46e-f64b-4c62-bb84-9e2b76dcd91a",
     "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
   ],
   "spritePaletteIds": [],
@@ -58,6 +58,17 @@
       "id": "c7e65107-4670-4f7f-840c-70f868e9d5ac"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "1027ab02-a328-474b-851d-4c5e83e0aeb5"
+    },
+    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-bg-6"
@@ -89,6 +100,17 @@
         "closeDelayFrames": 30
       },
       "id": "b0d47b99-8553-4788-8c5b-5dd37fc1715d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "d9da7306-a16c-48a5-b4f5-c0ca3ef070b5"
     },
     {
       "command": "EVENT_PALETTE_SET_UI",
@@ -123,6 +145,17 @@
       "id": "57743905-1007-4747-8f5f-62a1dfb2045f"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "a14525fa-bc77-411f-8995-7dd6c61c83dd"
+    },
+    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-bg-6"
@@ -133,7 +166,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "???:you better \nwatch your tounge\nor you may lose it"
+          "???:you better \nwatch your tongue\nor you may lose it"
         ],
         "__section": "text",
         "avatarId": "",
@@ -153,6 +186,17 @@
         "closeDelayFrames": 30
       },
       "id": "dd56831b-b2a4-4544-b26a-2acab897ab67"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "5b49f22a-d562-411f-9baa-bc0fd1e90e82"
     },
     {
       "command": "EVENT_PALETTE_SET_UI",
@@ -185,6 +229,17 @@
         "closeDelayFrames": 30
       },
       "id": "4f1e6159-22dc-4e11-91d6-224a81a59478"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "a8216579-2d5d-4141-a92a-b078598c3355"
     },
     {
       "command": "EVENT_PALETTE_SET_UI",
@@ -301,5 +356,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f6+4f!0f!0054+7f!5f!0fa+4f!60!0058+70!5f!0f6+4f!6f!005c+70!5f!0f2+4f!6f!0060+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f4+014+005c+0f4+0060+0f4+0048+0112+006+0f4+0060+0f4+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+002c+40!60!0f18+00c+0f12+002a+40!60!00!0f19+00c+0f12+0028+40!60!00!0f1b+00c+0f12+0026+40!60!00!0f1d+00c+0f12+0024+40!60!00!0f1f+00c+0f12+006+012+001a+40!60!00!0f21+00c+0f12+0020+40!60!00!0f23+00c+0f12+001e+40!60!00!0f25+00c+0f12+001c+40!60!00!0f27+00c+0f12+001a+40!60!00!0f29+00c+0f12+0018+40!60!00!0f2b+014+004+014+0f12+0016+40!60!00!0f2d+00c+0f28+00!0f2f+00c+0f58+00c+0f58+00c+0f58+00c+0f10+"
+  "collisions": "0f6+4f!0f!0054+7f!5f!0fa+4f!60!0058+70!5f!0f6+4f!6f!005c+70!5f!0f2+4f!6f!0060+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f4+014+005c+0f4+0060+0f4+0048+0112+006+0f4+0060+0f4+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+0062+0f2+002c+40!60!0f18+00c+0f12+002a+40!60!00!0f19+00c+0f12+0028+40!60!00!0f1b+00c+0f12+0026+40!60!00!0f1d+00c+0f12+0024+40!60!00!0f1f+00c+0f12+006+012+001a+40!60!00!0f21+00c+0f12+0020+40!60!00!0f23+00c+0f12+001e+40!60!00!0f25+00c+0f12+001c+40!60!00!0f27+00c+0f12+001a+40!60!00!0f29+00c+0f12+0018+40!60!00!0f2b+014+004+014+0f12+0016+40!60!00!0f2d+00c+0f28+00!0f2f+00c+0f4a+00!0fd+00c+0f4a+00!0fd+00c+0f58+00c+0f10+"
 }

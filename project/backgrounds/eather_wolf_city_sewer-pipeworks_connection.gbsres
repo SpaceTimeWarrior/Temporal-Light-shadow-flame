@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0ac49431-0349-47ce-8446-1ae88eb2d759",
+  "name": "Eather wolf city sewer-pipeworks connection",
+  "symbol": "bg_eather_wolf_city_sewer_p",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "Eather wolf city sewer-pipeworks connection.png",
+  "tileColors": "032c+046+03e+046+03a+012+04a+038+04c+038+04e+036+04e+036+04e+036+04e+036+04e+036+04e+036+04e+036+04e+036+012+0376+",
+  "autoColor": false
+}

@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "075cc8ea-febd-418c-8474-cff671a13027",
+  "_index": 91,
+  "name": "Level5/Eather Wolf city pipeworks secret",
+  "backgroundId": "de5424b6-8b38-4505-9bd5-f9a763ca3ae3",
+  "tilesetId": "",
+  "width": 80,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    "dmg",
+    null,
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f4c+004+0f4c+004+0f2+0048+0f2+004+0f2+0048+0f2+004+0f2+0046+0f4+004+0f2+0046+0f4+004+0f2+006+0f4a+006+0f4a+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+00ee+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_92",
+  "x": 1936,
+  "y": 14344,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

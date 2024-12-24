@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6557973f-f2d8-42f5-99b6-1750ad3e9663",
+  "name": "Eather wolf city pipeworks-enterance",
+  "symbol": "bg_eather_wolf_city_pipewor_0",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "Eather wolf city pipeworks-enterance.png",
+  "tileColors": "022490+066+022+0676+022+0670+",
+  "autoColor": false
+}

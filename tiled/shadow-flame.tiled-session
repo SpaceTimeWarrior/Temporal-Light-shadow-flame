@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "luna serenity cave upper.tmx",
+    "activeFile": "Eather wolf city pipeworks secret.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
@@ -12,7 +12,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 400,
-                "y": 415.75
+                "y": 416
             }
         },
         "Earth burnclaw forest canopy.tmx": {
@@ -20,7 +20,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 400,
-                "y": 192.25
+                "y": 192
             }
         },
         "Earth burnclaw forest crime scene.tmx": {
@@ -28,7 +28,7 @@
             "selectedLayer": 4,
             "viewCenter": {
                 "x": 200,
-                "y": 112.125
+                "y": 112
             }
         },
         "Earth burnclaw forest.tmx": {
@@ -36,7 +36,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 400,
-                "y": 407.75
+                "y": 408
             }
         },
         "Earth level 1 intro.tmx": {
@@ -44,7 +44,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 130,
-                "y": 72.125
+                "y": 72
             }
         },
         "Earth shuttle bay upper.tmx": {
@@ -52,7 +52,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 400,
-                "y": 407.66666666666663
+                "y": 408
             }
         },
         "Earth shuttle bay.tmx": {
@@ -60,15 +60,15 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 400,
-                "y": 117.16666666666666
+                "y": 117.33333333333333
             }
         },
         "Earth shuttle bay_secret.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.83392355598977,
-                "y": 79.9218463792893
+                "x": 80.00976920258886,
+                "y": 80.00976920258886
             }
         },
         "Earth shuttle bay_water.tmx": {
@@ -76,7 +76,55 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 159.8241543534009,
-                "y": 160.01953840517766
+                "y": 159.8241543534009
+            }
+        },
+        "Eather wolf city pipeworks secret.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 202.75,
+                "y": 102.125
+            }
+        },
+        "Eather wolf city pipeworks-enterance.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 56.5,
+                "y": 566.375
+            }
+        },
+        "Eather wolf city ruins depths.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 480,
+                "y": 480
+            }
+        },
+        "Eather wolf city sewer 2.tmx": {
+            "scale": 2.1236458333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.15303870113308,
+                "y": 80.05101290037769
+            }
+        },
+        "Eather wolf city sewer 3.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 480,
+                "y": 480
+            }
+        },
+        "Eather wolf city sewer-pipeworks connection.tmx": {
+            "scale": 5.118125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 79.91207717670046,
+                "y": 80.00976920258884
             }
         },
         "H:/kenney-game-assets/2D assets/Sketch Town Expansion/Map/map_sample.tmx": {
@@ -94,8 +142,8 @@
             "scale": 5.686805555555555,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 85.98852118695814,
-                "y": 74.82232262791551
+                "x": 80.00976920258886,
+                "y": 71.92086945903041
             }
         },
         "blight's memory p1.tmx": {
@@ -103,15 +151,15 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 240,
-                "y": 72.125
+                "y": 72
             }
         },
         "cc_computer.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.83392355598976,
-                "y": 72.00879228232998
+                "x": 80.00976920258886,
+                "y": 71.92086945903041
             }
         },
         "cc_final_trial.tmx": {
@@ -119,7 +167,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 480,
-                "y": 72.25
+                "y": 72
             }
         },
         "cc_flamethrowers.tmx": {
@@ -127,7 +175,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 72.25
+                "y": 72
             }
         },
         "cc_hammers.tmx": {
@@ -135,39 +183,55 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 480,
-                "y": 72.125
+                "y": 72
             }
         },
         "cc_intro_cutscene.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 79.83392355598976,
-                "y": 72.00879228232998
+                "x": 80.00976920258886,
+                "y": 71.92086945903041
             }
         },
         "cc_outro.tmx": {
             "scale": 3,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 240,
-                "y": 72.16666666666667
+                "x": 239.99999999999997,
+                "y": 72
             }
         },
         "cc_title_frame.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.83392355598976,
-                "y": 72.00879228232998
+                "x": 80.00976920258886,
+                "y": 71.92086945903041
             }
         },
         "eather endgame access.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 424.25,
-                "y": 118.375
+                "x": 480,
+                "y": 144
+            }
+        },
+        "eather wolf city ruins.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 480,
+                "y": 480
+            }
+        },
+        "eather wolf city sewer 1.tmx": {
+            "scale": 4,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 480,
+                "y": 480
             }
         },
         "luna serenity cave lower.tmx": {
@@ -175,71 +239,71 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 480,
-                "y": 112.16666666666664
+                "y": 112
             }
         },
         "luna serenity cave upper.tmx": {
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 413,
-                "y": 152.75
+                "x": 480,
+                "y": 160
             }
         },
         "luna serenity outskirts.tmx": {
             "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 23.5,
-                "y": 146.125
+                "x": 480,
+                "y": 160
             }
         },
         "luna serenity waterfront.tmx": {
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1001.6666666666666,
-                "y": 266.8333333333333
+                "x": 480,
+                "y": 320
             }
         },
         "luna-boss room.tmx": {
             "scale": 5.118125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.71669312492368,
-                "y": 79.81438515081207
+                "x": 79.91207717670045,
+                "y": 79.91207717670045
             }
         },
         "luna-peryil's house.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 319.66666666666663,
-                "y": 319.5
+                "x": 320,
+                "y": 320
             }
         },
         "luna-serenity forest.tmx": {
             "scale": 4,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 155.25,
-                "y": 220.875
+                "x": 480,
+                "y": 160
             }
         },
         "luna-sewer system.tmx": {
             "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 312.66666666666663,
-                "y": 319
+                "x": 479.99999999999994,
+                "y": 160
             }
         },
         "luna-water heater.tmx": {
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 737.3333333333333,
-                "y": 278.5
+                "x": 480,
+                "y": 320
             }
         },
         "mercury-landing site.tmx": {
@@ -247,7 +311,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 319.8333333333333
+                "y": 320
             }
         },
         "mercury-overflow-passage.tmx": {
@@ -255,7 +319,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 480,
-                "y": 319.9090909090909
+                "y": 320
             }
         },
         "mercury-poison processing.tmx": {
@@ -263,7 +327,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 480,
-                "y": 319.8333333333333
+                "y": 320
             }
         },
         "mercury-poison storage.tmx": {
@@ -271,7 +335,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 319.75
+                "y": 320
             }
         },
         "mercury-projectile platform.tmx": {
@@ -279,7 +343,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 480,
-                "y": 320.5
+                "y": 320
             }
         },
         "mercury-secret area.tmx": {
@@ -287,7 +351,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.8241543534009,
-                "y": 160.01953840517766
+                "y": 159.8241543534009
             }
         },
         "mercury-throne room.tmx": {
@@ -295,7 +359,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 320,
-                "y": 159.83333333333334
+                "y": 160
             }
         },
         "mercury-viewing area.tmx": {
@@ -303,7 +367,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 319.875
+                "y": 320
             }
         },
         "tilesets/kenny modified/Diamond dust ship side view.tsx": {
@@ -321,7 +385,7 @@
         },
         "tilesets/temporal light/Diamond dust ship top view.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/temporal_light_tileset.tsx": {
@@ -334,7 +398,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 160.25
+                "y": 160
             }
         },
         "venus-ac ventilation2.tmx": {
@@ -342,7 +406,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 160.25
+                "y": 160
             }
         },
         "venus-defence tunnel.tmx": {
@@ -350,7 +414,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 480,
-                "y": 80.16666666666667
+                "y": 80
             }
         },
         "venus-dropshaft 0.tmx": {
@@ -358,7 +422,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 80,
-                "y": 479.83333333333326
+                "y": 480
             }
         },
         "venus-dropshaft 1.tmx": {
@@ -366,7 +430,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 80,
-                "y": 479.875
+                "y": 480
             }
         },
         "venus-evidence room.tmx": {
@@ -374,7 +438,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.8241543534009,
-                "y": 160.01953840517766
+                "y": 159.8241543534009
             }
         },
         "venus-landing site.tmx": {
@@ -382,7 +446,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 479.83333333333326
+                "y": 480
             }
         },
         "venus-office access.tmx": {
@@ -390,15 +454,15 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 480,
-                "y": 159.83333333333334
+                "y": 160
             }
         },
         "venus-office.tmx": {
             "scale": 5.686805555555555,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 79.83392355598976,
-                "y": 72.00879228232998
+                "x": 80.00976920258886,
+                "y": 71.92086945903041
             }
         },
         "venus-police department enterance.tmx": {
@@ -406,17 +470,17 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 480,
-                "y": 160.25
+                "y": 160
             }
         }
     },
     "last.externalTilesetPath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light",
     "last.imagePath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light/lf_normal",
-    "map.height": 18,
+    "map.height": 10,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 60,
+    "map.width": 40,
     "openFiles": [
         "tilesets/kenny modified/full image.tsx",
         "tilesets/temporal light/temporal_light_tileset.tsx",
@@ -466,7 +530,15 @@
         "cc_final_trial.tmx",
         "cc_outro.tmx",
         "Level 5-intro.tmx",
-        "eather endgame access.tmx"
+        "eather endgame access.tmx",
+        "eather wolf city ruins.tmx",
+        "Eather wolf city ruins depths.tmx",
+        "eather wolf city sewer 1.tmx",
+        "Eather wolf city sewer 2.tmx",
+        "Eather wolf city sewer 3.tmx",
+        "Eather wolf city sewer-pipeworks connection.tmx",
+        "Eather wolf city pipeworks-enterance.tmx",
+        "Eather wolf city pipeworks secret.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

@@ -2,14 +2,14 @@
   "_resourceType": "scene",
   "id": "5c935a1b-12d7-4309-a596-c27f23df7bb6",
   "_index": 76,
-  "type": "TOPDOWN",
+  "type": "PLATFORM",
   "name": "Scene 77",
   "symbol": "scene_77",
-  "x": 1632,
-  "y": 12872,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "x": 1592,
+  "y": 12232,
+  "width": 120,
+  "height": 120,
+  "backgroundId": "8a27885d-0afb-4fb5-ab4d-d6852ea8900b",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -18,5 +18,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "003750+0ff0+"
 }

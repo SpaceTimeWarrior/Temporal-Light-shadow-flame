@@ -80,6 +80,73 @@
     {
       "command": "EVENT_GROUP",
       "args": {
+        "__label": "debug"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "28ac0865-4ebc-4c24-a858-f90423a13be5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "25f8beb7-c1f8-4ef8-bc8b-eab097a22aaa"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "34b5ca49-a45e-41fe-9103-f0156f9c326c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "d4dc8c68-d319-45ce-8f4d-b4e56f4ada36"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "14",
+              "flag1": true,
+              "flag2": true,
+              "flag3": true,
+              "flag4": true,
+              "flag5": true,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "77148ad3-7e71-4aa7-b689-511c565126e6"
+          }
+        ]
+      },
+      "id": "971d27cb-b310-4568-9dee-3ec3e92754ea"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
         "__collapse": false
       },
       "children": {

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8a27885d-0afb-4fb5-ab4d-d6852ea8900b",
+  "name": "eather wolf city ruins",
+  "symbol": "bg_eather_wolf_city_ruins",
+  "width": 120,
+  "height": 120,
+  "imageWidth": 960,
+  "imageHeight": 960,
+  "filename": "eather wolf city ruins.png",
+  "tileColors": "04310f+00!044f+00!045f0+066+022+0676+022+0670+",
+  "autoColor": false
+}
