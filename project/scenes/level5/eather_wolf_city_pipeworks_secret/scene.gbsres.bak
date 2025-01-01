@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "075cc8ea-febd-418c-8474-cff671a13027",
+  "_index": 91,
+  "type": "PLATFORM",
+  "name": "Level5/Eather Wolf city pipeworks secret",
+  "symbol": "scene_92",
+  "x": 1928,
+  "y": 14344,
+  "width": 80,
+  "height": 20,
+  "backgroundId": "de5424b6-8b38-4505-9bd5-f9a763ca3ae3",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "dmg",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "eb605156-64c1-4ce2-9bda-c0dc1ece4957"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+            },
+            "id": "d537125d-4eb0-4c5f-bfce-55304df64a0f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "6194e2d6-1f98-4b1e-9eed-36bbdd23a0e1"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "af5e4531-b8db-429f-b9ae-da2cca38672a"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "0c1a1c17-4a17-4974-b49f-bef89c1e15f9"
+                }
+              ]
+            },
+            "id": "d7ac779c-d931-43fa-9720-58390d894884"
+          }
+        ]
+      },
+      "id": "66eaa23c-7155-4d84-8ea4-76af01fd4d35"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f4c+004+0f4c+004+0f2+0048+0f2+004+0f2+0048+0f2+004+0f2+0046+0f4+004+0f2+0046+0f4+004+0f2+006+0f4a+006+0f4a+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0f2+004e+0fa0+"
+}

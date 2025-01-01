@@ -2,29 +2,266 @@
   "_resourceType": "scene",
   "id": "ee080c30-897b-4975-8691-1a1aac4c23b8",
   "_index": 87,
+  "type": "PLATFORM",
   "name": "Level5/Eather Wolf City sewer 3",
-  "backgroundId": "192860ca-908c-4dde-b04d-0e2bc104d5e0",
-  "tilesetId": "",
-  "width": 120,
-  "height": 120,
-  "type": "TOPDOWN",
-  "paletteIds": [
-    "default-bg-3",
-    null,
-    "707b95d7-5b8a-433e-ae55-272937348bce",
-    null,
-    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
-    null,
-    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "006a+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+00e+0f2e+001a+0f1a+006+0f2+00e+0f2e+001a+0f1a+006+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f1e+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f1e+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f2+0016+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f2+0016+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f1a+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f1a+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+0032+0f2+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+0032+0f2+006+0f2+00e+0f2+006+0f14+004+0f6+006+0f14+0020+0f2+006+0f2+00e+0f2+006+0f14+004+0f6+006+0f14+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f1c+002+0f2+006+0f12+006+0f2+0020+0f2+006+0f2+00e+0f1c+002+0f2+006+0f12+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0f2+00e+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0f2+00e+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0fe+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0fe+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f24+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f24+006+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+0038+0f2+006+0f2+002+0f2+0030+0f2+0038+0f2+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0f2+0012+0f2+002+0f2c+006+0f2+002c+0f2+0012+0f2+002+0f2c+006+0f2+002c+0f2+0012+0f2+002c+0f2+006+0f2+002c+0f2+0012+0f2+002c+0f2+006+0f2+00e+0f20+0012+0f2+002c+0f2+006+0f2+00e+0f20+0012+0f2+002c+0f2+006+0f2+00e+0f2+0024+0fe+002c+0f2+006+0f2+00e+0f2+0024+0fe+002c+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f1a+006+0f8+0038+0f2+006+0f2+00e+0f1a+006+0f8+0038+0f2+006+0f2+0026+0f2+006+0f2+003e+0f2+006+0f2+0026+0f2+006+0f2+003e+0f2+006+0f2+0026+0f2+006+0f2+002c+0f14+006+0f2+0026+0f2+006+0f2+002c+0f14+006+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0014+0f14+006+0f2+0026+0f8+0018+0f2+0014+0f14+006+0f2+0026+0f8+0018+0f2+0014+0f2+0018+0f2+0026+0f2+00c+0f14+0014+0f2+0018+0f2+0026+0f2+00c+0f14+0014+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f1c+0026+0f10+0026+0f1c+0026+0f10+001f6+",
-  "autoFadeSpeed": 1,
   "symbol": "scene_88",
   "x": 304,
   "y": 14160,
-  "script": [],
+  "width": 120,
+  "height": 120,
+  "backgroundId": "192860ca-908c-4dde-b04d-0e2bc104d5e0",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-3",
+    "",
+    "707b95d7-5b8a-433e-ae55-272937348bce",
+    "",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "62",
+        "flag": 9,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "default-bg-6"
+                  },
+                  "id": "3ed828a3-5b29-4390-874c-fdda4b0c36a8"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 375,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "f1371926-0360-496d-abe8-8d71207d0c03"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:I see you are\ncaught underwater\nmaybe you will",
+                      "drown in your \nguilt of your past"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "57b032be-05a0-411f-8753-163aca3b812d"
+                },
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "fccdd588-3c2f-4e69-bfc2-8a0361039d15"
+                  },
+                  "id": "66ec7b1a-3935-490f-bc42-499c5ac5606b"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 500,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "b49cc7ba-fe13-48b2-934a-825ddfe0e9e0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "peryil:guilt in\nwhat if anything\nyou should have\nit."
+                    ],
+                    "__section": "text",
+                    "avatarId": "7baded7d-a3be-440f-ba56-318aae5dc323",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "8e687260-e3df-425a-82a8-ab664cbdbfc1"
+                },
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "default-bg-6"
+                  },
+                  "id": "b3bc18a0-29a9-419c-8969-89c79e5c44c4"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 375,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "e4081b78-aa9c-42fd-9a18-b33e291e14bb"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "??:oh well anyways\nyou probably stink\nof crap.",
+                      "also I locked this\nroom down don't \neven try to use",
+                      "the override \nswitch only one is\ncorrect the others",
+                      "are bombs and may\nkill you"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "abe1612c-5e49-4584-babd-dca071a7c088"
+                }
+              ]
+            },
+            "id": "d3ae3ce6-984d-443d-8d68-deb8862d5e24"
+          }
+        ]
+      },
+      "id": "aad41ce3-881b-41f3-b19d-c4404b5b2fc4"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "7c84be89-de1c-4c0f-b971-23414e6816de"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 118"
+            },
+            "id": "32aca10e-2b20-4dbf-8a13-5a54836bc039"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "02b82a9c-07c9-45e7-b59e-4fef39dc2031"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 118
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "ccec1c83-8b00-4449-8b25-5068a7442ef1"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 118
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "017cc0c2-dc51-46a8-bf6c-4f93d98b6cdf"
+                }
+              ]
+            },
+            "id": "5333b7b9-bae7-4e07-88d9-d7cf692d13d9"
+          }
+        ]
+      },
+      "id": "1ec17a38-a558-408e-8c1b-6fb9ea663de8"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "006a+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+0062+0f!00b+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+006e+0f2+006+0f2+00e+0f2e+001a+0f1a+006+0f2+00e+0f2e+001a+0f1a+006+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+002a+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f1e+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f1e+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f2+0016+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f2+0016+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+006+0f1a+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f2+001e+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f1a+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+001a+0f1a+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+0032+0f2+006+0f2+00e+0f2+006+0f2+001a+0f2+006+0f2+0032+0f2+006+0f2+00e+0f2+006+0f14+004+0f6+006+0f14+0020+0f2+006+0f2+00e+0f2+006+0f14+004+0f6+006+0f14+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f2+0018+0f2+002+0f2+001e+0f2+0020+0f2+006+0f2+00e+0f1c+002+0f2+006+0f12+006+0f2+0020+0f2+006+0f2+00e+0f1c+002+0f2+006+0f12+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0f2+00e+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0f2+00e+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0fe+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+006+0fe+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f2+0020+0f2+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f24+006+0f2+002c+0f2+0012+0f2+002+0f2+006+0f24+006+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+0038+0f2+006+0f2+002+0f2+0030+0f2+0038+0f2+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0fe+006+0f2+002+0f2+0030+0f2+002c+0f2+0012+0f2+002+0f2c+006+0f2+002c+0f2+0012+0f2+002+0f2c+006+0f2+002c+0f2+0012+0f2+002c+0f2+006+0f2+002c+0f2+0012+0f2+002c+0f2+006+0f2+00e+0f20+0012+0f2+002c+0f2+006+0f2+00e+0f20+0012+0f2+002c+0f2+006+0f2+00e+0f2+0024+0fe+002c+0f2+006+0f2+00e+0f2+0024+0fe+002c+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f2+0024+0f2+0038+0f2+006+0f2+00e+0f1a+006+0f8+0038+0f2+006+0f2+00e+0f1a+006+0f8+0038+0f2+006+0f2+0026+0f2+006+0f2+003e+0f2+006+0f2+0026+0f2+006+0f2+003e+0f2+006+0f2+0026+0f2+006+0f2+002c+0f14+006+0f2+0026+0f2+006+0f2+002c+0f14+006+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0026+0f2+006+0f2+002c+0f2+0018+0f2+0014+0f14+006+0f2+0026+0f8+0018+0f2+0014+0f14+006+0f2+0026+0f8+0018+0f2+0014+0f2+0018+0f2+0026+0f2+00c+0f14+0014+0f2+0018+0f2+0026+0f2+00c+0f14+0014+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f2+0018+0f2+0026+0f2+00c+0f2+0026+0f1c+0026+0f10+0026+0f1c+0026+0f10+001f6+"
 }

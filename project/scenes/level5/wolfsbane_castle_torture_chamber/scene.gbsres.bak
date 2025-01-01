@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "0e9fa04b-6ebe-44a7-b5b7-6337d58cf8b9",
+  "_index": 95,
+  "name": "Level5/wolfsbane castle torture chamber",
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_96",
+  "x": 3928,
+  "y": 13312,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

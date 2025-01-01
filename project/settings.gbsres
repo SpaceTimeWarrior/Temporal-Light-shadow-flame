@@ -95,7 +95,7 @@
     "9",
     "f"
   ],
-  "colorMode": "color",
+  "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "58eeb4ce-2c0e-4064-a92c-4afe51d083e0",
+  "name": "Eather wolf city pipeworks 3",
+  "symbol": "bg_eather_wolf_city_pipewor_1",
+  "width": 80,
+  "height": 20,
+  "imageWidth": 640,
+  "imageHeight": 160,
+  "filename": "Eather wolf city pipeworks 3.png",
+  "tileColors": "0035e+04!002e1+",
+  "autoColor": false
+}

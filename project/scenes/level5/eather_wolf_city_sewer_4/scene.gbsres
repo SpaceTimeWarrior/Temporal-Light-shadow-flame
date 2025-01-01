@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "f4448be5-6bbd-4dfd-ab4d-2786ad3efba7",
   "_index": 89,
-  "type": "TOPDOWN",
+  "type": "PLATFORM",
   "name": "Level5/Eather Wolf City sewer 4",
   "symbol": "scene_90",
   "x": 2552,
@@ -22,9 +22,88 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "615e9c0c-b0ba-4527-ac04-f274634b011b"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+            },
+            "id": "0df2be20-2238-4d8a-a24e-880790561d2b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "427833ea-ac80-41e6-a788-8bb9ef344906"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "79ab2a04-dee2-422f-a2bb-0b99f61a4cb8"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "4518a82f-0021-4a1f-9bc7-0bfcb684551b"
+                }
+              ]
+            },
+            "id": "34694281-86f5-483f-8bb4-b8fd6bb6073a"
+          }
+        ]
+      },
+      "id": "94f75d5f-a0b3-46f4-ba78-9e5d1a4b76b4"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "004+0f8+00c+0f8+00a+0f2+006+0f4+006+0f4+006+0f4+006+0f2+00a+0f4+0010+0f4+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+004+0f10+004+0f10+0054+"
+  "collisions": "0f2c+006+0fe+006+0fc+00a+0f8+00c+0f8+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f7e+"
 }

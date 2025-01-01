@@ -31,7 +31,7 @@
               "variable": "10",
               "value": {
                 "type": "expression",
-                "value": "$10$-94"
+                "value": "$10$+94"
               }
             },
             "id": "8c628d39-c4c5-4e9f-ba38-a2f98b918759"
@@ -43,10 +43,10 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "5c935a1b-12d7-4309-a596-c27f23df7bb6",
+        "sceneId": "3dfa8f3a-65e2-4aef-b165-75f2ba48f997",
         "x": {
           "type": "number",
-          "value": 117
+          "value": 116
         },
         "y": {
           "type": "variable",
@@ -55,7 +55,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "9b7ef3a1-b565-4d0e-a576-8e44a6344671"
+      "id": "084ce6f3-0780-4113-b46a-cac863bdfaa1"
     }
   ],
   "leaveScript": []

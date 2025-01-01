@@ -261,12 +261,43 @@
     {
       "id": "50",
       "name": "level5 flags1",
-      "symbol": "var_level5_flags1"
+      "symbol": "var_level5_flags1",
+      "flags": {
+        "flag10": "dialog 1 done",
+        "flag1": "secret room key",
+        "flag2": "upper landing room key",
+        "flag3": "upper landing room key 2",
+        "flag4": "castle doors open",
+        "flag5": "castle throne room open",
+        "flag6": "sewer switch 1",
+        "flag7": "sewer switch 2",
+        "flag8": "sewer switch 3",
+        "flag9": "pipeworks switch",
+        "flag11": "sewer 1 key 1",
+        "flag12": "sewer 2 key 2",
+        "flag13": "sewer 3 key 3",
+        "flag14": "pipeworks s key 1",
+        "flag15": "pipeworks 2 key 2",
+        "flag16": "pipeworks 3 key 3"
+      }
     },
     {
       "id": "51",
       "name": "key flags 5",
-      "symbol": "var_key_flags_5"
+      "symbol": "var_key_flags_5",
+      "flags": {
+        "flag1": "secret room key",
+        "flag2": "upper landing room key",
+        "flag3": "upper landing room key2",
+        "flag4": "sewer 1 key",
+        "flag5": "sewer 2 key",
+        "flag6": "sewer 3 key",
+        "flag7": "pipeworks s key",
+        "flag8": "pipeworks 2 key",
+        "flag9": "pipeworks 3 key",
+        "flag10": "garden key",
+        "flag11": "pipeworks 1 key"
+      }
     },
     {
       "id": "52",
@@ -457,6 +488,58 @@
       "id": "2f2c2972-9fd8-4a22-82b7-ecb095b41c68__L4",
       "name": "Local 4",
       "symbol": "var_local_26"
+    },
+    {
+      "id": "4fc05a32-5399-470b-8764-b636e211dc3d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_27"
+    },
+    {
+      "id": "62",
+      "name": "level 5 flags2",
+      "symbol": "var_level_flags2_0",
+      "flags": {
+        "flag1": "garden key ",
+        "flag2": "pipeworks 3 valve 1",
+        "flag3": "pipeworks3 valve 2",
+        "flag4": "pipeworks 2 valve 1",
+        "flag5": "pipeworks 2 valve 2",
+        "flag6": "pipeworks 2 valve 3",
+        "flag7": "pipeworks 2 valve 4",
+        "flag8": "pipeworks 1 key",
+        "flag9": "ruins switch",
+        "flag10": "sewer master switch"
+      }
+    },
+    {
+      "id": "9dfb8cc1-c0c0-480d-bcf0-e05db8d180fe__L0",
+      "name": "Local 0",
+      "symbol": "var_local_28"
+    },
+    {
+      "id": "0477165a-26a8-4985-a7cd-9f4bd315cf3b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_29"
+    },
+    {
+      "id": "b60a46df-36fc-44fe-83ea-a1e00b11bcf7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_30"
+    },
+    {
+      "id": "52b312f1-09a8-4392-8a35-58eca22c51b2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_31"
+    },
+    {
+      "id": "5276da2f-9574-481a-aac8-2fb4fbf5762f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_32"
+    },
+    {
+      "id": "d495172f-fb5e-4691-b173-90017430325a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_33"
     }
   ]
 }

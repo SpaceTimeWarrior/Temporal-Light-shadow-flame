@@ -3,9 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Eather wolf city pipeworks secret.tmx",
+    "activeFile": "Eather wolf city pipeworks-enterance.tmx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Earth Distortion Mountain.tmx": {
             "scale": 2,
@@ -43,7 +44,7 @@
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 130,
+                "x": 160,
                 "y": 72
             }
         },
@@ -75,24 +76,64 @@
             "scale": 2.5590625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 159.8241543534009,
+                "x": 159.82415435340093,
                 "y": 159.8241543534009
+            }
+        },
+        "Eather wolf city pipeworks 1.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 445.66666666666663,
+                "y": 275
+            }
+        },
+        "Eather wolf city pipeworks 2.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 320
+            }
+        },
+        "Eather wolf city pipeworks 3.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 80
+            }
+        },
+        "Eather wolf city pipeworks garden.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 320,
+                "y": 164
             }
         },
         "Eather wolf city pipeworks secret.tmx": {
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 202.75,
-                "y": 102.125
+                "x": 320,
+                "y": 80
             }
         },
         "Eather wolf city pipeworks-enterance.tmx": {
-            "scale": 4,
-            "selectedLayer": 2,
+            "scale": 3,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 56.5,
-                "y": 566.375
+                "x": 513,
+                "y": 300
+            }
+        },
+        "Eather wolf city ruins bridge.tmx": {
+            "scale": 3,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 320,
+                "y": 320
             }
         },
         "Eather wolf city ruins depths.tmx": {
@@ -107,13 +148,13 @@
             "scale": 2.1236458333333332,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.15303870113308,
+                "x": 240.1530387011331,
                 "y": 80.05101290037769
             }
         },
         "Eather wolf city sewer 3.tmx": {
             "scale": 3,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 480,
                 "y": 480
@@ -124,7 +165,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 79.91207717670046,
-                "y": 80.00976920258884
+                "y": 79.91207717670045
             }
         },
         "H:/kenney-game-assets/2D assets/Sketch Town Expansion/Map/map_sample.tmx": {
@@ -198,7 +239,7 @@
             "scale": 3,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 239.99999999999997,
+                "x": 240,
                 "y": 72
             }
         },
@@ -216,6 +257,14 @@
             "viewCenter": {
                 "x": 480,
                 "y": 144
+            }
+        },
+        "eather wolf city ruins un.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 856.3333333333333,
+                "y": 885
             }
         },
         "eather wolf city ruins.tmx": {
@@ -270,7 +319,7 @@
             "scale": 5.118125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.91207717670045,
+                "x": 79.91207717670046,
                 "y": 79.91207717670045
             }
         },
@@ -294,7 +343,7 @@
             "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 479.99999999999994,
+                "x": 480,
                 "y": 160
             }
         },
@@ -350,7 +399,7 @@
             "scale": 2.5590625,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 159.8241543534009,
+                "x": 159.82415435340093,
                 "y": 159.8241543534009
             }
         },
@@ -376,7 +425,7 @@
             "scaleInEditor": 1
         },
         "tilesets/kenny modified/full image.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 4,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/Diamond dust ship side view.tsx": {
@@ -390,7 +439,7 @@
         },
         "tilesets/temporal light/temporal_light_tileset.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 2,
+            "scaleInDock": 4,
             "scaleInEditor": 1
         },
         "venus-ac ventilation.tmx": {
@@ -437,7 +486,7 @@
             "scale": 2.5590625,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 159.8241543534009,
+                "x": 159.82415435340093,
                 "y": 159.8241543534009
             }
         },
@@ -476,7 +525,7 @@
     },
     "last.externalTilesetPath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light",
     "last.imagePath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light/lf_normal",
-    "map.height": 10,
+    "map.height": 40,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -531,14 +580,19 @@
         "cc_outro.tmx",
         "Level 5-intro.tmx",
         "eather endgame access.tmx",
-        "eather wolf city ruins.tmx",
+        "eather wolf city ruins un.tmx",
         "Eather wolf city ruins depths.tmx",
         "eather wolf city sewer 1.tmx",
         "Eather wolf city sewer 2.tmx",
         "Eather wolf city sewer 3.tmx",
         "Eather wolf city sewer-pipeworks connection.tmx",
+        "Eather wolf city pipeworks secret.tmx",
+        "Eather wolf city pipeworks 1.tmx",
         "Eather wolf city pipeworks-enterance.tmx",
-        "Eather wolf city pipeworks secret.tmx"
+        "Eather wolf city pipeworks 2.tmx",
+        "Eather wolf city pipeworks 3.tmx",
+        "Eather wolf city pipeworks garden.tmx",
+        "Eather wolf city ruins bridge.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

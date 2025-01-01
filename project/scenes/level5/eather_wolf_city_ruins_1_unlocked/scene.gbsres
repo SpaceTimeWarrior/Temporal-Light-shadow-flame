@@ -1,0 +1,160 @@
+{
+  "_resourceType": "scene",
+  "id": "3dfa8f3a-65e2-4aef-b165-75f2ba48f997",
+  "_index": 98,
+  "name": "Level5/Eather Wolf City Ruins 1 unlocked",
+  "backgroundId": "8a27885d-0afb-4fb5-ab4d-d6852ea8900b",
+  "tilesetId": "",
+  "width": 120,
+  "height": 120,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0068+0f10+0068+0f10+00426+0f12+0066+0f12+0066+0f12+0066+0f12+00600+0f18+0060+0f18+00e76+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0066+0f12+0052+0f26+0052+0f26+0068+0f10+0068+0f10+006+0f2+0062+0fe+006+0f2+0062+0f10+004+0f4+0062+0fe+004+0f4+0062+0fe+004+0f6+0062+0fc+004+0f6+0062+0fc+004+0fa+0060+0fa+004+0fa+0060+0fa+004+0fa+0062+0f8+004+0fa+0062+0f8+002+0fc+0064+0f6+002+0fc+0064+0f14+0066+0f12+0066+0f10+0068+0ff+0069+0f2+0076+0f2+0076+0f2+0072+0f6+0072+0f6+0070+0f8+0070+0f8+006e+0fa+006e+0fa+006c+0fc+0015+0f!0056+0f22+0056+0f22+0056+0f22+0062+0f16+00!0f!0060+0f1a+30!00c+20!0f6+30!0049+0f1b+30!00a+20!0f8+30!0048+0f1a+00e+0f6+004a+0f1a+00e+0f6+004a+0f18+30!00f+0f6+0010+0f6+0034+0f19+30!00e+0f6+0010+0f6+0034+0f1a+00e+0f6+0010+0f6+0034+0f1a+00e+0f6+0010+0f6+0034+0f18+0010+0f6+0010+0f6+0028+0f24+0010+0f6+0010+0f6+0028+0f!00b+0f18+0010+0f6+0010+0f6+00e+0f1b+00b+0f18+0010+0f6+0010+0f6+00e+0f!0025+0ff0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_99",
+  "x": 2488,
+  "y": 10648,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "music group"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "37",
+                    "value": {
+                      "type": "number",
+                      "value": 17
+                    }
+                  },
+                  "id": "daed2928-d1ac-4144-b987-369c710f7655"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "37"
+                    }
+                  },
+                  "id": "7b73f7ca-6cc7-4464-b5fe-a2d6d6cfdda3"
+                }
+              ]
+            },
+            "id": "818de25e-c07a-45a7-ad5f-2d301b4a137d"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": []
+            },
+            "id": "3a39e809-5f34-4838-b13c-2058a6457e33"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "63d6e520-079a-4ddd-8067-58cc98a43774"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 118"
+                  },
+                  "id": "00d2c350-c664-4004-81d0-f9624bdc6b9e"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "0928038a-0af6-4135-adf4-4cbac672ce9a"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 118
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "3609f43c-2c38-4d50-b4c4-193abbc5f35f"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 118
+                          },
+                          "$variable[V1]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "62b18837-57c6-4177-b622-e1868c623677"
+                      }
+                    ]
+                  },
+                  "id": "8dc401ad-dd44-4dd4-a128-5a3dbcf7ead0"
+                }
+              ]
+            },
+            "id": "d2d96e6d-1725-4398-a85a-f21ae62d2e52"
+          }
+        ]
+      },
+      "id": "1bd7a768-ae32-4a83-b7f2-34f6568a5a78"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

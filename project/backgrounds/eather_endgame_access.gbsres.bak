@@ -8,5 +8,6 @@
   "imageWidth": 960,
   "imageHeight": 288,
   "filename": "eather endgame access.png",
-  "tileColors": "03ff0+066+002+0676+002+0670+"
+  "tileColors": "03ff0+066+002+0676+002+0670+",
+  "autoColor": false
 }

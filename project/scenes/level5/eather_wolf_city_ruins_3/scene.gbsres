@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "a816d925-cd03-431e-a79d-27d7cb26de62",
+  "_index": 85,
+  "name": "Level5/Eather Wolf City Ruins 3",
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_86",
+  "x": 2584,
+  "y": 13352,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -30,13 +30,6 @@
       "id": "95cd1e33-ba93-40b7-a6d4-70f50414be8e"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "c0d38101-4526-4fae-97ef-560a6ea60da7"
-      },
-      "id": "8f1ec266-10c3-4464-ad1b-f44bf783e29c"
-    },
-    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "5c935a1b-12d7-4309-a596-c27f23df7bb6",

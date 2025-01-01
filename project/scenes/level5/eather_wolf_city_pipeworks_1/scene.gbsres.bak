@@ -2,29 +2,108 @@
   "_resourceType": "scene",
   "id": "bd66a921-880c-4286-8598-09a026cbe30c",
   "_index": 90,
+  "type": "PLATFORM",
   "name": "Level5/Eather Wolf City pipeworks 1",
-  "backgroundId": "6557973f-f2d8-42f5-99b6-1750ad3e9663",
-  "tilesetId": "",
-  "width": 120,
-  "height": 80,
-  "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "002580+",
-  "autoFadeSpeed": 1,
   "symbol": "scene_91",
   "x": 2576,
   "y": 13864,
-  "script": [],
+  "width": 120,
+  "height": 80,
+  "backgroundId": "6557973f-f2d8-42f5-99b6-1750ad3e9663",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "8dfe4c81-d6b4-48cb-9456-c86c1567650a"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 78"
+            },
+            "id": "d1f31888-2780-4f44-86f9-5eb7339b3316"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "e83616dc-ab3b-402a-857f-73f560356052"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 78
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "1ac73c9b-c6cb-4537-b746-ea51f92ce554"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 78
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "5fc15a6a-10f1-493a-9a4f-8a18eaf85738"
+                }
+              ]
+            },
+            "id": "9871bcc8-1255-4f11-8a27-9079113217b9"
+          }
+        ]
+      },
+      "id": "3bba783f-1e56-4e1c-a11a-920cfbe046a9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0f40+006+0f72+006+0f72+012+002+012+0f72+012+002+012+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+002+0f2+002+0f72+002+0f2+002+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f74+002+0f76+002+0f74+006+0f72+006+0f72+006+0f72+006+0f72+006+0f72+006+0f5c+0032+0f46+0032+0f46+0032+0f46+0032+0f46+0032+0f46+0032+0f46+006+0f26+006+0f46+006+0f26+006+0f20+00c+0f1a+006+0f26+006+0f20+00c+0f1a+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f20+0024+0f2+006+0f26+006+0f3e+006+0f2+006+0f26+006+0f3e+006+0f2+006+0f26+006+0f3e+00e+0f1e+00e+0f3e+00e+0f1e+00e+0f3e+00e+0f1e+00e+0f3e+00e+0f1e+00e+0f3e+00e+0f1e+006+0f2+006+0f3e+00e+0f1e+006+0f2+006+0f3e+00e+0f1e+006+0f2+006+0f3e+00e+0f1e+006+0f2+006+0f3e+00e+0f1e+006+0f2+006+0f3e+00e+0f1e+006+0f2+006+0f3e+008+0f24+006+0f2+006+0f3e+008+0f24+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+014+002+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f3e+006+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0028+0f2+006+0f1e+006+0f2+006+0f1c+0018+0f8+008+0f2+006+0f1e+006+0f2+006+0f1c+0018+0f8+008+0f2+006+0f1e+006+0f2+006+0f3c+0010+0f1e+00e+0f3c+0010+0f1e+00e+0f1c+"
 }

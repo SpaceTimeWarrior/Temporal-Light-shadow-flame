@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "76c56812-708d-480c-bde3-5196fcb0de0a",
+  "name": "",
+  "prefabId": "",
+  "_index": 0,
+  "symbol": "trigger_296",
+  "x": 0,
+  "y": 0,
+  "width": 1,
+  "height": 58,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "9",
+              "vectorY": "10"
+            },
+            "id": "b86090ea-e47b-478f-87fa-d4c52011fb56"
+          }
+        ]
+      },
+      "id": "ebd37d1c-d702-489d-95dc-5cd8304cfac8"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "50",
+        "flag": 3,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3dfa8f3a-65e2-4aef-b165-75f2ba48f997",
+              "x": {
+                "type": "number",
+                "value": 117
+              },
+              "y": {
+                "type": "variable",
+                "value": "10"
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5778ad8f-13f5-41da-a3cc-bb7af0641b41"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "5c935a1b-12d7-4309-a596-c27f23df7bb6",
+              "x": {
+                "type": "number",
+                "value": 117
+              },
+              "y": {
+                "type": "variable",
+                "value": "10"
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "204213a1-4558-4f71-a07c-c9a08e2dc47e"
+          }
+        ]
+      },
+      "id": "3f9a48eb-fd2c-4a6d-aca0-ca22cd690993"
+    }
+  ],
+  "leaveScript": []
+}
