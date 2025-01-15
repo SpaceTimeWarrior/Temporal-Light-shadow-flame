@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "148ee398-cedc-4494-b154-c24109285923",
+  "_index": 100,
+  "type": "PLATFORM",
+  "name": "Level5/wolfsbane castle tower access",
+  "symbol": "scene_101",
+  "x": 4168,
+  "y": 12568,
+  "width": 80,
+  "height": 34,
+  "backgroundId": "f028f957-4892-4f0e-aefe-720bba44971b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa0+0024+0fe+001c+0f2+0024+0fe+001c+0f2+0026+0fc+004+0f2+0016+0f2+0026+0fc+004+0f2+0016+0f2+0028+0fa+004+0f12+006+0f2+0028+0fa+004+0f12+006+0f2+002a+0f8+0014+0f2+006+0f2+002a+0f8+0014+0f2+006+0f2+002c+0f6+0014+0f2+006+0f2+002c+0f6+0014+0f2+006+0f2+002e+0f16+002+0f2+006+0f2+002e+0f16+002+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f4a+006+0f4a+006+0f2+00320+0fa0+00a0+"
+}

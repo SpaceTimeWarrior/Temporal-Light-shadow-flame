@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "119a4b2e-efac-4958-9d8f-e87049a2e734",
+  "name": "",
+  "prefabId": "",
+  "x": 69,
+  "y": 14,
+  "symbol": "trigger_369",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "AI Stasis chamber\nfor aquatic \nmonsters"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "23abe08b-04f4-4038-b83b-ff89b45b4ec6"
+          }
+        ]
+      },
+      "id": "4f1563be-08b9-419c-a1ff-5e256769a7d7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "13a35387-7495-47d6-add8-31c459ba4780",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "a2c60686-a7cb-4a35-b214-0a2a53bb8024",
+      "children": {}
+    }
+  ],
+  "_index": 14
+}

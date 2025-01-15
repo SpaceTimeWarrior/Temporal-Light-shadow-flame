@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "29655b39-d308-49d6-b86e-b6ae311e0c21",
+  "_index": 103,
+  "type": "PLATFORM",
+  "name": "Level5/wolfsbane castle tower",
+  "symbol": "scene_104",
+  "x": 4808,
+  "y": 11720,
+  "width": 40,
+  "height": 140,
+  "backgroundId": "f8aba7da-9588-4654-8bc4-794f47c72c65",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "ef8435be-73ed-4ee3-8df9-ae838d767ab3"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 138"
+            },
+            "id": "a19ca3a3-3575-46fe-b456-8be87d75eba9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "ff41029e-5ecf-4878-a99b-a18f9ea308d9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 138
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "e2dd02df-069c-4e02-846b-860ef9acc2a6"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 138
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "c69fd58b-f8c2-4839-9d81-e49a5c406382"
+                }
+              ]
+            },
+            "id": "5d219574-e64c-43b5-8ab1-278e16cb28e9"
+          }
+        ]
+      },
+      "id": "a0c34155-b7e0-4541-bd0d-b1d89d5427d5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0050+0f50+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f75+005+0f21+007+0f1f+009+0f1d+00b+0f1b+00d+0f19+00f+0f17+0011+0f15+0013+0f13+0015+0f11+0017+0ff+0015+40!60!0ff+0015+40!60!0ff+0015+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+001a+40!60!0fa+0012+0f14+0014+0f12+0016+0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f10+0014+40!60!0f8+001c+40!60!0fa+001a+40!60!0fc+0018+40!60!0fe+0016+40!60!0f10+0014+40!60!0f12+0012+40!60!0f14+0010+40!60!0f16+00e+40!60!0f18+00c+40!60!0f1a+00a+40!60!0fbc+"
+}

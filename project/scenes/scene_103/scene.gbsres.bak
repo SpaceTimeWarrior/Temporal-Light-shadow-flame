@@ -1,0 +1,27 @@
+{
+  "_resourceType": "scene",
+  "id": "27b4dcf9-32b9-40c5-af44-9b2f682f50f3",
+  "_index": 102,
+  "name": "Scene 103",
+  "backgroundId": "08b983b2-1fef-4944-aef3-c07f64c64949",
+  "tilesetId": "",
+  "width": 160,
+  "height": 20,
+  "type": "PLATFORM",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    "4e245155-8648-467b-9321-a8d830946c7c"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f16+00c+0fc+006+0f82+00c+0fc+006+0f6e+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+006+0f2+0056+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+006+0f2+0056+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+005e+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+0072+0f10+008+0fa+00a+0f2+0072+0f10+008+0fa+00a+0f2+001f6+40!60!0f46+0056+40!60!0f48+0054+40!60!0f4+0098+40!60!0f4+0098+40!60!0f4+0098+40!60!0f4+004c+0f52+004e+0f50+00190+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_103",
+  "x": 4304,
+  "y": 12256,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

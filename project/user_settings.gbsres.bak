@@ -1,17 +1,17 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 2928.800048828125,
-  "worldScrollY": 13626.400390625,
+  "worldScrollX": 3790.39990234375,
+  "worldScrollY": 13092,
   "zoom": 100,
   "navigatorSplitSizes": [
-    302,
+    114,
+    218,
     205,
-    30,
     205
   ],
   "showNavigator": true,
   "showCollisions": true,
-  "showConnections": "all",
+  "showConnections": "selected",
   "previewAsMono": false,
   "showCollisionSlopeTiles": false,
   "favoriteEvents": [
@@ -22,7 +22,10 @@
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [
-    "script"
+    "script",
+    "vram",
+    "state",
+    "breakpoints"
   ],
   "debuggerPauseOnScriptChanged": false,
   "debuggerPauseOnWatchedVariableChanged": false,

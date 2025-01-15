@@ -2094,14 +2094,11 @@
                                                         ],
                                                         "true5": [
                                                           {
-                                                            "command": "EVENT_TEXT",
+                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
                                                             "args": {
-                                                              "text": [
-                                                                "Level is not yet \nstarted. going to\nchapter 4"
-                                                              ],
-                                                              "avatarId": ""
+                                                              "customEventId": "c0d38101-4526-4fae-97ef-560a6ea60da7"
                                                             },
-                                                            "id": "776c9eac-718b-46d7-b6e0-a3cf8edb6617"
+                                                            "id": "64442970-cdeb-415f-a3e6-39e2f23b1036"
                                                           },
                                                           {
                                                             "command": "EVENT_SWITCH_SCENE",

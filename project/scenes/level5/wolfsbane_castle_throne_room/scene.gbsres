@@ -2,19 +2,26 @@
   "_resourceType": "scene",
   "id": "ce182724-0ba0-4ca8-bf42-51a8533d046a",
   "_index": 83,
-  "name": "Level5/wolfsbane castle throne room",
-  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "PLATFORM",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Level5/wolfsbane castle throne room",
   "symbol": "scene_84",
-  "x": 3936,
-  "y": 13080,
+  "x": 3864,
+  "y": 13152,
+  "width": 80,
+  "height": 24,
+  "backgroundId": "84f98899-92e7-4d45-8703-1b7d5eb90437",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -97,5 +104,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0fa0+003a4+20!30!004e+0f2+004e+0f2+004e+0f2+004b+0f5+004a+0f6+004a+0f6+001a+0f38+008+0f48+008+0f10+00a0+"
 }

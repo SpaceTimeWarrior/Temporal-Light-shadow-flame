@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f8aba7da-9588-4654-8bc4-794f47c72c65",
+  "name": "Eather endgame tower",
+  "symbol": "bg_eather_endgame_tower",
+  "width": 40,
+  "height": 140,
+  "imageWidth": 320,
+  "imageHeight": 1120,
+  "filename": "Eather endgame tower.png",
+  "tileColors": "031590+066+022+0626+022+0620+"
+}

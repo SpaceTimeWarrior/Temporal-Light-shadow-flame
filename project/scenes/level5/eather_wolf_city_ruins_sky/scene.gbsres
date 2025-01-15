@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "2021a00d-2f53-4f07-b3c7-f638514206df",
+  "_index": 97,
+  "type": "TOPDOWN",
+  "name": "Level5/Eather Wolf City Ruins sky",
+  "symbol": "scene_98",
+  "x": 2616,
+  "y": 12032,
+  "width": 20,
+  "height": 20,
+  "backgroundId": "933af217-f9a4-438a-994f-1616b1e3710c",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "51651d7b-e03d-4a41-af9a-e1f96600cd73"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+            },
+            "id": "ec88de96-baab-4c54-bf9a-b08e1c4132d6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "b2f8f26f-7865-4f35-9ea4-4b9fc4eea94f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 18
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "60e66890-40b8-4269-8b7e-c787076500c6"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "00d68f0e-0f4b-4474-809a-8a184a958b79"
+                }
+              ]
+            },
+            "id": "bedd256d-938f-4043-a085-f97f67ce5884"
+          }
+        ]
+      },
+      "id": "6b80e3d0-8ff5-4117-b0ba-1dea0ad4c0ca"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00f2+01!0f2+01!0011+0f2+0012+0f2+008+0f2+008+0f2+008+0f2+005+0f6+006+0fe+006+0f8+0028+"
+}

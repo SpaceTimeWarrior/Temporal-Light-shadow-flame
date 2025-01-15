@@ -204,7 +204,7 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "T0",
-        "expression": "41+$52$"
+        "expression": "48+$52$"
       },
       "id": "7b977ec9-d38e-4129-82ad-d1efa0c31ced"
     },

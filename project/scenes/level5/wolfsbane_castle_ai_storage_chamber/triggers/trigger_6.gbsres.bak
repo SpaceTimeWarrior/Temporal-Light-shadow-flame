@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "d360f865-abbf-43cc-983b-317fed770de7",
+  "name": "",
+  "prefabId": "",
+  "x": 33,
+  "y": 14,
+  "symbol": "trigger_360",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:Fog \narcanebluf\nstatus:AI \nProccesing"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "09efdade-d9db-490e-9d6c-1fd64a2d1394"
+          }
+        ]
+      },
+      "id": "455917f6-e330-4565-af2f-67e46ee5a541"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "6252648a-c57b-4e3b-9572-b0a6c2e83450",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "b6612c07-4a47-43f0-bf32-4a9e86c359eb",
+      "children": {}
+    }
+  ],
+  "_index": 5
+}

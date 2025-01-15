@@ -1,0 +1,107 @@
+{
+  "_resourceType": "trigger",
+  "id": "72a0900e-e42e-4b42-8f9b-dc4d1dc069bc",
+  "name": "",
+  "prefabId": "",
+  "x": 37,
+  "y": 14,
+  "symbol": "trigger_361",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:Ember \nBurnfeather clone\nstatus:deceased\ndue to \ncomplications"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "84594ded-5cae-499c-8d61-6b3e8efa5a0f"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+            },
+            "id": "e22475e8-bd50-4752-9468-6e65106fa643"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Peryil: no soul\nfeather...weird"
+              ],
+              "__section": "text",
+              "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "16df861f-23df-4ac6-b91b-4519b745b878"
+          }
+        ]
+      },
+      "id": "b44ef8b0-2500-4502-94fb-cbfd18ef5358"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "775533e7-d4de-4d90-9567-1d237158585e",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "efcfc79a-86b4-4007-aafd-d3eb3a994547",
+      "children": {}
+    }
+  ],
+  "_index": 6
+}

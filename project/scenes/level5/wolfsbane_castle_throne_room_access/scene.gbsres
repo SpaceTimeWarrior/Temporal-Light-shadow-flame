@@ -2,19 +2,26 @@
   "_resourceType": "scene",
   "id": "331d26eb-dd29-4ffa-9063-486e2144a9d7",
   "_index": 82,
-  "name": "Level5/Wolfsbane castle throne room access",
-  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "PLATFORM",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Level5/Wolfsbane castle throne room access",
   "symbol": "scene_83",
   "x": 3520,
-  "y": 13080,
+  "y": 13064,
+  "width": 40,
+  "height": 24,
+  "backgroundId": "f91f492c-d9c8-4e41-9e26-0059ffb8ada8",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -97,5 +104,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0f50+002d0+0f50+0050+"
 }

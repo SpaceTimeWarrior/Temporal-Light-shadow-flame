@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "148ee398-cedc-4494-b154-c24109285923",
+  "_index": 100,
+  "type": "PLATFORM",
+  "name": "Level5/wolfsbane castle tower access",
+  "symbol": "scene_101",
+  "x": 4168,
+  "y": 12568,
+  "width": 80,
+  "height": 34,
+  "backgroundId": "f028f957-4892-4f0e-aefe-720bba44971b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "d3713c42-4569-4039-96c1-b10cf1e7e290"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 32"
+            },
+            "id": "56758fc7-189a-4013-a869-6d60cb1b59b7"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "6877a25e-253e-409e-9da6-d0f6dc6253c1"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 32
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "32837892-f27a-4c2a-adf7-8cc285d09360"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 32
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "fac49d30-b62c-4c92-a226-170c58393dff"
+                }
+              ]
+            },
+            "id": "ce9894b1-9c7b-4925-81e0-3070a111fec0"
+          }
+        ]
+      },
+      "id": "a9b40ef7-dde9-4266-b49e-103ed1923d72"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa0+0024+0fe+001c+0f2+0024+0fe+001c+0f2+0026+0fc+004+0f2+0016+0f2+0026+0fc+004+0f2+0016+0f2+0028+0fa+004+0f12+006+0f2+0028+0fa+004+0f12+006+0f2+002a+0f8+0014+0f2+006+0f2+002a+0f8+0014+0f2+006+0f2+002c+0f6+0014+0f2+006+0f2+002c+0f6+0014+0f2+006+0f2+002e+0f16+002+0f2+006+0f2+002e+0f16+002+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f2+0046+0f2+006+0f4a+006+0f4a+006+0f2+00320+0fa0+00a0+"
+}

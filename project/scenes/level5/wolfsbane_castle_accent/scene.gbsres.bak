@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "52ac7a01-bf57-4bf0-9aa2-3ede3fc0b4fa",
+  "_index": 99,
+  "type": "PLATFORM",
+  "name": "Level5/wolfsbane castle accent",
+  "symbol": "scene_100",
+  "x": 3520,
+  "y": 12456,
+  "width": 80,
+  "height": 80,
+  "backgroundId": "05beecfe-a099-4c4e-a9ab-06b55047d04e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "4f2931a9-c4ba-419f-88f6-8a62f5faab38"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 78"
+            },
+            "id": "9f5706ac-e46c-4248-9a05-4e535bcd2972"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "a2409bab-712d-46b8-9780-e6f06d660077"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 78
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "df363f60-855a-4b7a-8908-6f44c179ab2c"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 78
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "1acbd0e8-bb5c-4dde-a002-0896b050f353"
+                }
+              ]
+            },
+            "id": "6bcca11a-9a21-43b7-95e4-8e29f2eb4480"
+          }
+        ]
+      },
+      "id": "6f8b6367-41e3-483b-a162-9c5cbe9f02c6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00492+0f1e+0031+0f1f+0030+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!004e+0f!0042+0fd+0042+0fd+0042+0f!001c+20!0f1e+0013+0f!001c+20!0f1f+0012+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!0030+0f!001c+20!0f!00a+20!0f1e+007+0f!001c+20!0f!00a+20!0f!0024+0f!001c+20!0f!00a+20!0f!0020+0f5+001c+20!0f!00a+20!0f!0021+0f!0013+20!0fd+00a+20!0f!0022+0f!0012+20!0fd+00a+20!0f!0023+0f!0011+20!0f!0016+20!0f!0024+0f!0010+20!0f!0016+20!0f!0025+0f!00f+20!0f!0016+20!0f!0026+0f!00e+20!0f!0016+20!0f!0027+0f!00d+20!0f!0016+20!0f!0028+0f!00c+20!0f!0016+20!0f!0029+0f!00b+20!0f!0016+20!0f!002a+0f!00a+20!0f!0016+20!0f!002b+0f!009+20!0f!0016+20!0f!002c+0f!008+20!0f!0016+20!0f!002d+0f!007+20!0f!00a+20!0fd+002e+0f!006+20!0f!00a+20!0f!003b+0f!005+20!0f!00a+20!0f!003c+0f!004+20!0f!00a+20!0f!003c+0f7+00a+20!0f!003d+0f6+00a+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!004d+20!0f!0048+0f7+00139+"
+}

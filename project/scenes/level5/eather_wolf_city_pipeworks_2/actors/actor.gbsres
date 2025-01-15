@@ -11,7 +11,7 @@
   "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "_index": 0,
@@ -247,7 +247,79 @@
       "id": "724c576c-e504-4e11-93d1-f351481d0129"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "62",
+        "flag": 3,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "62",
+              "flag": 4,
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "62",
+                    "flag": 5,
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF_FLAGS_COMPARE",
+                        "args": {
+                          "variable": "62",
+                          "flag": 6,
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_SET_POSITION",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": 40
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 75
+                                }
+                              },
+                              "id": "1a3d9a76-62c1-4ef2-aa6e-6415ead45a4c"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "d404c4fb-0f27-47c1-87ad-ed4e8ee3df14"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "06416f07-95e8-4988-82a6-18342b8e758e"
+                }
+              ],
+              "false": []
+            },
+            "id": "36e03f45-8565-460e-b48e-cb19d55df65f"
+          }
+        ],
+        "false": []
+      },
+      "id": "491e9bb7-e962-4bb0-9316-0a26183221df"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": []

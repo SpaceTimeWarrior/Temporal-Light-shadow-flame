@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "08b983b2-1fef-4944-aef3-c07f64c64949",
+  "name": "robot manufacturing plant",
+  "symbol": "bg_robot_manufacturing_plan",
+  "width": 160,
+  "height": 20,
+  "imageWidth": 1280,
+  "imageHeight": 160,
+  "filename": "robot manufacturing plant.png",
+  "tileColors": "03b40+066+002+069e+002+0698+",
+  "autoColor": false
+}

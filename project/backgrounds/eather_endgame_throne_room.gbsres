@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "84f98899-92e7-4d45-8703-1b7d5eb90437",
+  "name": "Eather endgame Throne room",
+  "symbol": "bg_eather_endgame_throne_ro_0",
+  "width": 80,
+  "height": 24,
+  "imageWidth": 640,
+  "imageHeight": 192,
+  "filename": "Eather endgame Throne room.png",
+  "tileColors": "03ee+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+034e+002+032c+008+031a+002+032c+008+031a+002+0330+004+031a+002+0330+004+031a+002+03a0+066+002+064e+002+0648+",
+  "autoColor": false
+}

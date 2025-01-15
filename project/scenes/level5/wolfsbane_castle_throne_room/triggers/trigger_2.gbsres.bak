@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "d64a665f-e8ab-41c6-bcec-820be7fddaca",
+  "name": "",
+  "prefabId": "",
+  "_index": 1,
+  "symbol": "trigger_379",
+  "x": 0,
+  "y": 3,
+  "width": 1,
+  "height": 17,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_GET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "vectorX": "9",
+              "vectorY": "10"
+            },
+            "id": "d9be819c-57ad-4401-8e19-5dbb378b5f81"
+          }
+        ]
+      },
+      "id": "2913c023-c690-4a64-b611-a8a3aa0bceea"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "50",
+        "flag": 4,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "331d26eb-dd29-4ffa-9063-486e2144a9d7",
+              "x": {
+                "type": "number",
+                "value": 37
+              },
+              "y": {
+                "type": "variable",
+                "value": "10"
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "fb0d6bc5-6644-4b8c-b1b7-ce1337c044d5"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ceafa328-cfa6-4892-8be0-ca0d9080bf78",
+              "x": {
+                "type": "number",
+                "value": 117
+              },
+              "y": {
+                "type": "variable",
+                "value": "10"
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "11c2baed-8ff2-4f31-b82d-bb0e3a6d3102"
+          }
+        ]
+      },
+      "id": "27e52732-db0d-4345-94cd-c4ed43e1b304"
+    }
+  ],
+  "leaveScript": []
+}

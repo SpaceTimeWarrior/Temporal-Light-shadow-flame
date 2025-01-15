@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "b973c700-fd53-4ccb-a1b0-4486c23ae24c",
+  "_index": 105,
+  "name": "Level5/bad ending",
+  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_106",
+  "x": 5607.2001953125,
+  "y": 11893.5,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

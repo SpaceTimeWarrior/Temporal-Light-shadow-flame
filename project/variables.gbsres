@@ -80,13 +80,32 @@
         "flag2": "level 2",
         "flag3": "level 3",
         "flag4": "level 4",
-        "flag5": "level 5"
+        "flag5": "level 5",
+        "flag6": "level 6"
       }
     },
     {
       "id": "15",
       "name": "levels completed",
-      "symbol": "var_levels_completed"
+      "symbol": "var_levels_completed",
+      "flags": {
+        "flag1": "level 1",
+        "flag2": "level 2",
+        "flag3": "level 3",
+        "flag4": "level 4",
+        "flag5": "level 5",
+        "flag6": "level 6",
+        "flag7": "level 7",
+        "flag8": "level 8",
+        "flag9": "level 9",
+        "flag10": "level 10",
+        "flag11": "level 11",
+        "flag12": "level 12",
+        "flag13": "level 13",
+        "flag15": "level 15",
+        "flag14": "level 14",
+        "flag16": "level 16"
+      }
     },
     {
       "id": "16",
@@ -241,7 +260,10 @@
     {
       "id": "46",
       "name": "special_unlock",
-      "symbol": "var_special_unlock"
+      "symbol": "var_special_unlock",
+      "flags": {
+        "flag1": "crystal's cookie"
+      }
     },
     {
       "id": "47",
@@ -260,8 +282,8 @@
     },
     {
       "id": "50",
-      "name": "level5 flags1",
-      "symbol": "var_level5_flags1",
+      "name": "level 5 flags1",
+      "symbol": "var_level_flags1_0",
       "flags": {
         "flag10": "dialog 1 done",
         "flag1": "secret room key",
@@ -284,7 +306,7 @@
     {
       "id": "51",
       "name": "key flags 5",
-      "symbol": "var_key_flags_5",
+      "symbol": "var_key_flags_0",
       "flags": {
         "flag1": "secret room key",
         "flag2": "upper landing room key",
@@ -296,7 +318,10 @@
         "flag8": "pipeworks 2 key",
         "flag9": "pipeworks 3 key",
         "flag10": "garden key",
-        "flag11": "pipeworks 1 key"
+        "flag11": "pipeworks 1 key",
+        "flag12": "sky key",
+        "flag13": "lava key",
+        "flag14": "castle flag 1"
       }
     },
     {
@@ -348,6 +373,33 @@
       "id": "61",
       "name": "sewer boolean 5",
       "symbol": "var_sewer_boolean_5"
+    },
+    {
+      "id": "62",
+      "name": "level 5 flags2",
+      "symbol": "var_level_5_flags2",
+      "flags": {
+        "flag1": "garden key ",
+        "flag2": "pipeworks 3 valve 1",
+        "flag3": "pipeworks 3 valve 2",
+        "flag4": "pipeworks 2 valve 1",
+        "flag5": "pipeworks 2 valve 2",
+        "flag6": "pipeworks 2 valve 3",
+        "flag7": "pipeworks 2 valve 4",
+        "flag8": "pipeworks 1 key",
+        "flag9": "ruins switch",
+        "flag10": "sewer master switch",
+        "flag11": "ruins dialog 1",
+        "flag12": "sky key 1",
+        "flag13": "lava key",
+        "flag14": "castle flag 1",
+        "flag15": "AI Dialog"
+      }
+    },
+    {
+      "id": "63",
+      "name": "flame flag",
+      "symbol": "var_flame_flag"
     },
     {
       "id": "884bac5c-1840-41a9-9756-32579bd614e4__L0",
@@ -495,23 +547,6 @@
       "symbol": "var_local_27"
     },
     {
-      "id": "62",
-      "name": "level 5 flags2",
-      "symbol": "var_level_flags2_0",
-      "flags": {
-        "flag1": "garden key ",
-        "flag2": "pipeworks 3 valve 1",
-        "flag3": "pipeworks3 valve 2",
-        "flag4": "pipeworks 2 valve 1",
-        "flag5": "pipeworks 2 valve 2",
-        "flag6": "pipeworks 2 valve 3",
-        "flag7": "pipeworks 2 valve 4",
-        "flag8": "pipeworks 1 key",
-        "flag9": "ruins switch",
-        "flag10": "sewer master switch"
-      }
-    },
-    {
       "id": "9dfb8cc1-c0c0-480d-bcf0-e05db8d180fe__L0",
       "name": "Local 0",
       "symbol": "var_local_28"
@@ -540,6 +575,76 @@
       "id": "d495172f-fb5e-4691-b173-90017430325a__L0",
       "name": "Local 0",
       "symbol": "var_local_33"
+    },
+    {
+      "id": "85065165-056e-4478-be1d-3400db9103ea__L0",
+      "name": "Local 0",
+      "symbol": "var_local_34"
+    },
+    {
+      "id": "31869776-c084-43c4-acff-a1620549ac33__L0",
+      "name": "Local 0",
+      "symbol": "var_local_35"
+    },
+    {
+      "id": "279fa061-5c9b-48ab-bb41-624424df4f3a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_36"
+    },
+    {
+      "id": "106f9dec-01d5-47af-a2eb-14f9b4d28856__L0",
+      "name": "Local 0",
+      "symbol": "var_local_37"
+    },
+    {
+      "id": "022a63e2-3830-499e-8226-ba4161bb95c6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_38"
+    },
+    {
+      "id": "42975445-dc2b-406f-8b21-d031d9c227ea__L0",
+      "name": "Local 0",
+      "symbol": "var_local_39"
+    },
+    {
+      "id": "c1e4ace3-1b71-4d03-941f-eec332942ce8__L0",
+      "name": "Local 0",
+      "symbol": "var_local_40"
+    },
+    {
+      "id": "cd1592ef-9cde-4423-83d4-c415933199aa__L0",
+      "name": "Local 0",
+      "symbol": "var_local_41"
+    },
+    {
+      "id": "970b5b60-2201-4c0d-8520-a2094c6abb61__L0",
+      "name": "Local 0",
+      "symbol": "var_local_42"
+    },
+    {
+      "id": "45b235ab-9529-46f8-9221-4be869853eb9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_43"
+    },
+    {
+      "id": "aa56a6c2-c597-4e97-9a9d-f79e651437df__L0",
+      "name": "Local 0",
+      "symbol": "var_local_44"
+    },
+    {
+      "id": "b1d21f87-f690-47bb-adb4-4de44df094ff__L0",
+      "name": "Local 0",
+      "symbol": "var_local_45"
+    },
+    {
+      "id": "e464e6db-dfe5-4dcd-946a-000d64338775__L0",
+      "name": "Local 0",
+      "symbol": "var_local_46"
+    },
+    {
+      "id": "d64a665f-e8ab-41c6-bcec-820be7fddaca__L0",
+      "name": "Local 0",
+      "symbol": "var_local_47"
     }
   ]
 }

@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "469e3086-1672-4b61-887d-13cc2e35db9a",
+  "name": "",
+  "prefabId": "",
+  "x": 25,
+  "y": 14,
+  "symbol": "trigger_358",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name: Garnet\nWolfsbane\nstatus:deceased AI\nspinal chord cut"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "12140dbe-3342-4016-97fa-7a5b16a2c199"
+          }
+        ]
+      },
+      "id": "deaaeea5-858e-4ff3-a2c3-a5c2365f9722"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "203cee56-0015-4aee-bb01-210bc65a0407",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "2f27d6ad-fa33-4b96-b23f-826e54869097",
+      "children": {}
+    }
+  ],
+  "_index": 3
+}

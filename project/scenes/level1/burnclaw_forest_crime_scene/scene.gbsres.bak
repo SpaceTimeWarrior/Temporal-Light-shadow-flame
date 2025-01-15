@@ -48,42 +48,42 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__comment": true,
-        "__label": "crystal's cookie test unlock",
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "13",
-              "value": {
-                "type": "number",
-                "value": 16
-              }
-            },
-            "id": "4de0bff8-cfb2-43b8-a158-dd5dd5f9f2e4"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "4eb8b98f-8311-43be-a58d-21cf3889ae6b",
-              "__collapse": true
-            },
-            "id": "14fe823b-ea66-4733-9412-38eaa9591546"
-          }
-        ]
-      },
-      "id": "e020ef96-bcaa-4264-82d4-a0c0789fcd17"
-    },
-    {
-      "command": "EVENT_GROUP",
-      "args": {
         "__label": "debug"
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__comment": true,
+              "__label": "crystal's cookie test unlock",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "13",
+                    "value": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "4de0bff8-cfb2-43b8-a158-dd5dd5f9f2e4"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "4eb8b98f-8311-43be-a58d-21cf3889ae6b",
+                    "__collapse": true
+                  },
+                  "id": "14fe823b-ea66-4733-9412-38eaa9591546"
+                }
+              ]
+            },
+            "id": "e020ef96-bcaa-4264-82d4-a0c0789fcd17"
+          },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
@@ -126,7 +126,7 @@
               "flag3": true,
               "flag4": true,
               "flag5": true,
-              "flag6": false,
+              "flag6": true,
               "flag7": false,
               "flag8": false,
               "flag9": false,

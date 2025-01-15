@@ -1,0 +1,310 @@
+{
+  "_resourceType": "trigger",
+  "id": "aa56a6c2-c597-4e97-9a9d-f79e651437df",
+  "name": "",
+  "prefabId": "",
+  "x": 76,
+  "y": 12,
+  "symbol": "trigger_355",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This button opens \n the throne room\nbut also cuts the",
+                "connection to all\nAI chambers"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cd41c8b2-19e9-483c-b84d-33fdcbf5524c"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "Press",
+              "option2": "Don't press",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "14b1857a-94be-402e-b03f-8855321682f8"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "50",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": true,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "a423ef9b-3ab0-4105-ae03-ed677e59b18c"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 375,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "fc801dd7-86c8-442f-9f4e-b71d9f1d28df"
+                },
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "default-bg-6"
+                  },
+                  "id": "cc92ef48-bd6e-4035-a422-97ba29627d4d"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:NOOOO My \nresearch.you you\nkilled all of them"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f9e6f72c-b81d-4ccf-9767-57eb215aba9d"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 500,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "c4181938-237f-44e2-b81a-da3329885a92"
+                },
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+                  },
+                  "id": "f47ffb44-bf2e-4362-85d9-9478794f970b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "peryil: I find \nthat highly \nunlikely for a\nfew reasons",
+                      "1. everyone here\nyou publicly \nstated they died\nso if you did go",
+                      "public you have\nto answer some\nhard questions.\n2. why would you",
+                      "put a destroy\nresearch button\nin a easy to\nreach location",
+                      "and 4. the only\ntwo that where\nalive look like\nthey are in",
+                      "extreme pain...\nit appears they\ndidn't die d$%#"
+                    ],
+                    "__section": "text",
+                    "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "98c6ee6a-2f77-4a95-ad0b-1d542de1e84e"
+                }
+              ],
+              "false": []
+            },
+            "id": "8fbbf7f7-942c-46d3-bcdf-175f5331713e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "b842cadd-a199-41ef-8024-cdebed54c7f2"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+                  },
+                  "id": "60124801-45c4-4c37-b845-4cc91553aa5f"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "7bc7e398-a7fa-4ff6-8c15-13c9bb30ae56"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "3e711928-a6f7-44c5-a818-65dd2b60bf53"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 18
+                          },
+                          "$variable[V1]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "4996fa7e-4022-47d8-a9b9-c4f6541800ff"
+                      }
+                    ]
+                  },
+                  "id": "b73a81bb-8e41-46e9-8382-fa0e456f267a"
+                }
+              ]
+            },
+            "id": "60ee466b-75f7-40eb-ae8c-9abe1ba6ac3e"
+          }
+        ]
+      },
+      "id": "44443ed3-f693-48ef-a83b-fe7b921e3959"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "f24fe023-d321-4a5f-ab3f-2173c3fdf68e",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "4837fd65-79a0-4dd0-a2d1-607c6b493e06",
+      "children": {}
+    }
+  ],
+  "_index": 0
+}

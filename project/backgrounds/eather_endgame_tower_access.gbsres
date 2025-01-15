@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f028f957-4892-4f0e-aefe-720bba44971b",
+  "name": "Eather endgame tower access",
+  "symbol": "bg_eather_endgame_tower_acc",
+  "width": 80,
+  "height": 34,
+  "imageWidth": 640,
+  "imageHeight": 272,
+  "filename": "Eather endgame tower access.png",
+  "tileColors": "03a00+066+022+064e+022+0648+",
+  "autoColor": false
+}

@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "bef27691-2b4a-481d-8930-ab3e98e86959",
+  "name": "",
+  "prefabId": "",
+  "x": 57,
+  "y": 14,
+  "symbol": "trigger_366",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:crystal \nLightbringer\nstatus:vacent"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6cc2005e-6501-4810-8958-555d5277e195"
+          }
+        ]
+      },
+      "id": "a08a51f2-1e16-4e3c-a771-3295a03b917a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "12949d78-2d2e-4156-aa45-47ee7c9f6f36",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "2906b1bd-6a2d-47b5-908d-97c409a05dea",
+      "children": {}
+    }
+  ],
+  "_index": 10
+}

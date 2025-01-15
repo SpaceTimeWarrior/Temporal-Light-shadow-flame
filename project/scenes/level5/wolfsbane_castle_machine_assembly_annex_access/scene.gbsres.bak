@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "f644163b-3b6b-446f-8f92-14c3589f1e1c",
+  "_index": 101,
+  "type": "PLATFORM",
+  "name": "Level5/Wolfsbane castle machine assembly annex access",
+  "symbol": "scene_102",
+  "x": 3984,
+  "y": 12256,
+  "width": 40,
+  "height": 20,
+  "backgroundId": "08f0b2df-e09f-411e-ad67-fde4355c6278",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0ff2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f50+0050+"
+}

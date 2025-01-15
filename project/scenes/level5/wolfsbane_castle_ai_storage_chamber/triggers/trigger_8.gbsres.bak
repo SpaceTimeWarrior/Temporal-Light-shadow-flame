@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "cd284e4b-8315-45c7-982c-c83d3be378cd",
+  "name": "",
+  "prefabId": "",
+  "x": 41,
+  "y": 14,
+  "symbol": "trigger_362",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:Cay Neigh\nStatus:Deceased"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5a58eaaa-152d-4759-ad40-0e0b28184686"
+          }
+        ]
+      },
+      "id": "beb97177-f4f7-4fb6-937b-9d6eb5e30b6f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "c7540ea6-286f-4e5f-8b59-c73ad042bfa7",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "ef9ab9a0-6083-44d5-af4b-21251dd0ffcb",
+      "children": {}
+    }
+  ],
+  "_index": 7
+}

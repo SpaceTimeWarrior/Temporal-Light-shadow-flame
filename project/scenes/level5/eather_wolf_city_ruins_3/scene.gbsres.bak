@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "a816d925-cd03-431e-a79d-27d7cb26de62",
+  "_index": 85,
+  "type": "PLATFORM",
+  "name": "Level5/Eather Wolf City Ruins 3",
+  "symbol": "scene_86",
+  "x": 2560,
+  "y": 13296,
+  "width": 80,
+  "height": 40,
+  "backgroundId": "2e29ffa0-1521-4ee4-8b88-d101b9148e2e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "fccdd588-3c2f-4e69-bfc2-8a0361039d15",
+    "default-bg-4",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16
+            },
+            "id": "4d9ca4e1-1d08-4cb8-9394-3c6dcb01a9fc"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 38"
+            },
+            "id": "d0ac445e-cad4-41cd-90f1-ee08bc716cb1"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+            },
+            "id": "c79f8e49-8986-4aef-8c63-abef1e54560e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              },
+              "$variable[V1]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "bcd0600b-056e-40a2-8979-68cbdb68265d"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 4,
+              "duration": 0.25,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "80136bdd-1e71-44db-bf0f-c1e6b7121039"
+                }
+              ]
+            },
+            "id": "4378ee2c-b849-42e7-ba6d-0284fd6e7a14"
+          }
+        ]
+      },
+      "id": "2e4ae216-67f0-4f14-a86a-99c6a7d50ef3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0019c+0f30+001e+0f2+002f+0f!001c+0f2+0031+0f!001a+0f2+0033+0f!0018+0f2+0035+0f!0016+0f2+0037+0f!0014+0f2+0039+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!004f+0f!0014+0f2+70!50!0036+40!0f!0016+0f2+70!50!0032+40!60!0f2+0018+0f2+70!50!002e+40!60!0f2+001c+0f2+70!50!002a+40!60!0f2+0020+0f2+70!50!0026+40!60!0f2+0024+0f2+70!50!0022+40!60!0f2+0028+0f26+002ee+"
+}

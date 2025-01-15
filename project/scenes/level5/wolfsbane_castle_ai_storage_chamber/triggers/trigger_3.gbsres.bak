@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "1a8cbfcc-0755-49e7-ba32-224f2ec16854",
+  "name": "",
+  "prefabId": "",
+  "x": 21,
+  "y": 14,
+  "symbol": "trigger_357",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:Pyre \ndeathripper\nstatus:deceased"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f8570188-dd82-49bf-8854-69c63a89fc3a"
+          }
+        ]
+      },
+      "id": "f954926c-6091-48ea-b6fb-173a1aef09f6"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "0e8cb58e-9b11-4a1d-bddc-05ea552b0a7a",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "71bbe932-9ae3-48e3-97df-58632ec0f11a",
+      "children": {}
+    }
+  ],
+  "_index": 2
+}

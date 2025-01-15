@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "97f3224e-dbdd-4312-86da-32556fa3f82b",
+  "name": "",
+  "prefabId": "",
+  "x": 53,
+  "y": 14,
+  "symbol": "trigger_365",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "too damaged to \nread. monster \nremains can be \nseen"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "78a4dc5b-6401-4b1a-8609-e338aad4a116"
+          }
+        ]
+      },
+      "id": "413dc8ef-c689-436e-99c4-ab570991d671"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "ed7ff776-39a3-420b-9620-d25154128af2",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "7de95224-5484-4595-8259-34516e21ca00",
+      "children": {}
+    }
+  ],
+  "_index": 13
+}

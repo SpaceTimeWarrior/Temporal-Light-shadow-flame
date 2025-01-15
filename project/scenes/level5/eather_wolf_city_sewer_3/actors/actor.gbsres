@@ -130,7 +130,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 10
+                  "value": 21
                 }
               },
               "__collapseElse": true,
@@ -205,7 +205,7 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "T0",
-        "expression": "59+$52$"
+        "expression": "91+$52$"
       },
       "id": "4c509725-15b4-4be8-b1b8-3cd8e65c378d"
     },

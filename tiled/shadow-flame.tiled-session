@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Eather wolf city pipeworks-enterance.tmx",
+    "activeFile": "Eather endgame Throne room.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -80,12 +80,68 @@
                 "y": 159.8241543534009
             }
         },
+        "Eather endgame AI Staris chambers.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 324,
+                "y": 84
+            }
+        },
+        "Eather endgame Robot assembly anex access.tmx": {
+            "scale": 2.5857812499999997,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.1063508369086,
+                "y": 80.05317541845429
+            }
+        },
+        "Eather endgame Throne room.tmx": {
+            "scale": 8,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 28.75,
+                "y": 152
+            }
+        },
+        "Eather endgame accent.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 320
+            }
+        },
+        "Eather endgame throne room access.tmx": {
+            "scale": 2.5857812499999997,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.1063508369086,
+                "y": 95.90911837573267
+            }
+        },
+        "Eather endgame tower access.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 136
+            }
+        },
+        "Eather endgame tower.tmx": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160,
+                "y": 560
+            }
+        },
         "Eather wolf city pipeworks 1.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 445.66666666666663,
-                "y": 275
+                "x": 320,
+                "y": 320
             }
         },
         "Eather wolf city pipeworks 2.tmx": {
@@ -124,8 +180,16 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 513,
-                "y": 300
+                "x": 480,
+                "y": 320
+            }
+        },
+        "Eather wolf city ruins bridge sky.tmx": {
+            "scale": 5.1003125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 79.99509833956252,
+                "y": 79.99509833956253
             }
         },
         "Eather wolf city ruins bridge.tmx": {
@@ -136,9 +200,17 @@
                 "y": 320
             }
         },
+        "Eather wolf city ruins castle foundation.tmx": {
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 337,
+                "y": 101
+            }
+        },
         "Eather wolf city ruins depths.tmx": {
             "scale": 3,
-            "selectedLayer": 2,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 480,
                 "y": 480
@@ -253,18 +325,18 @@
         },
         "eather endgame access.tmx": {
             "scale": 4,
-            "selectedLayer": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 480,
-                "y": 144
+                "x": 787,
+                "y": 188.75
             }
         },
         "eather wolf city ruins un.tmx": {
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 856.3333333333333,
-                "y": 885
+                "x": 480,
+                "y": 480
             }
         },
         "eather wolf city ruins.tmx": {
@@ -419,13 +491,21 @@
                 "y": 320
             }
         },
+        "robot manufacturing plant.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 640,
+                "y": 80
+            }
+        },
         "tilesets/kenny modified/Diamond dust ship side view.tsx": {
             "dynamicWrapping": true,
             "scaleInDock": 3,
             "scaleInEditor": 1
         },
         "tilesets/kenny modified/full image.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/Diamond dust ship side view.tsx": {
@@ -434,12 +514,12 @@
         },
         "tilesets/temporal light/Diamond dust ship top view.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "tilesets/temporal light/temporal_light_tileset.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 4,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "venus-ac ventilation.tmx": {
@@ -525,7 +605,7 @@
     },
     "last.externalTilesetPath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light",
     "last.imagePath": "C:/Users/steve/Documents/Temporal Light shadow flame/tiled/tilesets/temporal light/lf_normal",
-    "map.height": 40,
+    "map.height": 12,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -582,17 +662,15 @@
         "eather endgame access.tmx",
         "eather wolf city ruins un.tmx",
         "Eather wolf city ruins depths.tmx",
-        "eather wolf city sewer 1.tmx",
-        "Eather wolf city sewer 2.tmx",
-        "Eather wolf city sewer 3.tmx",
-        "Eather wolf city sewer-pipeworks connection.tmx",
-        "Eather wolf city pipeworks secret.tmx",
-        "Eather wolf city pipeworks 1.tmx",
-        "Eather wolf city pipeworks-enterance.tmx",
-        "Eather wolf city pipeworks 2.tmx",
-        "Eather wolf city pipeworks 3.tmx",
-        "Eather wolf city pipeworks garden.tmx",
-        "Eather wolf city ruins bridge.tmx"
+        "Eather endgame accent.tmx",
+        "Eather endgame tower access.tmx",
+        "Eather endgame tower.tmx",
+        "Eather wolf city ruins bridge sky.tmx",
+        "Eather endgame Robot assembly anex access.tmx",
+        "Eather endgame AI Staris chambers.tmx",
+        "robot manufacturing plant.tmx",
+        "Eather endgame throne room access.tmx",
+        "Eather endgame Throne room.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

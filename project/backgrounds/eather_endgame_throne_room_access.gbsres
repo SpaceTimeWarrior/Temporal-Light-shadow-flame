@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f91f492c-d9c8-4e41-9e26-0059ffb8ada8",
+  "name": "Eather endgame throne room access",
+  "symbol": "bg_eather_endgame_throne_ro",
+  "width": 40,
+  "height": 24,
+  "imageWidth": 320,
+  "imageHeight": 192,
+  "filename": "Eather endgame throne room access.png",
+  "tileColors": "03370+066+002+0626+002+0620+",
+  "autoColor": false
+}

@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_94",
   "x": 3056,
-  "y": 13672,
+  "y": 13696,
   "script": [
     {
       "command": "EVENT_GROUP",

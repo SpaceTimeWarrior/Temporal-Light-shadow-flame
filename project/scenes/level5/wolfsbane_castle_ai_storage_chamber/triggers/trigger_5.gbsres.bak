@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "fea70984-b36d-4377-8381-c2dd55a864b5",
+  "name": "",
+  "prefabId": "",
+  "x": 29,
+  "y": 14,
+  "symbol": "trigger_359",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Name:Pearlite\nwolfsbane\nstatus:AI \nProcessing"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a6717e78-f7fb-4369-ad84-6f519329a380"
+          }
+        ]
+      },
+      "id": "938a402a-06ec-4958-9b21-f3f6f4085423"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "b7daaa83-4ddc-4528-bc0e-13acb3e34bbe",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "9392b86f-91ab-4ea0-91e7-d04340b748aa",
+      "children": {}
+    }
+  ],
+  "_index": 4
+}

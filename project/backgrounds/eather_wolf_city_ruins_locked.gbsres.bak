@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a111cde1-eb4b-459c-9156-8790b2f7171d",
+  "name": "eather wolf city ruins locked",
+  "symbol": "bg_eather_wolf_city_ruins_l",
+  "width": 120,
+  "height": 120,
+  "imageWidth": 960,
+  "imageHeight": 960,
+  "filename": "eather wolf city ruins locked.png",
+  "tileColors": "003750+066+022+0676+022+0670+"
+}

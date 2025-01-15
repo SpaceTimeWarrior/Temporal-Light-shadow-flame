@@ -1,0 +1,76 @@
+{
+  "_resourceType": "trigger",
+  "id": "ea221781-c83e-4b03-8523-305a11d66c3c",
+  "name": "",
+  "prefabId": "",
+  "x": 65,
+  "y": 14,
+  "symbol": "trigger_368",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "AI Stasis chamber \nfor Normal \nmonsters",
+                "can be altered for\na human."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2aaca61c-272a-400e-a5e0-c8f42441c10b"
+          }
+        ]
+      },
+      "id": "dc6f811e-2e3e-4acc-9a79-d3136c6765c6"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "b8ce5462-eeee-4ef0-915b-4e1e37e36ef6",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "71be35b5-77fd-43b2-b41f-cc967f4b9a7d",
+      "children": {}
+    }
+  ],
+  "_index": 12
+}

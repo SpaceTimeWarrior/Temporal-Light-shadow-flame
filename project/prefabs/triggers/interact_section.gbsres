@@ -1,0 +1,42 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "b54a6125-b8cf-4b0f-a13b-eecce97f456e",
+  "name": "interact section",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "2095f703-4c88-4666-a6e8-e8630060630d"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "2aedac97-bf6d-437d-a07d-318d3b2a2eb8",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "3bce80f6-1269-4a75-86bb-45edc6f77f6c",
+      "children": {}
+    }
+  ]
+}
