@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Eather endgame Throne room.tmx",
+    "activeFile": "Eather engame torture chamber.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -98,10 +98,10 @@
         },
         "Eather endgame Throne room.tmx": {
             "scale": 8,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 28.75,
-                "y": 152
+                "x": 475.375,
+                "y": 156.25
             }
         },
         "Eather endgame accent.tmx": {
@@ -110,6 +110,14 @@
             "viewCenter": {
                 "x": 320,
                 "y": 320
+            }
+        },
+        "Eather endgame robot assembly liquid fertilizer room.tmx": {
+            "scale": 4.250260416666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 98.58219471846088,
+                "y": 90.58268488450462
             }
         },
         "Eather endgame throne room access.tmx": {
@@ -134,6 +142,14 @@
             "viewCenter": {
                 "x": 160,
                 "y": 560
+            }
+        },
+        "Eather engame torture chamber.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 116.66666666666669,
+                "y": 158.66666666666669
             }
         },
         "Eather wolf city pipeworks 1.tmx": {
@@ -327,8 +343,8 @@
             "scale": 4,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 787,
-                "y": 188.75
+                "x": 480,
+                "y": 144
             }
         },
         "eather wolf city ruins un.tmx": {
@@ -609,7 +625,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 40,
+    "map.width": 24,
     "openFiles": [
         "tilesets/kenny modified/full image.tsx",
         "tilesets/temporal light/temporal_light_tileset.tsx",
@@ -670,7 +686,9 @@
         "Eather endgame AI Staris chambers.tmx",
         "robot manufacturing plant.tmx",
         "Eather endgame throne room access.tmx",
-        "Eather endgame Throne room.tmx"
+        "Eather endgame Throne room.tmx",
+        "Eather endgame robot assembly liquid fertilizer room.tmx",
+        "Eather engame torture chamber.tmx"
     ],
     "project": "shadow-flame.tiled-project",
     "recentFiles": [

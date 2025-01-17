@@ -228,6 +228,49 @@
             "id": "7e75b8b8-d157-44e1-b0dc-9ccaadb99787"
           },
           {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": ""
+            },
+            "id": "04a5d771-4c89-4b9f-b1e4-26b9046b6c8d"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 0
+            },
+            "id": "3e4f0f2b-b314-477a-ba74-d695d2245dd4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "you hear distant \nclicking"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "55e2af27-b399-4ae5-9362-f9792d25b6be"
+          },
+          {
             "command": "EVENT_GROUP",
             "args": {
               "__collapse": false

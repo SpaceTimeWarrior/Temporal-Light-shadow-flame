@@ -24,6 +24,94 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "62",
+        "flag": 14,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 375,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "0a94783f-af62-40a9-ab5d-fc94d7d4dc59"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": "default-bg-6"
+            },
+            "id": "c0c0dbf5-366b-4b60-92a6-7cca4c66cd13"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "???:so you admire\nmy handy work. if \nyou press the \nbutton at the back",
+                "wall it opens the\nthrone room but \nkills everyone in\nthe chambers"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e3356838-c019-44c6-8e7f-772465268efa"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_UI",
+            "args": {
+              "palette": ""
+            },
+            "id": "b887aa73-8387-4552-9d49-1db0fd738828"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "62",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "7136875e-1847-40ce-8570-f8d27895a58b"
+          }
+        ]
+      },
+      "id": "2fe6ec5f-05f3-4a66-851b-f5c595813231"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false

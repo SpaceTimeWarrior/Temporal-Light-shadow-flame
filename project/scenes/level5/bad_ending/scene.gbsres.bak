@@ -13,9 +13,65 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_106",
-  "x": 5607.2001953125,
-  "y": 11893.5,
-  "script": [],
+  "x": 5808,
+  "y": 11672,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f9705274-6cb4-4a7d-81b0-f24262dec958"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "37",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "5d7fa234-fd81-49cc-9c2f-e707ad1694fb"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "37"
+        }
+      },
+      "id": "f721d545-2d1c-4338-9c24-a9e1344244a9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "soon after\nentering the \nchamber...peryil\npassed out",
+          "when steam decided\nto rescue peryil\nshe was dead\nTHE END"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "894fe574-4202-48cc-a09f-c100947cac72"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

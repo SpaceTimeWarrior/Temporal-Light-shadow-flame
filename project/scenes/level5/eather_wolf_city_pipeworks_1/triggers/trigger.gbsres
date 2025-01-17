@@ -24,6 +24,23 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "3c109cfa-db3a-45ed-bbf0-1fccd72c53d2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0fa38925-46e8-40de-93bf-526ad1d5280b"
+            },
+            "id": "f74f1821-b28a-402d-af32-e884a49c3253"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "f4448be5-6bbd-4dfd-ab4d-2786ad3efba7",

@@ -29,7 +29,7 @@
               "variable": "50",
               "flag": 7,
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -82,6 +82,31 @@
                     "flag16": false
                   },
                   "id": "9ce161e8-1c2b-493d-a65f-1c464d8ebf6e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "the lava is \nvibrating with\nvigor"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "fd4653b3-e9e8-4326-adba-68c2927ec274"
                 }
               ]
             },

@@ -24,6 +24,17 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "65",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "25b3f6e3-f020-45be-9f7d-c47f3315ff22"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {},
       "children": {
@@ -42,7 +53,7 @@
                     "variable": "37",
                     "value": {
                       "type": "number",
-                      "value": 17
+                      "value": 15
                     }
                   },
                   "id": "986144cc-8590-4770-8ed4-e08587995e71"

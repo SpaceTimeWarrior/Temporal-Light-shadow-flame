@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "23ce5dcc-f304-40c0-aada-a5fbdcadc194",
+  "_index": 109,
+  "name": "Level5/Level 5 sewer map",
+  "backgroundId": "9b475de7-9f61-4469-98bd-05f59d997132",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_110",
+  "x": 2632,
+  "y": 11776,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7349327a-2862-4294-83e5-2be09673c08b"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "81da10ad-1c70-4f58-9567-952a366ee35a"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "5fceacac-f802-4c19-be99-6001bcae23d2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

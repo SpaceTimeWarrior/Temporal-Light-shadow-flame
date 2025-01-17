@@ -90,7 +90,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -106,7 +106,7 @@
                 {
                   "command": "EVENT_GBVM_SCRIPT",
                   "args": {
-                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 18"
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 118"
                   },
                   "id": "f860e79e-2604-4d0f-bda4-d3150a8305a8"
                 },
@@ -123,7 +123,7 @@
                     "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
                     "$variable[V0]$": {
                       "type": "number",
-                      "value": 18
+                      "value": 118
                     },
                     "$variable[V1]$": {
                       "type": "number",
@@ -148,7 +148,7 @@
                           "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
                           "$variable[V0]$": {
                             "type": "number",
-                            "value": 18
+                            "value": 118
                           },
                           "$variable[V1]$": {
                             "type": "number",

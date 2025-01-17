@@ -1,0 +1,159 @@
+{
+  "_resourceType": "trigger",
+  "id": "90dcc8b9-2472-4716-9a2f-f158ce95f0f4",
+  "name": "",
+  "prefabId": "",
+  "x": 76,
+  "y": 18,
+  "symbol": "trigger_384",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Brier wolfsbane's\n      diary",
+                "last night I did \nit I managed to \nuse cumulo \nlightbringer's DNA",
+                "to clone monsters\nbut I can also use\nit to modify the",
+                "DNA to make \nhalfbreeds of my \nown. without men",
+                "attempt 58:failed\nthe DNA strain is\ntoo unstable...",
+                "strange while the\nmonster has no \nlife signs. they",
+                "are still intact.\nthis merits \nfurther study."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f15062b0-963f-463d-8151-4690e061adbc"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_OVERLAY_SHOW",
+                  "args": {
+                    "color": "black",
+                    "x": 0,
+                    "y": 16
+                  },
+                  "id": "cee26882-da39-4ca9-b4c9-55f59e0e0d71"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 22"
+                  },
+                  "id": "160bee90-5e8f-4d98-a585-fa43a98fbcb0"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+                  },
+                  "id": "feb258d1-80c1-4bd2-aa03-7e9afa02283d"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 22
+                    },
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 16
+                    }
+                  },
+                  "id": "59d58213-651c-4fa4-9d13-74787923c823"
+                },
+                {
+                  "command": "EVENT_SET_TIMER_SCRIPT",
+                  "args": {
+                    "timer": 4,
+                    "duration": 0.25,
+                    "frames": 30,
+                    "__scriptTabs": "end"
+                  },
+                  "children": {
+                    "script": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 22
+                          },
+                          "$variable[V1]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "439af642-7ca5-42f0-9300-6c07a0ac9303"
+                      }
+                    ]
+                  },
+                  "id": "02b141d1-1b8a-477d-a15b-f0026bd4a724"
+                }
+              ]
+            },
+            "id": "86efd6d4-a6c1-478a-92b9-8609c6a19b6b"
+          }
+        ]
+      },
+      "id": "ac47c1e7-c686-461c-9892-a7c743f344b4"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "2403bc0b-8855-4e42-948c-13299ec84e1f",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "11366688-c779-41b9-81c9-68dd891b22db",
+      "children": {}
+    }
+  ],
+  "_index": 4
+}

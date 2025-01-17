@@ -225,7 +225,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: why \nshould I is \nthere something \nyou are hiding?"
+          "peryil: why \nshould I is ",
+          "there something \nyou are hiding?"
         ],
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f"
       },
@@ -253,7 +254,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Blight: to be \nhonest I never \nbeat the current\nruler in mind \nmagic"
+          "Blight: to be \nhonest I never \nbeat the current",
+          "ruler in mind \nmagic"
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },
@@ -309,9 +311,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Blight: mind \nmagic isn't like\nmost. this form \nof magic once ",
-          "you get up to a \ncertain level of\nexpertise and \npower. ",
-          "the total magic \npower becomes a \nnon-element in \nmagic battles of\nthat element"
+          "Blight: mind \nmagic isn't like\nmost. this form ",
+          "of magic once \nyou get up to a \ncertain level of",
+          "expertise and \npower. the total\nmagic power ",
+          "becomes a non-\nelement in magic\nbattles of that \nelement"
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },
@@ -368,11 +371,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Blight: I have \nlost quite a few\npeople, with \nsuspiciously the",
-          "same sentiment. \nthe other thing \nthat scares me a\nbit is after ",
-          "those people \ndisappeared I \nwas able to \nsense them but ",
-          "when I tried \ncontacting them \ntheir responses \nwhere almost ",
-          "robotic like as \nif they where \nlobotomized."
+          "Blight: I have \nlost quite a few\npeople, with ",
+          "suspiciously the\nsame sentiment. \nthe other thing ",
+          "that scares me a\nbit is after \nthose people ",
+          "disappeared I \nwas able to \nsense them but ",
+          "when I tried \ncontacting them \ntheir responses ",
+          "where almost \nrobotic like as \nif they where \nlobotomized."
         ],
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527"
       },
@@ -436,10 +440,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Blight: If \nanything mind \nmagic wise they \ntaught me how to",
-          "use that type of\nmagic and they \nknew spells that\nI didn't. I know",
-          "it looks like I\nam trying to \nstop you from ",
-          "uncovering the \ntruth but I am \nnot."
+          "Blight: If \nanything mind \nmagic wise they ",
+          "taught me how to\nuse that type of\nmagic and they ",
+          "knew spells that\nI didn't. I know\nit looks like I",
+          "am trying to \nstop you from \nuncovering the ",
+          "truth but I am \nnot."
         ],
         "__section": "text",
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
@@ -482,7 +487,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: I am \nstill going \nnothing you say \nwill sway me on \nthis."
+          "peryil: I am \nstill going \nnothing you say ",
+          "will sway me on \nthis."
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -525,12 +531,13 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Blight: fine but\nlet me teach you\nthe basics of \nmind magic. I ",
-          "doubt it will \nstop her from \ntaking control \nof your mind but",
-          "maybe allow you \nto keep your \npersonality \nintact. I still ",
-          "have a bad \nfeeling about \nyou going there \nbut with how ",
-          "determined you \nare even if I \nmind controlled ",
-          "you it will only\ndelay you."
+          "Blight: fine but\nlet me teach you\nthe basics of \n",
+          "mind magic. I \ndoubt it will \nstop her from ",
+          "taking control \nof your mind but\nmaybe allow you ",
+          "to keep your \npersonality \nintact. I still ",
+          "have a bad \nfeeling about \nyou going there ",
+          "but with how \ndetermined you \nare even if I ",
+          "mind controlled \nyou it will only\ndelay you."
         ],
         "__section": "text",
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
@@ -616,9 +623,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "blight: yes, \nbeing determined\nin your actions\nis a good start",
-          "as it makes you\nresistant to \nmind magic",
-          "But it does not \nmake you immune.\nsince I am \ntalking to you"
+          "blight: yes, \nbeing determined\nin your actions",
+          "is a good start\nas it makes you\nresistant to ",
+          "mind magic\nBut it does not \nmake you immune.",
+          "since I am \ntalking to you"
         ],
         "__section": "text",
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
@@ -661,7 +669,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil and blight \ntalk for about \nseveral hours \ndiscussing methods\nof mind magic."
+          "peryil and blight \ntalk for about \nseveral hours ",
+          "discussing methods\nof mind magic."
         ],
         "__section": "text",
         "avatarId": "",
@@ -704,8 +713,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: I am \nwondering why \ndidn't you try \nto attack the ",
-          "solar council \nafter your \nfailed attempt \nat age 7?"
+          "peryil: I am \nwondering why \ndidn't you try ",
+          "to attack the \nsolar council \nafter your ",
+          "failed attempt \nat age 7?"
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -748,14 +758,17 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "blight: I \nrealized that \njust randomly \nattacking the ",
-          "solar council \nwon't further my\ncause. It just \nputs more people",
-          "against me. If I\nwanted to take \nthem down I \nwould have to do",
-          "more than just \noutpower them. \nI would need\nto get proof of \ntheir crimes. ",
-          "the reason why I\neven want to \nknow who killed\nyou father is so",
-          "I can punish \nthem as when a \nsolar council \nmember dies ",
-          "their secret\nfiles are \nreleased but \nbefore they do ",
-          "so they destroy \nparts of the \nfiles to wipe \nany evidence of \nwrongdoing."
+          "blight: I \nrealized that \njust randomly ",
+          "attacking the \nsolar council \nwon't further my",
+          "cause. It just \nputs more people\nagainst me. If I",
+          "wanted to take \nthem down I \nwould have to do",
+          "more than just \noutpower them. \nI would need",
+          "to get proof of \ntheir crimes. \nthe reason why I",
+          "even want to \nknow who killed\nyou father is so",
+          "I can punish \nthem as when a \nsolar council ",
+          "member dies \ntheir secret\nfiles are ",
+          "released but \nbefore they do \nso they destroy ",
+          "parts of the \nfiles to wipe \nany evidence of \nwrongdoing."
         ],
         "__section": "text",
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
@@ -798,9 +811,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil:I do have\na question of \nyour mind magic \nrange when we ",
-          "where talking \nyou stated all \nmind magic users\ncan affect any ",
-          "being in their \nrange."
+          "peryil:I do have\na question of \nyour mind magic ",
+          "range when we \nwhere talking \nyou stated all ",
+          "mind magic users\ncan affect any \nbeing in their \nrange."
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -843,12 +856,14 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "blight: I didn't\nwant to scare \nyou but yes I \ncan, to be ",
-          "honest I can \nhear the \nthoughts of \neveryone in the ",
-          "range not just \nthose whom I \ntalked to. I \nhave learned to ",
-          "filter out the \nvoices to those \nI have talked to\nby putting a ",
-          "magic tracer on \nthem. the reason\nI filter the \nlist out is ",
-          "having 2 \ntrillion voices \nin your head \nisn't healthy \nfor anyone.",
+          "blight: I didn't\nwant to scare \nyou but yes I ",
+          "can, to be \nhonest I can \nhear the ",
+          "thoughts of \neveryone in the \nrange not just \n",
+          "those whom I \ntalked to. I \nhave learned to ",
+          "filter out the \nvoices to those \nI have talked to",
+          "by putting a \nmagic tracer on \nthem. the reason",
+          "I filter the \nlist out is \nhaving 2 \ntrillion voices ",
+          "in your head \nisn't healthy \nfor anyone.",
           "I didn't think \nyou where \nlistening to me"
         ],
         "__section": "text",
@@ -892,9 +907,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: that \nsounds fair? \nbefore we \nstarted looking ",
-          "at the evidence \nsteam told me \nwhat that slime \nsaid. they said ",
-          "something about \na litch that was\ntrying to kill me"
+          "peryil: that \nsounds fair? \nbefore we ",
+          "started looking \nat the evidence \nsteam told me ",
+          "what that slime \nsaid. they said \nsomething about ",
+          "a litch that was\ntrying to kill me"
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -938,13 +954,16 @@
       "args": {
         "text": [
           "blight: that \nsounds like my \naunt. ",
-          "somehow she \nsurvived the \ndestruction of \nwolf city",
-          "and the solar \ncouncil \nappointed her \nqueen of Eather.",
-          "she isn't \nactually a litch\nbut she behaves \nsimilar to one.",
-          "she is the \ncurrent ruler of\nwhere you are \ngoing so be ",
-          "careful of how \nyou talk \nespecially \naround her and ",
-          "unlike me she \ndoes not care of\nhow her magic \naffects their \nmind.",
-          "if I where to \nguess she hired \nthe slime to try\nto tie up all \nloose ends. ",
+          "somehow she \nsurvived the \ndestruction of ",
+          "wolf city\nand the solar \ncouncil ",
+          "appointed her \nqueen of Eather.\nshe isn't ",
+          "actually a litch\nbut she behaves \nsimilar to one.",
+          "she is the \ncurrent ruler of\nwhere you are ",
+          "going so be \ncareful of how \nyou talk ",
+          "especially \naround her and \nunlike me she ",
+          "does not care of\nhow her magic \naffects their \nmind.",
+          "if I where to \nguess she hired \nthe slime to try",
+          "to tie up all \nloose ends.",
           "I will ask one \nlast time to \nplease stop this"
         ],
         "__section": "text",
@@ -989,7 +1008,8 @@
       "args": {
         "text": [
           "peryil:I got \nthis. I can \neasily overpower\nher.",
-          "although I do \nwonder why steam\ndidn't want to \ncome this time \naround."
+          "although I do \nwonder why steam\ndidn't want to ",
+          "come this time \naround."
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -1033,12 +1053,15 @@
       "args": {
         "text": [
           "blight: brier my\naunt is a \nextreme \nfeminist",
-          "to the point she\nbasically made \nit illegal for \nmen to enter the\nplanet.",
-          "and the only \npotion that \ngrants a \ntemporary ",
-          "transformation \nis especially \npain full to \ndragons of any ",
-          "type but water \ndragons have a \nchance of \ngetting stuck in\nthe variant. ",
-          "if you get in \ntrouble I will \nalert him but if\nhe does come it",
-          "is entirely his \ndecision as he \nknows the risks \ninvolved."
+          "to the point she\nbasically made \nit illegal for ",
+          "men to enter the\nplanet.\nand the only ",
+          "potion that \ngrants a \ntemporary ",
+          "transformation \nis especially \npain full to ",
+          "dragons of any \ntype but water \ndragons have a ",
+          "chance of \ngetting stuck in\nthe variant. ",
+          "if you get in \ntrouble I will \nalert him but if",
+          "he does come it\nis entirely his \ndecision as he ",
+          "knows the risks \ninvolved."
         ],
         "__section": "text",
         "avatarId": "38147e74-4e3d-418a-8459-27231de3c527",
@@ -1125,8 +1148,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "blight: i wish \nyou the best of \nluck as once you\nenter the \natmosphere",
-          "I can only \nmonitor what is \nhappening and \nany electronic ",
+          "blight: i wish \nyou the best of \nluck as once you",
+          "enter the \natmosphere\nI can only ",
+          "monitor what is \nhappening and \nany electronic ",
           "Transmissions \nwill be \nneutralized.",
           "I hope you find \nwhat you are \nlooking for."
         ],
@@ -1299,7 +1323,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "peryil: that \nwon't work on me\nblight taught me\nhow to resist \nyour advances."
+          "peryil: that \nwon't work on me\nblight taught me",
+          "how to resist \nyour advances."
         ],
         "__section": "text",
         "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
@@ -1343,8 +1368,9 @@
       "args": {
         "text": [
           "???:for now but \nyour mind will \neventually be \nmine.",
-          "unlike you I have \nall day and just \nto let you know I \nonly need your ",
-          "mind so the \ncondition of your \nbody is \nmeaningless to me."
+          "unlike you I have \nall day and just \nto let you know I ",
+          "only need your \nmind so the \ncondition of your ",
+          "body is \nmeaningless to me."
         ],
         "__section": "text",
         "avatarId": "",

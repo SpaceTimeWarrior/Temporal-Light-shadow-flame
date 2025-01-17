@@ -31,6 +31,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "65",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "826657a6-d1bb-4fc1-affa-3c5c0c2ccae0"
+          },
+          {
             "command": "EVENT_OVERLAY_SHOW",
             "args": {
               "color": "black",

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9b475de7-9f61-4469-98bd-05f59d997132",
+  "name": "level 5-sewer",
+  "symbol": "bg_level_5_sewer",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level 5-sewer.png",
+  "tileColors": ""
+}

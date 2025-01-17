@@ -48,7 +48,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "debug"
+        "__label": "debug",
+        "__comment": true
       },
       "children": {
         "true": [

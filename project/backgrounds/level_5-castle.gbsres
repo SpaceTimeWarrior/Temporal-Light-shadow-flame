@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4aca8993-be3c-46e9-b1bd-5fdfe8d9bf81",
+  "name": "level 5-castle",
+  "symbol": "bg_level_5_castle",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level 5-castle.png",
+  "tileColors": "",
+  "autoColor": false
+}

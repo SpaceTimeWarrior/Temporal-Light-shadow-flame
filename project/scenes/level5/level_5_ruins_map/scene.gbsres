@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "6550e3fb-36bb-4f9d-83d1-a62ad5c4cd92",
+  "_index": 108,
+  "name": "Level5/Level 5 ruins map",
+  "backgroundId": "1f4fc480-316d-4bd1-a81a-aa20d788fb54",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_109",
+  "x": 2468.699951171875,
+  "y": 11771.5,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d4e119ae-18ed-4cb0-a108-d9700e11d90c"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "decc58b4-1302-4055-843c-f802bb99a49b"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "fc4ced88-d898-4fae-9c1b-7a48e172d194"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

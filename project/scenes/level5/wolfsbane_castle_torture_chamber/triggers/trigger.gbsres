@@ -1,0 +1,45 @@
+{
+  "_resourceType": "trigger",
+  "id": "16a5c712-477f-4139-a3ec-786c7f04863c",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 19,
+  "symbol": "trigger_385",
+  "prefabScriptOverrides": {},
+  "width": 17,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__section": "projectile",
+        "spriteSheetId": "db818611-4e65-409e-94b1-f76663c589f1",
+        "spriteStateId": "",
+        "actorId": "ba81592a-5c59-4e7e-811b-fb8c7ad256a1",
+        "x": 0,
+        "y": 0,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "left",
+        "angle": 0,
+        "angleVariable": "L0",
+        "targetActorId": "$self$",
+        "initialOffset": 0,
+        "speed": 2,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "player",
+          "3"
+        ]
+      },
+      "id": "dd83ab52-ee2c-4ab1-8eb8-ed0cfaf149fe"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

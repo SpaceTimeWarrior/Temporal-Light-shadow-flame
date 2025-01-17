@@ -2,28 +2,290 @@
   "_resourceType": "scene",
   "id": "ce182724-0ba0-4ca8-bf42-51a8533d046a",
   "_index": 83,
-  "name": "Level5/wolfsbane castle throne room",
-  "backgroundId": "84f98899-92e7-4d45-8703-1b7d5eb90437",
-  "tilesetId": "",
-  "width": 80,
-  "height": 24,
   "type": "PLATFORM",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    "4e245155-8648-467b-9321-a8d830946c7c",
-    null,
-    null,
-    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0fa0+003a4+20!30!004e+0f2+004e+0f2+004e+0f2+004b+0f5+004a+0f6+004a+0f6+001a+0f38+008+0f48+008+0f10+00a0+",
-  "autoFadeSpeed": 1,
+  "name": "Level5/wolfsbane castle throne room",
   "symbol": "scene_84",
   "x": 3864,
   "y": 13152,
+  "width": 80,
+  "height": 24,
+  "backgroundId": "84f98899-92e7-4d45-8703-1b7d5eb90437",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "de30ac09-f7f4-4a57-8299-4d345f9cb170"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "cd9d9a02-87b6-423a-96a0-7741adf049b8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:you are a \nmarry sue."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "281a7d45-aae1-4862-a2e3-0895305c4667"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "26f1c60b-776c-435b-a173-ee5d82b23e80"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "ae637e6d-b5bf-4855-b693-813eeca691bc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:am not"
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5b33fbb9-7485-4779-95fd-9f2a9604ec66"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "4d2040b9-0adf-4487-9b65-ba4f590a5f03"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "c5c6da6d-57af-4e3c-8beb-9468a6eb2078"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:well lets \nreview your combat\nexperiance...only",
+          "firaball. and lets\nsee what you took\ndown. 1 a retired",
+          "royal guardsman. a\nspace pirate queen\nand a slime guard",
+          "I personally \ntrained from birth\nto kill. and all",
+          "with little to no\npermanent damage"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8e1f63e0-b9c3-4651-ad2c-776454cd8b6a"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "faadbec6-b6c8-4f83-aee2-215cec00f439"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "76b3c447-05ab-4ac3-b9ed-a0d02209f9d2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil: maybe I\nam just that \ngood"
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "17488f27-c0d1-4463-bbbc-b034f552c409"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-6"
+      },
+      "id": "7ed67ed3-ff9b-44ad-84c4-83c92c9a6257"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 375,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "9e574372-999f-4ed4-8600-9250d4b641e2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:more like main\nprotagonist levels\nof plot armor and",
+          "luck. just so you\nknow I killed your\nfather"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7d26f90e-82aa-4fd3-b8a9-92024d250914"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+      },
+      "id": "1f16ce91-cc83-4c00-b862-13a32081f504"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 500,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "73e28e4c-3c98-45fc-a34d-460297a47dc8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "peryil:believe \nwhat you want. I\nwill take you \ndown."
+        ],
+        "__section": "text",
+        "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c977a1bd-cdd3-4467-ab5d-e79dcfeb53dc"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -43,7 +305,7 @@
           {
             "command": "EVENT_GBVM_SCRIPT",
             "args": {
-              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 40"
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 22"
             },
             "id": "a49fa448-c989-4f2d-8b5f-178616a74ca6"
           },
@@ -60,7 +322,7 @@
               "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
               "$variable[V0]$": {
                 "type": "number",
-                "value": 40
+                "value": 22
               },
               "$variable[V1]$": {
                 "type": "number",
@@ -85,7 +347,7 @@
                     "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
                     "$variable[V0]$": {
                       "type": "number",
-                      "value": 40
+                      "value": 22
                     },
                     "$variable[V1]$": {
                       "type": "number",
@@ -105,5 +367,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0fa0+003a4+20!30!004e+0f2+004e+0f2+004e+0f2+004b+0f5+004a+0f6+004a+0f6+001a+0f38+008+0f48+008+0f10+00a0+"
 }

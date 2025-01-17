@@ -3,7 +3,7 @@
   "id": "b973c700-fd53-4ccb-a1b0-4486c23ae24c",
   "_index": 105,
   "name": "Level5/bad ending",
-  "backgroundId": "cda02537-5f5f-4c19-9c9b-4d4e5d492e4f",
+  "backgroundId": "2d3fe3b2-a1ec-4ad1-95c8-72ebcd10c6af",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -70,6 +70,81 @@
         "closeDelayFrames": 30
       },
       "id": "894fe574-4202-48cc-a09f-c100947cac72"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "f98a2cfa-f6da-4e1f-bcc0-a4655d60a6d0",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "aa53af0f-0b8a-4755-8df3-728ec5964075"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "0fdf5c97-5bc7-4dec-903e-0b8e9d2ce143"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "52872e74-e336-4d18-a32a-d8f1ab302472",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "b3bf1742-9652-4bec-9ae8-7599739e322c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "c8a4476c-4481-41e8-aaa0-1d4a4bfd0778"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "6e03ea10-5b2d-4e75-950f-f914722f76c6",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "ede3411c-1e16-4ef6-a133-1f864147ae38"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "91fd18b2-321a-440a-ba96-be6945e51bec",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 6
+      },
+      "id": "369fd922-dae3-426a-bb03-006feaac077d"
     }
   ],
   "playerHit1Script": [],

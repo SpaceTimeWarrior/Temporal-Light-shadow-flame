@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "6550e3fb-36bb-4f9d-83d1-a62ad5c4cd92",
+  "_index": 108,
+  "name": "Level5/Level 5 ruins map",
+  "backgroundId": "1f4fc480-316d-4bd1-a81a-aa20d788fb54",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_109",
+  "x": 2468.699951171875,
+  "y": 11771.5,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

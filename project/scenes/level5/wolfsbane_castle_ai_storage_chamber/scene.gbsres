@@ -28,7 +28,7 @@
       "args": {
         "variable": "62",
         "flag": 14,
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [],
@@ -114,7 +114,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

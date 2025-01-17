@@ -1,0 +1,76 @@
+{
+  "_resourceType": "trigger",
+  "id": "b28a274c-ef77-429e-a9f9-73efbceb9896",
+  "name": "",
+  "prefabId": "",
+  "x": 69,
+  "y": 18,
+  "symbol": "trigger_383",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "name:chill \nwolfsbane",
+                "status:deceased?\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ff9af89b-b3bb-460c-b11e-9e6e7e2e988f"
+          }
+        ]
+      },
+      "id": "6a3e010e-7e92-4a6b-bbbf-267b832577d1"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "db4092f1-4223-47d0-8184-08c9dde95d5b",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "5cd5e613-9030-47b8-b020-ab0662d7ecad",
+      "children": {}
+    }
+  ],
+  "_index": 3
+}

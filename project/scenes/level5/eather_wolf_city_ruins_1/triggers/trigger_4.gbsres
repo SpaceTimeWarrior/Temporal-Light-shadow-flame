@@ -32,7 +32,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "c0d38101-4526-4fae-97ef-560a6ea60da7"
+        "customEventId": "c0d38101-4526-4fae-97ef-560a6ea60da7",
+        "__comment": true
       },
       "id": "39035ffc-383b-4382-80f7-2001e24ecb35"
     },

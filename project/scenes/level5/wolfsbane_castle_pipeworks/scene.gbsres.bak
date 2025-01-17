@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "2b8eb6d8-ab21-43fa-b946-c2d3f71753cd",
+  "_index": 104,
+  "name": "level5/wolfsbane castle pipeworks",
+  "backgroundId": "8b4d4fed-d000-46bc-8544-34f75fb51ee4",
+  "tilesetId": "",
+  "width": 24,
+  "height": 24,
+  "type": "PLATFORM",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    "4e245155-8648-467b-9321-a8d830946c7c",
+    null,
+    null,
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f36+00c+0fc+00c+0fa+0010+0f8+0010+0f6+0014+0f4+0014+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f4+30!0012+20!0f5+30!0010+20!0f3+00!0f3+30!00e+20!0f3+003+0f3+30!00c+20!0f3+005+0f12+007+0f10+0034+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_105",
+  "x": 5592,
+  "y": 12208,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

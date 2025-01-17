@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "83b89ab9-e77d-4c77-b127-6331e0f47ea9",
+  "_index": 111,
+  "name": "Level5/Level 5 castle map",
+  "backgroundId": "4aca8993-be3c-46e9-b1bd-5fdfe8d9bf81",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_112",
+  "x": 2976,
+  "y": 11776,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "afd42417-5d68-42cf-8c90-6b5d7a78344e"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "274cda93-9783-44a8-970e-b309f02f5abb"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "7c73ba13-9d16-4b83-85f7-000cc774225d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e36006f8-665c-4f23-9b81-2018230a95f1",
+  "name": "level 5 pipeworks map",
+  "symbol": "bg_level_5_pipeworks_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level 5 pipeworks map.png",
+  "tileColors": "",
+  "autoColor": false
+}

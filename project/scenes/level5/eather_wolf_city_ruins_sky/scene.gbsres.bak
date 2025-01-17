@@ -2,27 +2,26 @@
   "_resourceType": "scene",
   "id": "2021a00d-2f53-4f07-b3c7-f638514206df",
   "_index": 97,
-  "name": "Level5/Eather Wolf City Ruins sky",
-  "backgroundId": "933af217-f9a4-438a-994f-1616b1e3710c",
-  "tilesetId": "",
-  "width": 20,
-  "height": 20,
   "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "00f2+01!0f2+01!0011+0f2+0012+0f2+008+0f2+008+0f2+008+0f2+005+0f6+006+0fe+006+0f8+0028+",
-  "autoFadeSpeed": 1,
+  "name": "Level5/Eather Wolf City Ruins sky",
   "symbol": "scene_98",
   "x": 2616,
   "y": 12032,
+  "width": 20,
+  "height": 20,
+  "backgroundId": "933af217-f9a4-438a-994f-1616b1e3710c",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -105,5 +104,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "00f2+01!0f2+01!0011+0f2+0012+0f2+008+0f2+008+0f2+008+0f2+005+0f6+006+0fe+006+0f8+0028+"
 }

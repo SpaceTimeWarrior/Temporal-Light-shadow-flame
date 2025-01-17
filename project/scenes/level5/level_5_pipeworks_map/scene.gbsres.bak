@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "54bce8d1-a042-4951-bea3-518a7b75eb8e",
+  "_index": 110,
+  "name": "Level5/Level 5 pipeworks map",
+  "backgroundId": "2d3fe3b2-a1ec-4ad1-95c8-72ebcd10c6af",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_111",
+  "x": 2800,
+  "y": 11776,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "483894e6-88af-4f64-b4a1-08d406682c91"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "start",
+          "select"
+        ]
+      },
+      "id": "6976df46-dfbc-4f13-9847-9ee5656e784d"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "215a3ae3-2511-4607-a9c3-d0272569f692"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

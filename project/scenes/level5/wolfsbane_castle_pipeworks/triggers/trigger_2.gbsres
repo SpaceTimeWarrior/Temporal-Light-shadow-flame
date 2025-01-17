@@ -1,0 +1,624 @@
+{
+  "_resourceType": "trigger",
+  "id": "220d7a6a-f4bf-4942-9933-7da52efbcbc6",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 18,
+  "symbol": "trigger_381",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "62",
+              "flag": 15,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": ""
+                  },
+                  "id": "17e7f250-2a6f-4114-a2eb-a443d6d92273"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "none",
+                    "pitch": 4,
+                    "frequency": 300,
+                    "duration": 0.05,
+                    "effect": 0
+                  },
+                  "id": "5625eb86-f1f5-4722-b503-6bed3022a424"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "you can still \nsmell crap through\nthe pipes"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5ad685f4-b915-4695-97cc-8e47c6c569b3"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "pitch": 4,
+                          "frequency": 375,
+                          "duration": 0.03,
+                          "effect": 0
+                        },
+                        "id": "1ca965cf-dfa3-4729-9eb7-7d50b849358f"
+                      },
+                      {
+                        "command": "EVENT_PALETTE_SET_UI",
+                        "args": {
+                          "palette": "default-bg-6"
+                        },
+                        "id": "1fd092ed-3779-485b-9f21-fed0680a0fdf"
+                      }
+                    ]
+                  },
+                  "id": "99d7dd42-4a6b-4230-a83f-b57a0d21be55"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:Stop Don't \nactivate the \nliquid fertilizer\nvalve"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "dec9e10f-8524-4502-a49a-561c38cdf07a"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_PALETTE_SET_UI",
+                        "args": {
+                          "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+                        },
+                        "id": "c127d8d8-3513-40b0-beea-dd67c9dc97f0"
+                      },
+                      {
+                        "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                        "args": {
+                          "type": "tone",
+                          "pitch": 4,
+                          "frequency": 500,
+                          "duration": 0.03,
+                          "effect": 0
+                        },
+                        "id": "e0f19c52-021e-41f5-8c2c-f8b8f52237e0"
+                      }
+                    ]
+                  },
+                  "id": "6f1c3c8a-8868-4cee-9322-ce7a4418df36"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "peryil: why \nshouldn't I do \nthat in fact I ",
+                      "will do it just\nto spite you."
+                    ],
+                    "__section": "text",
+                    "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "304f9f4e-c7cf-4965-9225-691754f42062"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                        "args": {
+                          "type": "none",
+                          "pitch": 4,
+                          "frequency": 300,
+                          "duration": 0.05,
+                          "effect": 0
+                        },
+                        "id": "d83796f4-7b0b-488e-ac41-c41b8e2b5e88"
+                      },
+                      {
+                        "command": "EVENT_PALETTE_SET_UI",
+                        "args": {
+                          "palette": ""
+                        },
+                        "id": "b223e621-caff-460b-bba2-deaf8d94ec91"
+                      }
+                    ]
+                  },
+                  "id": "46ac33c6-ec31-4d6e-a001-e28a1586e728"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "do you want to \nactivate the valve"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "ff8faba4-b2fd-4df7-9680-023ed0824e71"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 2,
+                    "option1": "activate",
+                    "option2": "do not",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue"
+                  },
+                  "id": "37bff22c-0565-4a3a-8ea2-4958b07fe59d"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                              "args": {
+                                "type": "tone",
+                                "pitch": 4,
+                                "frequency": 375,
+                                "duration": 0.03,
+                                "effect": 0
+                              },
+                              "id": "ee38e73c-8208-4ee6-840f-9f96640f0d57"
+                            },
+                            {
+                              "command": "EVENT_PALETTE_SET_UI",
+                              "args": {
+                                "palette": "default-bg-6"
+                              },
+                              "id": "0fc909fa-9afe-4dc1-b93c-7a8977bda92b"
+                            }
+                          ]
+                        },
+                        "id": "bd9ab45f-1208-4975-a4dc-962464ed483b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:I knew it you\nare too chicken"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "56e16ef3-d12f-46a6-8314-5389c59b5f12"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                              "args": {
+                                "type": "tone",
+                                "pitch": 4,
+                                "frequency": 375,
+                                "duration": 0.03,
+                                "effect": 0
+                              },
+                              "id": "78ca7c1d-2a74-493c-a90e-88e113418a39"
+                            },
+                            {
+                              "command": "EVENT_PALETTE_SET_UI",
+                              "args": {
+                                "palette": "default-bg-6"
+                              },
+                              "id": "780fc7bf-b48b-4aa2-88e0-2d9f3f2f397a"
+                            }
+                          ]
+                        },
+                        "id": "231beb5c-c9f9-4e66-931a-c1c2eceab6c6"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:NOOO my \npremium black \nangus fertilizer"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "d524ae46-43a3-439a-bcc8-319de28840ec"
+                      },
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                              "args": {
+                                "type": "none",
+                                "pitch": 4,
+                                "frequency": 375,
+                                "duration": 0.03,
+                                "effect": 0
+                              },
+                              "id": "d1870dfe-d84c-4d81-84d0-8aed6a726fe9"
+                            },
+                            {
+                              "command": "EVENT_PALETTE_SET_UI",
+                              "args": {
+                                "palette": ""
+                              },
+                              "id": "0dc19a96-e57a-4265-9f5b-a02e640637f3"
+                            }
+                          ]
+                        },
+                        "id": "ae3bcc01-2e74-495d-9776-d32be2dd9afc"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "you faintly hear\na plopping sound"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e4d73779-7a8c-4a26-8ed7-c024f090c64c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "peryil: let me \nguess you stink\nnow."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "b05efe29-336a-44cd-8e1f-54de27b68428"
+                      },
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                              "args": {
+                                "type": "tone",
+                                "pitch": 4,
+                                "frequency": 375,
+                                "duration": 0.03,
+                                "effect": 0
+                              },
+                              "id": "1e8c037e-4f50-4fa3-9967-47ee2ac522bb"
+                            },
+                            {
+                              "command": "EVENT_PALETTE_SET_UI",
+                              "args": {
+                                "palette": "default-bg-6"
+                              },
+                              "id": "0528e545-0568-48ac-a8f1-e57a2f396e70"
+                            }
+                          ]
+                        },
+                        "id": "e339f4ca-bbd9-4ba6-b747-6b46cb63c286"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:no just took a\ns%$# bath to the\nface"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "833c88a0-31ed-4e80-96c1-f13181cc20ec"
+                      },
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                              "args": {
+                                "type": "tone",
+                                "pitch": 4,
+                                "frequency": 500,
+                                "duration": 0.03,
+                                "effect": 0
+                              },
+                              "id": "fccc99af-21b3-4f90-ad2c-675ed54d607a"
+                            },
+                            {
+                              "command": "EVENT_PALETTE_SET_UI",
+                              "args": {
+                                "palette": "e159c5c8-6f19-4e10-b221-3f9677d7cacf"
+                              },
+                              "id": "2cf3eaee-b125-4481-84e5-b71d84b9f5e1"
+                            }
+                          ]
+                        },
+                        "id": "3eeeac5d-fa8d-4952-a166-cf81d2e1fd85"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "peryil: If you \ndon't want \nsomeone you hate",
+                            "to not do \nsomething don't \ngrab their",
+                            "attention to it\nand don't tell \nthem what it is"
+                          ],
+                          "__section": "text",
+                          "avatarId": "6bcdff45-2e1f-4848-9da6-e293b7d6aa4f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "b4ba4337-4934-4727-9cd7-c4bc880f5ad6"
+                      },
+                      {
+                        "command": "EVENT_ADD_FLAGS",
+                        "args": {
+                          "variable": "62",
+                          "flag1": false,
+                          "flag2": false,
+                          "flag3": false,
+                          "flag4": false,
+                          "flag5": false,
+                          "flag6": false,
+                          "flag7": false,
+                          "flag8": false,
+                          "flag9": false,
+                          "flag10": false,
+                          "flag11": false,
+                          "flag12": false,
+                          "flag13": false,
+                          "flag14": false,
+                          "flag15": false,
+                          "flag16": true
+                        },
+                        "id": "5a7e2117-eabd-4984-a73f-4b028e215767"
+                      }
+                    ]
+                  },
+                  "id": "89968e3c-68f9-40b5-afce-7a9c3a97c3a1"
+                }
+              ]
+            },
+            "id": "c448e5d8-7e34-42ac-994e-4d2083cbdfba"
+          }
+        ]
+      },
+      "id": "51508dce-64b5-421e-83c3-d2de32359cb8"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "42259dda-ea7b-4335-bf07-db16dabf04b5",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "e5e3f4d1-649c-470f-bc97-8b7cdb2bf2da",
+      "children": {}
+    }
+  ],
+  "_index": 1
+}

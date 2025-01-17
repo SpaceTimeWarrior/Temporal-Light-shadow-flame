@@ -37,7 +37,7 @@
               "variable": "37",
               "value": {
                 "type": "number",
-                "value": 17
+                "value": 15
               }
             },
             "id": "54fc04fe-8ccc-40f1-ad60-03bdff6c58da"
@@ -353,6 +353,17 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "65",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "1204ccc1-5faa-4c15-889f-cba6362806ce"
+          },
           {
             "command": "EVENT_OVERLAY_SHOW",
             "args": {

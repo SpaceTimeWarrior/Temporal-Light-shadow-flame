@@ -1,0 +1,81 @@
+{
+  "_resourceType": "trigger",
+  "id": "90dcc8b9-2472-4716-9a2f-f158ce95f0f4",
+  "name": "",
+  "prefabId": "",
+  "x": 76,
+  "y": 18,
+  "symbol": "trigger_384",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Brier wolfsbane's\n      diary",
+                "last night I did \nit I managed to \nuse cumulo \nlightbringer's DNA",
+                "to clone monsters\nbut I can also use\nit to modify the",
+                "DNA to make \nhalfbreeds of my \nown. without men",
+                "attempt 58:failed\nthe DNA stain is\ntoo unstable...",
+                "strange while the\nmonster has no \nlife signs. they",
+                "are still intact.\nthis merits \nfurther study."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f15062b0-963f-463d-8151-4690e061adbc"
+          }
+        ]
+      },
+      "id": "ac47c1e7-c686-461c-9892-a7c743f344b4"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "2403bc0b-8855-4e42-948c-13299ec84e1f",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d91f873c-17be-4821-937d-a027f78826a9"
+      },
+      "id": "11366688-c779-41b9-81c9-68dd891b22db",
+      "children": {}
+    }
+  ],
+  "_index": 4
+}

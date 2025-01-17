@@ -31,7 +31,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false,
+              "__collapse": true,
               "__label": "music group"
             },
             "children": {
@@ -139,6 +139,86 @@
                           }
                         },
                         "id": "42d03817-6f34-4dfb-aa4e-3840e92d1dac"
+                      },
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "44"
+                              },
+                              "id": "8c6dfcb1-0acf-4587-8d05-5e85b4b39871"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "ne",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "45"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 0
+                                  }
+                                },
+                                "__collapseElse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_DEC_VALUE",
+                                    "args": {
+                                      "variable": "45"
+                                    },
+                                    "id": "6bf9c468-84d1-4f2a-970a-8854b3e13d85"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "5b7c57d7-b810-4142-9160-2a902a092ea7"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "44"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 28
+                                  }
+                                },
+                                "__collapseElse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SET_VALUE",
+                                    "args": {
+                                      "variable": "44",
+                                      "value": {
+                                        "type": "number",
+                                        "value": 0
+                                      }
+                                    },
+                                    "id": "97d199e7-dbdc-4558-86db-dd94ceaabb86"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "5b799913-5cf0-4a5b-90b5-cd0d9591f2c7"
+                            }
+                          ]
+                        },
+                        "id": "90bda464-56ae-4efc-88da-b6565fe3ba18"
                       }
                     ]
                   },
@@ -155,6 +235,14 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
+      },
+      "id": "5efe12f9-f371-4275-bf64-03d0447a7ed1"
+    }
+  ],
   "collisions": "0f119+20!004e+0f28+20!004f+0f27+20!0050+0f26+20!0051+0f25+20!0052+0f24+20!0053+0f23+20!0054+0f22+20!00170+20!0f4c+002a+20!0f4d+0029+20!0f!0075+20!0f!0075+20!0f!0075+20!0f!0075+20!0f!0075+20!0f!0052+0f25+0053+0f25+30!0052+0f26+30!0051+0f27+30!0050+0f28+30!004f+0f29+30!004e+0f2a+30!004d+0f2b+30!004c+0f2c+30!004b+0f2d+30!004a+0f2e+30!0049+0f2f+30!0048+0f1e0+"
 }

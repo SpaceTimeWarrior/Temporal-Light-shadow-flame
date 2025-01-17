@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1f4fc480-316d-4bd1-a81a-aa20d788fb54",
+  "name": "level 5-ruins map",
+  "symbol": "bg_level_5_ruins_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "level 5-ruins map.png",
+  "tileColors": "",
+  "autoColor": false
+}

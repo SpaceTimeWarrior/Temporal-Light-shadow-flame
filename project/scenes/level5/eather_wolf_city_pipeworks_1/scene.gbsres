@@ -24,6 +24,51 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "65",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "4fda912d-4587-425c-852b-d92a4c9ff417"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "37",
+              "value": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "id": "5606a7fa-7def-42bb-8769-63ea23056089"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "60daa586-4eb4-44ec-8a59-57dd1af709f5",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "37"
+              }
+            },
+            "id": "b5ca9eb5-55a5-4fde-bb03-8fb58e1b79fe"
+          }
+        ]
+      },
+      "id": "9140973b-9d9d-41ff-be61-d7a92718288a"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false

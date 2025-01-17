@@ -393,13 +393,24 @@
         "flag12": "sky key 1",
         "flag13": "lava key",
         "flag14": "castle flag 1",
-        "flag15": "AI Dialog"
+        "flag15": "AI Dialog",
+        "flag16": "ship dialog"
       }
     },
     {
       "id": "63",
       "name": "flame flag",
       "symbol": "var_flame_flag"
+    },
+    {
+      "id": "64",
+      "name": "mary sue bool",
+      "symbol": "var_mary_sue_bool"
+    },
+    {
+      "id": "65",
+      "name": "level 5 map counter",
+      "symbol": "var_level_5_map_counter"
     },
     {
       "id": "884bac5c-1840-41a9-9756-32579bd614e4__L0",

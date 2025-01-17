@@ -11,7 +11,7 @@
   "animSpeed": 255,
   "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "_index": 0,
@@ -247,7 +247,51 @@
       "id": "2386aebe-8522-4650-b5f8-e32149aa930d"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "62",
+        "flag": 1,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "62",
+              "flag": 2,
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 44
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    }
+                  },
+                  "id": "65914116-c60c-42dc-9e80-6e1ef3a3444b"
+                }
+              ],
+              "false": []
+            },
+            "id": "a96d9604-7595-426c-be5f-f3d59c2c9d71"
+          }
+        ],
+        "false": []
+      },
+      "id": "3076f35a-9205-4e52-adf8-07e7b035d868"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": []

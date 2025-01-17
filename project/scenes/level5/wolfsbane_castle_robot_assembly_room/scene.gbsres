@@ -184,6 +184,14 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "085db1cf-d258-4405-9f86-3aa4ba53cbc5"
+      },
+      "id": "4ee5189d-c796-446e-9f0b-a5cfe01be8ed"
+    }
+  ],
   "collisions": "0f16+00c+0fc+006+0f82+00c+0fc+006+0f6e+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+006+0f2+0056+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+006+0f2+0056+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+005e+0f2+0012+0f2+00c+0f2+008+0f2+006+0f2+00a+0f2+0072+0f10+008+0fa+00a+0f2+0072+0f10+008+0fa+00a+0f2+001f6+40!60!0f46+0056+40!60!0f48+0054+40!60!0f4+0098+40!60!0f4+0098+40!60!0f4+0098+40!60!0f4+004c+0f52+004e+0f50+00190+"
 }

@@ -42,7 +42,7 @@
           {
             "command": "EVENT_GBVM_SCRIPT",
             "args": {
-              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 40"
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 22"
             },
             "id": "e8579b49-3a6d-4d9e-9155-b00d2c2aecf7"
           },
@@ -59,7 +59,7 @@
               "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
               "$variable[V0]$": {
                 "type": "number",
-                "value": 40
+                "value": 22
               },
               "$variable[V1]$": {
                 "type": "number",
@@ -84,7 +84,7 @@
                     "customEventId": "774bd6bb-dbde-48cd-a72c-c8ae478b9f1b",
                     "$variable[V0]$": {
                       "type": "number",
-                      "value": 40
+                      "value": 22
                     },
                     "$variable[V1]$": {
                       "type": "number",
