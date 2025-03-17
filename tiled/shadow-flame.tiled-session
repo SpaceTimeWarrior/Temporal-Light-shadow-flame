@@ -53,7 +53,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 400,
-                "y": 408
+                "y": 509.3333333333333
             }
         },
         "Earth shuttle bay.tmx": {
@@ -100,8 +100,8 @@
             "scale": 8,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 475.375,
-                "y": 156.25
+                "x": 320,
+                "y": 96
             }
         },
         "Eather endgame accent.tmx": {
@@ -116,8 +116,8 @@
             "scale": 4.250260416666666,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 98.58219471846088,
-                "y": 90.58268488450462
+                "x": 95.99411800747504,
+                "y": 95.99411800747502
             }
         },
         "Eather endgame throne room access.tmx": {
